@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[irosyadi]]></title><description><![CDATA[a desert traveller]]></description><link>https://irosydi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 Jan 2021 09:40:50 GMT</lastBuildDate><item><title><![CDATA[2021 January]]></title><description><![CDATA[2021 January Documentation DevDocs API Documentation : DevDocs combines multiple API documentations in a fast, organized, and searchable…]]></description><link>https://irosydi.netlify.app/blog/202101/</link><guid isPermaLink="false">https://irosydi.netlify.app/blog/202101/</guid><pubDate>Fri, 01 Jan 2021 09:12:41 GMT</pubDate><content:encoded>&lt;h1 id=&quot;2021-january&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2021-january&quot; aria-label=&quot;2021 january permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2021 January&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[irosyadi]]></title><description><![CDATA[a desert traveller]]></description><link>https://irosydi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Jan 2021 03:52:06 GMT</lastBuildDate><item><title><![CDATA[2021 January]]></title><description><![CDATA[2021 January Documentation DevDocs API Documentation : DevDocs combines multiple API documentations in a fast, organized, and searchable…]]></description><link>https://irosydi.netlify.app/blog/202101/</link><guid isPermaLink="false">https://irosydi.netlify.app/blog/202101/</guid><pubDate>Fri, 01 Jan 2021 09:12:41 GMT</pubDate><content:encoded>&lt;h1 id=&quot;2021-january&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2021-january&quot; aria-label=&quot;2021 january permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2021 January&lt;/h1&gt;
 &lt;h2 id=&quot;documentation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#documentation&quot; aria-label=&quot;documentation permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Documentation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://devdocs.io/&quot;&gt;DevDocs API Documentation&lt;/a&gt; : DevDocs combines multiple API documentations in a fast, organized, and searchable interface.&lt;/li&gt;
@@ -10,6 +10,63 @@
 &lt;h2 id=&quot;workflows&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#workflows&quot; aria-label=&quot;workflows permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Workflows&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://pipedream.com/&quot;&gt;Pipedream&lt;/a&gt; IFTTT like apps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;tips&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tips&quot; aria-label=&quot;tips permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tips&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Click the beginning of the code block, then Shift+Click the end. That will select the entire block, which you can then copy normally.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;web-tools&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#web-tools&quot; aria-label=&quot;web tools permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Web Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://savanttools.com/&quot;&gt;Savanttools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning&quot; aria-label=&quot;machine learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/machine-learning/crash-course&quot;&gt;Machine Learning Crash Course  |  Google Developers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://learndigital.withgoogle.com/digitalgarage/courses&quot;&gt;Courses List Google Digital Garage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://peterroelants.github.io/&quot;&gt;Notes on machine learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/karpathy/convnetjs&quot;&gt;karpathy/convnetjs: Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser.&lt;/a&gt; Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://introtodeeplearning.com/&quot;&gt;MIT Deep Learning 6.S191&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mukulrathi.co.uk/demystifying-deep-learning/maths-behind-deep-learning/&quot;&gt;Demystifying Deep Learning Primer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;learning-nn&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#learning-nn&quot; aria-label=&quot;learning nn permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Learning NN&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://cjauvin.blogspot.com/2013/10/neural-network-101.html&quot;&gt;Autotelic Computing: Neural Network 101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/everything-you-need-to-know-about-neural-networks-and-backpropagation-machine-learning-made-easy-e5285bc2be3a&quot;&gt;Everything you need to know about Neural Networks and Backpropagation — Machine Learning Easy and Fun | by Gavril Ognjanovski | Towards Data Science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://outlace.com/Gradient-Descent.html&quot;&gt;Δ ℚuantitative √ourney | Gradient Descent with Backpropagation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mlfromscratch.com/neural-networks-explained/#/&quot;&gt;Neural Networks: Feedforward and Backpropagation Explained&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.demofox.org/2017/03/09/how-to-train-neural-networks-with-backpropagation/&quot;&gt;How to Train Neural Networks With Backpropagation « The blog at the bottom of the sea&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ayearofai.com/rohan-lenny-1-neural-networks-the-backpropagation-algorithm-explained-abf4609d4f9d#.7mwcjuftn&quot;&gt;Rohan &amp;#x26; Lenny #1: Neural Networks &amp;#x26; The Backpropagation Algorithm, Explained | by Rohan Kapur | A Year of Artificial Intelligence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.zabarauskas.com/backpropagation-tutorial/&quot;&gt;Backpropagation Tutorial | Manfred Zabarauskas&apos; Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.jinay.dev/posts/backprop/&quot;&gt;A Visual Tour of Backpropagation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;development&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#development&quot; aria-label=&quot;development permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://instant.page/&quot;&gt;instant.page&lt;/a&gt; : speed up webpage with a script&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://getquick.link/&quot;&gt;Quicklink&lt;/a&gt; similar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;hand-detection&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hand-detection&quot; aria-label=&quot;hand detection permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hand Detection&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/victordibia/handtrack.js&quot;&gt;victordibia/handtrack.js: A library for prototyping realtime hand detection (bounding box), directly in the browser.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tensorflow/tfjs-models/tree/master/handpose&quot;&gt;tfjs-models/handpose at master · tensorflow/tfjs-models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;octave&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#octave&quot; aria-label=&quot;octave permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Octave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;An introduction to programming with &lt;strong&gt;Octave&lt;/strong&gt;: &lt;a href=&quot;https://web.sha1.bfh.science/Labs/PWF/Documentation/OctaveAtBFH.pdf&quot;&gt;OctaveAtBFH.pdf &lt;/a&gt; License: CC-BY&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Codes used in the lecture notes &lt;a href=&quot;https://web.sha1.bfh.science/Labs/PWF/Codes&quot;&gt;Codes &lt;/a&gt;or in one file at &lt;a href=&quot;https://web.sha1.bfh.science/Labs/PWF/Codes.tgz&quot;&gt;Codes.tgz &lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Codes used in class &lt;a href=&quot;https://web.sha1.bfh.science/Labs/PWF/Demos&quot;&gt;Demos &lt;/a&gt;or in one file at &lt;a href=&quot;https://web.sha1.bfh.science/Labs/PWF/Demos.tgz&quot;&gt;Demos.tgz&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;security&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#security&quot; aria-label=&quot;security permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Security&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://crxcavator.io/&quot;&gt;CRXcavator&lt;/a&gt; : Inspect Chrome Extension content for malicious code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;productivity&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#productivity&quot; aria-label=&quot;productivity permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Productivity&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/&quot;&gt;re:Work - Guide: Set goals with OKRs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hackpravj.com/blog/personal-okr-2021-plan/&quot;&gt;Setting up personal OKR [JFM-2021] - hack(pravj) | Pravendra Singh&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -2257,7 +2314,7 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://kanboard.org/&quot;&gt;Kanboard&lt;/a&gt; Opensource Kanban Server&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://wekan.github.io/&quot;&gt;Wekan&lt;/a&gt; Opensource Kanban Server&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://personalkanban.js.org/showcase.html&quot;&gt;Personal Kanban&lt;/a&gt; Minimalist web based local kanban board&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://personalkanban.js.org&quot;&gt;Personal Kanban&lt;/a&gt; Minimalist web based local kanban board&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://portabella.io/&quot;&gt;Portabella&lt;/a&gt; Local and host kanban board&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/amir734jj/trello-clone-nextjs&quot;&gt;Trello Clone&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://topols.io/&quot;&gt;Kamban for Windows&lt;/a&gt;&lt;/li&gt;
@@ -4363,6 +4420,109 @@
     opacity: 0.7;
   }
   
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Octave How to]]></title><description><![CDATA[Octave How to Draw pole, zero, grid, sgrid]]></description><link>https://irosydi.netlify.app/howto/octave-howto/</link><guid isPermaLink="false">https://irosydi.netlify.app/howto/octave-howto/</guid><pubDate>Sun, 20 Dec 2020 21:28:08 GMT</pubDate><content:encoded>&lt;h1 id=&quot;octave-how-to&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#octave-how-to&quot; aria-label=&quot;octave how to permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Octave How to&lt;/h1&gt;
+&lt;h2 id=&quot;draw-pole-zero-grid-sgrid&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#draw-pole-zero-grid-sgrid&quot; aria-label=&quot;draw pole zero grid sgrid permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Draw pole, zero, grid, sgrid&lt;/h2&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;octave&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;sys=tf([1 1],[1 2])&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;pzmap(sys)&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;grid on&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;sgrid on&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+  .one-dark-pro {
+    background-color: #282c34;
+    color: #abb2bf;
+  }
+  .one-dark-pro .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
+  }
 &lt;/style&gt;</content:encoded></item><item><title><![CDATA[Windows 10 How to]]></title><description><![CDATA[Windows 10 How to Nuget (.Net Package Manager) Clearing Nuget (.Net Package Manager) local cache Install nuget command line choco install…]]></description><link>https://irosydi.netlify.app/howto/windows10-howto/</link><guid isPermaLink="false">https://irosydi.netlify.app/howto/windows10-howto/</guid><pubDate>Sun, 20 Dec 2020 21:26:54 GMT</pubDate><content:encoded>&lt;h1 id=&quot;windows-10-how-to&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#windows-10-how-to&quot; aria-label=&quot;windows 10 how to permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Windows 10 How to&lt;/h1&gt;
 &lt;h3 id=&quot;nuget-net-package-manager&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nuget-net-package-manager&quot; aria-label=&quot;nuget net package manager permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Nuget (.Net Package Manager)&lt;/h3&gt;
 &lt;ul&gt;
@@ -10582,6 +10742,10 @@ Inline equation with one dollar sign: $$E=mc^2$$ (worked in Gatsby and Gitbook).
 &lt;li&gt;&lt;a href=&quot;https://datatau.net/&quot;&gt;Datatau&lt;/a&gt; for data science&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://freepo.st/&quot;&gt;Free Post&lt;/a&gt; &lt;a href=&quot;https://notabug.org/zPlus/freepost&quot;&gt;open source&lt;/a&gt; selfhosted&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://barnacl.es/&quot;&gt;Barnacles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;hacker-news-browser-extensionadd-on&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hacker-news-browser-extensionadd-on&quot; aria-label=&quot;hacker news browser extensionadd on permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hacker News Browser Extension/Add-on&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://newsit.benwinding.com/&quot;&gt;Newsit&lt;/a&gt; : reddit and HN comment in any links&lt;/li&gt;
 &lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -21664,7 +21828,28 @@ doi: &lt;a href=&quot;https://dx.doi.org/10.1101/012831&quot;&gt;https://dx.doi.
 &lt;/ul&gt;
 &lt;h2 id=&quot;dataset&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dataset&quot; aria-label=&quot;dataset permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dataset&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.eleuther.ai/&quot;&gt;EleutherAI&lt;/a&gt; EleutherAI is a grassroots AI research group aimed at democratizing and open sourcing AI research. &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://pile.eleuther.ai/&quot;&gt;The Pile&lt;/a&gt; : The Pile is a 825 GiB diverse, open source language modelling data set that consists of 22 smaller, high-quality datasets combined together.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-1&quot; aria-label=&quot;machine learning 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.tensorflow.org/tfrc&quot;&gt;TensorFlow Research Cloud&lt;/a&gt; - Free TPU : Accelerate your cutting-edge machine learning research with free Cloud TPUs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;productivity&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#productivity&quot; aria-label=&quot;productivity permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Productivity&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;At the beginning of the day, create one goal that I have to accomplish that day.&lt;/strong&gt; The goal needs to be specific enough that I can definitively say when its done, and it needs to be completely realistic for me to finish it that day, so that I can say “Yes, I can definitely do this. No excuses”. It also needs to be significant enough that at the end of the week, even if I only did those goals, I would still feel like Im making some consistent progress. Typically the goals I choose are things that might take one to two hours of focused effort.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Only do one thing at a time, and log what I&apos;m doing as I go.&lt;/strong&gt; Before I start a task, I write down what Im about to do. When I finish the task, I check it off and write the next bullet point. If something comes up while executing the task, like realizing I have a question I need to ask someone, instead of asking them right away, I will write down a “TODO” in-line in my log and box it to come back to later. So if the task is “Check email”, I write down “Check email”, open my email, read it and execute only small tangential tasks (so, e.g., I dont see an email about a code review and then get distracted and go do the code review), and when Im done, I quit my email and check off my task. I do the same for Slack, which means I dont leave it open in the background. If I take a break, I write “Break” and check it off when I&apos;m done and come back to my desk. I write my big goal at the top of the page and when I finish it, I box it and check it off for some extra satisfaction. At the end of the day I write DONE and box it, to get some closure. Note: I find if I write down 5 tasks and cross them off one by one, I will gravitate to the short easy ones first for instant gratification.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leave my phone in the other room while I&apos;m working.&lt;/strong&gt; It seems that I really do have to be physically separated from it by a significant distance to keep from being distracted by it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;markup&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#markup&quot; aria-label=&quot;markup permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Markup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://idyll-lang.org/&quot;&gt;Idyll | A markup language for interactive and data-driven blogging.&lt;/a&gt; : Make interactive web with just markup language (combined with markdown)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://idyll-lang.org/docs&quot;&gt;Idyll Documentation | An overview.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/&quot;&gt;Announcing idyll.pub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -22814,6 +22999,13 @@ Example: splitting &quot;engineering notes&quot; to &quot;software notes&quot; a
 &lt;li&gt;&lt;a href=&quot;https://www.jezzamon.com/fourier/index.html&quot;&gt;Fourier Transform&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://jackschaedler.github.io/circles-sines-signals/index.html&quot;&gt;Premier on Digital Signal Processing&lt;/a&gt;, &lt;a href=&quot;https://github.com/jackschaedler/circles-sines-signals&quot;&gt;Github&lt;/a&gt;, License: Eclipse Public License&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://experiments.withgoogle.com/collection/chrome&quot;&gt;Experiments with Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/mathigon&quot;&gt;Mathigon&lt;/a&gt; : License MIT&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mathigon/mathigon.io&quot;&gt;mathigon/mathigon.io: Mathigon&apos;s Open Source Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mathigon.org/&quot;&gt;Mathigon – Textbook of the Future&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -24813,6 +25005,7 @@ Output: IP&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://whatismyipaddress.com/hostname-ip&quot;&gt;WhatisMyIPAddress&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://check-host.net/ip-info?&quot;&gt;Check Host&lt;/a&gt;*&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://dnschecker.org/#A/&quot;&gt;DNS Checker&lt;/a&gt; Check DNS Propagation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://host.io/&quot;&gt;host.io&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;privacy-check&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#privacy-check&quot; aria-label=&quot;privacy check permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Privacy Check&lt;/h2&gt;
 &lt;p&gt;Input: -
