@@ -1,4 +1,1221 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[irosyadi]]></title><description><![CDATA[a desert traveller]]></description><link>https://irosydi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Jan 2021 03:52:06 GMT</lastBuildDate><item><title><![CDATA[2021 January]]></title><description><![CDATA[2021 January Documentation DevDocs API Documentation : DevDocs combines multiple API documentations in a fast, organized, and searchable…]]></description><link>https://irosydi.netlify.app/blog/202101/</link><guid isPermaLink="false">https://irosydi.netlify.app/blog/202101/</guid><pubDate>Fri, 01 Jan 2021 09:12:41 GMT</pubDate><content:encoded>&lt;h1 id=&quot;2021-january&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2021-january&quot; aria-label=&quot;2021 january permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2021 January&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[irosyadi]]></title><description><![CDATA[a desert traveller]]></description><link>https://irosydi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 09 Jan 2021 22:15:19 GMT</lastBuildDate><item><title><![CDATA[Speech to Text Apps]]></title><description><![CDATA[Speech to Text Apps Speech to Text DeepSpeech : simpler although inferior Kaldi : STT supports hybrid NN-HMM and lattice-free MMI models…]]></description><link>https://irosydi.netlify.app/app/speech-to-text/</link><guid isPermaLink="false">https://irosydi.netlify.app/app/speech-to-text/</guid><pubDate>Sat, 09 Jan 2021 19:41:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;speech-to-text-apps&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#speech-to-text-apps&quot; aria-label=&quot;speech to text apps permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Speech to Text Apps&lt;/h1&gt;
+&lt;h2 id=&quot;speech-to-text&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#speech-to-text&quot; aria-label=&quot;speech to text permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Speech to Text&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mozilla/DeepSpeech&quot;&gt;DeepSpeech&lt;/a&gt; : simpler although inferior&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://kaldi-asr.org/&quot;&gt;Kaldi&lt;/a&gt; : STT supports hybrid NN-HMM and lattice-free MMI models. Kaldi is used by many people both in research and in production.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tensorflow/lingvo&quot;&gt;Lingvo&lt;/a&gt; is the open source version of Google speech recognition toolkit, with support mostly for end-to-end models.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/espnet/espnet&quot;&gt;ESPNet&lt;/a&gt; is good and well known for end-to-end models as well.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rwth-i6/rasr&quot;&gt;RASR&lt;/a&gt; + &lt;a href=&quot;https://github.com/rwth-i6/returnn&quot;&gt;RETURNN&lt;/a&gt; are very good as well, both for end-to-end models and hybrid NN-HMM, but they are for non-commercial applications only (or you need a commercial licence) (disclaimer: I work at the university chair which develops these frameworks).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gkarsay.github.io/parlatype/&quot;&gt;http://gkarsay.github.io/parlatype/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/juanerasmoe/pmTrans&quot;&gt;https://github.com/juanerasmoe/pmTrans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pythonbasics.org/transcribe-audio/&quot;&gt;https://pythonbasics.org/transcribe-audio/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/facebookresearch/wav2letter&quot;&gt;Wav2Letter&lt;/a&gt;, the tool by Facebook.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dataset&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;English: Tedlium, Librispeech, etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/gooofy/zamia-speech&quot;&gt;https://github.com/gooofy/zamia-speech&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://commonvoice.mozilla.org/en/datasets&quot;&gt;https://commonvoice.mozilla.org/en/datasets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.openslr.org/resources.php&quot;&gt;https://www.openslr.org/resources.php&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;speech-to-text-indonesian-support&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#speech-to-text-indonesian-support&quot; aria-label=&quot;speech to text indonesian support permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Speech to Text Indonesian Support&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://voicenotebook.com/&quot;&gt;Voice Notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.speechtexter.com/&quot;&gt;Speech Texter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://voicenote.in/&quot;&gt;Voicenote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://speechnotes.co/&quot;&gt;Speechnotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dictation.io/speech&quot;&gt;Dictation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://support.google.com/docs/answer/4492226&quot;&gt;Google Docs Type for your Voice&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Tools&lt;/code&gt; and then &lt;code&gt;Voice typing&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Anaconda Howto]]></title><description><![CDATA[Anaconda Howto Environment management conda create --name myenv : create new myenv environement conda env list : list all environment conda…]]></description><link>https://irosydi.netlify.app/howto/anaconda-howto/</link><guid isPermaLink="false">https://irosydi.netlify.app/howto/anaconda-howto/</guid><pubDate>Thu, 07 Jan 2021 04:57:02 GMT</pubDate><content:encoded>&lt;h1 id=&quot;anaconda-howto&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#anaconda-howto&quot; aria-label=&quot;anaconda howto permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Anaconda Howto&lt;/h1&gt;
+&lt;h2 id=&quot;environment-management&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#environment-management&quot; aria-label=&quot;environment management permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Environment management&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;conda create --name myenv&lt;/code&gt; : create new &lt;code&gt;myenv&lt;/code&gt; environement&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;conda env list&lt;/code&gt; : list all environment&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;conda activate myenv&lt;/code&gt; : activate &lt;code&gt;myenv&lt;/code&gt; environment&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;conda list -n myenv&lt;/code&gt; : list packages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;package-management&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#package-management&quot; aria-label=&quot;package management permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Package management&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;conda search mypackage&lt;/code&gt;: search a &lt;code&gt;package&lt;/code&gt;in conda directory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;conda install mypackage&lt;/code&gt; : install &lt;code&gt;mypackage&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Machine Learning Andrew Ng Quizes]]></title><description><![CDATA[Machine Learning Andrew Ng Quizes Week 1 Introduction A computer program is said to learn from experience E with respect to some task T and…]]></description><link>https://irosydi.netlify.app/course/machine-learning-andrewng-quiz/</link><guid isPermaLink="false">https://irosydi.netlify.app/course/machine-learning-andrewng-quiz/</guid><pubDate>Wed, 06 Jan 2021 03:57:09 GMT</pubDate><content:encoded>&lt;h1 id=&quot;machine-learning-andrew-ng-quizes&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-andrew-ng-quizes&quot; aria-label=&quot;machine learning andrew ng quizes permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning Andrew Ng Quizes&lt;/h1&gt;
+&lt;h2 id=&quot;week-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#week-1&quot; aria-label=&quot;week 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Week 1&lt;/h2&gt;
+&lt;h3 id=&quot;introduction&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#introduction&quot; aria-label=&quot;introduction permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Introduction&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;A computer program is said to learn from experience E with respect to some task T and some performance measure P if its performance on T, as measured by P, improves with experience E. Suppose we feed a learning algorithm a lot of historical weather data, and have it learn to predict weather. &lt;strong&gt;What would be a reasonable choice for P?&lt;/strong&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 The probability of it correctly predicting a future date’s weather.&lt;/li&gt;
+&lt;li&gt;☐ The weather prediction task.&lt;/li&gt;
+&lt;li&gt;☐ The process of the algorithm examining a large amount of historical weather data.&lt;/li&gt;
+&lt;li&gt;☐ None of these.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A computer program is said to learn from experience E with respect to some task T and some performance measure P if its performance on T, as measured by P, improves with experience E. Suppose we feed a learning algorithm a lot of historical weather data, and have it learn to predict weather. In this setting, &lt;strong&gt;what is T?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 The weather prediction task.&lt;/li&gt;
+&lt;li&gt;☐ None of these.&lt;/li&gt;
+&lt;li&gt;☐ The probability of it correctly predicting a future date’s weather.&lt;/li&gt;
+&lt;li&gt;☐ The process of the algorithm examining a large amount of historical weather data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose you are working on weather prediction, and use a learning algorithm to predict tomorrow’s temperature (in degrees Centigrade/Fahrenheit).&lt;br&gt;
+Would you treat this as a classification or a regression problem?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 Regression&lt;/li&gt;
+&lt;li&gt;☐ Classification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose you are working on weather prediction, and your weather station makes one of three predictions for each day’s weather: &lt;strong&gt;Sunny, Cloudy or Rainy&lt;/strong&gt;. You’d like to use a learning algorithm to predict tomorrow’s weather.&lt;br&gt;
+Would you treat this as a classification or a regression problem?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Regression&lt;/li&gt;
+&lt;li&gt;🗹 Classification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose you are working on stock market prediction, and you would like to predict the &lt;strong&gt;price of a particular stock tomorrow (measured in dollars)&lt;/strong&gt;. You want to use a learning algorithm for this.&lt;br&gt;
+Would you treat this as a classification or a regression problem?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 Regression&lt;/li&gt;
+&lt;li&gt;☐ Classification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose you are working on stock market prediction. You would like to predict &lt;strong&gt;whether or not a certain company will declare bankruptcy within the next 7 days&lt;/strong&gt; (by training on data of similar companies that had previously been at risk of bankruptcy).&lt;br&gt;
+Would you treat this as a classification or a regression problem?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Regression&lt;/li&gt;
+&lt;li&gt;🗹 Classification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose you are working on stock market prediction, Typically tens of millions of shares of Microsoft stock are traded (i.e., bought/sold) each day. You would like to predict the number of Microsoft shares that will be traded tomorrow.&lt;br&gt;
+Would you treat this as a classification or a regression problem?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 Regression&lt;/li&gt;
+&lt;li&gt;Classification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Some of the problems below are best addressed using a supervised learning algorithm, and the others with an unsupervised learning algorithm. Which of the following would you apply supervised learning to? (Select all that apply.) In each case, assume some appropriate dataset is available for your algorithm to learn from.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 Given historical data of children’s ages and heights, predict children’s height as a function of their age.&lt;/li&gt;
+&lt;li&gt;🗹 Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript’s author (when the identity of this author is unknown).&lt;/li&gt;
+&lt;li&gt;Take a collection of 1000 essays written on the US Economy, and find a way to automatically group these essays into a small number of groups of essays that are somehow “similar” or “related”.&lt;/li&gt;
+&lt;li&gt;Examine a large collection of emails that are known to be spam email, to discover if there are sub-types of spam mail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Some of the problems below are best addressed using a supervised learning algorithm, and the others with an unsupervised learning algorithm. Which of the following would you apply supervised learning to? (Select all that apply.) In each case, assume some appropriate dataset is available for your algorithm to learn from.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Given data on how 1000 medical patients respond to an experimental drug (such as effectiveness of the treatment, side effects, etc.), discover whether there are different categories or “types” of patients in terms of how they respond to the drug, and if so what these categories are.&lt;/li&gt;
+&lt;li&gt;☐ Given a large dataset of medical records from patients suffering from heart disease, try to learn whether there might be different clusters of such patients for which we might tailor separate treatments.&lt;/li&gt;
+&lt;li&gt;🗹 Have a computer examine an audio clip of a piece of music, and classify whether or not there are vocals (i.e., a human voice singing) in that audio clip, or if it is a clip of only musical instruments (and no vocals).&lt;/li&gt;
+&lt;li&gt;🗹 Given genetic (DNA) data from a person, predict the odds of him/her developing diabetes over the next 10 years.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Some of the problems below are best addressed using a supervised learning algorithm, and the others with an unsupervised learning algorithm. Which of the following would you apply supervised learning to? (Select all that apply.) In each case, assume some appropriate dataset is available for your algorithm to learn from.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Take a collection of 1000 essays written on the US Economy, and find a way to automatically group these essays into a small number of groups of essays that are somehow “similar” or “related”.&lt;/li&gt;
+&lt;li&gt;🗹 Given genetic (DNA) data from a person, predict the odds of him/her developing diabetes over the next 10 years.&lt;/li&gt;
+&lt;li&gt;☐ Examine a large collection of emails that are known to be spam email, to discover if there are sub-types of spam mail.&lt;/li&gt;
+&lt;li&gt;🗹  Examine the statistics of two football teams, and predict which team will win tomorrow’s match (given historical data of teams’ wins/losses to learn from).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which of these is a reasonable definition of machine learning?  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Machine learning is the science of programming computers.&lt;/li&gt;
+&lt;li&gt;☐ Machine learning learns from labeled data.&lt;/li&gt;
+&lt;li&gt;☐ Machine learning is the field of allowing robots to act intelligently.&lt;/li&gt;
+&lt;li&gt;🗹 Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;linear-regression-with-one-variable-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#linear-regression-with-one-variable-&quot; aria-label=&quot;linear regression with one variable  permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Linear Regression with One Variable :&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Consider the problem of predicting how well a student does in her second year of college/university, given how well she did in her first year. Specifically, let x be equal to the number of “A” grades (including A-. A and A+ grades) that a student receives in their first year of college (freshmen year). We would like to predict the value of y, which we define as the number of “A” grades they get in their second year (sophomore year).&lt;br&gt;
+Here each row is one training example. Recall that in linear regression, our hypothesis is $h&lt;em&gt;\theta(x)=\theta&lt;/em&gt;0+\theta&lt;em&gt;1x$ to denote the number of training examples.&lt;br&gt;
+![enter image description here](&lt;/em&gt;v&lt;em&gt;images/20210106042809097&lt;/em&gt;6366.png)&lt;br&gt;
+For the training set given above (note that this training set may also be referenced in other questions in this $m$)? In the box below, please enter your answer (which should be a number between 0 and 10).  &lt;/p&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;4 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Many substances that can burn (such as gasoline and alcohol) have a chemical structure based on carbon atoms; for this reason they are called hydrocarbons. A chemist wants to understand how the number of carbon atoms in a molecule affects how much energy is released when that molecule combusts (meaning that it is burned). The chemist obtains the dataset below. In the column on the right, “kJ/mol” is the unit measuring the amount of energy released.  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;_v_images/20210106042807663_5970.png&quot; alt=&quot;enter image description here&quot;&gt;  &lt;/p&gt;
+&lt;p&gt; You would like to use linear regression $h&lt;em&gt;\theta(x) = \theta&lt;/em&gt;0 + \theta&lt;em&gt;1x$ to estimate the amount of energy released (y) as a function of the number of carbon atoms (x). Which of the following do you think will be the values you obtain for $\theta&lt;/em&gt;0$ and $\theta_1$ ? You should be able to select the right answer without actually implementing linear regression.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ $\theta&lt;em&gt;0$ = −569.6, $\theta&lt;/em&gt;1$ = 530.9&lt;/li&gt;
+&lt;li&gt;☐ $\theta&lt;em&gt;0$ = −1780.0, $\theta&lt;/em&gt;1$ = −530.9&lt;/li&gt;
+&lt;li&gt;🗹 $\theta&lt;em&gt;0$ = −569.6, $\theta&lt;/em&gt;1$ = −530.9&lt;/li&gt;
+&lt;li&gt;☐ $\theta&lt;em&gt;0$ = −1780.0, $\theta&lt;/em&gt;1$ = 530.9&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For this question, assume that we are using the training set from Q1.&lt;br&gt;
+Recall our definition of the cost function was $J(\theta&lt;em&gt;0, \theta&lt;/em&gt;1 ) = \frac{1}{2m} \sum_{i=1}^{m} (h (x^{(i)} ) - y^{(i)})^2$&lt;br&gt;
+What is $J(0,1)$? In the box below,&lt;br&gt;
+please enter your answer (Simplify fractions to decimals when entering answer, and ‘.’ as the decimal delimiter e.g., 1.5).  &lt;/p&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;&quot; data-index=&quot;1&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;0.5&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose we set $\theta&lt;em&gt;0 = 0, \theta&lt;/em&gt;1 = 1.5$ in the linear regression hypothesis from Q1. What is $h_\theta(2)$ ?  &lt;/p&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;&quot; data-index=&quot;2&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose we set $\theta&lt;em&gt;0 = -2, \theta&lt;/em&gt;1 = 0.5$ in the linear regression hypothesis from Q1. What is $h_\theta(6)$?  &lt;/p&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;&quot; data-index=&quot;3&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let $f$ be some function so that $f(\theta&lt;em&gt;0 , \theta&lt;/em&gt;1 )$ outputs a number. For this problem, f is some arbitrary/unknown smooth function (not necessarily the cost function of linear regression, so f may have local optima).
+Suppose we use gradient descent to try to minimize $f(\theta&lt;em&gt;0 , \theta&lt;/em&gt;1 )$ as a function of $\theta&lt;em&gt;0$ and $\theta&lt;/em&gt;1$.
+Which of the following statements are true? (Check all that apply.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 If $\theta&lt;em&gt;0$ and $\theta&lt;/em&gt;1$ are initialized at the global minimum, then one iteration will not change their values.&lt;/li&gt;
+&lt;li&gt;☐ Setting the learning rate $\alpha$ to be very small is not harmful, and can only speed up the convergence of gradient descent.&lt;/li&gt;
+&lt;li&gt;☐ No matter how $\theta&lt;em&gt;0$ and $\theta&lt;/em&gt;1$ are initialized, so long as $\alpha$ is sufficiently small, we can safely expect gradient descent to converge to the same solution.&lt;/li&gt;
+&lt;li&gt;🗹  If the first few iterations of gradient descent cause $f(\theta&lt;em&gt;0 , \theta&lt;/em&gt;1)$ to increase rather than decrease, then the most likely cause is that we have set the learning rate $\alpha$ to too large a value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the given figure, the cost function $J(\theta&lt;em&gt;0, \theta&lt;/em&gt;1)$ has been plotted against $\theta&lt;em&gt;0$ and $\theta&lt;/em&gt;1$, as shown in ‘Plot 2’. The contour plot for the same cost function is given in ‘Plot 1’. Based on the figure, choose the correct options (check all that apply).
+&lt;img src=&quot;_v_images/20210106045949479_13558.png&quot; alt=&quot;Plots for Cost Function&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point A, as the value of cost function $J(\theta&lt;em&gt;0, \theta&lt;/em&gt;1)$ is maximum at point A.&lt;/li&gt;
+&lt;li&gt;☐ If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point C, as the value of cost function $J(\theta&lt;em&gt;0, \theta&lt;/em&gt;1)$ is minimum at point C.&lt;/li&gt;
+&lt;li&gt;🗹 Point P (the global minimum of plot 2) corresponds to point A of Plot 1.&lt;/li&gt;
+&lt;li&gt;🗹 If we start from point B, gradient descent with a well-chosen learning rate will eventually help us reach at or near point A, as the value of cost function $J(\theta&lt;em&gt;0, \theta&lt;/em&gt;1)$ is minimum at A.&lt;/li&gt;
+&lt;li&gt;☐ Point P (The global minimum of plot 2) corresponds to point C of Plot 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose that for some linear regression problem (say, predicting housing prices as in the lecture), we have some training set, and for our training set we managed to find some $\theta&lt;em&gt;0, \theta&lt;/em&gt;1$, such that $J(\theta&lt;em&gt;0 , \theta&lt;/em&gt;1) = 0$.
+Which of the statements below must then be true? (Check all that apply.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Gradient descent is likely to get stuck at a local minimum and fail to find the global minimum.&lt;/li&gt;
+&lt;li&gt;☐ For this to be true, we must have $\theta&lt;em&gt;0 = 0$ and $\theta&lt;/em&gt;1 = 0$
+so that $h_{\theta}(x) = 0$&lt;/li&gt;
+&lt;li&gt;☐ For this to be true, we must have $y^{(i)} = 0$ for every value of $i = 1, 2,…,m$.&lt;/li&gt;
+&lt;li&gt;🗹 Our training set can be fit perfectly by a straight line, i.e., all of our training examples lie perfectly on some straight line.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;week-4&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#week-4&quot; aria-label=&quot;week 4 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Week 4&lt;/h2&gt;
+&lt;h3 id=&quot;logistic-regression-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#logistic-regression-&quot; aria-label=&quot;logistic regression  permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Logistic Regression :&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose that you have trained a logistic regression classifier, and it outputs on a new example a prediction $h_\theta(x) = 0.2$. This means (check all that apply):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Our estimate for P(y = 1|x; θ) is 0.8.&lt;/li&gt;
+&lt;li&gt;🗹 Our estimate for P(y = 0|x; θ) is 0.8.&lt;/li&gt;
+&lt;li&gt;🗹 Our estimate for P(y = 1|x; θ) is 0.2.&lt;/li&gt;
+&lt;li&gt;☐ Our estimate for P(y = 0|x; θ) is 0.2.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose you have the following training set, and fit a logistic regression classifier $h&lt;em&gt;\theta(x) = g(\theta&lt;/em&gt;0 + \theta&lt;em&gt;1x&lt;/em&gt;1 + \theta&lt;em&gt;2x&lt;/em&gt;2)$.
+Which of the following are true? Check all that apply.
+&lt;img src=&quot;_v_images/20210106083228677_5192.png&quot;&gt;
+&lt;img src=&quot;_v_images/20210106083244202_2232.png&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 Adding polynomial features (e.g., instead using $h&lt;em&gt;\theta(x) = g(\theta&lt;/em&gt;0 + \theta&lt;em&gt;1 x&lt;/em&gt;1 + \theta&lt;em&gt;2 x&lt;/em&gt;2 + \theta&lt;em&gt;3 x&lt;/em&gt;1^2 + \theta&lt;em&gt;4 x&lt;/em&gt;1 x&lt;em&gt;2 + \theta&lt;/em&gt;5 x_2^2 ))$ could increase how well we can fit the training data.&lt;/li&gt;
+&lt;li&gt;🗹 At the optimal value of θ (e.g., found by fminunc), we will have $J(θ) ≥ 0$.&lt;/li&gt;
+&lt;li&gt;☐ Adding polynomial features (e.g., instead using $h&lt;em&gt;\theta(x) = g(\theta&lt;/em&gt;0 + \theta&lt;em&gt;1 x&lt;/em&gt;1 + \theta&lt;em&gt;2 x&lt;/em&gt;2 + \theta&lt;em&gt;3 x&lt;/em&gt;1^2 + \theta&lt;em&gt;4 x&lt;/em&gt;1 x&lt;em&gt;2 + \theta&lt;/em&gt;5 x_2^2 ))$ would increase $J(θ)$ because we are now summing over more terms.&lt;/li&gt;
+&lt;li&gt;☐ If we train gradient descent for enough iterations, for some examples $x^{(i)}$ in the training set it is possible to obtain $h_\theta(x^{(i)} ) &gt; 1$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For logistic regression, the gradient is given by $\frac{\partial }{\partial \theta&lt;em&gt;j } J(\theta) = \frac{1}{m} \sum&lt;/em&gt;{i=1}^{m}(h&lt;em&gt;\theta(x^{(i)})-y^{i})x^{(i)}&lt;/em&gt;j$. Which of these is a correct gradient descent update for logistic regression with a learning rate of $\alpha$ ? Check all that apply.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 $\theta&lt;em&gt;j := \theta&lt;/em&gt;j - \alpha \frac{1}{m} \sum&lt;em&gt;{i=1}^m (h&lt;/em&gt;\theta(x^{(i)-y^i}) x^{(i)}_j$ (simultaneously update for all j).&lt;/li&gt;
+&lt;li&gt;☐ $\theta := \theta - \alpha \frac{1}{m} \sum_{i=1}^m (\theta^Tx-y^{(i)}) x^{(i)}$.&lt;/li&gt;
+&lt;li&gt;🗹 $\theta&lt;em&gt;j := \theta&lt;/em&gt;j - \alpha \frac{1}{m} \sum&lt;em&gt;{i=1}^m \left(\frac{1}{1+e^{-\theta^Tx^{(i)}}}-y^{(i)}\right) x^{(i)}&lt;/em&gt;j$ (simultaneously update for all j).&lt;/li&gt;
+&lt;li&gt;☐ $\theta&lt;em&gt;j := \theta&lt;/em&gt;j - \alpha \frac{1}{m} \sum&lt;em&gt;{i=1}^m (h&lt;/em&gt;\theta(x^{(i)-y^i}) x^{(i)}$ (simultaneously update for all j).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which of the following statements are true? Check all that apply.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 The one-vs-all technique allows you to use logistic regression for problems in which each $y^{(i)}$ comes from a fixed, discrete set of values.&lt;/li&gt;
+&lt;li&gt;☐ For logistic regression, sometimes gradient descent will converge to a local minimum (and fail to find the global minimum). This is the reason we prefer more advanced optimization algorithms such as fminunc (conjugate gradient/BFGS/L-BFGS/etc).&lt;/li&gt;
+&lt;li&gt;🗹 The cost function $J(\theta)$ for logistic regression trained with $m \geq 1$ examples is always greater than or equal to zero.&lt;/li&gt;
+&lt;li&gt;☐ Since we train one classifier when there are two classes, we train two classifiers when there are three classes (and we do one-vs-all classification).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose you train a logistic classifier $h&lt;em&gt;\theta(x) = g(\theta&lt;/em&gt;0 + \theta&lt;em&gt;1x&lt;/em&gt;1 + \theta&lt;em&gt;2x&lt;/em&gt;2)$. Suppose $\theta&lt;em&gt;0 = 6$, $\theta&lt;/em&gt;1 = -1$, $\theta_2 = 0$. Which of the following figures represents the decision boundary found by your classifier?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹  Figure:
+&lt;img src=&quot;_v_images/20210106084140048_15600.png&quot;&gt;&lt;/li&gt;
+&lt;li&gt;☐  Figure:
+&lt;img src=&quot;_v_images/20210106084157413_13022.png&quot;&gt;&lt;/li&gt;
+&lt;li&gt;☐  Figure:
+&lt;img src=&quot;_v_images/20210106084209408_957.png&quot;&gt;&lt;/li&gt;
+&lt;li&gt;☐  Figure:
+&lt;img src=&quot;_v_images/20210106084222258_31191.png&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;regularization&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#regularization&quot; aria-label=&quot;regularization permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Regularization&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;You are training a classification model with logistic regression. Which of the following statements are true? Check all that apply.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Introducing regularization to the model always results in equal or better performance on the training set.&lt;/li&gt;
+&lt;li&gt;☐ Introducing regularization to the model always results in equal or better performance on examples not in the training set.&lt;/li&gt;
+&lt;li&gt;🗹 Adding a new feature to the model always results in equal or better performance on the training set.&lt;/li&gt;
+&lt;li&gt;☐ Adding many new features to the model helps prevent overfitting on the training set.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose you ran logistic regression twice, once with $\lambda = 0$, and once with $\lambda = 1$. One of the times, you got parameters $\theta = \begin{bmatrix} 74.81\ 45.05 \end{bmatrix}$, and the other time you got $\theta = \begin{bmatrix} 1.37\ 0.51 \end{bmatrix}$. However, you forgot which value of $\lambda$ corresponds to which value of $\theta$. Which one do you think corresponds to $\lambda = 1$?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 $\theta = \begin{bmatrix} 1.37\ 0.51 \end{bmatrix}$&lt;/li&gt;
+&lt;li&gt;☐ $\theta = \begin{bmatrix} 74.81\ 45.05 \end{bmatrix}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which of the following statements about regularization are true? Check all that apply.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Using a very large value of $\lambda$ hurt the performance of your hypothesis; the only reason we do not set $\lambda$ to be too large is to avoid numerical problems.&lt;/li&gt;
+&lt;li&gt;☐ Because logistic regression outputs values $0 \leq h_\theta(x) \leq 1$, its range of output values can only be “shrunk” slightly by regularization anyway, so regularization is generally not helpful for it.&lt;/li&gt;
+&lt;li&gt;🗹 Consider a classification problem. Adding regularization may cause your classifier to incorrectly classify some training examples (which it had correctly classified when not using regularization, i.e. when $\lambda = 0$).&lt;/li&gt;
+&lt;li&gt;☐ Using too large a value of $\lambda$ can cause your hypothesis to overfit the data; this can be avoided by reducing $\lambda$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which of the following statements about regularization are true? Check all that apply.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Using a very large value of $\lambda$ hurt the performance of your hypothesis; the only reason we do not set $\lambda$ to be too large is to avoid numerical problems.&lt;/li&gt;
+&lt;li&gt;☐ Because logistic regression outputs values $0 \leq h_\theta(x) \leq 1$, its range of output values can only be “shrunk” slightly by regularization anyway, so regularization is generally not helpful for it.&lt;/li&gt;
+&lt;li&gt;☐ Because regularization causes $J(\theta)$ to no longer be convex, gradient descent may not always converge to the global minimum (when $\lambda &gt; 0$, and when using an appropriate learning rate $\alpha$).&lt;/li&gt;
+&lt;li&gt;🗹 Using too large a value of $\lambda$ can cause your hypothesis to underfit the data; this can be avoided by reducing $\lambda$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In which one of the following figures do you think the hypothesis has &lt;strong&gt;overfit&lt;/strong&gt; the training set?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 Figure:&lt;br&gt;
+&lt;img src=&quot;_v_images/20210106085327397_3544.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/li&gt;
+&lt;li&gt;☐ Figure:&lt;br&gt;
+&lt;img src=&quot;_v_images/20210106085326883_11633.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/li&gt;
+&lt;li&gt;☐ Figure:&lt;br&gt;
+&lt;img src=&quot;_v_images/20210106085326168_15899.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/li&gt;
+&lt;li&gt;☐ Figure:&lt;br&gt;
+&lt;img src=&quot;_v_images/20210106085325553_12712.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In which one of the following figures do you think the hypothesis has &lt;strong&gt;underfit&lt;/strong&gt; the training set?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 Figure:&lt;br&gt;
+&lt;img src=&quot;_v_images/20210106085459252_8922.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/li&gt;
+&lt;li&gt;☐ Figure:&lt;br&gt;
+&lt;img src=&quot;_v_images/20210106085458644_4792.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/li&gt;
+&lt;li&gt;☐ Figure:&lt;br&gt;
+&lt;img src=&quot;_v_images/20210106085457929_4685.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/li&gt;
+&lt;li&gt;☐ Figure:&lt;br&gt;
+&lt;img src=&quot;_v_images/20210106085457521_31575.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;week-5&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#week-5&quot; aria-label=&quot;week 5 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Week 5&lt;/h2&gt;
+&lt;h3 id=&quot;neural-networks---representation-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#neural-networks---representation-&quot; aria-label=&quot;neural networks   representation  permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Neural Networks - Representation :&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Which of the following statements are true? Check all that apply.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 Any logical function over binary-valued (0 or 1) inputs $x&lt;em&gt;1$ and $x&lt;/em&gt;2$ can be (approximately) represented using some neural network.&lt;/li&gt;
+&lt;li&gt;☐ Suppose you have a multi-class classification problem with three classes, trained with a 3 layer network. Let $a^{(3)}&lt;em&gt;1 = (h&lt;/em&gt;\theta(x))&lt;em&gt;1$ be the activation of the first output unit, and similarly $a^{(3)}&lt;/em&gt;2 = (h&lt;em&gt;\theta(x))&lt;/em&gt;2$ and $a^{(3)}&lt;em&gt;3 = (h&lt;/em&gt;\theta(x))&lt;em&gt;3$. Then for any input x, it must be the case that $a^{(3)}&lt;/em&gt;1 + a^{(3)}&lt;em&gt;2 + a^{(3)}&lt;/em&gt;3 = 1$.&lt;/li&gt;
+&lt;li&gt;☐ A two layer (one input layer, one output layer; no hidden layer) neural network can represent the XOR function.&lt;/li&gt;
+&lt;li&gt;🗹 The activation values of the hidden units in a neural network, with the sigmoid activation function applied at every layer, are always in the range (0, 1).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Consider the following neural network which takes two binary-valued inputs
+$x&lt;em&gt;1,x&lt;/em&gt;2 \ \epsilon \ {0,1}$ and outputs $h&lt;em&gt;\theta(x)$. Which of the following logical functions does it (approximately) compute?
+![](&lt;/em&gt;v&lt;em&gt;images/20210106090915082&lt;/em&gt;15939.png)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 AND&lt;/li&gt;
+&lt;li&gt;☐ NAND (meaning “NOT AND”)&lt;/li&gt;
+&lt;li&gt;☐ OR&lt;/li&gt;
+&lt;li&gt;☐ XOR (exclusive OR)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Consider the following neural network which takes two binary-valued inputs
+$x&lt;em&gt;1,x&lt;/em&gt;2 \ \epsilon \ {0,1}$ and outputs $h&lt;em&gt;\theta(x)$. Which of the following logical functions does it (approximately) compute?
+![](&lt;/em&gt;v&lt;em&gt;images/20210106091216256&lt;/em&gt;21503.png)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ AND&lt;/li&gt;
+&lt;li&gt;☐ NAND (meaning “NOT AND”)&lt;/li&gt;
+&lt;li&gt;🗹 OR&lt;/li&gt;
+&lt;li&gt;☐ XOR (exclusive OR)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Consider the neural network given below. Which of the following equations correctly computes the activation $a&lt;em&gt;1^{(3)}$? Note: $g(z)$ is the sigmoid activation function.
+![](&lt;/em&gt;v&lt;em&gt;images/20210106091606930&lt;/em&gt;29779.png)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 $a&lt;em&gt;1^{(3)} = g(\theta&lt;/em&gt;{1,0}^{(2)}a&lt;em&gt;0^{(2)}+\theta&lt;/em&gt;{1,1}^{(2)}a&lt;em&gt;1^{(2)}+\theta&lt;/em&gt;{1,2}^{(2)}a_2^{(2)})$&lt;/li&gt;
+&lt;li&gt;☐ $a&lt;em&gt;1^{(3)} = g(\theta&lt;/em&gt;{1,0}^{(2)}a&lt;em&gt;0^{(1)}+\theta&lt;/em&gt;{1,1}^{(2)}a&lt;em&gt;1^{(1)}+\theta&lt;/em&gt;{1,2}^{(2)}a_2^{(1)})$&lt;/li&gt;
+&lt;li&gt;☐ $a&lt;em&gt;1^{(3)} = g(\theta&lt;/em&gt;{1,0}^{(1)}a&lt;em&gt;0^{(2)}+\theta&lt;/em&gt;{1,1}^{(1)}a&lt;em&gt;1^{(2)}+\theta&lt;/em&gt;{1,2}^{(1)}a_2^{(2)})$&lt;/li&gt;
+&lt;li&gt;☐ $a&lt;em&gt;1^{(3)} = g(\theta&lt;/em&gt;{2,0}^{(2)}a&lt;em&gt;0^{(2)}+\theta&lt;/em&gt;{2,1}^{(2)}a&lt;em&gt;1^{(2)}+\theta&lt;/em&gt;{2,2}^{(2)}a_2^{(2)})$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You have the following neural network:
+&lt;img src=&quot;_v_images/20210106092659353_25197.png&quot;&gt;
+You’d like to compute the activations of the hidden layer $a^{(2)} \ \epsilon \ R^3$. One way to do
+so is the following Octave code:
+&lt;img src=&quot;_v_images/20210106092714486_4049.png&quot;&gt;
+You want to have a vectorized implementation of this (i.e., one that does not use for loops). Which of the following implementations correctly compute ? Check all
+that apply.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 &lt;code&gt;z = Theta1 * x; a2 = sigmoid (z);&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;☐ &lt;code&gt;a2 = sigmoid (x * Theta1);&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;☐ &lt;code&gt;a2 = sigmoid (Theta2 * x);&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;☐ &lt;code&gt;z = sigmoid(x); a2 = sigmoid (Theta1 * z);&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You are using the neural network pictured below and have learned the parameters $\theta^{(1)} = \begin{bmatrix} 1 &amp;#x26; 1 &amp;#x26; 2.4\ 1 &amp;#x26; 1.7 &amp;#x26; 3.2 \end{bmatrix}$ (used to compute $a^{(2)}$) and $\theta^{(2)} = \begin{bmatrix} 1 &amp;#x26; 0.3 &amp;#x26; -1.2 \end{bmatrix}$ (used to compute $a^{(3)}$ as a function of $a^{(2)}$). Suppose you swap the parameters for the first hidden layer between its two units so $\theta^{(1)} = \begin{bmatrix} 1 &amp;#x26; 1.7 &amp;#x26; 3.2 \ 1 &amp;#x26; 1 &amp;#x26; 2.4 \end{bmatrix}$ and also swap the output layer so $\theta^{(2)} = \begin{bmatrix} 1 &amp;#x26; -1.2 &amp;#x26; 0.3 \end{bmatrix}$. How will this change the value of the output $h&lt;em&gt;\theta(x)$?
+![](&lt;/em&gt;v&lt;em&gt;images/20210106100117145&lt;/em&gt;12734.png)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 It will stay the same.&lt;/li&gt;
+&lt;li&gt;☐ It will increase.&lt;/li&gt;
+&lt;li&gt;☐ It will decrease&lt;/li&gt;
+&lt;li&gt;☐ Insufficient information to tell: it may increase or decrease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;neural-networks-learning-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#neural-networks-learning-&quot; aria-label=&quot;neural networks learning  permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Neural Networks: Learning :&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;You are training a three layer neural network and would like to use backpropagation to compute the gradient of the cost function. In the backpropagation algorithm, one of the steps is to update $\Delta&lt;em&gt;{ij}^{(2)} := \Delta&lt;/em&gt;{ij}^{(2)} + \delta&lt;em&gt;i^{(3)} * (a^{(2)})&lt;/em&gt;j$
+for every i,j. Which of the following is a correct vectorization of this step?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ $\Delta^{(2)} := \Delta^{(2)} + \delta^{(2)} * (a^{(3)})^T$&lt;/li&gt;
+&lt;li&gt;☐ $\Delta^{(2)} := \Delta^{(2)} + (a^{(2)})^T * \delta^{(3)}$&lt;/li&gt;
+&lt;li&gt;☐ $\Delta^{(2)} := \Delta^{(2)} + (a^{(2)})^T * \delta^{(2)}$&lt;/li&gt;
+&lt;li&gt;🗹 $\Delta^{(2)} := \Delta^{(2)} + \delta^{(3)} * (a^{(2)})^T$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose Theta1 is a 5x3 matrix, and Theta2 is a 4x6 matrix. You set thetaVec = [Theta1( : ), Theta2( : )]. Which of the following correctly recovers ?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 reshape(thetaVec(16 : 39), 4, 6)&lt;/li&gt;
+&lt;li&gt;☐ reshape(thetaVec(15 : 38), 4, 6)&lt;/li&gt;
+&lt;li&gt;☐ reshape(thetaVec(16 : 24), 4, 6)&lt;/li&gt;
+&lt;li&gt;☐ reshape(thetaVec(15 : 39), 4, 6)&lt;/li&gt;
+&lt;li&gt;☐ reshape(thetaVec(16 : 39), 6, 4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let $J(\theta) = 2\theta^3 + 2$. Let $\theta = 1$, and $\epsilon = 0.01$. Use the formula $\frac{J{(\theta + \epsilon)}-J{(\theta - \epsilon)}}{2\epsilon}$ to numerically compute an approximation to the derivative at $\theta = 1$. What value do you get? (When $\theta = 1$, the true/exact derivative is $\frac{\mathrm{d} J(\theta)}{\mathrm{d} \theta} = 6$.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ 8&lt;/li&gt;
+&lt;li&gt;🗹 6.0002&lt;/li&gt;
+&lt;li&gt;☐ 6&lt;/li&gt;
+&lt;li&gt;☐ 5.9998&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which of the following statements are true? Check all that apply.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 For computational efficiency, after we have performed gradient checking to verify that our backpropagation code is correct, we usually disable gradient checking before using backpropagation to train the network.&lt;/li&gt;
+&lt;li&gt;☐ Computing the gradient of the cost function in a neural network has the same efficiency when we use backpropagation or when we numerically compute it using the method of gradient checking.&lt;/li&gt;
+&lt;li&gt;🗹 Using gradient checking can help verify if one’s implementation of backpropagation is bug-free.&lt;/li&gt;
+&lt;li&gt;☐ Gradient checking is useful if we are using one of the advanced optimization methods (such as in fminunc) as our optimization algorithm. However, it serves little purpose if we are using gradient descent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which of the following statements are true? Check all that apply.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 If we are training a neural network using gradient descent, one reasonable “debugging” step to make sure it is working is to plot $J(\theta)$ as a function of the number of iterations, and make sure it is decreasing (or at least non-increasing) after each iteration.&lt;/li&gt;
+&lt;li&gt;☐ Suppose you have a three layer network with parameters $\theta^{(1)}$ (controlling the function mapping from the inputs to the hidden units) and $\theta^{(2)}$ (controlling the mapping from the hidden units to the outputs). If we set all the elements of $\theta^{(1)}$ to be 0, and all the elements of $\theta^{(2)}$ to be 1, then this suffices for symmetry breaking, since the neurons are no longer all computing the same function of the input.&lt;/li&gt;
+&lt;li&gt;🗹 Suppose you are training a neural network using gradient descent. Depending on your random initialization, your algorithm may converge to different local optima (i.e., if you run the algorithm twice with different random initializations, gradient descent may converge to two different solutions).&lt;/li&gt;
+&lt;li&gt;☐ If we initialize all the parameters of a neural network to ones instead of zeros, this will suffice for the purpose of “symmetry breaking” because the parameters are no longer symmetrically equal to zero.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;week-6&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#week-6&quot; aria-label=&quot;week 6 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Week 6&lt;/h2&gt;
+&lt;h3 id=&quot;advice-for-applying-machine-learning-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#advice-for-applying-machine-learning-&quot; aria-label=&quot;advice for applying machine learning  permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Advice for Applying Machine Learning :&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;You train a learning algorithm, and find that it has unacceptably high error on the test set. You plot the learning curve, and obtain the figure below. Is the algorithm suffering from high bias, high variance, or neither?
+&lt;img src=&quot;_v_images/20210106114811822_23068.png&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ High variance&lt;/li&gt;
+&lt;li&gt;☐ Neither&lt;/li&gt;
+&lt;li&gt;🗹 High bias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You train a learning algorithm, and find that it has unacceptably high error on the test set. You plot the learning curve, and obtain the figure below. Is the algorithm suffering from high bias, high variance, or neither?
+&lt;img src=&quot;_v_images/20210106115114688_20798.png&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 High variance&lt;/li&gt;
+&lt;li&gt;☐ Neither&lt;/li&gt;
+&lt;li&gt;☐ High bias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose you have implemented regularized logistic regression to classify what object is in an image (i.e., to do object recognition). However, when you test your hypothesis on a new set of images, you find that it makes unacceptably large errors with its predictions on the new images. However, your hypothesis performs well (has low error) on the training set. Which of the following are promising steps to take? Check all that apply.
+NOTE: Since the hypothesis performs well (has low error) on the training set, it is suffering from high variance (overfitting)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Try adding polynomial features.&lt;/li&gt;
+&lt;li&gt;☐ Use fewer training examples.&lt;/li&gt;
+&lt;li&gt;🗹  Try using a smaller set of features.&lt;/li&gt;
+&lt;li&gt;🗹 Get more training examples.&lt;/li&gt;
+&lt;li&gt;☐ Try evaluating the hypothesis on a cross validation set rather than the test set.&lt;/li&gt;
+&lt;li&gt;☐ Try decreasing the regularization parameter λ.&lt;/li&gt;
+&lt;li&gt;🗹 Try increasing the regularization parameter λ.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suppose you have implemented regularized logistic regression to predict what items customers will purchase on a web shopping site. However, when you test your hypothesis on a new set of customers, you find that it makes unacceptably large errors in its predictions. Furthermore, the hypothesis performs poorly on the training set. Which of the following might be promising steps to take? Check all that apply.
+NOTE: Since the hypothesis performs poorly on the training set, it is suffering from high bias (underfitting)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Try increasing the regularization parameter λ.&lt;/li&gt;
+&lt;li&gt;🗹 Try decreasing the regularization parameter λ.&lt;/li&gt;
+&lt;li&gt;☐ Try evaluating the hypothesis on a cross validation set rather than the test set.&lt;/li&gt;
+&lt;li&gt;☐ Use fewer training examples.&lt;/li&gt;
+&lt;li&gt;🗹 Try adding polynomial features.&lt;/li&gt;
+&lt;li&gt;☐ Try using a smaller set of features.&lt;/li&gt;
+&lt;li&gt;🗹 Try to obtain and use additional features.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which of the following statements are true? Check all that apply.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;☐ Suppose you are training a regularized linear regression model. The recommended way to choose what value of regularization parameter to use is to choose the value of which gives the lowest test set error.&lt;/li&gt;
+&lt;li&gt;☐ Suppose you are training a regularized linear regression model.The recommended way to choose what value of regularization parameter to use is to choose the value of which gives the lowest training set error.&lt;/li&gt;
+&lt;li&gt;🗹 The performance of a learning algorithm on the training set will typically be better than its performance on the test set.&lt;/li&gt;
+&lt;li&gt;🗹 Suppose you are training a regularized linear regression model. The recommended way to choose what value of regularization parameter to use is to choose the value of which gives the lowest cross validation error.&lt;/li&gt;
+&lt;li&gt;🗹 A typical split of a dataset into training, validation and test sets might be 60% training set, 20% validation set, and 20% test set.&lt;/li&gt;
+&lt;li&gt;☐ Suppose you are training a logistic regression classifier using polynomial features and want to select what degree polynomial (denoted in the lecture videos) to use. After training the classifier on the entire training set, you decide to use a subset of the training examples as a validation set. This will work just as well as having a validation set that is separate (disjoint) from the training set.&lt;/li&gt;
+&lt;li&gt;☐ It is okay to use data from the test set to choose the regularization parameter λ, but not the model parameters (θ).&lt;/li&gt;
+&lt;li&gt;🗹 Suppose you are using linear regression to predict housing prices, and your dataset comes sorted in order of increasing sizes of houses. It is then important to randomly shuffle the dataset before splitting it into training, validation and test sets, so that we don’t have all the smallest houses going into the training set, and all the largest houses going into the test set.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which of the following statements are true? Check all that apply.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗹 A model with more parameters is more prone to overfitting and typically has higher variance.&lt;/li&gt;
+&lt;li&gt;☐ If the training and test errors are about the same, adding more features will not help improve the results.&lt;/li&gt;
+&lt;li&gt;🗹 If a learning algorithm is suffering from high bias, only adding more training examples may not improve the test error significantly.&lt;/li&gt;
+&lt;li&gt;🗹 If a learning algorithm is suffering from high variance, adding more training examples is likely to improve the test error.&lt;/li&gt;
+&lt;li&gt;🗹 When debugging learning algorithms, it is useful to plot a learning curve to understand if there is a high bias or high variance problem.&lt;/li&gt;
+&lt;li&gt;☐ If a neural network has much lower training error than test error, then adding more layers will help bring the test error down because we can fit the test set better.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;links&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#links&quot; aria-label=&quot;links permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Machine-Learning/Week1Quiz.md&quot;&gt;Coursera-Machine-Learning/Week1Quiz.md at master · LiMengyang990726/Coursera-Machine-Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/atinesh-s/Coursera-Machine-Learning-Stanford&quot;&gt;atinesh-s/Coursera-Machine-Learning-Stanford: Machine learning-Stanford University&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.codemummy.com/p/coursera-machine-learning-andrew-ng-all.html&quot;&gt;Coursera-Machine Learning - Andrew NG - All weeks solutions of assignments and quiz - codemummy |online technical computer science platform.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mGalarnyk/datasciencecoursera/tree/master/Stanford_Machine_Learning&quot;&gt;datasciencecoursera/Stanford&lt;em&gt;Machine&lt;/em&gt;Learning at master · mGalarnyk/datasciencecoursera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.apdaga.com/search/label/Machine%20Learning?updated-max=2019-11-14T15:01:00%2B05:30&amp;#x26;max-results=20&amp;#x26;start=20&amp;#x26;by-date=false&quot;&gt;APDaga DumpBox : The Thirst for Learning...: Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+  .one-dark-pro {
+    background-color: #282c34;
+    color: #abb2bf;
+  }
+  .one-dark-pro .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
+  }
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Machine Learning untuk Siapa Saja]]></title><description><![CDATA[Pembelajaran Mesin (Machine Learning) Translation of Machine Learning for Everyone in Indonesian. Mengapa kita ingin mesin bisa belajar…]]></description><link>https://irosydi.netlify.app/catatan/ml-untuk-siapa-saja/</link><guid isPermaLink="false">https://irosydi.netlify.app/catatan/ml-untuk-siapa-saja/</guid><pubDate>Mon, 04 Jan 2021 21:13:55 GMT</pubDate><content:encoded>&lt;h1 id=&quot;pembelajaran-mesin-machine-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pembelajaran-mesin-machine-learning&quot; aria-label=&quot;pembelajaran mesin machine learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pembelajaran Mesin (&lt;em&gt;Machine Learning&lt;/em&gt;)&lt;/h1&gt;
+&lt;p&gt;Translation of &lt;a href=&quot;https://vas3k.com/blog/machine_learning/&quot;&gt;Machine Learning for Everyone&lt;/a&gt; in Indonesian.&lt;/p&gt;
+&lt;h2 id=&quot;mengapa-kita-ingin-mesin-bisa-belajar&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mengapa-kita-ingin-mesin-bisa-belajar&quot; aria-label=&quot;mengapa kita ingin mesin bisa belajar permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mengapa kita ingin mesin bisa belajar?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7vv.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7vv.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ini Paijo. Paijo ingin membeli mobil. Paijo mencoba menghitung berapa rupiah yang harusi dia tabung per bulan untuk bisa membeli mobil. Paijo lalu bertanya kepada temannya, juga mencari informasi di internet: ternyata harga mobil baru berkisar Rp.200 juta, kalau mobil &lt;em&gt;second&lt;/em&gt; usia setahunan jatuh di Rp.190 juta, yang usia dua tahunan jatuh di Rp.180 juta dan seterusnya.&lt;/p&gt;
+&lt;p&gt;Paijo, sang calon pemilik mobil yang cerdas ini, menemukan polanya: &lt;em&gt;jadi, harga mobil itu tergantung dari usianya, dan diperkirakan turun Rp.10 juta per tahun. Tetapi harganya tak akan lebih rendah dari Rp.100 juta.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Dalam istilah pembelajara mesin, Paijo menemukan apa yang disebut &lt;em&gt;regresi&lt;/em&gt; – bahwa dia bisa memperkirakan sebuah nilai (harga) berdasarkan data yang diketahui. Banyak orang yang terbiasa melakukan ini, misalnya saat membeli &lt;em&gt;smartphone&lt;/em&gt; bekas (&lt;em&gt;second&lt;/em&gt;), atau saat belanja beras untuk kepentingan kenduri (apakah per orang dijatah satu atau dua ons beras?).&lt;/p&gt;
+&lt;p&gt;Seandainya saja kita punya rumus sederhana untuk setiap hal di dunia tentu saja semua akan terasa mudah. Kita tak perlu pusing memperkirakan, atau bertanya, atau menawar. Tetapi sayangnya, hal tersebut tak mungkin.&lt;/p&gt;
+&lt;p&gt;Kembali ke urusan mobil yang mau dibeli Paijo. Masalahnya adalah saat membeli mobil, Paijo (dan kita juga) akan berhadapan dengan berbagai ragam perincian yang menentukan harga mobil: bulan dan tahun produksi, ragam variasi interior dan eksterior, kondisi mobil, jumlah kilometer, waktu pembelian (karena saat mendekati lebaran biasanya harga naik), dan lain sebagainya. Pada umumnya, kita dan Paijo tak mungkin mengingat dan memperhitungkan semua faktor harga tadi untuk menentukan tawaran harga mobil yang akan diajukan.&lt;/p&gt;
+&lt;p&gt;Nah karena kita manusia itu malas dan bodoh - apalaig urusannya matematika -, maka kita butuh mesin atau robot untuk membantu kita memperhitungkan harga buat kita, entah harga mobil, harga tanah, atau harga saham. Jadi, kita perkerjakan mesin untuk menghitung itu semua atau bahkan memperkirakan harganya. Maka, kita sediakan sejumlah data kepada si mesin, lalu meminta si mesin untuk mencari pola yang terkait dan menentukan harga sesuatu.&lt;/p&gt;
+&lt;p&gt;Dan, ternyata bisa. Hal yang paling menyenangkan adalah ternyata terbukti mesin bisa bekerja menghitung dan memperkirakan secara lebih baik daripada kebanyakan orang.&lt;/p&gt;
+&lt;p&gt;Itulah yang menjadi asal muasal lahirnya pembelajaran mesin (&lt;em&gt;machine learning&lt;/em&gt;).&lt;/p&gt;
+&lt;h2 id=&quot;tiga-komponen-pembelajaran-mesin&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tiga-komponen-pembelajaran-mesin&quot; aria-label=&quot;tiga komponen pembelajaran mesin permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tiga Komponen Pembelajaran Mesin&lt;/h2&gt;
+&lt;p&gt;Without all the AI-bullshit, the only goal of machine learning is to predict results based on incoming data. That&apos;s it. All ML tasks can be represented this way, or it&apos;s not an ML problem from the beginning.&lt;/p&gt;
+&lt;p&gt;The greater variety in the samples you have, the easier it is to find relevant patterns and predict the result. Therefore, we need three components to teach the machine:&lt;/p&gt;
+&lt;p&gt;Data Want to detect spam? Get samples of spam messages. Want to forecast stocks? Find the price history. Want to find out user preferences? Parse their activities on Facebook (no, Mark, stop collecting it, enough!). The more diverse the data, the better the result. Tens of thousands of rows is the bare minimum for the desperate ones.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7sg.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7sg.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are two main ways to get the data — manual and automatic. Manually collected data contains far fewer errors but takes more time to collect — that makes it more expensive in general.&lt;/p&gt;
+&lt;p&gt;Automatic approach is cheaper — you&apos;re gathering everything you can find and hope for the best.&lt;/p&gt;
+&lt;p&gt;Some smart asses like Google use their own customers to label data for them for free. Remember ReCaptcha which forces you to &quot;Select all street signs&quot;? That&apos;s exactly what they&apos;re doing. Free labour! Nice. In their place, I&apos;d start to show captcha more and more. Oh, wait...&lt;/p&gt;
+&lt;p&gt;It&apos;s extremely tough to collect a good collection of data (usually called a dataset). They are so important that companies may even reveal their algorithms, but rarely datasets.&lt;/p&gt;
+&lt;p&gt;Features Also known as parameters or variables. Those could be car mileage, user&apos;s gender, stock price, word frequency in the text. In other words, these are the factors for a machine to look at.&lt;/p&gt;
+&lt;p&gt;When data stored in tables it&apos;s simple — features are column names. But what are they if you have 100 Gb of cat pics? We cannot consider each pixel as a feature. That&apos;s why selecting the right features usually takes way longer than all the other ML parts. That&apos;s also the main source of errors. Meatbags are always subjective. They choose only features they like or find &quot;more important&quot;. Please, avoid being human.&lt;/p&gt;
+&lt;p&gt;Algorithms Most obvious part. Any problem can be solved differently. The method you choose affects the precision, performance, and size of the final model. There is one important nuance though: if the data is crappy, even the best algorithm won&apos;t help. Sometimes it&apos;s referred as &quot;garbage in – garbage out&quot;. So don&apos;t pay too much attention to the percentage of accuracy, try to acquire more data first.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7r8.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7r8.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Once I saw an article titled &lt;em&gt;&quot;Will neural networks replace machine learning?&quot;&lt;/em&gt; on some hipster media website. These media guys always call any shitty linear regression at least artificial intelligence, almost SkyNet. Here is a simple picture to show who is who.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7vw.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7vw.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Artificial intelligence&lt;/strong&gt; is the name of a whole knowledge field, similar to biology or chemistry.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine Learning&lt;/strong&gt; is a part of artificial intelligence. An important part, but not the only one.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Neural Networks&lt;/strong&gt; are one of machine learning types. A popular one, but there are other good guys in the class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deep Learning&lt;/strong&gt; is a modern method of building, training, and using neural networks. Basically, it&apos;s a new architecture. Nowadays in practice, no one separates deep learning from the &quot;ordinary networks&quot;. We even use the same libraries for them. To not look like a dumbass, it&apos;s better just name the type of network and avoid buzzwords.&lt;/p&gt;
+&lt;p&gt;The general rule is to compare things on the same level. That&apos;s why the phrase &lt;em&gt;&quot;will neural nets replace machine learning&quot;&lt;/em&gt; sounds like &lt;em&gt;&quot;will the wheels replace cars&quot;&lt;/em&gt;. Dear media, it&apos;s compromising your reputation a lot.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine can&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine cannot&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Forecast&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Create something new&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Memorize&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Get smart really fast&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reproduce&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Go beyond their task&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Choose best item&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kill all humans&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you are too lazy for long reads, take a look at the picture below to get some understanding.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7vx.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7vx.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Always important to remember — there is never a sole way to solve a problem in the machine learning world. There are always several algorithms that fit, and you have to choose which one fits better. Everything can be solved with a neural network, of course, but who will pay for all these GeForces?&lt;/p&gt;
+&lt;p&gt;Let&apos;s start with a basic overview. Nowadays there are four main directions in machine learning.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7vz.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7vz.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The first methods came from pure statistics in the &apos;50s. They solved formal math tasks — searching for patterns in numbers, evaluating the proximity of data points, and calculating vectors&apos; directions.&lt;/p&gt;
+&lt;p&gt;Nowadays, half of the Internet is working on these algorithms. When you see a list of articles to &quot;read next&quot; or your bank blocks your card at random gas station in the middle of nowhere, most likely it&apos;s the work of one of those little guys.&lt;/p&gt;
+&lt;p&gt;Big tech companies are huge fans of neural networks. Obviously. For them, 2% accuracy is an additional 2 billion in revenue. But when you are small, it doesn&apos;t make sense. I heard stories of the teams spending a year on a new recommendation algorithm for their e-commerce website, before discovering that 99% of traffic came from search engines. Their algorithms were useless. Most users didn&apos;t even open the main page.&lt;/p&gt;
+&lt;p&gt;Despite the popularity, classical approaches are so natural that you could easily explain them to a toddler. They are like basic arithmetic — we use it every day, without even thinking.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7w1.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7w1.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Classical machine learning is often divided into two categories – &lt;strong&gt;Supervised&lt;/strong&gt; and &lt;strong&gt;Unsupervised Learning&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In the first case, the machine has a &quot;supervisor&quot; or a &quot;teacher&quot; who gives the machine all the answers, like whether it&apos;s a cat in the picture or a dog. The teacher has already divided (labeled) the data into cats and dogs, and the machine is using these examples to learn. One by one. Dog by cat.&lt;/p&gt;
+&lt;p&gt;Unsupervised learning means the machine is left on its own with a pile of animal photos and a task to find out who&apos;s who. Data is not labeled, there&apos;s no teacher, the machine is trying to find any patterns on its own. We&apos;ll talk about these methods below.&lt;/p&gt;
+&lt;p&gt;Clearly, the machine will learn faster with a teacher, so it&apos;s more commonly used in real-life tasks. There are two types of such tasks: &lt;strong&gt;classification – an object&apos;s category prediction, and regression – prediction of a specific point on a numeric axis&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7qx.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7qx.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Splits objects based at one of the attributes known beforehand. Separate socks by based on color, documents based on language, music by genre&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Today used for:&lt;br&gt;
+– Spam filtering&lt;br&gt;
+– Language detection&lt;br&gt;
+– A search of similar documents&lt;br&gt;
+– Sentiment analysis&lt;br&gt;
+– Recognition of handwritten characters and numbers&lt;br&gt;
+– Fraud detection&lt;/p&gt;
+&lt;p&gt;Popular algorithms: &lt;a href=&quot;https://en.wikipedia.org/wiki/Naive_Bayes_classifier&quot;&gt;Naive Bayes&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Decision_tree_learning&quot;&gt;Decision Tree&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Logistic_regression&quot;&gt;Logistic Regression&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm&quot;&gt;K-Nearest Neighbours&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Support_vector_machine&quot;&gt;Support Vector Machine&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;From here onward you can comment with additional information for these sections. Feel free to write your examples of tasks. Everything is written here based on my own subjective experience.&lt;/p&gt;
+&lt;p&gt;Machine learning is about classifying things, mostly. The machine here is like a baby learning to sort toys: here&apos;s a robot, here&apos;s a car, here&apos;s a robo-car... Oh, wait. Error! Error!&lt;/p&gt;
+&lt;p&gt;In classification, you always need a teacher. The data should be labeled with features so the machine could assign the classes based on them. Everything could be classified — users based on interests (as algorithmic feeds do), articles based on language and topic (that&apos;s important for search engines), music based on genre (Spotify playlists), and even your emails.&lt;/p&gt;
+&lt;p&gt;In spam filtering the &lt;a href=&quot;https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/&quot;&gt;Naive Bayes&lt;/a&gt; algorithm was widely used. The machine counts the number of &quot;viagra&quot; mentions in spam and normal mail, then it multiplies both probabilities using the Bayes equation, sums the results and yay, we have Machine Learning.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7w2.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7w2.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Later, spammers learned how to deal with Bayesian filters by adding lots of &quot;good&quot; words at the end of the email. Ironically, the method was called &lt;a href=&quot;https://en.wikipedia.org/wiki/Bayesian_poisoning&quot;&gt;Bayesian poisoning&lt;/a&gt;. Naive Bayes went down in history as the most elegant and first practically useful one, but now other algorithms are used for spam filtering.&lt;/p&gt;
+&lt;p&gt;Here&apos;s another practical example of classification. Let&apos;s say you need some money on credit. How will the bank know if you&apos;ll pay it back or not? There&apos;s no way to know for sure. But the bank has lots of profiles of people who took money before. They have data about age, education, occupation and salary and – most importantly – the fact of paying the money back. Or not.&lt;/p&gt;
+&lt;p&gt;Using this data, we can teach the machine to find the patterns and get the answer. There&apos;s no issue with getting an answer. The issue is that the bank can&apos;t blindly trust the machine answer. What if there&apos;s a system failure, hacker attack or &lt;em&gt;a quick fix from a drunk senior&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;To deal with it, we have &lt;a href=&quot;https://www.youtube.com/watch?v=eKD5gxPPeY0&quot;&gt;Decision Trees&lt;/a&gt;. All the data automatically divided to yes/no questions. They could sound a bit weird from a human perspective, e.g., &lt;em&gt;whether the creditor earns more than $128.12?&lt;/em&gt; Though, the machine comes up with such questions to split the data best at each step.&lt;/p&gt;
+&lt;p&gt;That&apos;s how a tree is made. The higher the branch — the broader the question. Any analyst can take it and explain afterward. He may not understand it, but explain easily! (typical analyst)&lt;/p&gt;
+&lt;p&gt;Decision trees are widely used in high responsibility spheres: diagnostics, medicine, and finances.&lt;/p&gt;
+&lt;p&gt;The two most popular algorithms for forming the trees are &lt;a href=&quot;https://en.wikipedia.org/wiki/Predictive_analytics#Classification_and_regression_trees_.28CART.29&quot;&gt;CART&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/C4.5_algorithm&quot;&gt;C4.5&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Pure decision trees are rarely used today. However, they often set the basis for large systems, and their ensembles even work better than neural networks. We&apos;ll talk about that later.&lt;/p&gt;
+&lt;p&gt;When you google something, that&apos;s precisely the bunch of dumb trees which are looking for a range of answers for you. Search engines love them because they&apos;re fast.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7w3.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7w3.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Support Vector Machines (SVM)&lt;/em&gt; is rightfully the most popular method of classical classification. It was used to classify everything in existence: plants by appearance in photos, documents by categories, etc.&lt;/p&gt;
+&lt;p&gt;The idea behind SVM is simple – it&apos;s trying to draw two lines between your data points with the largest margin between them. Look at the picture:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7w4.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7w4.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There&apos;s one very useful side of the classification — anomaly detection. When a feature does not fit any of the classes, we highlight it. Now that&apos;s used in medicine — on MRIs, computers highlight all the suspicious areas or deviations of the test. Stock markets use it to detect abnormal behaviour of traders to find the insiders. When teaching the computer the right things, we automatically teach it what things are wrong.&lt;/p&gt;
+&lt;p&gt;Today, neural networks are more frequently used for classification. Well, that&apos;s what they were created for.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The rule of thumb is the more complex the data, the more complex the algorithm.&lt;/strong&gt; For text, numbers, and tables, I&apos;d choose the classical approach. The models are smaller there, they learn faster and work more clearly. For pictures, video and all other complicated big data things, I&apos;d definitely look at neural networks.&lt;/p&gt;
+&lt;p&gt;Just five years ago you could find a face classifier built on SVM. Today it&apos;s easier to choose from hundreds of pre-trained networks. Nothing has changed for spam filters, though. They are still written with SVM. And there&apos;s no good reason to switch from it anywhere.&lt;/p&gt;
+&lt;p&gt;Even my website has SVM-based spam detection in comments ¯_(ツ)_/¯&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7qy.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7qy.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Draw a line through these dots. Yep, that&apos;s the machine learning&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Today this is used for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stock price forecasts&lt;/li&gt;
+&lt;li&gt;Demand and sales volume analysis&lt;/li&gt;
+&lt;li&gt;Medical diagnosis&lt;/li&gt;
+&lt;li&gt;Any number-time correlations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Popular algorithms are &lt;a href=&quot;https://en.wikipedia.org/wiki/Linear_regression&quot;&gt;Linear&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Polynomial_regression&quot;&gt;Polynomial&lt;/a&gt; regressions.&lt;/p&gt;
+&lt;p&gt;Regression is basically classification where we forecast a number instead of category. Examples are car price by its mileage, traffic by time of the day, demand volume by growth of the company etc. Regression is perfect when something depends on time.&lt;/p&gt;
+&lt;p&gt;Everyone who works with finance and analysis loves regression. It&apos;s even built-in to Excel. And it&apos;s super smooth inside — the machine simply tries to draw a line that indicates average correlation. Though, unlike a person with a pen and a whiteboard, machine does so with mathematical accuracy, calculating the average interval to every dot.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7w5.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7w5.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When the line is straight — it&apos;s a linear regression, when it&apos;s curved – polynomial. These are two major types of regression. The other ones are more exotic. Logistic regression is a black sheep in the flock. Don&apos;t let it trick you, as it&apos;s a classification method, not regression.&lt;/p&gt;
+&lt;p&gt;It&apos;s okay to mess with regression and classification, though. Many classifiers turn into regression after some tuning. We can not only define the class of the object but memorize how close it is. Here comes a regression.&lt;/p&gt;
+&lt;p&gt;If you want to get deeper into this, check these series: &lt;a href=&quot;https://medium.com/machine-learning-for-humans/supervised-learning-740383a2feab&quot;&gt;Machine Learning for Humans&lt;/a&gt;. I really love and recommend it!&lt;/p&gt;
+&lt;p&gt;Unsupervised was invented a bit later, in the &apos;90s. It is used less often, but sometimes we simply have no choice.&lt;/p&gt;
+&lt;p&gt;Labeled data is luxury. But what if I want to create, let&apos;s say, a bus classifier? Should I manually take photos of million fucking buses on the streets and label each of them? No way, that will take a lifetime, and I still have so many games not played on my Steam account.&lt;/p&gt;
+&lt;p&gt;There&apos;s a little hope for capitalism in this case. Thanks to social stratification, we have millions of cheap workers and services like &lt;a href=&quot;https://www.mturk.com/&quot;&gt;Mechanical Turk&lt;/a&gt; who are ready to complete your task for $0.05. And that&apos;s how things usually get done here.&lt;/p&gt;
+&lt;p&gt;Or you can try to use unsupervised learning. But I can&apos;t remember any good practical application for it, though. It&apos;s usually useful for &lt;a href=&quot;https://en.wikipedia.org/wiki/Exploratory_data_analysis&quot;&gt;exploratory data analysis&lt;/a&gt; but not as the main algorithm. Specially trained meatbag with Oxford degree feeds the machine with a ton of garbage and watches it. Are there any clusters? No. Any visible relations? No. Well, continue then. You wanted to work in data science, right?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7qz.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7qz.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Divides objects based on unknown features. Machine chooses the best way&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nowadays used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For market segmentation (types of customers, loyalty)&lt;/li&gt;
+&lt;li&gt;To merge close points on a map&lt;/li&gt;
+&lt;li&gt;For image compression&lt;/li&gt;
+&lt;li&gt;To analyze and label new data&lt;/li&gt;
+&lt;li&gt;To detect abnormal behavior&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Popular algorithms: &lt;a href=&quot;https://en.wikipedia.org/wiki/K-means_clustering&quot;&gt;K-means_clustering&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Mean_shift&quot;&gt;Mean-Shift&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/DBSCAN&quot;&gt;DBSCAN&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Clustering is a classification with no predefined classes. It’s like dividing socks by color when you don&apos;t remember all the colors you have. Clustering algorithm trying to find similar (by some features) objects and merge them in a cluster. Those who have lots of similar features are joined in one class. With some algorithms, you even can specify the exact number of clusters you want.&lt;/p&gt;
+&lt;p&gt;An excellent example of clustering — markers on web maps. When you&apos;re looking for all vegan restaurants around, the clustering engine groups them to blobs with a number. Otherwise, your browser would freeze, trying to draw all three million vegan restaurants in that hipster downtown.&lt;/p&gt;
+&lt;p&gt;Apple Photos and Google Photos use more complex clustering. They&apos;re looking for faces in photos to create albums of your friends. The app doesn&apos;t know how many friends you have and how they look, but it&apos;s trying to find the common facial features. Typical clustering.&lt;/p&gt;
+&lt;p&gt;Another popular issue is image compression. When saving the image to PNG you can set the palette, let&apos;s say, to 32 colors. It means clustering will find all the &quot;reddish&quot; pixels, calculate the &quot;average red&quot; and set it for all the red pixels. Fewer colors — lower file size — profit!&lt;/p&gt;
+&lt;p&gt;However, you may have problems with colors like Cyan◼︎-like colors. Is it green or blue? Here comes the &lt;a href=&quot;https://www.youtube.com/watch?v=_aWzGGNrcic&quot;&gt;K-Means&lt;/a&gt; algorithm.&lt;/p&gt;
+&lt;p&gt;It randomly sets 32 color dots in the palette. Now, those are centroids. The remaining points are marked as assigned to the nearest centroid. Thus, we get kind of galaxies around these 32 colors. Then we&apos;re moving the centroid to the center of its galaxy and repeat that until centroids stop moving.&lt;/p&gt;
+&lt;p&gt;All done. Clusters defined, stable, and there are exactly 32 of them. Here is a more real-world explanation:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7w6.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7w6.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Searching for the centroids is convenient. Though, in real life clusters not always circles. Let&apos;s imagine you&apos;re a geologist. And you need to find some similar minerals on the map. In that case, the clusters can be weirdly shaped and even nested. Also, you don&apos;t even know how many of them to expect. 10? 100?&lt;/p&gt;
+&lt;p&gt;K-means does not fit here, but &lt;a href=&quot;https://towardsdatascience.com/how-dbscan-works-and-why-should-i-use-it-443b4a191c80&quot;&gt;DBSCAN&lt;/a&gt; can be helpful. Let&apos;s say, our dots are people at the town square. Find any three people standing close to each other and ask them to hold hands. Then, tell them to start grabbing hands of those neighbors they can reach. And so on, and so on until no one else can take anyone&apos;s hand. That&apos;s our first cluster. Repeat the process until everyone is clustered. Done.&lt;/p&gt;
+&lt;p&gt;A nice bonus: a person who has no one to hold hands with — is an anomaly.&lt;/p&gt;
+&lt;p&gt;It all looks cool in motion:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cdn-images-1.medium.com/max/1600/1*tc8UF-h0nQqUfLC8-0uInQ.gif&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*tc8UF-h0nQqUfLC8-0uInQ.gif&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Just like classification, clustering could be used to detect anomalies. User behaves abnormally after signing up? Let the machine ban him temporarily and create a ticket for the support to check it. Maybe it&apos;s a bot. We don&apos;t even need to know what &quot;normal behavior&quot; is, we just upload all user actions to our model and let the machine decide if it&apos;s a &quot;typical&quot; user or not.&lt;/p&gt;
+&lt;p&gt;This approach doesn&apos;t work that well compared to the classification one, but it never hurts to try.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7r0.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7r0.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Assembles specific features into more high-level ones&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nowadays is used for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recommender systems (★)&lt;/li&gt;
+&lt;li&gt;Beautiful visualizations&lt;/li&gt;
+&lt;li&gt;Topic modeling and similar document search&lt;/li&gt;
+&lt;li&gt;Fake image analysis&lt;/li&gt;
+&lt;li&gt;Risk management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Popular algorithms: &lt;a href=&quot;https://en.wikipedia.org/wiki/Principal_component_analysis&quot;&gt;Principal Component Analysis&lt;/a&gt; (PCA), &lt;a href=&quot;https://en.wikipedia.org/wiki/Singular_value_decomposition&quot;&gt;Singular Value Decomposition&lt;/a&gt; (SVD), &lt;a href=&quot;https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation&quot;&gt;Latent Dirichlet allocation&lt;/a&gt; (LDA), &lt;a href=&quot;https://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis&quot;&gt;Latent Semantic Analysis&lt;/a&gt; (LSA, pLSA, GLSA), &lt;a href=&quot;https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding&quot;&gt;t-SNE&lt;/a&gt; (for visualization)&lt;/p&gt;
+&lt;p&gt;Previously these methods were used by hardcore data scientists, who had to find &quot;something interesting&quot; in huge piles of numbers. When Excel charts didn&apos;t help, they forced machines to do the pattern-finding. That&apos;s how they got Dimension Reduction or Feature Learning methods.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/Q7HIP.gif&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/Q7HIP.gif&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Projecting 2D-data to a line (PCA)&lt;/p&gt;
+&lt;p&gt;It is always more convenient for people to use abstractions, not a bunch of fragmented features. For example, we can merge all dogs with triangle ears, long noses, and big tails to a nice abstraction — &quot;shepherd&quot;. Yes, we&apos;re losing some information about the specific shepherds, but the new abstraction is much more useful for naming and explaining purposes. As a bonus, such &quot;abstracted&quot; models learn faster, overfit less and use a lower number of features.&lt;/p&gt;
+&lt;p&gt;These algorithms became an amazing tool for Topic Modeling. We can abstract from specific words to their meanings. This is what &lt;a href=&quot;https://en.wikipedia.org/wiki/Latent_semantic_analysis&quot;&gt;Latent semantic analysis&lt;/a&gt; (LSA) does. It is based on how frequently you see the word on the exact topic. Like, there are more tech terms in tech articles, for sure. The names of politicians are mostly found in political news, etc.&lt;/p&gt;
+&lt;p&gt;Yes, we can just make clusters from all the words at the articles, but we will lose all the important connections (for example the same meaning of &lt;em&gt;battery&lt;/em&gt; and &lt;em&gt;accumulator&lt;/em&gt; in different documents). LSA will handle it properly, that&apos;s why its called &quot;latent semantic&quot;.&lt;/p&gt;
+&lt;p&gt;So we need to connect the words and documents into one feature to keep these latent connections — it turns out that &lt;a href=&quot;https://en.wikipedia.org/wiki/Singular_value_decomposition&quot;&gt;Singular decomposition&lt;/a&gt; (SVD) nails this task, revealing useful topic clusters from seen-together words.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7w7.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7w7.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Recommender Systems and Collaborative Filtering is another super-popular use of the dimensionality reduction method. Seems like if you use it to abstract user ratings, you get a great system to recommend movies, music, games and whatever you want.&lt;/p&gt;
+&lt;p&gt;It&apos;s barely possible to fully understand this machine abstraction, but it&apos;s possible to see some correlations on a closer look. Some of them correlate with user&apos;s age — kids play Minecraft and watch cartoons more; others correlate with movie genre or user hobbies.&lt;/p&gt;
+&lt;p&gt;Machines get these high-level concepts even without understanding them, based only on knowledge of user ratings. Nicely done, Mr.Computer. Now we can write a thesis on why bearded lumberjacks love My Little Pony.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7r1.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7r1.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Look for patterns in the orders&apos; stream&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nowadays is used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To forecast sales and discounts&lt;/li&gt;
+&lt;li&gt;To analyze goods bought together&lt;/li&gt;
+&lt;li&gt;To place the products on the shelves&lt;/li&gt;
+&lt;li&gt;To analyze web surfing patterns&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Popular algorithms: &lt;a href=&quot;https://en.wikipedia.org/wiki/Association_rule_learning#Algorithms&quot;&gt;Apriori, Euclat, FP-growth&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This includes all the methods to analyze shopping carts, automate marketing strategy, and other event-related tasks. When you have a sequence of something and want to find patterns in it — try these thingys.&lt;/p&gt;
+&lt;p&gt;Say, a customer takes a six-pack of beers and goes to the checkout. Should we place peanuts on the way? How often do people buy them together? Yes, it probably works for beer and peanuts, but what other sequences can we predict? Can a small change in the arrangement of goods lead to a significant increase in profits?&lt;/p&gt;
+&lt;p&gt;Same goes for e-commerce. The task is even more interesting there — what is the customer going to buy next time?&lt;/p&gt;
+&lt;p&gt;No idea why rule-learning seems to be the least elaborated upon category of machine learning. Classical methods are based on a head-on look through all the bought goods using trees or sets. Algorithms can only search for patterns, but cannot generalize or reproduce those on new examples.&lt;/p&gt;
+&lt;p&gt;In the real world, every big retailer builds their own proprietary solution, so nooo revolutions here for you. The highest level of tech here — recommender systems. Though, I may be not aware of a breakthrough in the area. Let me know in the comments if you have something to share.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/810.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/810.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7r2.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7r2.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Throw a robot into a maze and let it find an exit&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nowadays used for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Self-driving cars&lt;/li&gt;
+&lt;li&gt;Robot vacuums&lt;/li&gt;
+&lt;li&gt;Games&lt;/li&gt;
+&lt;li&gt;Automating trading&lt;/li&gt;
+&lt;li&gt;Enterprise resource management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Popular algorithms: &lt;a href=&quot;https://en.wikipedia.org/wiki/Q-learning&quot;&gt;Q-Learning&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/State%E2%80%93action%E2%80%93reward%E2%80%93state%E2%80%93action&quot;&gt;SARSA&lt;/a&gt;, DQN, &lt;a href=&quot;https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2&quot;&gt;A3C&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Genetic_algorithm&quot;&gt;Genetic algorithm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Finally, we get to something looks like &lt;em&gt;real artificial intelligence&lt;/em&gt;. In lots of articles reinforcement learning is placed somewhere in between of supervised and unsupervised learning. They have nothing in common! Is this because of the name?&lt;/p&gt;
+&lt;p&gt;Reinforcement learning is used in cases when your problem is not related to data at all, but you have an environment to live in. Like a video game world or a city for self-driving car.&lt;/p&gt;
+&lt;iframe width=&quot;300&quot; height=&quot;169&quot; src=&quot;https://www.youtube.com/embed/qv6UVOQ0F44&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Neural network plays Mario&lt;/p&gt;
+&lt;p&gt;Knowledge of all the road rules in the world will not teach the autopilot how to drive on the roads. Regardless of how much data we collect, we still can&apos;t foresee all the possible situations. This is why its goal is to &lt;strong&gt;minimize error, not to predict all the moves&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Surviving in an environment is a core idea of reinforcement learning. Throw poor little robot into real life, punish it for errors and reward it for right deeds. Same way we teach our kids, right?&lt;/p&gt;
+&lt;p&gt;More effective way here — to build a virtual city and let self-driving car to learn all its tricks there first. That&apos;s exactly how we train auto-pilots right now. Create a virtual city based on a real map, populate with pedestrians and let the car learn to kill as few people as possible. When the robot is reasonably confident in this artificial GTA, it&apos;s freed to test in the real streets. Fun!&lt;/p&gt;
+&lt;p&gt;There may be two different approaches — &lt;strong&gt;Model-Based and Model-Free&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Model-Based means that car needs to memorize a map or its parts. That&apos;s a pretty outdated approach since it&apos;s impossible for the poor self-driving car to memorize the whole planet.&lt;/p&gt;
+&lt;p&gt;In Model-Free learning, the car doesn&apos;t memorize every movement but tries to generalize situations and act rationally while obtaining a maximum reward.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7w9.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7w9.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Remember the news about &lt;a href=&quot;https://www.wired.com/2016/01/in-a-huge-breakthrough-googles-ai-beats-a-top-player-at-the-game-of-go/&quot;&gt;AI beating a top player at the game of Go&lt;/a&gt;? Despite shortly before this it being &lt;a href=&quot;https://motherboard.vice.com/en_us/article/vv7ejx/after-2500-years-a-chinese-gaming-mystery-is-solved&quot;&gt;proved&lt;/a&gt; that the number of combinations in this game is greater than the number of atoms in the universe.&lt;/p&gt;
+&lt;p&gt;This means the machine could not remember all the combinations and thereby win Go (as it did chess). At each turn, it simply chose the best move for each situation, and it did well enough to outplay a human meatbag.&lt;/p&gt;
+&lt;p&gt;This approach is a core concept behind &lt;a href=&quot;https://www.youtube.com/watch?v=aCEvtRtNO-M&quot;&gt;Q-learning&lt;/a&gt; and its derivatives (SARSA &amp;#x26; DQN). &apos;Q&apos; in the name stands for &quot;Quality&quot; as a robot learns to perform the most &quot;qualitative&quot; action in each situation and all the situations are memorized as a simple &lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_process&quot;&gt;markovian process&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7wa.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7wa.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Such a machine can test billions of situations in a virtual environment, remembering which solutions led to greater reward. But how can it distinguish previously seen situations from a completely new one? If a self-driving car is at a road crossing and the traffic light turns green — does it mean it can go now? What if there&apos;s an ambulance rushing through a street nearby?&lt;/p&gt;
+&lt;p&gt;The answer today is &quot;no one knows&quot;. There&apos;s no easy answer. Researchers are constantly searching for it but meanwhile only finding workarounds. Some would hardcode all the situations manually that let them solve exceptional cases, like the &lt;a href=&quot;https://en.wikipedia.org/wiki/Trolley_problem&quot;&gt;trolley problem&lt;/a&gt;. Others would go deep and let neural networks do the job of figuring it out. This led us to the evolution of Q-learning called Deep Q-Network (DQN). But they are not a silver bullet either.&lt;/p&gt;
+&lt;p&gt;Reinforcement Learning for an average person would look like a &lt;em&gt;real artificial intelligence&lt;/em&gt;. Because it makes you think &lt;em&gt;wow, this machine is making decisions in real life situations&lt;/em&gt;! This topic is hyped right now, it&apos;s advancing with incredible pace and intersecting with a neural network to clean your floor more accurately. Amazing world of technologies!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Off-topic.&lt;/strong&gt; When I was a student, &lt;a href=&quot;http://rednuht.org/genetic_walkers/&quot;&gt;genetic algorithms&lt;/a&gt; (link has cool visualization) were really popular. This is about throwing a bunch of robots into a single environment and making them try reaching the goal until they die. Then we pick the best ones, cross them, mutate some genes and rerun the simulation. After a few &lt;a href=&quot;http://mathworld.wolfram.com/Milliard.html&quot;&gt;milliard&lt;/a&gt; years, we will get an intelligent creature. Probably. Evolution at its finest.&lt;/p&gt;
+&lt;p&gt;Genetic algorithms are considered as part of reinforcement learning and they have the most important feature proved by decade-long practice: no one gives a shit about them.&lt;/p&gt;
+&lt;p&gt;Humanity still couldn&apos;t come up with a task where those would be more effective than other methods. But they are great for student experiments and let people get their university supervisors excited about &quot;artificial intelligence&quot; without too much labour. And youtube would love it as well.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7r3.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7r3.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Bunch of stupid trees learning to correct errors of each other&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nowadays is used for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Everything that fits classical algorithm approaches (but works better)&lt;/li&gt;
+&lt;li&gt;Search systems (★)&lt;/li&gt;
+&lt;li&gt;Computer vision&lt;/li&gt;
+&lt;li&gt;Object detection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Popular algorithms: &lt;a href=&quot;https://en.wikipedia.org/wiki/Random_forest&quot;&gt;Random Forest&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Gradient_boosting&quot;&gt;Gradient Boosting&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It&apos;s time for modern, grown-up methods. Ensembles and neural networks are two main fighters paving our path to a singularity. Today they are producing the most accurate results and are widely used in production.&lt;/p&gt;
+&lt;p&gt;However, the neural networks got all the hype today, while the words like &quot;boosting&quot; or &quot;bagging&quot; are scarce hipsters on TechCrunch.&lt;/p&gt;
+&lt;p&gt;Despite all the effectiveness the idea behind these is overly simple. If you take a bunch of inefficient algorithms and force them to correct each other&apos;s mistakes, the overall quality of a system will be higher than even the best individual algorithms.&lt;/p&gt;
+&lt;p&gt;You&apos;ll get even better results if you take the most unstable algorithms that are predicting completely different results on small noise in input data. Like Regression and Decision Trees. These algorithms are so sensitive to even a single outlier in input data to have models go mad.&lt;/p&gt;
+&lt;p&gt;In fact, this is what we need.&lt;/p&gt;
+&lt;p&gt;We can use any algorithm we know to create an ensemble. Just throw a bunch of classifiers, spice it up with regression and don&apos;t forget to measure accuracy. From my experience: don&apos;t even try a Bayes or kNN here. Although &quot;dumb&quot;, they are really stable. That&apos;s boring and predictable. Like your ex.&lt;/p&gt;
+&lt;p&gt;Instead, there are three battle-tested methods to create ensembles.&lt;/p&gt;
+&lt;p&gt;Stacking Output of several parallel models is passed as input to the last one which makes a final decision. Like that girl who asks her girlfriends whether to meet with you in order to make the final decision herself.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7wb.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7wb.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Emphasis here on the word &quot;different&quot;. Mixing the same algorithms on the same data would make no sense. The choice of algorithms is completely up to you. However, for final decision-making model, regression is usually a good choice.&lt;/p&gt;
+&lt;p&gt;Based on my experience stacking is less popular in practice, because two other methods are giving better accuracy.&lt;/p&gt;
+&lt;p&gt;Bagging aka &lt;a href=&quot;https://en.wikipedia.org/wiki/Bootstrap_aggregating&quot;&gt;Bootstrap AGGregatING&lt;/a&gt;. Use the same algorithm but train it on different subsets of original data. In the end — just average answers.&lt;/p&gt;
+&lt;p&gt;Data in random subsets may repeat. For example, from a set like &quot;1-2-3&quot; we can get subsets like &quot;2-2-3&quot;, &quot;1-2-2&quot;, &quot;3-1-2&quot; and so on. We use these new datasets to teach the same algorithm several times and then predict the final answer via simple majority voting.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7wd.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7wd.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The most famous example of bagging is the &lt;a href=&quot;https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&quot;&gt;Random Forest&lt;/a&gt; algorithm, which is simply bagging on the decision trees (which were illustrated above). When you open your phone&apos;s camera app and see it drawing boxes around people&apos;s faces — it&apos;s probably the results of Random Forest work. Neural networks would be too slow to run real-time yet bagging is ideal given it can calculate trees on all the shaders of a video card or on these new fancy ML processors.&lt;/p&gt;
+&lt;p&gt;In some tasks, the ability of the Random Forest to run in parallel is more important than a small loss in accuracy to the boosting, for example. Especially in real-time processing. There is always a trade-off.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7rq.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7rq.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Boosting Algorithms are trained one by one sequentially. Each subsequent one paying most of its attention to data points that were mispredicted by the previous one. Repeat until you are happy.&lt;/p&gt;
+&lt;p&gt;Same as in bagging, we use subsets of our data but this time they are not randomly generated. Now, in each subsample we take a part of the data the previous algorithm failed to process. Thus, we make a new algorithm learn to fix the errors of the previous one.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7we.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7we.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The main advantage here — a very high, even illegal in some countries precision of classification that all cool kids can envy. The cons were already called out — it doesn&apos;t parallelize. But it&apos;s still faster than neural networks. It&apos;s like a race between a dump truck and a racecar. The truck can do more, but if you want to go fast — take a car.&lt;/p&gt;
+&lt;p&gt;If you want a real example of boosting — open Facebook or Google and start typing in a search query. Can you hear an army of trees roaring and smashing together to sort results by relevancy? That&apos;s because &lt;a href=&quot;https://code.fb.com/ml-applications/evaluating-boosted-decision-trees-for-billions-of-users/&quot;&gt;they are using boosting&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7r4.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7r4.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;We have a thousand-layer network, dozens of video cards, but still no idea where to use it. Let&apos;s generate cat pics!&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Used today for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Replacement of all algorithms above&lt;/li&gt;
+&lt;li&gt;Object identification on photos and videos&lt;/li&gt;
+&lt;li&gt;Speech recognition and synthesis&lt;/li&gt;
+&lt;li&gt;Image processing, style transfer&lt;/li&gt;
+&lt;li&gt;Machine translation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Popular architectures: &lt;a href=&quot;https://en.wikipedia.org/wiki/Perceptron&quot;&gt;Perceptron&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Convolutional_neural_network&quot;&gt;Convolutional Network&lt;/a&gt; (CNN), &lt;a href=&quot;https://en.wikipedia.org/wiki/Recurrent_neural_network&quot;&gt;Recurrent Networks&lt;/a&gt; (RNN), &lt;a href=&quot;https://en.wikipedia.org/wiki/Autoencoder&quot;&gt;Autoencoders&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If no one has ever tried to explain neural networks to you using &quot;human brain&quot; analogies, you&apos;re happy. Tell me your secret. But first, let me explain it the way I like.&lt;/p&gt;
+&lt;p&gt;Any neural network is basically a collection of &lt;strong&gt;neurons&lt;/strong&gt; and &lt;strong&gt;connections&lt;/strong&gt; between them. &lt;strong&gt;Neuron&lt;/strong&gt; is a function with a bunch of inputs and one output. Its task is to take all numbers from its input, perform a function on them and send the result to the output.&lt;/p&gt;
+&lt;p&gt;Here is an example of a simple but useful in real life neuron: sum up all numbers from the inputs and if that sum is bigger than N — give 1 as a result. Otherwise — zero.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Connections&lt;/strong&gt; are like channels between neurons. They connect outputs of one neuron with the inputs of another so they can send digits to each other. Each connection has only one parameter — weight. It&apos;s like a connection strength for a signal. When the number 10 passes through a connection with a weight 0.5 it turns into 5.&lt;/p&gt;
+&lt;p&gt;These weights tell the neuron to respond more to one input and less to another. Weights are adjusted when training — that&apos;s how the network learns. Basically, that&apos;s all there is to it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7wf.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7wf.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To prevent the network from falling into anarchy, the neurons are linked by layers, not randomly. Within a layer neurons are not connected, but they are connected to neurons of the next and previous layers. Data in the network goes strictly in one direction — from the inputs of the first layer to the outputs of the last.&lt;/p&gt;
+&lt;p&gt;If you throw in a sufficient number of layers and put the weights correctly, you will get the following: by applying to the input, say, the image of handwritten digit 4, black pixels activate the associated neurons, they activate the next layers, and so on and on, until it finally lights up the exit in charge of the four. The result is achieved.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7wg.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7wg.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When doing real-life programming nobody is writing neurons and connections. Instead, everything is represented as matrices and calculated based on matrix multiplication for better performance. My favourite video on this and its sequel below describe the whole process in an easily digestible way using the example of recognizing hand-written digits. Watch them if you want to figure this out.&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/aircAruvnKk&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;A network that has multiple layers that have connections between every neuron is called a &lt;a href=&quot;https://en.wikipedia.org/wiki/Multilayer_perceptron&quot;&gt;perceptron&lt;/a&gt; (MLP) and considered the simplest architecture for a novice. I didn&apos;t see it used for solving tasks in production.&lt;/p&gt;
+&lt;p&gt;After we constructed a network, our task is to assign proper ways so neurons will react correctly to incoming signals. Now is the time to remember that we have data that is samples of &apos;inputs&apos; and proper &apos;outputs&apos;. We will be showing our network a drawing of the same digit 4 and tell it &apos;adapt your weights so whenever you see this input your output would emit 4&apos;.&lt;/p&gt;
+&lt;p&gt;To start with, all weights are assigned randomly. After we show it a digit it emits a random answer because the weights are not correct yet, and we compare how much this result differs from the right one. Then we start traversing network backward from outputs to inputs and tell every neuron &apos;hey, you did activate here but you did a terrible job and everything went south from here downwards, let&apos;s keep less attention to this connection and more of that one, mkay?&apos;.&lt;/p&gt;
+&lt;p&gt;After hundreds of thousands of such cycles of &apos;infer-check-punish&apos;, there is a hope that the weights are corrected and act as intended. The science name for this approach is &lt;a href=&quot;https://en.wikipedia.org/wiki/Backpropagation&quot;&gt;Backpropagation&lt;/a&gt;, or a &apos;method of backpropagating an error&apos;. Funny thing it took twenty years to come up with this method. Before this we still taught neural networks somehow.&lt;/p&gt;
+&lt;p&gt;My second favorite vid is describing this process in depth, but it&apos;s still very accessible.&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/IHZwWFHWa-w&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;A well trained neural network can fake the work of any of the algorithms described in this chapter (and frequently works more precisely). This universality is what made them widely popular. &lt;em&gt;Finally we have an architecture of human brain&lt;/em&gt; they said &lt;em&gt;we just need to assemble lots of layers and teach them on any possible data&lt;/em&gt; they hoped. Then the first &lt;a href=&quot;https://en.wikipedia.org/wiki/AI_winter&quot;&gt;AI winter&lt;/a&gt; started, then it thawed, and then another wave of disappointment hit.&lt;/p&gt;
+&lt;p&gt;It turned out networks with a large number of layers required computation power unimaginable at that time. Nowadays any gamer PC with geforces outperforms the datacenters of that time. So people didn&apos;t have any hope then to acquire computation power like that and neural networks were a huge bummer.&lt;/p&gt;
+&lt;p&gt;And then ten years ago deep learning rose.&lt;/p&gt;
+&lt;p&gt;In 2012 convolutional neural networks acquired an &lt;a href=&quot;https://habr.com/post/183380/&quot;&gt;overwhelming victory in ImageNet competition&lt;/a&gt; that made the world &lt;em&gt;suddenly remember&lt;/em&gt; about methods of deep learning described in the ancient 90s. Now we have video cards!&lt;/p&gt;
+&lt;p&gt;Differences of deep learning from classical neural networks were in new methods of training that could handle bigger networks. Nowadays only theoretics would try to divide which learning to consider deep and not so deep. And we, as practitioners are using popular &apos;deep&apos; libraries like &lt;a href=&quot;https://keras.io/&quot;&gt;Keras&lt;/a&gt;, &lt;a href=&quot;https://github.com/tensorflow/tensorflow&quot;&gt;TensorFlow&lt;/a&gt; &amp;#x26; &lt;a href=&quot;https://pytorch.org/&quot;&gt;PyTorch&lt;/a&gt; even when we build a mini-network with five layers. Just because it&apos;s better suited than all the tools that came before. And we just call them neural networks.&lt;/p&gt;
+&lt;p&gt;I&apos;ll tell about two main kinds nowadays.&lt;/p&gt;
+&lt;h3 id=&quot;convolutional-neural-networks-cnn&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#convolutional-neural-networks-cnn&quot; aria-label=&quot;convolutional neural networks cnn permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://vas3k.com/blog/machine_learning/#scroll160&quot;&gt;Convolutional Neural Networks (CNN)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Convolutional neural networks are all the rage right now. They are used to search for objects on photos and in videos, face recognition, style transfer, generating and enhancing images, creating effects like slow-mo and improving image quality. Nowadays CNNs are used in all the cases that involve pictures and videos. Even in your iPhone several of these networks are going through your nudes to detect objects in those. If there &lt;em&gt;is something to detect&lt;/em&gt;, heh.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7rz.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7rz.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Image above is a result produced by &lt;a href=&quot;https://github.com/facebookresearch/Detectron&quot;&gt;Detectron&lt;/a&gt; that was recently open-sourced by Facebook&lt;/p&gt;
+&lt;p&gt;A problem with images was always the difficulty of extracting features out of them. You can split text by sentences, lookup words&apos; attributes in specialized vocabularies, etc. But images had to be labeled manually to teach the machine where cat ears or tails were in this specific image. This approach got the name &apos;handcrafting features&apos; and used to be used almost by everyone.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7wh.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7wh.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are lots of issues with the handcrafting.&lt;/p&gt;
+&lt;p&gt;First of all, if a cat had its ears down or turned away from the camera: you are in trouble, the neural network won&apos;t see a thing.&lt;/p&gt;
+&lt;p&gt;Secondly, try naming on the spot 10 different features that distinguish cats from other animals. I for one couldn&apos;t do it, but when I see a black blob rushing past me at night — even if I only see it in the corner of my eye — I would definitely tell a cat from a rat. Because people don&apos;t look only at ear form or leg count and account lots of different features they don&apos;t even think about. And thus cannot explain it to the machine.&lt;/p&gt;
+&lt;p&gt;So it means the machine needs to learn such features on its own, building on top of basic lines. We&apos;ll do the following: first, we divide the whole image into 8x8 pixel blocks and assign to each a type of dominant line – either horizontal [-], vertical [|] or one of the diagonals [/]. It can also be that several would be highly visible — this happens and we are not always absolutely confident.&lt;/p&gt;
+&lt;p&gt;Output would be several tables of sticks that are in fact the simplest features representing objects edges on the image. They are images on their own but built out of sticks. So we can once again take a block of 8x8 and see how they match together. And again and again…&lt;/p&gt;
+&lt;p&gt;This operation is called convolution, which gave the name for the method. Convolution can be represented as a layer of a neural network, because each neuron can act as any function.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7wj.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7wj.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When we feed our neural network with lots of photos of cats it automatically assigns bigger weights to those combinations of sticks it saw the most frequently. It doesn&apos;t care whether it was a straight line of a cat&apos;s back or a geometrically complicated object like a cat&apos;s face, something will be highly activating.&lt;/p&gt;
+&lt;p&gt;As the output, we would put a simple perceptron which will look at the most activated combinations and based on that differentiate cats from dogs.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/74s.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/74s.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The beauty of this idea is that we have a neural net that searches for the most distinctive features of the objects on its own. We don&apos;t need to pick them manually. We can feed it any amount of images of any object just by googling billions of images with it and our net will create feature maps from sticks and learn to differentiate any object on its own.&lt;/p&gt;
+&lt;p&gt;For this I even have a handy unfunny joke:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Give your neural net a fish and it will be able to detect fish for the rest of its life. Give your neural net a fishing rod and it will be able to detect fishing rods for the rest of its life…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;recurrent-neural-networks-rnn&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#recurrent-neural-networks-rnn&quot; aria-label=&quot;recurrent neural networks rnn permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://vas3k.com/blog/machine_learning/#scroll170&quot;&gt;Recurrent Neural Networks (RNN)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The second most popular architecture today. Recurrent networks gave us useful things like neural machine translation (&lt;a href=&quot;https://vas3k.com/blog/machine_translation/&quot;&gt;here is my post about it&lt;/a&gt;), speech recognition and voice synthesis in smart assistants. RNNs are the best for sequential data like voice, text or music.&lt;/p&gt;
+&lt;p&gt;Remember Microsoft Sam, the old-school speech synthesizer from Windows XP? That funny guy builds words letter by letter, trying to glue them up together. Now, look at Amazon Alexa or Assistant from Google. They don&apos;t only say the words clearly, they even place the right accents!&lt;/p&gt;
+&lt;iframe width=&quot;300&quot; height=&quot;169&quot; src=&quot;https://www.youtube.com/embed/NG-LATBZNBs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Neural Net is trying to speak&lt;/p&gt;
+&lt;p&gt;All because modern voice assistants are trained to speak not letter by letter, but on whole phrases at once. We can take a bunch of voiced texts and train a neural network to generate an audio-sequence closest to the original speech.&lt;/p&gt;
+&lt;p&gt;In other words, we use text as input and its audio as the desired output. We ask a neural network to generate some audio for the given text, then compare it with the original, correct errors and try to get as close as possible to ideal.&lt;/p&gt;
+&lt;p&gt;Sounds like a classical learning process. Even a perceptron is suitable for this. But how should we define its outputs? Firing one particular output for each possible phrase is not an option — obviously.&lt;/p&gt;
+&lt;p&gt;Here we&apos;ll be helped by the fact that text, speech or music are sequences. They consist of consecutive units like syllables. They all sound unique but depend on previous ones. Lose this connection and you get dubstep.&lt;/p&gt;
+&lt;p&gt;We can train the perceptron to generate these unique sounds, but how will it remember previous answers? So the idea is to add memory to each neuron and use it as an additional input on the next run. A neuron could make a note for itself - hey, we had a vowel here, the next sound should sound higher (it&apos;s a very simplified example).&lt;/p&gt;
+&lt;p&gt;That&apos;s how recurrent networks appeared.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7wk.jpg&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7wk.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This approach had one huge problem - when all neurons remembered their past results, the number of connections in the network became so huge that it was technically impossible to adjust all the weights.&lt;/p&gt;
+&lt;p&gt;When a neural network can&apos;t forget, it can&apos;t learn new things (people have the same flaw).&lt;/p&gt;
+&lt;p&gt;The first decision was simple: limit the neuron memory. Let&apos;s say, to memorize no more than 5 recent results. But it broke the whole idea.&lt;/p&gt;
+&lt;p&gt;A much better approach came later: to use special cells, similar to computer memory. Each cell can record a number, read it or reset it. They were called long and short-term memory (LSTM) cells.&lt;/p&gt;
+&lt;p&gt;Now, when a neuron needs to set a reminder, it puts a flag in that cell. Like &quot;it was a consonant in a word, next time use different pronunciation rules&quot;. When the flag is no longer needed, the cells are reset, leaving only the “long-term” connections of the classical perceptron. In other words, the network is trained not only to learn weights but also to set these reminders.&lt;/p&gt;
+&lt;p&gt;Simple, but it works!&lt;/p&gt;
+&lt;iframe width=&quot;300&quot; height=&quot;169&quot; src=&quot;https://www.youtube.com/embed/cQ54GDm1eL0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;CNN + RNN = Fake Obama&lt;/p&gt;
+&lt;p&gt;You can take speech samples from anywhere. BuzzFeed, for example, took Obama&apos;s speeches and trained a neural network to imitate his voice. As you see, audio synthesis is already a simple task. Video still has issues, but it&apos;s a question of time.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;There are many more network architectures in the wild. I recommend a good article called &lt;a href=&quot;http://www.asimovinstitute.org/neural-network-zoo/&quot;&gt;Neural Network Zoo&lt;/a&gt;, where almost all types of neural networks are collected and briefly explained.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.vas3k.ru/7rx.png&quot;&gt;&lt;img src=&quot;https://i.vas3k.ru/7rx.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[2021 January]]></title><description><![CDATA[2021 January Documentation DevDocs API Documentation : DevDocs combines multiple API documentations in a fast, organized, and searchable…]]></description><link>https://irosydi.netlify.app/blog/202101/</link><guid isPermaLink="false">https://irosydi.netlify.app/blog/202101/</guid><pubDate>Fri, 01 Jan 2021 09:12:41 GMT</pubDate><content:encoded>&lt;h1 id=&quot;2021-january&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2021-january&quot; aria-label=&quot;2021 january permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2021 January&lt;/h1&gt;
 &lt;h2 id=&quot;documentation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#documentation&quot; aria-label=&quot;documentation permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Documentation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://devdocs.io/&quot;&gt;DevDocs API Documentation&lt;/a&gt; : DevDocs combines multiple API documentations in a fast, organized, and searchable interface.&lt;/li&gt;
@@ -66,7 +1283,93 @@
 &lt;h2 id=&quot;productivity&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#productivity&quot; aria-label=&quot;productivity permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Productivity&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/&quot;&gt;re:Work - Guide: Set goals with OKRs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://hackpravj.com/blog/personal-okr-2021-plan/&quot;&gt;Setting up personal OKR [JFM-2021] - hack(pravj) | Pravendra Singh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hackpravj.com/blog/personal-okr-2021-plan/&quot;&gt;Setting up personal OKR - hack(pravj)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-1&quot; aria-label=&quot;machine learning 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://vas3k.com/blog/machine_learning/&quot;&gt;Machine Learning for Everyone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://vas3k.com/&quot;&gt;Vas3k&lt;/a&gt; : good blog&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.asimovinstitute.org/neural-network-zoo/&quot;&gt;Neural Network Zoo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lambdalabs.com/gpu-benchmarks&quot;&gt;GPU Benchmarks for Deep Learning | Lambda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/introduction-to-computer-science-and-programming-7&quot;&gt;Introduction to Computer Science and Programming Using Python | edX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://openai.com/blog/dall-e/&quot;&gt;DALL·E: Creating Images from Text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://openai.com/blog/clip/&quot;&gt;CLIP: Connecting Text and Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/lucko515/cnn-raccoon&quot;&gt;lucko515/cnn-raccoon: Create interactive dashboards for your Convolutional Neural Networks with a single line of code!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.eccox.io/&quot;&gt;Ecco - Look Inside Language Models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;language&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#language&quot; aria-label=&quot;language permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Language&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://word.tips/&quot;&gt;Word Tips&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ocr&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ocr&quot; aria-label=&quot;ocr permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;OCR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/PaddlePaddle/PaddleOCR&quot;&gt;PaddlePaddle/PaddleOCR: Awesome multilingual OCR toolkits based on PaddlePaddle （practical ultra lightweight OCR system, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;language-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#language-1&quot; aria-label=&quot;language 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Language&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.lingoes.net/en/translator/langcode.htm&quot;&gt;Language Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;free-ebook&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#free-ebook&quot; aria-label=&quot;free ebook permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Free eBook&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.saylor.org/&quot;&gt;Homepage | Saylor Academy&lt;/a&gt;, &lt;a href=&quot;https://github.com/saylordotorg&quot;&gt;Saylor Academy Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/miks98/Principle-of-Management-Spring2020&quot;&gt;Principle of Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;web-tools-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#web-tools-1&quot; aria-label=&quot;web tools 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Web Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nocode.tech/&quot;&gt;A curated directory of resources and tools for non-techs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;video&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#video&quot; aria-label=&quot;video permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Video&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.descript.com/&quot;&gt;Descript | Create podcasts, videos, and transcripts&lt;/a&gt; Descript is a collaborative audio/video editor that works like a doc. It includes transcription, a screen recorder, publishing, full multitrack editing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://runwayml.com/&quot;&gt;Runway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://graphics.stanford.edu/~maneesh/&quot;&gt;Maneesh Agarwla Projects&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://vis.berkeley.edu/papers/audiostories/&quot;&gt;Content-Based Tools for Editing Audio Stories&lt;/a&gt; (the software is released as an open-source project called &lt;a href=&quot;https://ucbvislab.github.io/speecheditor/&quot;&gt;speecheditor&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ohadf.com/projects/text-based-editing/&quot;&gt;Text-Based Editing of Talking-head video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://graphics.stanford.edu/projects/quickcut/&quot;&gt;QuickCut: An Interactive Tool for Editing Narrated Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;research-paper-tools&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#research-paper-tools&quot; aria-label=&quot;research paper tools permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Research Paper Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://tldrnow.com/&quot;&gt;TL;DR Now&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;audio-generator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#audio-generator&quot; aria-label=&quot;audio generator permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Audio Generator&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://dopeloop.ai/melody-generator/&quot;&gt;AI Melody Generator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;open-source-blog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#open-source-blog&quot; aria-label=&quot;open source blog permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Open Source Blog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://console.substack.com/&quot;&gt;Console&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;open-hardware&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#open-hardware&quot; aria-label=&quot;open hardware permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Open Hardware&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.senx.io/makair-covid-19-ventilator-with-a-raspberry-pi/&quot;&gt;MakAir: Covid-19 ventilator with a Raspberry Pi - SenX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ai-art&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ai-art&quot; aria-label=&quot;ai art permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AI Art&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://uniqueaiart.com/&quot;&gt;Unique AI Art&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;traffic-simulator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#traffic-simulator&quot; aria-label=&quot;traffic simulator permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Traffic Simulator&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://traffic-simulation.de/&quot;&gt;Microsimulation of Traffic Flow: Onramp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/movsim/traffic-simulation-de&quot;&gt;movsim/traffic-simulation-de: Source code for javascript simulation of website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://traffic-flow-dynamics.org/&quot;&gt;Traffic Flow Dynamics · Data, Models and Simulation · Martin Treiber and Arne Kesting · Springer Textbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/movsim/movsim&quot;&gt;movsim/movsim: MovSim: multi-model open-source vehicular-traffic simulator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;css&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#css&quot; aria-label=&quot;css permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CSS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/philippwilhelm/sunset.css&quot;&gt;philippwilhelm/sunset.css: This library offers a collection of different CSS-powered transitions.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-2&quot; aria-label=&quot;machine learning 2 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Google’s &lt;a href=&quot;https://developers.google.com/machine-learning/crash-course&quot;&gt;ML crash course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.tensorflow.org/tutorials/&quot;&gt;TensorFlow tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pytorch.org/tutorials/&quot;&gt;PyTorch tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;FastAI course: &lt;a href=&quot;https://course.fast.ai/&quot;&gt;Practical Deep Learning for Coders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://course.fullstackdeeplearning.com/&quot;&gt;Full Stack Deep Learning&lt;/a&gt; course&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/software-engineers-trek-into-machine-learning-46b45895d9e0&quot;&gt;A Software Engineer’s trek into Machine Learning | Towards Data Science&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -301,7 +1604,15 @@
 &lt;li&gt;&lt;a href=&quot;https://github.com/leriomaggio/python-data-science&quot;&gt;Python Data Science&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/leriomaggio/python-ml-course&quot;&gt;Python ML Course&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist#0&quot;&gt;TensorFlow, Keras and deep learning, without a PhD&lt;/a&gt;, &lt;a href=&quot;https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://cs231n.github.io/&quot;&gt;CS231n Github&lt;/a&gt;, &lt;a href=&quot;https://github.com/cs231n/cs231n.github.io&quot;&gt;CS231n GIthub Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cs231n.github.io/&quot;&gt;CS231n Github&lt;/a&gt;, &lt;a href=&quot;https://github.com/cs231n/cs231n.github.io&quot;&gt;CS231n Github Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/trekhleb/homemade-machine-learning&quot;&gt;Homemade Machine Learning&lt;/a&gt; in Python License: MIT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/trekhleb/machine-learning-octave&quot;&gt;Machine Learning Octave&lt;/a&gt; in Octave License: MIT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/trekhleb/machine-learning-experiments&quot;&gt;Machine Learning Experiments&lt;/a&gt; License: MIT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;tools&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tools&quot; aria-label=&quot;tools permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/github-colabify/enfgannencjofjonlojjahlblnjnfhon/related?hl=en&quot;&gt;Colabify&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/notebook-buddy/kmhoiofjdpbiodaggadcibdkicfgplcl&quot;&gt;Notebook Buddy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;kuliah&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kuliah&quot; aria-label=&quot;kuliah permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuliah&lt;/h2&gt;
 &lt;h3 id=&quot;pekan-7-9&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-7-9&quot; aria-label=&quot;pekan 7 9 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan 7-9&lt;/h3&gt;
@@ -452,6 +1763,8 @@
 &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/polly/&quot;&gt;Amazon Polly&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.descript.com/&quot;&gt;Descript | Create podcasts, videos, and transcripts&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://replicastudios.com/&quot;&gt;Synthesize Voice AI and Natural Sounding Text-to-Speech — Replica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://15.ai/&quot;&gt;15.ai: Natural TTS with minimal data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CookiePPP/cookietts&quot;&gt;CookiePPP/cookietts: TTS from Cookie. Messy and experimental!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;study&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#study&quot; aria-label=&quot;study permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Study&lt;/h2&gt;
 &lt;ul&gt;
@@ -7037,6 +8350,7 @@ Yang tersisa menjadi sebuah pengetahuan baru, tentang apa yang menjadi kunci unt
 &lt;li&gt;&lt;a href=&quot;https://github.com/weimin17/Object-Detection_HelmetDetection&quot;&gt;Object-Detection_HelmetDetection&lt;/a&gt;: image (video?), Contex RCNN&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/BlcaKHat/yolov3-Helmet-Detection&quot;&gt;BlcaKHat/yolov3-Helmet-Detection&lt;/a&gt; : YOLO&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/AnshulSood11/PPE-Detection-YOLO-Deep_SORT&quot;&gt;AnshulSood11/PPE-Detection-YOLO-Deep_SORT&lt;/a&gt;: YOLO, deepsort&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/iamdsc/automatic-helmet-detection&quot;&gt;iamdsc/automatic-helmet-detection&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;plate-license-detection-github-repos&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#plate-license-detection-github-repos&quot; aria-label=&quot;plate license detection github repos permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Plate License Detection Github Repos&lt;/h2&gt;
 &lt;ul&gt;
@@ -9517,6 +10831,14 @@ Inline equation with one dollar sign: $$E=mc^2$$ (worked in Gatsby and Gitbook).
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://virtualwritingtutor.com/&quot;&gt;Grammar Check - Free Essay Checker | Virtual Writing Tutor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.onlinecorrection.com/&quot;&gt;Online Text Correction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.grammarcheck.net/editor/&quot;&gt;Online Editor – Grammar Checker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gingersoftware.com/grammarcheck&quot;&gt;Free Grammar Checker Online – Ginger Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.hemingwayapp.com/&quot;&gt;Hemingway Editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.slickwrite.com/#!home&quot;&gt;Slick Write | Check your grammar. Proofread online.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.afterthedeadline.com/&quot;&gt;After the Deadline - Spell, Style, and Grammar Checker for WordPress, Firefox, TinyMCE, jQuery, and CKEditor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://writefull.com/&quot;&gt;Writefull&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;firefox-add-ons&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#firefox-add-ons&quot; aria-label=&quot;firefox add ons permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Firefox Add Ons&lt;/h2&gt;
 &lt;ul&gt;
@@ -16963,6 +18285,7 @@ When someone is unhappy, that an excellent opportunity for me to learn, so I wan
 &lt;li&gt;&lt;a href=&quot;https://www.qrcode-monkey.com/&quot;&gt;QR Code Monkey&lt;/a&gt; - QR Code Generator with Customization&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.the-qrcode-generator.com/&quot;&gt;QR Code Generator&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.unitag.io/qrcode&quot;&gt;Unitag&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://my-qr.art/&quot;&gt;My-Qr.art - Create custom QR codes for free!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;qr-code-decoder&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#qr-code-decoder&quot; aria-label=&quot;qr code decoder permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;QR Code Decoder&lt;/h2&gt;
 &lt;ul&gt;
@@ -17826,6 +19149,16 @@ Other download helpers you should try :&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://r4ds.had.co.nz/&quot;&gt;R for Data Science by Garrett Grolemund&lt;/a&gt; &lt;a href=&quot;https://github.com/hadley/r4ds&quot;&gt;Github&lt;/a&gt; License: CC-NC-ND&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://intronetworks.cs.luc.edu/&quot;&gt;An Introduction to Computer Networks&lt;/a&gt; License: CC-BY-NC-ND with some permission&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&quot;others&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#others&quot; aria-label=&quot;others permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Others&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pandas.pydata.org/docs/getting_started/tutorials.html&quot;&gt;Community tutorials — pandas 1.2.0 documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://greenteapress.com/thinkdsp/html/index.html&quot;&gt;Think DSP&lt;/a&gt; License: CC-BY-NC&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.labri.fr/perso/nrougier/from-python-to-numpy/&quot;&gt;From Python to Numpy&lt;/a&gt; License: CC-BY-NC&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://datacarpentry.org/lessons/&quot;&gt;Lessons on Data Carpentry&lt;/a&gt;, &lt;a href=&quot;https://github.com/datacarpentry&quot;&gt;Github&lt;/a&gt; License: CC-BY&lt;/li&gt;
+&lt;li&gt;Data science path: &lt;a href=&quot;https://github.com/ossu/data-science&quot;&gt;https://github.com/ossu/data-science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jvns/pandas-cookbook&quot;&gt;jvns/pandas-cookbook: Recipes for using Python&apos;s pandas library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrisalbon.com/&quot;&gt;Chris Albon&lt;/a&gt; : Notes On Using Data Science &amp;#x26; Machine Learning To Fight For Something That Matters&lt;/li&gt;
+&lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
@@ -18639,6 +19972,12 @@ Basics. &quot;Google hacking&quot; involves using advanced operators in the Goog
 &lt;li&gt;duck&lt;/li&gt;
 &lt;li&gt;xournal&lt;/li&gt;
 &lt;li&gt;xsltproc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;command-line-interface&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#command-line-interface&quot; aria-label=&quot;command line interface permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Command Line Interface&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;speedtest: &lt;code&gt;speedtest&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;gping: &lt;code&gt;gping example.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sindresorhus/is-up-cli&quot;&gt;is-up&lt;/a&gt;: &lt;code&gt;is-up example.com&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;others&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#others&quot; aria-label=&quot;others permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Others&lt;/h2&gt;
 &lt;ul&gt;
@@ -25077,10 +26416,21 @@ Output: Geolocation, Ownership&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://which.nameserve.rs/&quot;&gt;Which Nameservers&lt;/a&gt; check DNS server&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.grc.com/dns/benchmark.htm&quot;&gt;DNS Server Comparison&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;domain-search&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#domain-search&quot; aria-label=&quot;domain search permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Domain Search&lt;/h2&gt;
+&lt;h2 id=&quot;domain-name-search&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#domain-name-search&quot; aria-label=&quot;domain name search permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Domain Name Search&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://instantdomainsearch.com/&quot;&gt;Instant Domain Search&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://dotcomagain.com&quot;&gt;Domain search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://namestat.org/&quot;&gt;NameStat - gTLD Stats, Metrics and Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.namemesh.com/&quot;&gt;Domain Name Generator For Perfectionists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://instantdomainsearch.com/&quot;&gt;Domain Name Search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.domainnamesoup.com/&quot;&gt;Domain Name Generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://domize.com/&quot;&gt;Domain Name Search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://domainr.com/&quot;&gt;Domainr: fast, free, domain name search, short URLs, new gTLDs, whois&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://leandomainsearch.com/&quot;&gt;Lean Domain Search – Search for and register available domain names in seconds.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://domainsbot.com/&quot;&gt;DomainsBot - Tools, Data and Insights for your domain business&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://domainling.com/&quot;&gt;Domainling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://domainwheel.com/&quot;&gt;Domain Name Generator (Instant Ideas, no Ads) - DomainWheel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://namegrep.com/&quot;&gt;Fast Domain Name Search | namegrep&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wordoid.com/&quot;&gt;Wordoid: Get a Short and Catchy Name for Your Business&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tld-list.com/&quot;&gt;Compare Prices of All Top-Level Domains | TLD List&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;domain-tools-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#domain-tools-1&quot; aria-label=&quot;domain tools 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Domain Tools&lt;/h2&gt;
 &lt;ul&gt;
@@ -26109,6 +27459,96 @@ Output: Geolocation, Ownership&lt;/p&gt;
     opacity: 0.7;
   }
   
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[About Development]]></title><description><![CDATA[Development]]></description><link>https://irosydi.netlify.app/development/README/</link><guid isPermaLink="false">https://irosydi.netlify.app/development/README/</guid><pubDate>Mon, 01 Jun 2020 20:09:34 GMT</pubDate><content:encoded>&lt;h1 id=&quot;development&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#development&quot; aria-label=&quot;development permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Development&lt;/h1&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
 &lt;/style&gt;</content:encoded></item><item><title><![CDATA[About Note]]></title><description><![CDATA[Note]]></description><link>https://irosydi.netlify.app/note/README/</link><guid isPermaLink="false">https://irosydi.netlify.app/note/README/</guid><pubDate>Mon, 01 Jun 2020 20:09:34 GMT</pubDate><content:encoded>&lt;h1 id=&quot;note&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#note&quot; aria-label=&quot;note permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Note&lt;/h1&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -26200,96 +27640,6 @@ Output: Geolocation, Ownership&lt;/p&gt;
   }
   
 &lt;/style&gt;</content:encoded></item><item><title><![CDATA[About Research]]></title><description><![CDATA[Research]]></description><link>https://irosydi.netlify.app/research/README/</link><guid isPermaLink="false">https://irosydi.netlify.app/research/README/</guid><pubDate>Mon, 01 Jun 2020 20:09:34 GMT</pubDate><content:encoded>&lt;h1 id=&quot;research&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#research&quot; aria-label=&quot;research permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Research&lt;/h1&gt;
-&lt;style class=&quot;grvsc-styles&quot;&gt;
-  .grvsc-container {
-    overflow: auto;
-    position: relative;
-    -webkit-overflow-scrolling: touch;
-    padding-top: 1rem;
-    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
-    padding-bottom: 1rem;
-    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
-    border-radius: 8px;
-    border-radius: var(--grvsc-border-radius, 8px);
-    font-feature-settings: normal;
-    line-height: 1.4;
-  }
-  
-  .grvsc-code {
-    display: table;
-  }
-  
-  .grvsc-line {
-    display: table-row;
-    box-sizing: border-box;
-    width: 100%;
-    position: relative;
-  }
-  
-  .grvsc-line &gt; * {
-    position: relative;
-  }
-  
-  .grvsc-gutter-pad {
-    display: table-cell;
-    padding-left: 0.75rem;
-    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
-  }
-  
-  .grvsc-gutter {
-    display: table-cell;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  
-  .grvsc-gutter::before {
-    content: attr(data-content);
-  }
-  
-  .grvsc-source {
-    display: table-cell;
-    padding-left: 1.5rem;
-    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
-    padding-right: 1.5rem;
-    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
-  }
-  
-  .grvsc-source:empty::after {
-    content: &apos; &apos;;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  
-  .grvsc-gutter + .grvsc-source {
-    padding-left: 0.75rem;
-    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
-  }
-  
-  /* Line transformer styles */
-  
-  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
-    content: &apos; &apos;;
-    position: absolute;
-    width: 100%;
-  }
-  
-  .grvsc-line-diff-add::before {
-    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
-  }
-  
-  .grvsc-line-diff-del::before {
-    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
-  }
-  
-  .grvsc-line-number {
-    padding: 0 2px;
-    text-align: right;
-    opacity: 0.7;
-  }
-  
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[About Development]]></title><description><![CDATA[Development]]></description><link>https://irosydi.netlify.app/development/README/</link><guid isPermaLink="false">https://irosydi.netlify.app/development/README/</guid><pubDate>Mon, 01 Jun 2020 20:09:34 GMT</pubDate><content:encoded>&lt;h1 id=&quot;development&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#development&quot; aria-label=&quot;development permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Development&lt;/h1&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
