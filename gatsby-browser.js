@@ -79,7 +79,7 @@ const Wrapper = ({ element }) => {
       `
       font-size: 1.25rem;
       `,
-      "https://github.com/JaeSeoKim"
+      "http://jaeseokim.github.io/"
     )
   }, [])
 
