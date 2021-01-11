@@ -2,7 +2,7 @@ module.exports = {
   title: `irosyadi`,
   description: `a desert traveler`,
   author: `irosyadi`,
-  introduction: `<a href="https://irosyadi.netlify.app/">notes of a life</a>`,
+  introduction: `notes of a life`,
   siteUrl: `https://irosyadi.netlify.app/`, // Your blog site url
   social: {
     twitter: `irosyadi`, // Your Twitter account
