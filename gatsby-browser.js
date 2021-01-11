@@ -61,7 +61,7 @@ const Wrapper = ({ element }) => {
       color: #FFFFFF;
       font-size: 2.25rem;
       `,
-      "irosyadi"
+      "Imron Rosyadi"
     )
     console.log(
       "%c%s",

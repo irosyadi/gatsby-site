@@ -38,7 +38,7 @@ const Nav = () => {
     return (
       <>
         <Link css={tw`text-xl text-white font-bold`} to={"/"}>
-          irosyadi
+          Imron Rosyadi
         </Link>
         <Link to={`/search`} aria-label={`search page`}>
           <AiOutlineSearch css={tw`text-white my-auto w-8 h-8`} />
