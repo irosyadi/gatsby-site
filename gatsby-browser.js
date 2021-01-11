@@ -72,7 +72,7 @@ const Wrapper = ({ element }) => {
       color: #3737B9;
       font-size: 1.5rem;
       `,
-      "©irosyadi with JaeSeoKim Theme"
+      "©irosyadi using JaeSeoKim Theme"
     )
     console.log(
       "%c%s",

@@ -64,7 +64,7 @@ const Profile = () => {
                 : whiteModeColor.textColor1};
             `}
           >
-            @{author}
+            {author}
           </p>
           <div css={tw`text-sm font-normal mb-2`}>{introduction}</div>
         </div>

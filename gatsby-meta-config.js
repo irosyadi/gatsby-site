@@ -1,7 +1,7 @@
 module.exports = {
-  title: `irosyadi`,
+  title: `Imron Rosyadi`,
   description: `a desert traveler`,
-  author: `irosyadi`,
+  author: `Imron Rosyadi`,
   introduction: `notes of a life`,
   siteUrl: `https://irosyadi.netlify.app/`, // Your blog site url
   social: {
