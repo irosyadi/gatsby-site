@@ -1,8 +1,8 @@
 module.exports = {
   title: `irosyadi`,
-  description: `a desert traveller`,
+  description: `a desert traveler`,
   author: `irosyadi`,
-  introduction: `notes of a life`,
+  introduction: `<a href="https://irosyadi.netlify.app/">notes of a life</a>`,
   siteUrl: `https://irosyadi.netlify.app/`, // Your blog site url
   social: {
     twitter: `irosyadi`, // Your Twitter account
@@ -25,6 +25,6 @@ module.exports = {
   share: {
     facebookAppId: "401609837854601", // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: "UA-185820309-1", // Add your google analytics tranking ID
-  // jennifer_front_id: "ed243e67", // Add your jennifer front tranking ID
+  ga: "UA-185820309-1", // Add your google analytics tracking ID
+  // jennifer_front_id: "ed243e67", // Add your jennifer front tracking ID
 }
