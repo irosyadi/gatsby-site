@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Jan 2021 07:21:40 GMT</lastBuildDate><item><title><![CDATA[Numerical Computing Resources]]></title><description><![CDATA[Numerical Computing Resources List Numerical Computing Software MATLAB Octave SageMath : open-source mathematics software system, builds on…]]></description><link>https://irosyadi.netlify.app/book/numerical-computing-resource/</link><guid isPermaLink="false">https://irosyadi.netlify.app/book/numerical-computing-resource/</guid><pubDate>Thu, 14 Jan 2021 19:20:02 GMT</pubDate><content:encoded>&lt;h1 id=&quot;numerical-computing-resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#numerical-computing-resources&quot; aria-label=&quot;numerical computing resources permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Numerical Computing Resources&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Jan 2021 08:05:10 GMT</lastBuildDate><item><title><![CDATA[Numerical Computing Resources]]></title><description><![CDATA[Numerical Computing Resources List Numerical Computing Software MATLAB Octave SageMath : open-source mathematics software system, builds on…]]></description><link>https://irosyadi.netlify.app/book/numerical-computing-resource/</link><guid isPermaLink="false">https://irosyadi.netlify.app/book/numerical-computing-resource/</guid><pubDate>Thu, 14 Jan 2021 19:20:02 GMT</pubDate><content:encoded>&lt;h1 id=&quot;numerical-computing-resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#numerical-computing-resources&quot; aria-label=&quot;numerical computing resources permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Numerical Computing Resources&lt;/h1&gt;
 &lt;h2 id=&quot;list-numerical-computing-software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#list-numerical-computing-software&quot; aria-label=&quot;list numerical computing software permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;List Numerical Computing Software&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;MATLAB&lt;/li&gt;
@@ -2663,7 +2663,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;/ul&gt;
 &lt;h2 id=&quot;machine-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning&quot; aria-label=&quot;machine learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://developers.google.com/machine-learning/crash-course&quot;&gt;Machine Learning Crash Course  |  Google Developers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/machine-learning/crash-course&quot;&gt;Machine Learning Crash Course  -  Google Developers&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://learndigital.withgoogle.com/digitalgarage/courses&quot;&gt;Courses List Google Digital Garage&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://peterroelants.github.io/&quot;&gt;Notes on machine learning&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/karpathy/convnetjs&quot;&gt;karpathy/convnetjs: Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser.&lt;/a&gt; Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser.&lt;/li&gt;
@@ -2675,12 +2675,12 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;h2 id=&quot;learning-nn&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#learning-nn&quot; aria-label=&quot;learning nn permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Learning NN&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://cjauvin.blogspot.com/2013/10/neural-network-101.html&quot;&gt;Autotelic Computing: Neural Network 101&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/everything-you-need-to-know-about-neural-networks-and-backpropagation-machine-learning-made-easy-e5285bc2be3a&quot;&gt;Everything you need to know about Neural Networks and Backpropagation — Machine Learning Easy and Fun | by Gavril Ognjanovski | Towards Data Science&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://outlace.com/Gradient-Descent.html&quot;&gt;Δ ℚuantitative √ourney | Gradient Descent with Backpropagation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/everything-you-need-to-know-about-neural-networks-and-backpropagation-machine-learning-made-easy-e5285bc2be3a&quot;&gt;Everything you need to know about Neural Networks and Backpropagation — Machine Learning Easy and Fun - by Gavril Ognjanovski - Towards Data Science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://outlace.com/Gradient-Descent.html&quot;&gt;Δ ℚuantitative √ourney - Gradient Descent with Backpropagation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://mlfromscratch.com/neural-networks-explained/#/&quot;&gt;Neural Networks: Feedforward and Backpropagation Explained&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.demofox.org/2017/03/09/how-to-train-neural-networks-with-backpropagation/&quot;&gt;How to Train Neural Networks With Backpropagation « The blog at the bottom of the sea&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://ayearofai.com/rohan-lenny-1-neural-networks-the-backpropagation-algorithm-explained-abf4609d4f9d#.7mwcjuftn&quot;&gt;Rohan &amp;#x26; Lenny #1: Neural Networks &amp;#x26; The Backpropagation Algorithm, Explained | by Rohan Kapur | A Year of Artificial Intelligence&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.zabarauskas.com/backpropagation-tutorial/&quot;&gt;Backpropagation Tutorial | Manfred Zabarauskas&apos; Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ayearofai.com/rohan-lenny-1-neural-networks-the-backpropagation-algorithm-explained-abf4609d4f9d#.7mwcjuftn&quot;&gt;Rohan &amp;#x26; Lenny #1: Neural Networks &amp;#x26; The Backpropagation Algorithm, Explained - by Rohan Kapur - A Year of Artificial Intelligence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.zabarauskas.com/backpropagation-tutorial/&quot;&gt;Backpropagation Tutorial - Manfred Zabarauskas&apos; Blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.jinay.dev/posts/backprop/&quot;&gt;A Visual Tour of Backpropagation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;development&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#development&quot; aria-label=&quot;development permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Development&lt;/h2&gt;
@@ -2707,8 +2707,8 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;li&gt;&lt;a href=&quot;https://vas3k.com/blog/machine_learning/&quot;&gt;Machine Learning for Everyone&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://vas3k.com/&quot;&gt;Vas3k&lt;/a&gt; : good blog&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.asimovinstitute.org/neural-network-zoo/&quot;&gt;Neural Network Zoo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://lambdalabs.com/gpu-benchmarks&quot;&gt;GPU Benchmarks for Deep Learning | Lambda&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/introduction-to-computer-science-and-programming-7&quot;&gt;Introduction to Computer Science and Programming Using Python | edX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lambdalabs.com/gpu-benchmarks&quot;&gt;GPU Benchmarks for Deep Learning - Lambda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/introduction-to-computer-science-and-programming-7&quot;&gt;Introduction to Computer Science and Programming Using Python - edX&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://openai.com/blog/dall-e/&quot;&gt;DALL·E: Creating Images from Text&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://openai.com/blog/clip/&quot;&gt;CLIP: Connecting Text and Images&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/lucko515/cnn-raccoon&quot;&gt;lucko515/cnn-raccoon: Create interactive dashboards for your Convolutional Neural Networks with a single line of code!&lt;/a&gt;&lt;/li&gt;
@@ -2728,7 +2728,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;/ul&gt;
 &lt;h2 id=&quot;free-ebook&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#free-ebook&quot; aria-label=&quot;free ebook permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Free eBook&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.saylor.org/&quot;&gt;Homepage | Saylor Academy&lt;/a&gt;, &lt;a href=&quot;https://github.com/saylordotorg&quot;&gt;Saylor Academy Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.saylor.org/&quot;&gt;Homepage - Saylor Academy&lt;/a&gt;, &lt;a href=&quot;https://github.com/saylordotorg&quot;&gt;Saylor Academy Github&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/miks98/Principle-of-Management-Spring2020&quot;&gt;Principle of Management&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;web-tools-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#web-tools-1&quot; aria-label=&quot;web tools 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Web Tools&lt;/h2&gt;
@@ -2737,7 +2737,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;/ul&gt;
 &lt;h2 id=&quot;video&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#video&quot; aria-label=&quot;video permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Video&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.descript.com/&quot;&gt;Descript | Create podcasts, videos, and transcripts&lt;/a&gt; Descript is a collaborative audio/video editor that works like a doc. It includes transcription, a screen recorder, publishing, full multitrack editing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.descript.com/&quot;&gt;Descript - Create podcasts, videos, and transcripts&lt;/a&gt; Descript is a collaborative audio/video editor that works like a doc. It includes transcription, a screen recorder, publishing, full multitrack editing&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://runwayml.com/&quot;&gt;Runway&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https://graphics.stanford.edu/~maneesh/&quot;&gt;Maneesh Agarwla Projects&lt;/a&gt;&lt;/p&gt;
@@ -2778,7 +2778,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;li&gt;&lt;a href=&quot;https://pytorch.org/tutorials/&quot;&gt;PyTorch tutorials&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;FastAI course: &lt;a href=&quot;https://course.fast.ai/&quot;&gt;Practical Deep Learning for Coders&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://course.fullstackdeeplearning.com/&quot;&gt;Full Stack Deep Learning&lt;/a&gt; course&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/software-engineers-trek-into-machine-learning-46b45895d9e0&quot;&gt;A Software Engineer’s trek into Machine Learning | Towards Data Science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/software-engineers-trek-into-machine-learning-46b45895d9e0&quot;&gt;A Software Engineer’s trek into Machine Learning - Towards Data Science&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;decentralized&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#decentralized&quot; aria-label=&quot;decentralized permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Decentralized&lt;/h2&gt;
 &lt;ul&gt;
@@ -2788,7 +2788,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://algorithmsbook.com/#&quot;&gt;Algorithms for Decision Making&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://mitpress.mit.edu/books/algorithms-optimization&quot;&gt;Algorithms for Optimization | The MIT Press&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mitpress.mit.edu/books/algorithms-optimization&quot;&gt;Algorithms for Optimization - The MIT Press&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/sisl/algforopt-notebooks&quot;&gt;sisl/algforopt-notebooks: Jupyter notebooks associated with the Algorithms for Optimization textbook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2796,7 +2796,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;/ul&gt;
 &lt;h2 id=&quot;time-series&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#time-series&quot; aria-label=&quot;time series permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Time Series&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://t-t.dk/gekko/&quot;&gt;Gekko Timeseries and Modeling Software | Timeseries handling, and solving of large-scale economic models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://t-t.dk/gekko/&quot;&gt;Gekko Timeseries and Modeling Software - Timeseries handling, and solving of large-scale economic models&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;neural-network&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#neural-network&quot; aria-label=&quot;neural network permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Neural Network&lt;/h2&gt;
 &lt;ul&gt;
@@ -2808,7 +2808,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;/ul&gt;
 &lt;h2 id=&quot;dns&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dns&quot; aria-label=&quot;dns permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;DNS&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://dnstwist.it/&quot;&gt;dnstwist | phishing domain scanner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dnstwist.it/&quot;&gt;dnstwist - phishing domain scanner&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;course&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#course&quot; aria-label=&quot;course permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Course&lt;/h2&gt;
 &lt;ul&gt;
@@ -2816,7 +2816,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;li&gt;&lt;a href=&quot;https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html&quot;&gt;https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html&lt;/a&gt; Lecture Slides from the 2012 Stanford Coursera course&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://fs2.american.edu/alberto/www/analytics/ISLRLectures.html&quot;&gt;ISLR Textbook Slides, Videos and Resources&lt;/a&gt; Introduction to Statistical Learning: With Applications in R Lecture Slides and Videos&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://laconicml.com/computer-science-curriculum-youtube-videos/&quot;&gt;Entire Computer Science Curriculum in 1000 YouTube Videos | Laconicml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://laconicml.com/computer-science-curriculum-youtube-videos/&quot;&gt;Entire Computer Science Curriculum in 1000 YouTube Videos - Laconicml&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://cs1000.vercel.app/&quot;&gt;Computer Science Currriculum in 1000 Videos (no Ads)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2833,11 +2833,11 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;/ul&gt;
 &lt;h2 id=&quot;covid&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#covid&quot; aria-label=&quot;covid permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Covid&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://journalofbigdata.springeropen.com/articles/10.1186/s40537-020-00392-9&quot;&gt;Deep Learning applications for COVID-19 | Journal of Big Data | Full Text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://journalofbigdata.springeropen.com/articles/10.1186/s40537-020-00392-9&quot;&gt;Deep Learning applications for COVID-19 - Journal of Big Data - Full Text&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.08.13.249847v2.full&quot;&gt;Open Science Saves Lives: Lessons from the COVID-19 Pandemic | bioRxiv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.08.13.249847v2.full&quot;&gt;Open Science Saves Lives: Lessons from the COVID-19 Pandemic - bioRxiv&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.08.13.249847v2.full&quot;&gt;Open Science Saves Lives: Lessons from the COVID-19 Pandemic | bioRxiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.08.13.249847v2.full&quot;&gt;Open Science Saves Lives: Lessons from the COVID-19 Pandemic - bioRxiv&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -2858,7 +2858,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;/ul&gt;
 &lt;h2 id=&quot;javascript&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript&quot; aria-label=&quot;javascript permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Javascript&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://dannjs.org/&quot;&gt;Dannjs | Neural Network library for Javascript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dannjs.org/&quot;&gt;Dannjs - Neural Network library for Javascript&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;python&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#python&quot; aria-label=&quot;python permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Python&lt;/h2&gt;
 &lt;ul&gt;
@@ -2898,9 +2898,9 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;h2 id=&quot;markup&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#markup&quot; aria-label=&quot;markup permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Markup&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://idyll-lang.org/&quot;&gt;Idyll | A markup language for interactive and data-driven blogging.&lt;/a&gt; : Make interactive web with just markup language (combined with markdown)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://idyll-lang.org/&quot;&gt;Idyll - A markup language for interactive and data-driven blogging.&lt;/a&gt; : Make interactive web with just markup language (combined with markdown)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://idyll-lang.org/docs&quot;&gt;Idyll Documentation | An overview.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://idyll-lang.org/docs&quot;&gt;Idyll Documentation - An overview.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/&quot;&gt;Announcing idyll.pub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -2988,7 +2988,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;h2 id=&quot;paper-discussion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#paper-discussion&quot; aria-label=&quot;paper discussion permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Paper Discussion&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.shortscience.org/&quot;&gt;ShortScience.org - Making Science Accessible!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://openreview.net/&quot;&gt;Venues | OpenReview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://openreview.net/&quot;&gt;Venues - OpenReview&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;course-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#course-1&quot; aria-label=&quot;course 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Course&lt;/h2&gt;
 &lt;ul&gt;
@@ -3013,7 +3013,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;p&gt;&lt;a href=&quot;https://okai.brown.edu/&quot;&gt;Home - OKAI : An Interactive Introduction to Artificial Intelligence (AI)&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/jama1017/OKAI&quot;&gt;jama1017/OKAI: OKAI - An Interactive Introduction to Artificial Intelligence (AI)&lt;/a&gt; License: GPL, except visualization (CC-BY)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://uxplanet.org/the-ultimate-workflow-of-creating-scroll-based-animations-7366b670630&quot;&gt;The Ultimate Workflow of Creating Scroll-Based Animations | by Jiaju Ma | UX Planet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://uxplanet.org/the-ultimate-workflow-of-creating-scroll-based-animations-7366b670630&quot;&gt;The Ultimate Workflow of Creating Scroll-Based Animations - by Jiaju Ma - UX Planet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -3057,8 +3057,8 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;li&gt;&lt;a href=&quot;https://www.noip.com/&quot;&gt;Free Dynamic DNS - Managed DNS - Managed Email - Domain Registration - No-IP&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://account.dyn.com/&quot;&gt;My Dyn Account&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ip-dynamic.com/&quot;&gt;Solusi IP Dynamic Indihome&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://asia.cloudns.net/dynamic-dns/&quot;&gt;Free Dynamic DNS service | ClouDNS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.eurodns.com/dynamic-dns&quot;&gt;Dynamic DNS | EuroDNS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://asia.cloudns.net/dynamic-dns/&quot;&gt;Free Dynamic DNS service - ClouDNS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.eurodns.com/dynamic-dns&quot;&gt;Dynamic DNS - EuroDNS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https://freemyip.com/update?token=973c1ba1468f0bbe24dbc1a5&amp;#x26;domain=irosyadi.freemyip.com&quot;&gt;FreemyIP&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -3072,25 +3072,25 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;/ul&gt;
 &lt;h2 id=&quot;gatsby&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby&quot; aria-label=&quot;gatsby permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/surudhb/gatsby-personal-site-template&quot;&gt;gatsby-personal-site-template: Gatsby Starter | Gatsby&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/SaimirKapaj/gatsby-markdown-typescript-personal-website&quot;&gt;gatsby-markdown-typescript-personal-website: Gatsby Starter | Gatsby&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/anubhavsrivastava/gatsby-starter-hyperspace&quot;&gt;: Gatsby Starter | Gatsby&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/algokun/gatsby_starter_portfolio&quot;&gt;gatsby&lt;em&gt;starter&lt;/em&gt;portfolio: Gatsby Starter | Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/surudhb/gatsby-personal-site-template&quot;&gt;gatsby-personal-site-template: Gatsby Starter - Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/SaimirKapaj/gatsby-markdown-typescript-personal-website&quot;&gt;gatsby-markdown-typescript-personal-website: Gatsby Starter - Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/anubhavsrivastava/gatsby-starter-hyperspace&quot;&gt;Gatsby Starter - Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/algokun/gatsby_starter_portfolio&quot;&gt;gatsby&lt;em&gt;starter&lt;/em&gt;portfolio: Gatsby Starter - Gatsby&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/LekoArts/gatsby-starter-minimal-blog&quot;&gt;LekoArts/gatsby-starter-minimal-blog: Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.&lt;/a&gt; *&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;generative-patterns&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#generative-patterns&quot; aria-label=&quot;generative patterns permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Generative Patterns&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://kwj2104.github.io/2018/cppngan/&quot;&gt;Generative Art with Compositional Pattern Producing Networks and GANs | K&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kwj2104.github.io/2018/cppngan/&quot;&gt;Generative Art with Compositional Pattern Producing Networks and GANs - K&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://kwj2104.github.io/2018/cppngan-2/&quot;&gt;Generative Art with CPPN-GANs Part II | K&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://kwj2104.github.io/2018/cppngan-2/&quot;&gt;Generative Art with CPPN-GANs Part II - K&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/kwj2104/CPPN-WGAN&quot;&gt;kwj2104/CPPN-WGAN: Generative Art Experiments&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/marcin7Cd/variant-of-CPPN-GAN&quot;&gt;marcin7Cd/variant-of-CPPN-GAN: based on https://github.com/kwj2104/CPPN-WGAN, but on chineses fonts and improved architecture&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/mxgmn/WaveFunctionCollapse&quot;&gt;mxgmn/WaveFunctionCollapse: Bitmap &amp;#x26; tilemap generation from a single example with the help of ideas from quantum mechanics&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://towardsdatascience.com/making-deep-neural-networks-paint-to-understand-how-they-work-4be0901582ee&quot;&gt;Making deep neural networks paint to understand how they work | by Paras Chopra | Towards Data Science&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://towardsdatascience.com/making-deep-neural-networks-paint-to-understand-how-they-work-4be0901582ee&quot;&gt;Making deep neural networks paint to understand how they work - by Paras Chopra - Towards Data Science&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/paraschopra/abstract-art-neural-network&quot;&gt;paraschopra/abstract-art-neural-network: Generating abstract art through neural networks in PyTorch&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -3098,10 +3098,10 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;/ul&gt;
 &lt;h2 id=&quot;hardware-for-deep-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hardware-for-deep-learning&quot; aria-label=&quot;hardware for deep learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hardware for Deep Learning&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/hardware-for-deep-learning-current-state-and-trends-51c01ebbb6dc&quot;&gt;Hardware for Deep Learning. Part 1: Introduction | by Grigory Sapunov | Intento&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/cpu-hardware-for-deep-learning-b91f53cb18af&quot;&gt;Hardware for Deep Learning. Part 2: CPU | by Grigory Sapunov | Intento&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/hardware-for-deep-learning-part-3-gpu-8906c1644664&quot;&gt;Hardware for Deep Learning. Part 3: GPU | by Grigory Sapunov | Intento&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/hardware-for-deep-learning-part-4-asic-96a542fe6a81&quot;&gt;Hardware for Deep Learning. Part 4: ASIC | by Grigory Sapunov | Jan, 2021 | Intento&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/hardware-for-deep-learning-current-state-and-trends-51c01ebbb6dc&quot;&gt;Hardware for Deep Learning. Part 1: Introduction - by Grigory Sapunov - Intento&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/cpu-hardware-for-deep-learning-b91f53cb18af&quot;&gt;Hardware for Deep Learning. Part 2: CPU - by Grigory Sapunov - Intento&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/hardware-for-deep-learning-part-3-gpu-8906c1644664&quot;&gt;Hardware for Deep Learning. Part 3: GPU - by Grigory Sapunov - Intento&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/hardware-for-deep-learning-part-4-asic-96a542fe6a81&quot;&gt;Hardware for Deep Learning. Part 4: ASIC - by Grigory Sapunov - Jan, 2021 - Intento&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;podcast---text-to-speech&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#podcast---text-to-speech&quot; aria-label=&quot;podcast   text to speech permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Podcast - Text to Speech&lt;/h2&gt;
 &lt;ul&gt;
@@ -3129,7 +3129,14 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;/ul&gt;
 &lt;h2 id=&quot;interactive-blog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#interactive-blog&quot; aria-label=&quot;interactive blog permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Interactive Blog&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/viebel/klipse&quot;&gt;viebel/klipse: Klipse is a Javacript plugin for embedding interactive code snippets in tech blogs. A simple client-side code evaluator pluggable on any web page: clojure, ruby, javascript, python, scheme, es2017, jsx, brainfuck, c++, reagent, lua, ocaml, reasonml, prolog, common lisp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/viebel/klipse&quot;&gt;viebel/klipse: Klipse is a Javacript plugin for embedding interactive code snippets in tech blogs. A simple client-side code evaluator pluggable on any web page: clojure, ruby, javascript, python, scheme, es2017, jsx, brainfuck, c++, reagent, lua, ocaml, reasonml, prolog, common lisp&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/viebel/kids.klipse.tech&quot;&gt;viebel/kids.klipse.tech: An interactive functional programming course for children based on clojure and klipse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kids.klipse.tech/&quot;&gt;Klipse for Kids&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.klipse.tech/klipse/2016/09/09/klipse-languages.html&quot;&gt;Code playground in ruby, clojure, javascript, python, PHP and more&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://storage.googleapis.com/app.klipse.tech/css/codemirror.css&quot;&gt;
 &lt;script&gt;
@@ -3138,7 +3145,10 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
     };
 &lt;/script&gt;
 &lt;script src=&quot;https://storage.googleapis.com/app.klipse.tech/plugin_prod/js/klipse_plugin.min.js&quot;&gt;&lt;/script&gt;
-&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;python&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk8&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;7.5&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;9.5&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;klipse&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;max(7.5, 9.5)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;eval-python&quot; data-index=&quot;1&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;max(7.5, 9.5)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;eval-js&quot; data-index=&quot;2&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;1 + 1&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;eval-ruby&quot; data-index=&quot;3&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;[ 1, 2 ] * 3&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
@@ -3232,9 +3242,6 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
     background-color: #282c34;
     color: #abb2bf;
   }
-  .one-dark-pro .mtk8 { color: #56B6C2; }
-  .one-dark-pro .mtk1 { color: #ABB2BF; }
-  .one-dark-pro .mtk7 { color: #D19A66; }
   .one-dark-pro .grvsc-line-highlighted::before {
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
