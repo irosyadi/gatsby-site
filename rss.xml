@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 Jan 2021 08:04:28 GMT</lastBuildDate><item><title><![CDATA[Numerical Computing Resources]]></title><description><![CDATA[Numerical Computing Resources List Numerical Computing Software MATLAB Octave SageMath : open-source mathematics software system, builds on…]]></description><link>https://irosyadi.netlify.app/book/numerical-computing-resource/</link><guid isPermaLink="false">https://irosyadi.netlify.app/book/numerical-computing-resource/</guid><pubDate>Thu, 14 Jan 2021 19:20:02 GMT</pubDate><content:encoded>&lt;h1 id=&quot;numerical-computing-resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#numerical-computing-resources&quot; aria-label=&quot;numerical computing resources permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Numerical Computing Resources&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Jan 2021 07:21:40 GMT</lastBuildDate><item><title><![CDATA[Numerical Computing Resources]]></title><description><![CDATA[Numerical Computing Resources List Numerical Computing Software MATLAB Octave SageMath : open-source mathematics software system, builds on…]]></description><link>https://irosyadi.netlify.app/book/numerical-computing-resource/</link><guid isPermaLink="false">https://irosyadi.netlify.app/book/numerical-computing-resource/</guid><pubDate>Thu, 14 Jan 2021 19:20:02 GMT</pubDate><content:encoded>&lt;h1 id=&quot;numerical-computing-resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#numerical-computing-resources&quot; aria-label=&quot;numerical computing resources permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Numerical Computing Resources&lt;/h1&gt;
 &lt;h2 id=&quot;list-numerical-computing-software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#list-numerical-computing-software&quot; aria-label=&quot;list numerical computing software permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;List Numerical Computing Software&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;MATLAB&lt;/li&gt;
@@ -3013,6 +3013,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;p&gt;&lt;a href=&quot;https://okai.brown.edu/&quot;&gt;Home - OKAI : An Interactive Introduction to Artificial Intelligence (AI)&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/jama1017/OKAI&quot;&gt;jama1017/OKAI: OKAI - An Interactive Introduction to Artificial Intelligence (AI)&lt;/a&gt; License: GPL, except visualization (CC-BY)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://uxplanet.org/the-ultimate-workflow-of-creating-scroll-based-animations-7366b670630&quot;&gt;The Ultimate Workflow of Creating Scroll-Based Animations | by Jiaju Ma | UX Planet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -3021,9 +3022,11 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;li&gt;&lt;a href=&quot;https://github.com/dafriedman97/mlbook&quot;&gt;dafriedman97/mlbook: Repository for the free online book Machine Learning from Scratch (link below!)&lt;/a&gt; License: MIT&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.r2d3.us/&quot;&gt;Visual Introduction to Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://nasaprospect.com/&quot;&gt;NASA: Prospect&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;jamstack&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#jamstack&quot; aria-label=&quot;jamstack permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Jamstack&lt;/h2&gt;
-&lt;ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://jace.pro/post/2020-12-17-cloudflare-pages-netlify-zeit-github-pages-and-gitlab-pages-where-to-host/&quot;&gt;CloudFlare Pages, Netlify, Zeit, Github Pages, and Gitlab Pages. Where to host for free?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;internet-scanner&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#internet-scanner&quot; aria-label=&quot;internet scanner permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Internet Scanner&lt;/h2&gt;
@@ -3031,6 +3034,111 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;li&gt;&lt;a href=&quot;https://censys.io/&quot;&gt;Home - Censys&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.shodan.io/&quot;&gt;Shodan&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&quot;jekyll-theme-for-research-group&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#jekyll-theme-for-research-group&quot; aria-label=&quot;jekyll theme for research group permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Jekyll Theme for Research Group&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mpa139/allanlab&quot;&gt;mpa139/allanlab: Allan Lab website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/liuyxpp/liuyxpp.github.io&quot;&gt;liuyxpp/liuyxpp.github.io: Homepage for my research group as an example of LYX Jekyll Theme.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Niemeyer-Research-Group/niemeyer-research-group.github.io&quot;&gt;Niemeyer-Research-Group/niemeyer-research-group.github.io: Niemeyer Research Group site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/alshedivat/al-folio&quot;&gt;alshedivat/al-folio: A beautiful, simple, clean, and responsive Jekyll theme for academics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes&quot;&gt;mmistakes/minimal-mistakes: Jekyll theme for building a personal site, blog, project documentation, or portfolio.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;svg&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#svg&quot; aria-label=&quot;svg permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;SVG&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rapidtables.com/web/tools/svg-viewer-editor.html&quot;&gt;SVG viewer &amp;#x26; editor online&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.freecodeformat.com/svg-editor.php&quot;&gt;SVG Editor/Viewer Online&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;rss-to-json&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rss-to-json&quot; aria-label=&quot;rss to json permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;RSS to JSOn&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://rss2json.com/&quot;&gt;RSS to JSON Converter online - rss2json.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;dynamic-dns&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dynamic-dns&quot; aria-label=&quot;dynamic dns permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dynamic DNS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://freemyip.com/main&quot;&gt;Free DDNS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.noip.com/&quot;&gt;Free Dynamic DNS - Managed DNS - Managed Email - Domain Registration - No-IP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://account.dyn.com/&quot;&gt;My Dyn Account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ip-dynamic.com/&quot;&gt;Solusi IP Dynamic Indihome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://asia.cloudns.net/dynamic-dns/&quot;&gt;Free Dynamic DNS service | ClouDNS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.eurodns.com/dynamic-dns&quot;&gt;Dynamic DNS | EuroDNS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://freemyip.com/update?token=973c1ba1468f0bbe24dbc1a5&amp;#x26;domain=irosyadi.freemyip.com&quot;&gt;FreemyIP&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://freemyip.com/help?domain=irosyadi.freemyip.com&amp;#x26;token=973c1ba1468f0bbe24dbc1a5&quot;&gt;FreeMyIP-Help&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;dns-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dns-1&quot; aria-label=&quot;dns 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;DNS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://publicsuffix.org/&quot;&gt;Public Suffix List&lt;/a&gt; : TLD which  open to everybody in the world&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;gatsby&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby&quot; aria-label=&quot;gatsby permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/surudhb/gatsby-personal-site-template&quot;&gt;gatsby-personal-site-template: Gatsby Starter | Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/SaimirKapaj/gatsby-markdown-typescript-personal-website&quot;&gt;gatsby-markdown-typescript-personal-website: Gatsby Starter | Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/anubhavsrivastava/gatsby-starter-hyperspace&quot;&gt;: Gatsby Starter | Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters/algokun/gatsby_starter_portfolio&quot;&gt;gatsby&lt;em&gt;starter&lt;/em&gt;portfolio: Gatsby Starter | Gatsby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/LekoArts/gatsby-starter-minimal-blog&quot;&gt;LekoArts/gatsby-starter-minimal-blog: Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.&lt;/a&gt; *&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;generative-patterns&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#generative-patterns&quot; aria-label=&quot;generative patterns permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Generative Patterns&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://kwj2104.github.io/2018/cppngan/&quot;&gt;Generative Art with Compositional Pattern Producing Networks and GANs | K&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://kwj2104.github.io/2018/cppngan-2/&quot;&gt;Generative Art with CPPN-GANs Part II | K&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kwj2104/CPPN-WGAN&quot;&gt;kwj2104/CPPN-WGAN: Generative Art Experiments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/marcin7Cd/variant-of-CPPN-GAN&quot;&gt;marcin7Cd/variant-of-CPPN-GAN: based on https://github.com/kwj2104/CPPN-WGAN, but on chineses fonts and improved architecture&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mxgmn/WaveFunctionCollapse&quot;&gt;mxgmn/WaveFunctionCollapse: Bitmap &amp;#x26; tilemap generation from a single example with the help of ideas from quantum mechanics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://towardsdatascience.com/making-deep-neural-networks-paint-to-understand-how-they-work-4be0901582ee&quot;&gt;Making deep neural networks paint to understand how they work | by Paras Chopra | Towards Data Science&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/paraschopra/abstract-art-neural-network&quot;&gt;paraschopra/abstract-art-neural-network: Generating abstract art through neural networks in PyTorch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;hardware-for-deep-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hardware-for-deep-learning&quot; aria-label=&quot;hardware for deep learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hardware for Deep Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/hardware-for-deep-learning-current-state-and-trends-51c01ebbb6dc&quot;&gt;Hardware for Deep Learning. Part 1: Introduction | by Grigory Sapunov | Intento&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/cpu-hardware-for-deep-learning-b91f53cb18af&quot;&gt;Hardware for Deep Learning. Part 2: CPU | by Grigory Sapunov | Intento&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/hardware-for-deep-learning-part-3-gpu-8906c1644664&quot;&gt;Hardware for Deep Learning. Part 3: GPU | by Grigory Sapunov | Intento&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.inten.to/hardware-for-deep-learning-part-4-asic-96a542fe6a81&quot;&gt;Hardware for Deep Learning. Part 4: ASIC | by Grigory Sapunov | Jan, 2021 | Intento&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;podcast---text-to-speech&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#podcast---text-to-speech&quot; aria-label=&quot;podcast   text to speech permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Podcast - Text to Speech&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.charlieharrington.com/flow-and-creative-computing&quot;&gt;Flow and Creative Computing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;learning-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#learning-1&quot; aria-label=&quot;learning 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://learnawesome.org/&quot;&gt;LearnAwesome.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;interactive-books-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#interactive-books-1&quot; aria-label=&quot;interactive books 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Interactive Books&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://learn.circuitverse.org/&quot;&gt;Home - CircuitVerse&lt;/a&gt; : Interactive Online Book on Digital Logic Design, License: MIT&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CircuitVerse/Interactive-Book&quot;&gt;CircuitVerse/Interactive-Book: Interactive Online Book on Digital Logic Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CircuitVerse/CircuitVerse&quot;&gt;CircuitVerse/CircuitVerse: CircuitVerse Primary Code Base&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://circuitverse.org/&quot;&gt;CircuitVerse - Online Digital Logic Circuit Simulator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/KnetML/Knet-the-Julia-dope&quot;&gt;KnetML/Knet-the-Julia-dope: An interactive book on deep learning. Much easy, so Knet. Wow.&lt;/a&gt;: This repo is the &lt;a href=&quot;https://github.com/JuliaLang/julia&quot;&gt;Julia&lt;/a&gt; &lt;em&gt;translation&lt;/em&gt; of the &lt;a href=&quot;https://github.com/zackchase/mxnet-the-straight-dope&quot;&gt;mxnet-the-straight-dope&lt;/a&gt; repo, a collection of notebooks designed to teach deep learning, MXNet, and the &lt;code&gt;gluon&lt;/code&gt; interface.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/zackchase/mxnet-the-straight-dope&quot;&gt;zackchase/mxnet-the-straight-dope: An interactive book on deep learning&lt;/a&gt;: License Apache&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://projectpython.net/chapter00/index.html&quot;&gt;ProjPython – index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://composingprograms.com/&quot;&gt;Composing Programs&lt;/a&gt; License: CC-BY&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mitpress.mit.edu/sites/default/files/sicp/index.html&quot;&gt; Structure and Interpretation of Computer Programs&lt;/a&gt; License: CC-BY&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;interactive-blog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#interactive-blog&quot; aria-label=&quot;interactive blog permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Interactive Blog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/viebel/klipse&quot;&gt;viebel/klipse: Klipse is a Javacript plugin for embedding interactive code snippets in tech blogs. A simple client-side code evaluator pluggable on any web page: clojure, ruby, javascript, python, scheme, es2017, jsx, brainfuck, c++, reagent, lua, ocaml, reasonml, prolog, common lisp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://storage.googleapis.com/app.klipse.tech/css/codemirror.css&quot;&gt;
+&lt;script&gt;
+    window.klipse_settings = {
+        selector_eval_python_client: &apos;.language-klipse-python&apos;, // css selector for the html elements you want to klipsify
+    };
+&lt;/script&gt;
+&lt;script src=&quot;https://storage.googleapis.com/app.klipse.tech/plugin_prod/js/klipse_plugin.min.js&quot;&gt;&lt;/script&gt;
+&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;python&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk8&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;7.5&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;9.5&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
@@ -3120,6 +3228,17 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
     opacity: 0.7;
   }
   
+  .one-dark-pro {
+    background-color: #282c34;
+    color: #abb2bf;
+  }
+  .one-dark-pro .mtk8 { color: #56B6C2; }
+  .one-dark-pro .mtk1 { color: #ABB2BF; }
+  .one-dark-pro .mtk7 { color: #D19A66; }
+  .one-dark-pro .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
+  }
 &lt;/style&gt;</content:encoded></item><item><title><![CDATA[Statistics and Probability]]></title><description><![CDATA[Statistic and Probability Statistics 110: Probability Stastitics 110 free book - Google Drive Introduction to Probability | edX Statistics…]]></description><link>https://irosyadi.netlify.app/course/statistic-probability/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/statistic-probability/</guid><pubDate>Fri, 01 Jan 2021 08:00:30 GMT</pubDate><content:encoded>&lt;h1 id=&quot;statistic-and-probability&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#statistic-and-probability&quot; aria-label=&quot;statistic and probability permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Statistic and Probability&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -9926,6 +10045,13 @@ Yang tersisa menjadi sebuah pengetahuan baru, tentang apa yang menjadi kunci unt
 &lt;li&gt;&lt;a href=&quot;https://github.com/BlcaKHat/yolov3-Helmet-Detection&quot;&gt;BlcaKHat/yolov3-Helmet-Detection&lt;/a&gt; : YOLO&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/AnshulSood11/PPE-Detection-YOLO-Deep_SORT&quot;&gt;AnshulSood11/PPE-Detection-YOLO-Deep_SORT&lt;/a&gt;: YOLO, deepsort&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/iamdsc/automatic-helmet-detection&quot;&gt;iamdsc/automatic-helmet-detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/abhijeet-talaulikar/Automatic-Helmet-Detection&quot;&gt;abhijeet-talaulikar/Automatic-Helmet-Detection: Designing a system that can automatically detect the absence of helmet on motorcyclists by processing live video streams from a surveillance camera.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/abhishekbhutra1/Motorcyclist-Detection&quot;&gt;abhishekbhutra1/Motorcyclist-Detection: Detection of Motorcyclist without helmet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/RajaSudalai/Motorcyclist_Helmet_Detection&quot;&gt;RajaSudalai/Motorcyclist&lt;em&gt;Helmet&lt;/em&gt;Detection: Automatic traffic violation detection of Motorcyclist not wearing Helmet - Instance Segmentation using Mask R-CNN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ashish2050/Smart-Traffic-Surveillance-System-&quot;&gt;ashish2050/Smart-Traffic-Surveillance-System-: a model built using YOLOv4 and Darknet to detect helmet and licence plate of a motorcyclist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/SachinHR/Automatic-number-plate-recognition-for-motorcyclists-riding-without-helmet.&quot;&gt;SachinHR/Automatic-number-plate-recognition-for-motorcyclists-riding-without-helmet.: Automatic number plate recognition for motorcyclists riding without helmet with OpenCV.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Tejaswini1399/Detection-of-Motorcyclists-without-helmet&quot;&gt;Tejaswini1399/Detection-of-Motorcyclists-without-helmet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/PardeshiSourabh/ObjectDetectionHaar&quot;&gt;PardeshiSourabh/ObjectDetectionHaar: Object Detection using Haar-like features to enforce helmet check for motorcyclists and improve rider safety&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;plate-license-detection-github-repos&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#plate-license-detection-github-repos&quot; aria-label=&quot;plate license detection github repos permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Plate License Detection Github Repos&lt;/h2&gt;
 &lt;ul&gt;
@@ -16081,6 +16207,7 @@ Jason Brownlee, proprietary, used&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://people.csail.mit.edu/jaffer/Color/Dictionaries&quot;&gt;List Color Naming Dictionaries&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.chrisharrison.net/index.php/Fun/ColorPerception&quot;&gt;Color Naming&lt;/a&gt; or &lt;a href=&quot;https://johnthemathguy.blogspot.com/2016/12/unambiguous-regions-in-color-space-for.html&quot;&gt;this&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/meodai/color-names&quot;&gt;Handpicked Color Names&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://alexbeals.com/projects/colorize/&quot;&gt;Colorize&lt;/a&gt; Color name mapped to color&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;colorimetry-notes&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#colorimetry-notes&quot; aria-label=&quot;colorimetry notes permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Colorimetry Notes&lt;/h2&gt;
 &lt;ul&gt;
@@ -25734,6 +25861,7 @@ Example: splitting &quot;engineering notes&quot; to &quot;software notes&quot; a
 &lt;li&gt;&lt;a href=&quot;https://mind.miketannenbaum.com/&quot;&gt;Mike Tannenbaum&lt;/a&gt; &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://davidseah.gitbook.io/davidseah/&quot;&gt;David Seah&lt;/a&gt; Stacks: Gitbook&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.mentalnodes.com/&quot;&gt;Mental Nodes&lt;/a&gt; Stacks: Tiddlywiki&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://scottspence.com/&quot;&gt;Home · Scott Spence&lt;/a&gt; Stacks: Gatsby&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;list-of-second-brain-blog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#list-of-second-brain-blog&quot; aria-label=&quot;list of second brain blog permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;List of Second Brain Blog&lt;/h2&gt;
 &lt;ol&gt;
