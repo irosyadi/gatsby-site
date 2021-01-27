@@ -1,4 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Jan 2021 08:05:10 GMT</lastBuildDate><item><title><![CDATA[Numerical Computing Resources]]></title><description><![CDATA[Numerical Computing Resources List Numerical Computing Software MATLAB Octave SageMath : open-source mathematics software system, builds on…]]></description><link>https://irosyadi.netlify.app/book/numerical-computing-resource/</link><guid isPermaLink="false">https://irosyadi.netlify.app/book/numerical-computing-resource/</guid><pubDate>Thu, 14 Jan 2021 19:20:02 GMT</pubDate><content:encoded>&lt;h1 id=&quot;numerical-computing-resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#numerical-computing-resources&quot; aria-label=&quot;numerical computing resources permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Numerical Computing Resources&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 27 Jan 2021 02:51:48 GMT</lastBuildDate><item><title><![CDATA[Interactive Code in Webpage]]></title><description><![CDATA[Interactive Code in Webpage Iframe Approach Python Tutor - Visualize Python, Java, C, C++, JavaScript, TypeScript, and Ruby code execution…]]></description><link>https://irosyadi.netlify.app/app/interactive-code-webpage/</link><guid isPermaLink="false">https://irosyadi.netlify.app/app/interactive-code-webpage/</guid><pubDate>Wed, 20 Jan 2021 06:24:36 GMT</pubDate><content:encoded>&lt;h1 id=&quot;interactive-code-in-webpage&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#interactive-code-in-webpage&quot; aria-label=&quot;interactive code in webpage permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Interactive Code in Webpage&lt;/h1&gt;
+&lt;h2 id=&quot;iframe-approach&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#iframe-approach&quot; aria-label=&quot;iframe approach permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Iframe Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://pythontutor.com/&quot;&gt;Python Tutor - Visualize Python, Java, C, C++, JavaScript, TypeScript, and Ruby code execution&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&quot;800&quot; height=&quot;500&quot; frameborder=&quot;0&quot; src=&quot;http://pythontutor.com/iframe-embed.html#code=def%20listSum%28numbers%29%3A%0A%20%20if%20not%20numbers%3A%0A%20%20%20%20return%200%0A%20%20else%3A%0A%20%20%20%20%28f,%20rest%29%20%3D%20numbers%0A%20%20%20%20return%20f%20%2B%20listSum%28rest%29%0A%0AmyList%20%3D%20%281,%20%282,%20%283,%20None%29%29%29%0Atotal%20%3D%20listSum%28myList%29&amp;codeDivHeight=400&amp;codeDivWidth=350&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;origin=opt-frontend.js&amp;py=3&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false&quot;&gt; &lt;/iframe&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://trinket.io/python&quot;&gt;Your Python Trinket&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&quot;https://trinket.io/embed/python/3f5d48e981&quot; width=&quot;100%&quot; height=&quot;356&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://repl.it/&quot;&gt;Repl.it - The collaborative browser based IDE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;link-approach&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#link-approach&quot; aria-label=&quot;link approach permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Link Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://codepad.org/&quot;&gt;codepad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ideone.com/&quot;&gt;Online Compiler and IDE &gt;&gt; C/C++, Java, PHP, Python, Perl and 70+ other compilers and interpreters - Ideone.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://py3.codeskulptor.org/&quot;&gt;CodeSkulptor3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://alpha.iodide.io/&quot;&gt;Iodide&lt;/a&gt; lets you do data science  entirely in your browser, self-hosted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;script-approach&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#script-approach&quot; aria-label=&quot;script approach permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Script Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/brython-dev/brython&quot;&gt;brython-dev/brython: Brython (Browser Python) is an implementation of Python 3 running in the browser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/datacamp/datacamp-light&quot;&gt;datacamp/datacamp-light: Convert any blog or website to an interactive learning platform for data science&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;for R Markdown &lt;a href=&quot;https://github.com/datacamp/tutorial&quot;&gt;datacamp/tutorial: R Package to convert R Markdown files to DataCamp Light HTML files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/viebel/klipse&quot;&gt;viebel/klipse: Klipse is a Javacript plugin for embedding interactive code snippets in tech blogs. A simple client-side code evaluator pluggable on any web page: clojure, ruby, javascript, python, scheme, es2017, jsx, brainfuck, c++, reagent, lua, ocaml, reasonml, prolog, common lisp&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/viebel/kids.klipse.tech&quot;&gt;viebel/kids.klipse.tech: An interactive functional programming course for children based on clojure and klipse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kids.klipse.tech/&quot;&gt;Klipse for Kids&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.klipse.tech/klipse/2016/09/09/klipse-languages.html&quot;&gt;Code playground in ruby, clojure, javascript, python, PHP and more&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Numerical Computing Resources]]></title><description><![CDATA[Numerical Computing Resources List Numerical Computing Software MATLAB Octave SageMath : open-source mathematics software system, builds on…]]></description><link>https://irosyadi.netlify.app/book/numerical-computing-resource/</link><guid isPermaLink="false">https://irosyadi.netlify.app/book/numerical-computing-resource/</guid><pubDate>Thu, 14 Jan 2021 19:20:02 GMT</pubDate><content:encoded>&lt;h1 id=&quot;numerical-computing-resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#numerical-computing-resources&quot; aria-label=&quot;numerical computing resources permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Numerical Computing Resources&lt;/h1&gt;
 &lt;h2 id=&quot;list-numerical-computing-software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#list-numerical-computing-software&quot; aria-label=&quot;list numerical computing software permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;List Numerical Computing Software&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;MATLAB&lt;/li&gt;
@@ -2671,6 +2798,14 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;li&gt;&lt;a href=&quot;https://mukulrathi.co.uk/demystifying-deep-learning/maths-behind-deep-learning/&quot;&gt;Demystifying Deep Learning Primer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/FrancescoSaverioZuppichini/glasses&quot;&gt;FrancescoSaverioZuppichini/glasses: High-quality Neural Networks for Computer Vision 😎&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.groundai.com/&quot;&gt;Ground AI&lt;/a&gt; Our mission is to increase AI scholarly communication&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/khanhnamle1994/applied-machine-learning&quot;&gt;khanhnamle1994/applied-machine-learning: A step-by-step guide to get started with Applied Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/google/applied-machine-learning-intensive&quot;&gt;google/applied-machine-learning-intensive: Applied Machine Learning Intensive&lt;/a&gt; Bangkit&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tfolkman/byu_econ_applied_machine_learning&quot;&gt;tfolkman/byu&lt;em&gt;econ&lt;/em&gt;applied&lt;em&gt;machine&lt;/em&gt;learning: The course work for the applied machine learning course I am teaching at BYU&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/amitkaps/applied-machine-learning&quot;&gt;amitkaps/applied-machine-learning: Applied Machine Learning @ http://amitkaps.com/ml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning-course&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-course&quot; aria-label=&quot;machine learning course permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning Course&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cs.columbia.edu/~amueller/comsw4995s19/schedule/&quot;&gt;COMS W4995 Applied Machine Learning Spring 2019 - Schedule - Andreas C. Müller - Associate Research Scientist&lt;/a&gt;, &lt;a href=&quot;https://github.com/amueller/COMS4995-s19&quot;&gt;amueller/COMS4995-s19: COMS W4995 Applied Machine Learning - Spring 19&lt;/a&gt; License: CC0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;learning-nn&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#learning-nn&quot; aria-label=&quot;learning nn permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Learning NN&lt;/h2&gt;
 &lt;ul&gt;
@@ -3111,6 +3246,10 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://learnawesome.org/&quot;&gt;LearnAwesome.org&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&quot;programming-learning-for-kids&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#programming-learning-for-kids&quot; aria-label=&quot;programming learning for kids permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Programming Learning for Kids&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://shrew.app/&quot;&gt;Code Shrew&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&quot;interactive-books-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#interactive-books-1&quot; aria-label=&quot;interactive books 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Interactive Books&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -3126,29 +3265,181 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;li&gt;&lt;a href=&quot;http://projectpython.net/chapter00/index.html&quot;&gt;ProjPython – index&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://composingprograms.com/&quot;&gt;Composing Programs&lt;/a&gt; License: CC-BY&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://mitpress.mit.edu/sites/default/files/sicp/index.html&quot;&gt; Structure and Interpretation of Computer Programs&lt;/a&gt; License: CC-BY&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;interactive-blog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#interactive-blog&quot; aria-label=&quot;interactive blog permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Interactive Blog&lt;/h2&gt;
-&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/viebel/klipse&quot;&gt;viebel/klipse: Klipse is a Javacript plugin for embedding interactive code snippets in tech blogs. A simple client-side code evaluator pluggable on any web page: clojure, ruby, javascript, python, scheme, es2017, jsx, brainfuck, c++, reagent, lua, ocaml, reasonml, prolog, common lisp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.learnpython.org/&quot;&gt;Learn Python - Free Interactive Python Tutorial&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/viebel/kids.klipse.tech&quot;&gt;viebel/kids.klipse.tech: An interactive functional programming course for children based on clojure and klipse&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://kids.klipse.tech/&quot;&gt;Klipse for Kids&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.klipse.tech/klipse/2016/09/09/klipse-languages.html&quot;&gt;Code playground in ruby, clojure, javascript, python, PHP and more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ronreiter/interactive-tutorials&quot;&gt;ronreiter/interactive-tutorials: Interactive Tutorials&lt;/a&gt; License: Apache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://mathtocode.com/&quot;&gt;Math to Code&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/vthommeret/mathtocode&quot;&gt;vthommeret/mathtocode&lt;/a&gt; License MIT&apos;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.py4e.com/&quot;&gt;PY4E - Python for Everybody&lt;/a&gt; License: CC-NC, you do not need my permission to translate, produce, and distributed electronic copies of the book. &lt;a href=&quot;https://github.com/csev/py4e/blob/master/TRANSLATION.md&quot;&gt;You do need permission to sell printed copies of the translated book&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.py4e.com/book&quot;&gt;PY4E - Python for Everybody&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/csev/py4e/tree/master/book3&quot;&gt;py4e/book3 at master · csev/py4e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://books.trinket.io/pfe/index.html&quot;&gt;Py4e at Trinket&lt;/a&gt; License: CC-NC&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://storage.googleapis.com/app.klipse.tech/css/codemirror.css&quot;&gt;
-&lt;script&gt;
-    window.klipse_settings = {
-        selector_eval_python_client: &apos;.language-klipse-python&apos;, // css selector for the html elements you want to klipsify
-    };
-&lt;/script&gt;
-&lt;script src=&quot;https://storage.googleapis.com/app.klipse.tech/plugin_prod/js/klipse_plugin.min.js&quot;&gt;&lt;/script&gt;
-&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;klipse&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;max(7.5, 9.5)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;eval-python&quot; data-index=&quot;1&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;max(7.5, 9.5)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;eval-js&quot; data-index=&quot;2&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;1 + 1&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&quot;grvsc-container one-dark-pro&quot; data-language=&quot;eval-ruby&quot; data-index=&quot;3&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;[ 1, 2 ] * 3&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;precipitation-forecasting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#precipitation-forecasting&quot; aria-label=&quot;precipitation forecasting permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Precipitation Forecasting&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nowcasting, Upsampling, Interpolation, Super resolution&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hydrogo/rainnet&quot;&gt;hydrogo/rainnet: RainNet: a convolutional neural network for radar-based precipitation nowcasting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1706.03458&quot;&gt;1706.03458 Deep Learning for Precipitation Nowcasting: A Benchmark and A New Model&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sxjscience/HKO-7&quot;&gt;sxjscience/HKO-7: Source code of paper &quot;NIPS2017 Deep Learning for Precipitation Nowcasting: A Benchmark and A New Model&quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;style-gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#style-gan&quot; aria-label=&quot;style gan permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Style GAN&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gwern.net/Faces?ref=mlnews#examples&quot;&gt;Making Anime Faces With StyleGAN · Gwern.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/cedricoeldorf/ConditionalStyleGAN&quot;&gt;cedricoeldorf/ConditionalStyleGAN: Conditional implementation for NVIDIA&apos;s StyleGAN architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/NVlabs/stylegan&quot;&gt;NVlabs/stylegan: StyleGAN - Official TensorFlow Implementation&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://old.reddit.com/r/computervision/comments/bfcnbj/p_stylegan_on_oxford_visual_geometry_group/&quot;&gt;P StyleGAN on Oxford Visual Geometry Group Flowers 102 Dataset 💐🌻🌷🥀🌺🌹🌸🌼 : computervision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.robots.ox.ac.uk/~vgg/data/flowers/&quot;&gt;Visual Geometry Group - University of Oxford&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/gradientcrescent/this-president-does-not-exist-generating-artistic-portraits-of-donald-trump-using-stylegan-a97a17902dd4&quot;&gt;ThisPresidentDoesNotExist: Generating Artistic Presidential Portraits using Style-based Adversarial Networks and Transfer Learning: Theory and Implementation in Tensorflow - by Adrian Yijie Xu - GradientCrescent - Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/colinrsmall/ehm_faces&quot;&gt;colinrsmall/ehm_faces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://nvlabs.github.io/stylegan2/versions.html&quot;&gt;StyleGAN versions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/t04glovern/stylegan-pokemon&quot;&gt;t04glovern/stylegan-pokemon: Generating Pokemon cards using a mixture of StyleGAN and RNN to create beautiful &amp;#x26; vibrant cards ready for battle!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2011.05552&quot;&gt;2011.05552End-to-End Chinese Landscape Painting Creation Using Generative Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1812.04948&quot;&gt;1812.04948 A Style-Based Generator Architecture for Generative Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;not-exist&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#not-exist&quot; aria-label=&quot;not exist permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Not Exist&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://thiseyedoesnotexist.com/story/&quot;&gt;This eye does not exist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://thisvesseldoesnotexist.com/#/&quot;&gt;This vessel does not exist.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/EvgenyKashin/ganarts&quot;&gt;EvgenyKashin/ganarts: This T-shirt does not exist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://thesecatsdonotexist.com/&quot;&gt;thesecatsdonotexist.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://thisrentaldoesnotexist.com/&quot;&gt;Finca Es Cormó di Friendly district - Guest suites for Rent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://thispersondoesnotexist.com/&quot;&gt;This Person Does Not Exist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;style-gan-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#style-gan-1&quot; aria-label=&quot;style gan 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Style-GAN&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/junyanz/CycleGAN&quot;&gt;junyanz/CycleGAN: Software that can generate photos from paintings, turn horses into zebras, perform style transfer, and more.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kaonashi-tyc/zi2zi&quot;&gt;kaonashi-tyc/zi2zi: Learning Chinese Character style with conditional GAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rosinality/style-based-gan-pytorch&quot;&gt;rosinality/style-based-gan-pytorch: Implementation A Style-Based Generator Architecture for Generative Adversarial Networks in PyTorch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/taki0112/StyleGAN-Tensorflow&quot;&gt;taki0112/StyleGAN-Tensorflow: Simple &amp;#x26; Intuitive Tensorflow implementation of StyleGAN (CVPR 2019 Oral)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mtobeiyf/sketch-to-art&quot;&gt;mtobeiyf/sketch-to-art: 🖼 Create artwork from your casual sketch with GAN and style transfer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/taki0112/UGATIT&quot;&gt;taki0112/UGATIT: Official Tensorflow implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation (ICLR 2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/zeka-io/selfie-to-anime&quot;&gt;zeka-io/selfie-to-anime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/boistud/StyleArtGan&quot;&gt;boistud/StyleArtGan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/heavenstobetsy/ArtGenerationwithStyleGan&quot;&gt;heavenstobetsy/ArtGenerationwithStyleGan: Fauvist art generation using StyleGAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/zhenxuan00/triple-gan&quot;&gt;zhenxuan00/triple-gan: See Triple-GAN-V2 in PyTorch: https://github.com/taufikxu/Triple-GAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Mawiszus/TOAD-GAN&quot;&gt;Mawiszus/TOAD-GAN: Official repository for &quot;TOAD-GAN: Coherent Style Level Generation from a Single Example&quot; by Maren Awiszus, Frederik Schubert and Bodo Rosenhahn.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/schrum2/GameGAN&quot;&gt;schrum2/GameGAN: Interactive GAN evolution of Mario and Zelda levels.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/changebo/HCCG-CycleGAN&quot;&gt;changebo/HCCG-CycleGAN: Handwritten Chinese Characters Generation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;interesting-reading&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#interesting-reading&quot; aria-label=&quot;interesting reading permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Interesting Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://jakobgreenfeld.com/metrics&quot;&gt;How management by metrics leads us astray – Jakob Greenfeld – Experiments in Entrepreneurship and Learning&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=25856257&quot;&gt;Management by metrics leads us astray | Hacker News&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jalammar.github.io/&quot;&gt;Jay Alammar – Visualizing machine learning one concept at a time.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;nn-draw&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nn-draw&quot; aria-label=&quot;nn draw permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NN Draw&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/HarisIqbal88/PlotNeuralNet&quot;&gt;HarisIqbal88/PlotNeuralNet: Latex code for making neural networks diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://alexlenail.me/NN-SVG/&quot;&gt;NN SVG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;free-icons&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#free-icons&quot; aria-label=&quot;free icons permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Free Icons&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://iconduck.com/&quot;&gt;Iconduck&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sw-yx/spark-joy&quot;&gt;sw-yx/spark-joy: ✨😂easy ways to add design flair, user delight, and whimsy to your product.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://iconsear.ch/search.html&quot;&gt;IconSear.ch: Instant icon search for SVG icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://iconsear.ch/sources/index.html&quot;&gt;Icon Sources - Icon Search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/VectorLogoZone/logosearch&quot;&gt;VectorLogoZone/logosearch: LogoSear.ch and IconSear.ch: search through zillions of SVG logos/icons directly linked to their source repos.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning-review&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-review&quot; aria-label=&quot;machine learning review permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning Review&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://theaisummer.com/cnn-architectures/&quot;&gt;Best deep CNN architectures and their principles: from AlexNet to EfficientNet | AI Summer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;photography&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#photography&quot; aria-label=&quot;photography permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Photography&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.andersenimages.com/tutorials/exposure-simulator/&quot;&gt;Exposure Simulator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;computer-science&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#computer-science&quot; aria-label=&quot;computer science permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Computer Science&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Developer-Y/cs-video-courses&quot;&gt;Developer-Y/cs-video-courses: List of Computer Science courses with video lectures.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning-6&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-6&quot; aria-label=&quot;machine learning 6 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/lucidrains/deep-daze&quot;&gt;lucidrains/deep-daze: Simple command line tool for text to image generation using OpenAI&apos;s CLIP and Siren (Implicit neural representation network)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bkkaggle.github.io/blog/algpt2/2020/07/17/ALGPT2-part-2.html&quot;&gt;Algpt2 Part 2 | Bilal Khan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wandb.ai/site&quot;&gt;Weights &amp;#x26; Biases – Developer tools for ML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/lucidrains/deep-daze&quot;&gt;lucidrains/deep-daze: Simple command line tool for text to image generation using OpenAI&apos;s CLIP and Siren (Implicit neural representation network)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ebook-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ebook-1&quot; aria-label=&quot;ebook 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Ebook&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook&quot;&gt;bitcoinbook/bitcoinbook: Mastering Bitcoin 2nd Edition - Programming the Open Blockchain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/barbagroup/AeroPython&quot;&gt;barbagroup/AeroPython: Classical Aerodynamics of potential flow using Python and Jupyter Notebooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/barbagroup/CFDPython&quot;&gt;barbagroup/CFDPython: A sequence of Jupyter notebooks featuring the &quot;12 Steps to Navier-Stokes&quot; http://lorenabarba.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;color&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#color&quot; aria-label=&quot;color permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Color&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/joowani/colorpedia&quot;&gt;joowani/colorpedia: Command-line tool for looking up colors, shades and palettes.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;excel-like&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#excel-like&quot; aria-label=&quot;excel like permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Excel Like&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/revolist/revogrid&quot;&gt;revolist/revogrid: Powerful virtual data grid smartsheet with advanced customization. Best features from excel plus incredible performance 🔋&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://revolist.github.io/revogrid/&quot;&gt;RevoGrid - Excel like data grid component&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.datagridxl.com/&quot;&gt;DataGridXL: The performant Javascript Data Grid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;jamstack-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#jamstack-1&quot; aria-label=&quot;jamstack 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Jamstack&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.eliostruyf.com/netlify-vs-vercel-vs-azure-static-web-app/&quot;&gt;Which service? Netlify vs Vercel vs Azure Static Web App · Elio Struyf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://acidtango.com/thelemoncrunch/how-to-deploy-a-full-stack-app-to-the-web/&quot;&gt;How to Deploy a Full-Stack App to the Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.patricktriest.com/host-webapps-free/&quot;&gt;10 Tips To Host Your Web Apps For Free&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simply-how.com/free-paas-hosting&quot;&gt;Deploy A Web App (Golang, Java, ...) To The Cloud For Free | Simply How&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;desktop&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#desktop&quot; aria-label=&quot;desktop permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Desktop&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://deskreen.com/&quot;&gt;Deskreen&lt;/a&gt; Deskreen is a free desktop app that makes any device with a web browser a second screen over WiFi. Deskreen can be used for mirror entire display to any device that has a web browser.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;python-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#python-1&quot; aria-label=&quot;python 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Python&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.streamlit.io/&quot;&gt;Streamlit — The fastest way to create data apps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;search-engine&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#search-engine&quot; aria-label=&quot;search engine permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Search Engine&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://gutensearch.com/&quot;&gt;Dash&lt;/a&gt;: search engine for gutenberg files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;image-editor&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#image-editor&quot; aria-label=&quot;image editor permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Image Editor&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://filmulator.org/v0-11-0/&quot;&gt;Filmulator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;food&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#food&quot; aria-label=&quot;food permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Food&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mywozi.com/&quot;&gt;Home - Wozi: Plant-based Flavor Enhancer&lt;/a&gt; : Miracle Berry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;about-ml-books&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#about-ml-books&quot; aria-label=&quot;about ml books permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;About ML Books&lt;/h2&gt;
+&lt;p&gt;If you&apos;re strong in software engineering, I recommend Machine Learning Mastery with Python by Jason Brownlee as it&apos;s very hands-on in Python and helps you run code to &quot;see&quot; how ML works.&lt;/p&gt;
+&lt;p&gt;If you&apos;re weak in software engineering and Python, I recommend A Whirlwind Tour Of Python by Jake VanderPlas, and its companion book Python Data Science Handbook.&lt;/p&gt;
+&lt;p&gt;If you&apos;re strong in architecting / product management, I recommend Building Machine Learning Powered Applications by Emmanuel Ameisen since it explains it more from an SDLC perspective, including things like scoping, design, development, testing, general software engineering best practices, collaboration, etc.&lt;/p&gt;
+&lt;p&gt;If you&apos;re weak in architecting / product management, I typically recommend User Story Mapping by Jeff Patton and Making Things Happen by Scott Berkun, which are both excellent how-tos with great examples to build on.&lt;/p&gt;
+&lt;p&gt;If you&apos;re strong in math, I recommend Understanding Machine Learning from Theory to Algorithm by Shalev-Shwartz and Ben-David, as it has all the mathematics for ML and actually has some pseudocode for implementation which helps bridge the gap into actual software development (the book&apos;s title is very accurate!)&lt;/p&gt;
+&lt;p&gt;For someone who is weak in the math of ML, I recommend Introduction to Statistical Learning by Hastie et al (along with the Python port of the code &lt;a href=&quot;https://github.com/emredjan/ISL-python&quot;&gt;https://github.com/emredjan/ISL-python&lt;/a&gt; ) which I think does just enough hand holding to move someone from &quot;did high school math 20 years ago&quot; to &quot;I understand what these hyperparameters are optimizing for.&quot;&lt;/p&gt;
+&lt;h2 id=&quot;weblinks&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#weblinks&quot; aria-label=&quot;weblinks permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Weblinks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://onethingwell.org/&quot;&gt;One Thing Well&lt;/a&gt; Daily blog for interesting link&lt;/li&gt;
+&lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
@@ -3238,14 +3529,6 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
     opacity: 0.7;
   }
   
-  .one-dark-pro {
-    background-color: #282c34;
-    color: #abb2bf;
-  }
-  .one-dark-pro .grvsc-line-highlighted::before {
-    background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
-    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
-  }
 &lt;/style&gt;</content:encoded></item><item><title><![CDATA[Statistics and Probability]]></title><description><![CDATA[Statistic and Probability Statistics 110: Probability Stastitics 110 free book - Google Drive Introduction to Probability | edX Statistics…]]></description><link>https://irosyadi.netlify.app/course/statistic-probability/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/statistic-probability/</guid><pubDate>Fri, 01 Jan 2021 08:00:30 GMT</pubDate><content:encoded>&lt;h1 id=&quot;statistic-and-probability&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#statistic-and-probability&quot; aria-label=&quot;statistic and probability permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Statistic and Probability&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -4050,6 +4333,7 @@ Pada dasarnya untuk mengumpulkan data yang bagus (biasanya disebut sebagai datas
 &lt;li&gt;&lt;a href=&quot;https://everycircuit.com/app/&quot;&gt;Everycircuit&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.partsim.com/&quot;&gt;Partsim&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://library.io/&quot;&gt;library.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.tejotron.com/&quot;&gt;Tejotron&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.electronics-lab.com/downloads/&quot;&gt;List of Electronic Simulator&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;eda-simulator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#eda-simulator&quot; aria-label=&quot;eda simulator permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;EDA Simulator&lt;/h2&gt;
@@ -12548,6 +12832,7 @@ Inline equation with two dollar sign: &lt;span class=&quot;katex&quot;&gt;&lt;sp
 &lt;li&gt;&lt;a href=&quot;https://www.slickwrite.com/#!home&quot;&gt;Slick Write | Check your grammar. Proofread online.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.afterthedeadline.com/&quot;&gt;After the Deadline - Spell, Style, and Grammar Checker for WordPress, Firefox, TinyMCE, jQuery, and CKEditor&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://writefull.com/&quot;&gt;Writefull&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/amperser/proselint&quot;&gt;amperser/proselint: A linter for prose.&lt;/a&gt; writing assistant&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;firefox-add-ons&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#firefox-add-ons&quot; aria-label=&quot;firefox add ons permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Firefox Add Ons&lt;/h2&gt;
 &lt;ul&gt;
@@ -21186,6 +21471,45 @@ Basics. &quot;Google hacking&quot; involves using advanced operators in the Goog
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/rossant/awesome-math&quot;&gt;Awesome Math Book&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://linear.ups.edu/curriculum.html&quot;&gt;UPS Edu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://klkuttler.com/&quot;&gt;Kennethsite&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Elementary Linear Algebra, License: CC-BY&lt;/li&gt;
+&lt;li&gt;Linear Algebra and Analysis, License: Free&lt;/li&gt;
+&lt;li&gt;Linear Algebra Theory and Applications, License: Free&lt;/li&gt;
+&lt;li&gt;Engineering Math, License: Free&lt;/li&gt;
+&lt;li&gt;Calculus of Complex and Real Analysis, License: Free&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://runestoneinteractive.org/#&quot;&gt;Home — Runestone Interactive&lt;/a&gt;, &lt;a href=&quot;https://github.com/RunestoneInteractive/&quot;&gt;Runestone Interactive&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://runestone.academy/runestone/books/published/orcca/index.html&quot;&gt;Open Resources for Community College Algebra (ORCCA)&lt;/a&gt; – Faculty of Portland Community College&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://runestone.academy/runestone/books/published/fcla/index.html&quot;&gt;A First Course in Linear Algebra&lt;/a&gt; – Rob Beezer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://runestone.academy/runestone/books/published/aata/index.html&quot;&gt;Abstract Algebra: Theory and Applications&lt;/a&gt; – Thomas Judson&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://runestone.academy/runestone/books/published/dmoi/index.html&quot;&gt;Discrete Mathematics: an Open Introduction&lt;/a&gt; – Oscar Levin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.saylor.org/books/&quot;&gt;Saylor Academy Open Textbooks - Saylor Academy&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://saylordotorg.github.io/text_the-basics-of-general-organic-and-biological-chemistry/&quot;&gt;The Basics of General, Organic and Biological Chemistry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Computer Networking: Principles, Protocols, and Practice by Olivier Bonaventure, License: CC-BY, &lt;a href=&quot;https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2012/02/Computer-Networking-Principles-Bonaventure-1-30-31-OTC1.pdf&quot;&gt;PDF&lt;/a&gt; , &lt;a href=&quot;https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2012/05/ComputerNetworkingPrinciples_v2.epub&quot;&gt;EPUB&lt;/a&gt; , &lt;a href=&quot;https://itunes.apple.com/us/book/computer-networking-principles/id545677596?mt=11&quot;&gt;iBooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://saylordotorg.github.io/text_elementary-algebra/&quot;&gt;Elementary Algebra&lt;/a&gt;, &lt;a href=&quot;https://github.com/saylordotorg/text_elementary-algebra&quot;&gt;saylordotorg/text_elementary-algebra: Elementary Algebra&lt;/a&gt;, &lt;a href=&quot;https://saylordotorg.github.io/text_elementary-algebra/index.html&quot;&gt;Elementary Algebra - Table of Contents&lt;/a&gt;, License: CC-BY-NC&lt;/li&gt;
+&lt;li&gt;Elementary Linear Algebra  by Kenneth Kuttler, License: CC-BY, &lt;a href=&quot;https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2012/02/Elementary-Linear-Algebra-1-30-11-Kuttler-OTC.pdf&quot;&gt;PDF&lt;/a&gt; , &lt;a href=&quot;https://itunes.apple.com/us/book/elementary-linear-algebra/id540038777?mt=11&quot;&gt;iBooks&lt;/a&gt; , &lt;a href=&quot;https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2013/05/ElementaryLinearAlgebra_v2-EDITS-10-10-2012.epub&quot;&gt;EPUB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/&quot;&gt;Essentials of Geographic Information Systems&lt;/a&gt;, &lt;a href=&quot;https://github.com/saylordotorg/text_essentials-of-geographic-information-systems&quot;&gt;saylordotorg/text_essentials-of-geographic-information-systems: Essentials of Geographic Information Systems&lt;/a&gt;, License: CC-BY-NC&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://saylordotorg.github.io/text_general-chemistry-principles-patterns-and-applications-v1.0/&quot;&gt;General Chemistry: Principles, Patterns, and Applications (v. 1.0)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://saylordotorg.github.io/text_intermediate-algebra/&quot;&gt;Intermediate Algebra&lt;/a&gt;, &lt;a href=&quot;https://github.com/saylordotorg/text_intermediate-algebra&quot;&gt;saylordotorg/text_intermediate-algebra: Intermediate Algebra&lt;/a&gt;, License: CC-BY-NC&lt;/li&gt;
+&lt;li&gt;An Introductory Course in Elementary Number Theory, by Wissam Raji, License: CC-BY, &lt;a href=&quot;https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2013/05/An-Introductory-in-Elementary-Number-Theory.pdf&quot;&gt;PDF&lt;/a&gt; , &lt;a href=&quot;https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2013/05/An-Introductory-in-Elementary-Number-Theory.doc&quot;&gt;DOC&lt;/a&gt; , &lt;a href=&quot;https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2013/05/An-Introductory-in-Elementary-Number-Theory.epub&quot;&gt;ePub&lt;/a&gt; , &lt;a href=&quot;https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2013/05/An-Introductory-in-Elementary-Number-Theory.tex&quot;&gt;TEX/LaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://saylordotorg.github.io/text_introductory-chemistry/&quot;&gt;Introductory Chemistry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://saylordotorg.github.io/text_introductory-statistics/&quot;&gt;Introductory Statistics&lt;/a&gt;, &lt;a href=&quot;https://github.com/saylordotorg/text_introductory-statistics&quot;&gt;saylordotorg/text_introductory-statistics: Introductory Statistics&lt;/a&gt;, License: CC-BY-NC&lt;/li&gt;
+&lt;li&gt;Linear Algebra: Theory and Applications, by Kenneth Kuttler, License: CC-BY, &lt;a href=&quot;https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2012/02/Linear-Algebra-Kuttler-1-30-11-OTC.pdf&quot;&gt;PDF&lt;/a&gt; , &lt;a href=&quot;https://itunes.apple.com/us/book/linear-algebra-theory-applications/id553290698?mt=11&quot;&gt;iBooks&lt;/a&gt; , Also: Lyryx Learning (&lt;a href=&quot;https://lyryx.com/products/mathematics/first-course-linear-algebra/&quot;&gt;multiple formats&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Mathematical Analysis I, by Elias Zakon, with Bradley J. Lucier and Tamara Zakon, License: CC-BY, &lt;a href=&quot;https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2012/02/Real-Analysis-I-Zakon-1-30-11-OTC.pdf&quot;&gt;PDF&lt;/a&gt; - &lt;a href=&quot;https://itunes.apple.com/us/book/mathematical-analysis/id539665316?mt=11&quot;&gt;iBooks&lt;/a&gt; - &lt;a href=&quot;http://www.trillia.com/zakon-analysisI.html&quot;&gt;HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mathematical Analysis I, by Elias Zakon, &lt;a href=&quot;http://www.trillia.com/zakon-analysisII.html&quot;&gt;Mathematical Analysis II - Real Analysis for Postgraduates HTML&lt;/a&gt;, License: CC-BY&lt;/li&gt;
+&lt;li&gt;Topics in Applied Mathematics, by Charles Chui, License: CC-BY-NC, &lt;a href=&quot;https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2014/11/MA304-TopicsInAppliedMathematics-FINAL.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;An Introduction to the Theory of Numbers, by Leo Moser, License: CC-BY, &lt;a href=&quot;http://www.trillia.com/moser-number.html&quot;&gt;An Introduction to the Theory of Numbers - Number Theory Text by Leo Moser - HTML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -21476,7 +21800,6 @@ Basics. &quot;Google hacking&quot; involves using advanced operators in the Goog
 &lt;ul&gt;
 &lt;li&gt;FFmpeg : video processing library/engine&lt;/li&gt;
 &lt;li&gt;Handbrake : video converter&lt;/li&gt;
-&lt;li&gt;kdenlive : video editor&lt;/li&gt;
 &lt;li&gt;HitFilm Express* : video editor (complete editing)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;file-search&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#file-search&quot; aria-label=&quot;file search permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;File Search&lt;/h2&gt;
@@ -21589,7 +21912,6 @@ Basics. &quot;Google hacking&quot; involves using advanced operators in the Goog
 &lt;/ul&gt;
 &lt;h2 id=&quot;graphic-editor&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#graphic-editor&quot; aria-label=&quot;graphic editor permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Graphic Editor&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;draw.io : graphic editor&lt;/li&gt;
 &lt;li&gt;Microsoft Visio: diagram and vector graphic drawing and editor from Microsoft&lt;/li&gt;
 &lt;li&gt;Graphviz : graphics and drawing package (library)&lt;/li&gt;
 &lt;/ul&gt;
@@ -21690,6 +22012,7 @@ Basics. &quot;Google hacking&quot; involves using advanced operators in the Goog
 &lt;li&gt;speedtest: &lt;code&gt;speedtest&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;gping: &lt;code&gt;gping example.com&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/sindresorhus/is-up-cli&quot;&gt;is-up&lt;/a&gt;: &lt;code&gt;is-up example.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;mtr: &lt;code&gt;mtr example.com&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;others&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#others&quot; aria-label=&quot;others permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Others&lt;/h2&gt;
 &lt;ul&gt;
@@ -21698,12 +22021,16 @@ Basics. &quot;Google hacking&quot; involves using advanced operators in the Goog
 &lt;/ul&gt;
 &lt;h2 id=&quot;uninstalled-apps&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#uninstalled-apps&quot; aria-label=&quot;uninstalled apps permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Uninstalled Apps&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Brave : browser&lt;/li&gt;
+&lt;li&gt;Opentoonz&lt;/li&gt;
 &lt;li&gt;Persepolis : aria-based download manager (why: PyIDM is better and faster)&lt;/li&gt;
 &lt;li&gt;MindForger : note taking, zettelkasten, markdown (why: too complex)&lt;/li&gt;
 &lt;li&gt;AsciidocFX : note taking, asciidoc (why: asciidoc is rarely used)&lt;/li&gt;
 &lt;li&gt;Ubuntu : ubuntu on top Windows 10 (why: unstable, rarely used, storage limitation)&lt;/li&gt;
 &lt;li&gt;SAM (System Advisor Model) : PV System Planner (why: not used anymore)&lt;/li&gt;
 &lt;li&gt;rga (&lt;a href=&quot;https://github.com/phiresky/ripgrep-all&quot;&gt;Github Repo&lt;/a&gt;) : take huge database storage&lt;/li&gt;
+&lt;li&gt;kdenlive : video editor (inferior to hitman express)&lt;/li&gt;
+&lt;li&gt;draw.io : graphic editor (inferior to Visio)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;my-computer&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#my-computer&quot; aria-label=&quot;my computer permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;My Computer&lt;/h2&gt;
 &lt;ul&gt;
@@ -25738,6 +26065,8 @@ Example: splitting &quot;engineering notes&quot; to &quot;software notes&quot; a
 &lt;li&gt;&lt;a href=&quot;https://joplinapp.org/&quot;&gt;Joplin&lt;/a&gt;,  multiplatform (mobile, PC, terminal) has more features than practically every other note-taking app out there.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://notion.so/&quot;&gt;Notion&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://brick.do/&quot;&gt;Brick&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://novelwriter.io/&quot;&gt;novelWriter – A markdown-like editor for writing novels&lt;/a&gt; ideal for novel&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theologeek.ch/manuskript/&quot;&gt;Manuskript – Open-source tool for writers&lt;/a&gt; ideal for novel&lt;/li&gt;
 &lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -25891,6 +26220,13 @@ Example: splitting &quot;engineering notes&quot; to &quot;software notes&quot; a
 &lt;li&gt;&lt;a href=&quot;https://mathieudutour.github.io/gatsby-digital-garden/&quot;&gt;Mathieu Dutour&lt;/a&gt; &lt;a href=&quot;https://github.com/mathieudutour/gatsby-digital-garden/&quot;&gt;Gatsby Digital Garden&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/crisrojas/Zettels&quot;&gt;Zettels&lt;/a&gt; &lt;a href=&quot;https://hugokasten.netlify.app/features.html&quot;&gt;Hugokasten&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/srid/neuron-template&quot;&gt;Neuron Template&lt;/a&gt; &lt;a href=&quot;https://neuron.zettel.page/&quot;&gt;Neuron Zettel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/binyamin/eleventy-garden&quot;&gt;binyamin/eleventy-garden: A starter site for building a mind garden with eleventy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/crisrojas/Zettels&quot;&gt;crisrojas/Zettels: Zettels Hugo Theme&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.crisrojas.com/notes/&quot;&gt;Punto de entrada - crisrojas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -26895,13 +27231,27 @@ You should have received a copy of the GNU General Public License along with thi
 &lt;li&gt;&lt;a href=&quot;https://www.ubiquitypress.com/site/&quot;&gt;Ubiquity Press&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://bookboon.com/en/textbooks&quot;&gt;Bookboon&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.degruyter.com/&quot;&gt;de Gruyter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.saylor.org/books/&quot;&gt;Saylor Academy Open Textbooks - Saylor Academy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;repository-of-free-books&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#repository-of-free-books&quot; aria-label=&quot;repository of free books permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Repository of Free Books&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/learn-anything/books&quot;&gt;Learn Anything&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/EbookFoundation/free-programming-books&quot;&gt;Free Programming Books&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.learndatasci.com/free-data-science-books/&quot;&gt;Free Data Science Book&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsbooks.revolunet.com/&quot;&gt;https://jsbooks.revolunet.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://exploringjs.com/&quot;&gt;https://exploringjs.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pythonbooks.revolunet.com/&quot;&gt;https://pythonbooks.revolunet.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.syncfusion.com/ebooks&quot;&gt;https://www.syncfusion.com/ebooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://devfreebooks.github.io/&quot;&gt;https://devfreebooks.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.freetechbooks.com/&quot;&gt;https://www.freetechbooks.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.onlineprogrammingbooks.com/&quot;&gt;https://www.onlineprogrammingbooks.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;And some git repositories :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/EbookFoundation/free-programming-books&quot;&gt;https://github.com/EbookFoundation/free-programming-books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ab-anand/programming-books&quot;&gt;https://github.com/ab-anand/programming-books&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;​&lt;/p&gt;
 &lt;h2 id=&quot;cc-by-books-provider&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cc-by-books-provider&quot; aria-label=&quot;cc by books provider permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CC-BY Books Provider&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://datajournalism.com/&quot;&gt;Data Journalism&lt;/a&gt; CC-BY&lt;/li&gt;
@@ -26936,6 +27286,7 @@ You should have received a copy of the GNU General Public License along with thi
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://open.umn.edu/opentextbooks/&quot;&gt;Open Text Books UMN&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://mksaad.wordpress.com/2019/04/03/open-source-python-programming-books-licensed-under-creative-commons/&quot;&gt;CC Python Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/EbookFoundation/free-science-books&quot;&gt;EbookFoundation/free-science-books: Inspired by free-programming-books, here&apos;s free-science-books&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;out-of-copyright-books&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#out-of-copyright-books&quot; aria-label=&quot;out of copyright books permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Out of Copyright Books&lt;/h2&gt;
 &lt;ul&gt;
@@ -27289,6 +27640,7 @@ You should have received a copy of the GNU General Public License along with thi
 &lt;li&gt;&lt;a href=&quot;https://github.com/DIYgod/RSSHub&quot;&gt;RSS Hub&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://rssproxy.migor.org/&quot;&gt;RSS Proxy&lt;/a&gt; &lt;a href=&quot;https://github.com/damoeb/rss-proxy/&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://pipes.digital/&quot;&gt;Pipes Digital&lt;/a&gt; &lt;a href=&quot;https://docs.rsshub.app/en/&quot;&gt;Doc RSS Hub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rss.app/&quot;&gt;RSS Feed Generator, Create RSS feeds from URL&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;rss-reader&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rss-reader&quot; aria-label=&quot;rss reader permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;RSS Reader&lt;/h2&gt;
 &lt;ul&gt;
