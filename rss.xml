@@ -1,4 +1,569 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 30 Jan 2021 16:14:04 GMT</lastBuildDate><item><title><![CDATA[Photography]]></title><description><![CDATA[Photography Digital Camera Digital Camera Know Hows from Lumix Photography Photography Tips for Beginner Photography Tutorial Essetial Tips…]]></description><link>https://irosyadi.netlify.app/note/photography/</link><guid isPermaLink="false">https://irosyadi.netlify.app/note/photography/</guid><pubDate>Fri, 29 Jan 2021 00:00:52 GMT</pubDate><content:encoded>&lt;h1 id=&quot;photography&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#photography&quot; aria-label=&quot;photography permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Photography&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 10 Feb 2021 04:31:11 GMT</lastBuildDate><item><title><![CDATA[Rangkaian Listrik]]></title><description><![CDATA[Rangkaian Listrik Rangkaian AC (steady state)       Rangkaian DC (steady state) Pada DC, L adalah short circuit, C adalah open circuit. Bisa…]]></description><link>https://irosyadi.netlify.app/catatan/rangkaian_listrik/</link><guid isPermaLink="false">https://irosyadi.netlify.app/catatan/rangkaian_listrik/</guid><pubDate>Tue, 09 Feb 2021 10:52:01 GMT</pubDate><content:encoded>&lt;h1 id=&quot;rangkaian-listrik&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rangkaian-listrik&quot; aria-label=&quot;rangkaian listrik permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Rangkaian Listrik&lt;/h1&gt;
+&lt;h2 id=&quot;rangkaian-ac-steady-state&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rangkaian-ac-steady-state&quot; aria-label=&quot;rangkaian ac steady state permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Rangkaian AC (&lt;em&gt;steady state&lt;/em&gt;)&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;X&lt;/mi&gt;&lt;mi&gt;L&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;ω&lt;/mi&gt;&lt;mi&gt;L&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;X_L=\omega L&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.83333em;vertical-align:-0.15em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.07847em;&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.32833099999999993em;&quot;&gt;&lt;span style=&quot;top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;L&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.15em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.68333em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.03588em;&quot;&gt;ω&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;L&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;
+&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;Z&lt;/mi&gt;&lt;mi&gt;L&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;X&lt;/mi&gt;&lt;mi&gt;L&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;mi&gt;ω&lt;/mi&gt;&lt;mi&gt;L&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;L&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;∠&lt;/mi&gt;&lt;mn&gt;9&lt;/mn&gt;&lt;msup&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;∘&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;Z_L=jX_L=j\omega L=L\angle 90^{\circ}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.83333em;vertical-align:-0.15em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.07153em;&quot;&gt;Z&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.32833099999999993em;&quot;&gt;&lt;span style=&quot;top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;L&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.15em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8777699999999999em;vertical-align:-0.19444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.05724em;&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.07847em;&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.32833099999999993em;&quot;&gt;&lt;span style=&quot;top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;L&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.15em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8777699999999999em;vertical-align:-0.19444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.05724em;&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.03588em;&quot;&gt;ω&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.69224em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;∠&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.674115em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;∘&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;
+&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;X&lt;/mi&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow&gt;&lt;mi&gt;ω&lt;/mi&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;X_C= \frac{1}{\omega C}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.83333em;vertical-align:-0.15em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.07847em;&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.32833099999999993em;&quot;&gt;&lt;span style=&quot;top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.07153em;&quot;&gt;C&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.15em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.190108em;vertical-align:-0.345em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.845108em;&quot;&gt;&lt;span style=&quot;top:-2.6550000000000002em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.03588em;&quot;&gt;ω&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.07153em;&quot;&gt;C&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.23em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.394em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.345em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;
+&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;Z&lt;/mi&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;X&lt;/mi&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;ω&lt;/mi&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;mi&gt;ω&lt;/mi&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;∠&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;9&lt;/mn&gt;&lt;msup&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;∘&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;Z_C=-jX_C=\frac{-j}{\omega C}=\frac{1}{j\omega C}=C\angle -90^{\circ}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.83333em;vertical-align:-0.15em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.07153em;&quot;&gt;Z&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.32833099999999993em;&quot;&gt;&lt;span style=&quot;top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.07153em;&quot;&gt;C&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.15em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8777699999999999em;vertical-align:-0.19444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.05724em;&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.07847em;&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.32833099999999993em;&quot;&gt;&lt;span style=&quot;top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.07153em;&quot;&gt;C&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.15em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.252772em;vertical-align:-0.345em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.907772em;&quot;&gt;&lt;span style=&quot;top:-2.6550000000000002em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.03588em;&quot;&gt;ω&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.07153em;&quot;&gt;C&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.23em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.446108em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.05724em;&quot;&gt;j&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.345em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.326216em;vertical-align:-0.481108em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.845108em;&quot;&gt;&lt;span style=&quot;top:-2.6550000000000002em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.05724em;&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.03588em;&quot;&gt;ω&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.07153em;&quot;&gt;C&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.23em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.394em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.481108em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.77557em;vertical-align:-0.08333em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.07153em;&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;∠&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.674115em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.674115em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;∘&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/p&gt;
+&lt;h2 id=&quot;rangkaian-dc-steady-state&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rangkaian-dc-steady-state&quot; aria-label=&quot;rangkaian dc steady state permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Rangkaian DC (&lt;em&gt;steady state&lt;/em&gt;)&lt;/h2&gt;
+&lt;p&gt;Pada DC, L adalah &lt;em&gt;short circuit&lt;/em&gt;, C adalah &lt;em&gt;open circuit&lt;/em&gt;. Bisa dicermati karena &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;ω&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\omega = 2 \pi f&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.43056em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.03588em;&quot;&gt;ω&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8888799999999999em;vertical-align:-0.19444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.03588em;&quot;&gt;π&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.10764em;&quot;&gt;f&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; dengan &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;f=0&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8888799999999999em;vertical-align:-0.19444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.10764em;&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[2021 February]]></title><description><![CDATA[2021 February Fun Pet Rock PDF Forest Web Based PDF Reader ebook abhishekkrthakur/approachingalmost: Approaching (Almost) Any Machine…]]></description><link>https://irosyadi.netlify.app/blog/202102/</link><guid isPermaLink="false">https://irosyadi.netlify.app/blog/202102/</guid><pubDate>Tue, 02 Feb 2021 07:59:08 GMT</pubDate><content:encoded>&lt;h1 id=&quot;2021-february&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2021-february&quot; aria-label=&quot;2021 february permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2021 February&lt;/h1&gt;
+&lt;h2 id=&quot;fun&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fun&quot; aria-label=&quot;fun permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Fun&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pet Rock&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;pdf&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pdf&quot; aria-label=&quot;pdf permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PDF&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://forestreader.com/#&quot;&gt;Forest Web Based PDF Reader&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ebook&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ebook&quot; aria-label=&quot;ebook permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ebook&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/abhishekkrthakur/approachingalmost&quot;&gt;abhishekkrthakur/approachingalmost: Approaching (Almost) Any Machine Learning Problem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gabrielgambetta.com/computer-graphics-from-scratch/&quot;&gt;Computer Graphics form Scratch - Gabriel Gambetta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://julia.quantecon.org/index_toc.html&quot;&gt;Table of Contents – Quantitative Economics with Julia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning-blog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-blog&quot; aria-label=&quot;machine learning blog permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning: Blog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://rahmadya.com/&quot;&gt;Rahmadya Trias Handayanto | &quot;Just for a little kindness&quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning-image-generator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-image-generator&quot; aria-label=&quot;machine learning image generator permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning: Image Generator&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://same.energy/about&quot;&gt;Same Energy Beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://openai.com/blog/clip/&quot;&gt;CLIP: Connecting Text and Images&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;hardware-project&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hardware-project&quot; aria-label=&quot;hardware project permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hardware: Project&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/filipsPL/cat-localizer&quot;&gt;filipsPL/cat-localizer: Localize your cat at home with BLE beacon, ESP32s, and Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;scientific-report-tools&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#scientific-report-tools&quot; aria-label=&quot;scientific report tools permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Scientific Report Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://weavejl.mpastell.com/stable/&quot;&gt;Weave.jl - Scientific Reports Using Julia · Weave.jl&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rmarkdown.rstudio.com/&quot;&gt;R Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mpastell.com/pweave/&quot;&gt;Pweave - Scientific Reports Using Python — Pweave v0.30 documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://yihui.org/knitr/&quot;&gt;knitr - Elegant, flexible, and fast dynamic report generation with R - Yihui Xie | 谢益辉&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;time-tracker-and-productivity&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#time-tracker-and-productivity&quot; aria-label=&quot;time tracker and productivity permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Time Tracker and Productivity&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://activitywatch.net/&quot;&gt;ActivityWatch - Open-source time tracker&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;aw-qt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/activitywatch-web-watcher/nglaklhklhcoonedhgnpgddginnjdadi&quot;&gt;ActivityWatch Web Watcher - Chrome Web Store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;slide-and-presentation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#slide-and-presentation&quot; aria-label=&quot;slide and presentation permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Slide and Presentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Slides that are text only distract the audience. They read the text.&lt;/li&gt;
+&lt;li&gt;Slides that are non-self-explanatory images, &lt;em&gt;require&lt;/em&gt; the audience to listen to the speaker. Try it. Put two circles on the screen and see what people do. They look at you for explanation.&lt;/li&gt;
+&lt;li&gt;TedX has a pretty good style-guide about &lt;a href=&quot;https://storage.ted.com/tedx/manuals/tedx_speaker_guide.pdf&quot;&gt;slides&lt;/a&gt;:&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What goes in my slides?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Images and photos: To help the audience remember a person, place or thing you mention, you might use images or photos. People will understand that the images represent what you’re saying, so there is no need to verbally describe the images onscreen.&lt;/li&gt;
+&lt;li&gt;Graphs and infographics. Keep graphs visually clear, even if the content is complex. Each graph should make only one point.&lt;/li&gt;
+&lt;li&gt;No slide should support more than one point.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What should the slides look like?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use as little text as possible -- if your audience is reading, they are not listening.&lt;/li&gt;
+&lt;li&gt;Avoid using bullet points. Consider putting different points on different slides.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;But, slides with images and no text are a nightmare for non visual person.&lt;/li&gt;
+&lt;li&gt;So good slides are: important graphs with little text&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;See &lt;a href=&quot;https://www.youtube.com/watch?v=Unzc731iCUY&quot;&gt;Patrick Wilson&apos;s &quot;How To Speak&quot;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;How to Start&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do not start a talk with a joke. Audience are not ready yet.&lt;/li&gt;
+&lt;li&gt;Promise - Tell them what they gonna learn at the end of your talk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Samples&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cycle – make your idea repeated many times in order to be completely clear for everyone.&lt;/li&gt;
+&lt;li&gt;Make a “Fence” around your idea so that it can be distinguished from someone elses idea.&lt;/li&gt;
+&lt;li&gt;Verbal punctuation – sum up information within your talk some times to make listeners get back on.&lt;/li&gt;
+&lt;li&gt;Ask a question - intriguing one&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Place and Time&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Best time for having a lecture is 11 am (not too early and not after lunch)&lt;/li&gt;
+&lt;li&gt;The place should be well lit.&lt;/li&gt;
+&lt;li&gt;The place should be seen and checked before the lecture.&lt;/li&gt;
+&lt;li&gt;The place should not be full less than a half, it must be chosen according to the amount of listeners.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Board and Props&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Board – it’s got graphics, speed, target. Watch your hands! Don&apos;t hold them behind your back, it&apos;s better to keep them straight and use for pointing at the board.&lt;/li&gt;
+&lt;li&gt;Props – use them in order to make your ideas visual. Visual perception is the most effective way to interact with listeners.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Projections&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Don&apos;t put too many words on a slide. Slides should just reflect what you&apos;re saying, not the other way around. Pictures attracts attention and people start to wait for your explanation – use that tip.&lt;/li&gt;
+&lt;li&gt;Make slide as easy as you can – no title, no distracting pictures, frames, points and so on.&lt;/li&gt;
+&lt;li&gt;Do not use laser pointer – due to that you lose eye contact with the audience. Instead you can make the arrows just upon a slide. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Case: Informing (e.g. teaching)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Promise: a promise what we&apos;will go through&lt;/li&gt;
+&lt;li&gt;Inspiration: they were inspired when someone exhibited passion about what they were doing&lt;/li&gt;
+&lt;li&gt;How to Think:  Education is continuity of storytelling. So, provide audience with the stories they need to know, the questions they need to ask about those stories, mechanisms for analyzing those stories, ways of putting stories together, ways of evaluating how reliable a story is.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Case: Persuading (e.g. oral exam, job talk, getting famous)&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Oral Exam&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the most usual reason for people failing an oral exam is failure to situate and a failure to practice. By situate, it&apos;s important to talk about our research in context (problem, solution, impact).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Job talk&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Show to your listeners that your stuff is cool and interesting and you&apos;re not a rookie&lt;/li&gt;
+&lt;li&gt;You have to be able to: (1) show your vision of that problem, (2) show that you&apos;ve done particular things (by steps), (3) conclude&lt;/li&gt;
+&lt;li&gt;Vision of a problem that somebody cares about and something new in your approach.&lt;/li&gt;
+&lt;li&gt;How do you express the notion that you&apos;ve done something? By listing the steps that need to be taken in order to achieve the solution to that problem.&lt;/li&gt;
+&lt;li&gt;And then you conclude by you conclude by enumerating your contributions.&lt;/li&gt;
+&lt;li&gt;All of that should be done real quick in no more than 5 min.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Getting Famous: about how you&apos;re going to be recognized for what you do.  Your ideas are
+like your children, so what you want to do is to be sure that you have techniques, mechanisms, thoughts about how to present ideas that you have so that they&apos;re recognized for the value that is in them.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you want to your ideas be remembered you&apos;ve got to have &quot;5 S&quot;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Symbols associate with your ideas (visual perception is the best way to attract attention)&lt;/li&gt;
+&lt;li&gt;Slogan (describing your idea)&lt;/li&gt;
+&lt;li&gt;Surprise (common fallacy that is no longer true, for instance, just after you&apos;ve told about it)&lt;/li&gt;
+&lt;li&gt;Salient Idea (an idea which not necessarily important but the one that sticks out)&lt;/li&gt;
+&lt;li&gt;Story (how you did it, how it works…)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How to Stop Pursuading Presentations&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Don&apos;t put the end with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;put collaborators at the end (do that at the beginning).&lt;/li&gt;
+&lt;li&gt;&apos;questions?&apos;&lt;/li&gt;
+&lt;li&gt;&apos;link: &lt;a href=&quot;https://bla.bla&quot;&gt;https://bla.bla&lt;/a&gt;&apos;&lt;/li&gt;
+&lt;li&gt;&apos;the end&apos;&lt;/li&gt;
+&lt;li&gt;&apos;conclusions&apos; (it will better ended with &apos;contributions&apos;).&lt;/li&gt;
+&lt;li&gt;&apos;Thank you (for listening)&apos; (except, after applause).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Put the end with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;contribution&lt;/li&gt;
+&lt;li&gt;jokes, since people then will leave the event feeling fun and thus keep a good memory of your talk.&lt;/li&gt;
+&lt;li&gt;a salute to people (how much you valued the time being here, the people over here..., “I&apos;d like to get back, it was fun!&quot;). With this you won&apos;t have to worry about how to end!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;browser-based-presentation-tools&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#browser-based-presentation-tools&quot; aria-label=&quot;browser based presentation tools permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Browser based Presentation Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://hiroppy.github.io/fusuma/&quot;&gt;Fusuma · ✍️ Makes slides with Markdown easily.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jdan.github.io/cleaver/&quot;&gt;Cleaver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://play.presenta.cc/&quot;&gt;PRESENTA Play! - Make slides fast!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.deckset.com/&quot;&gt;Deckset for Mac: Presentations from Markdown in No Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marp.app/&quot;&gt;Marp: Markdown Presentation Ecosystem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remarkjs.com/#1&quot;&gt;Remark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://revealjs.com/&quot;&gt;The HTML presentation framework | reveal.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;quote&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#quote&quot; aria-label=&quot;quote permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Quote&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“As long as we work hard, our boss will soon be able to live the life he wants!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;computer-graphics-books&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#computer-graphics-books&quot; aria-label=&quot;computer graphics books permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Computer Graphics Books&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://gabrielgambetta.com/computer-graphics-from-scratch/&quot;&gt;Computer Graphics from Scratch - Gabriel Gambetta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://raytracing.github.io/books/RayTracingInOneWeekend.html&quot;&gt;Ray Tracing in One Weekend&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://thebookofshaders.com/&quot;&gt;The Book of Shaders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://webglfundamentals.org/&quot;&gt;WebGL Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;javascript-books&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-books&quot; aria-label=&quot;javascript books permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Javascript Books&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://addyosmani.com/resources/essentialjsdesignpatterns/book/?ref=java5cript.com&quot;&gt;Learning JavaScript Design Patterns&lt;/a&gt; License: CC-BY-NC-ND&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://exploringjs.com/impatient-js/toc.html&quot;&gt;JavaScript for impatient programmers (ES2020 edition)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eloquentjavascript.net/?ref=java5cript.com&quot;&gt;Eloquent JavaScript&lt;/a&gt; License: CC-BY-NC&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://read.humanjavascript.com/?ref=java5cript.com&quot;&gt;Introduction | Human JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;javascript-course&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-course&quot; aria-label=&quot;javascript course permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Javascript Course&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://learnjavascript.online/&quot;&gt;Learn JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;javascript-learning-resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#javascript-learning-resources&quot; aria-label=&quot;javascript learning resources permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Javascript Learning Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.java5cript.com/websites&quot;&gt;Free JavaScript Websites | Java5cript.com - Learn JavaScript for free&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;privacy&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#privacy&quot; aria-label=&quot;privacy permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Privacy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/2021/02/05/opinion/capitol-attack-cellphone-data.html&quot;&gt;Opinion | They Stormed the Capitol. Their Apps Tracked Them. - The New York Times&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;search-image&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#search-image&quot; aria-label=&quot;search image permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Search: Image&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://evertrove.co/&quot;&gt;Evertrove - The Semantic Image API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;visualization-neural-network&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#visualization-neural-network&quot; aria-label=&quot;visualization neural network permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Visualization: Neural Network&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/lutzroeder/netron&quot;&gt;lutzroeder/netron: Visualizer for neural network, deep learning, and machine learning models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;visualization-complexity&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#visualization-complexity&quot; aria-label=&quot;visualization complexity permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Visualization: Complexity&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://complexityexplained.github.io/&quot;&gt;Complexity Explained&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.complexity-explorables.org/&quot;&gt;Complexity Explorables | Complexity Explorables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;web-based-local-only-editor&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#web-based-local-only-editor&quot; aria-label=&quot;web based local only editor permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Web-based Local Only Editor&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://demo.hushdocs.com/#doc=e16d34a6-f29c-49b7-8fd2-3c9a670d9abb&quot;&gt;Hush Docs&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/j-berman/hush-docs&quot;&gt;j-berman/hush-docs: Offline-first, private Google Docs alternative.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://privanote.xyz/&quot;&gt;PrivaNote&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/portabellainc/privanote&quot;&gt;PortabellaInc/privanote: Offline first, end-to-end encrypted note taking.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;spartan-web-selfhosted&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spartan-web-selfhosted&quot; aria-label=&quot;spartan web selfhosted permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spartan Web Selfhosted&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://portable.fyi/#top&quot;&gt;Portable thoughts&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/cadars/portable-php&quot;&gt;cadars/portable-php: A “portable HTML” blog generator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;android-machine-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#android-machine-learning&quot; aria-label=&quot;android machine learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Android Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.googblogs.com/tag/ml-kit/&quot;&gt;MLKIt Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://auth0.com/blog/a-look-at-android-ml-kit-the-machine-learning-sdk/&quot;&gt;A Look at Android ML Kit - the Machine Learning SDK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asmaamirkhan/MLKitDemo&quot;&gt;asmaamirkhan/MLKitDemo: A demo app for various Firebase ML-Kit vision functionalities 🕵️‍♀️&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/googlesamples/mlkit&quot;&gt;googlesamples/mlkit: A collection of sample apps to demonstrate how to use Google&apos;s ML Kit APIs on Android and iOS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;e-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#e-learning&quot; aria-label=&quot;e learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;E-learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://lumenlearning.com/courses/&quot;&gt;Open Course from Lumen | Lumen Learning&lt;/a&gt;, example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://courses.lumenlearning.com/lumencollegesuccessxtraining3/&quot;&gt;College Success | Simple Book Production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://courses.lumenlearning.com/waymakermath4libarts/&quot;&gt;Mathematics for the Liberal Arts | Simple Book Production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://courses.lumenlearning.com/wm-concepts-statistics/?utm_referrer=https%3A%2F%2Flumenlearning.com%2F&quot;&gt;Concepts in Statistics | Simple Book Publishing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ohm.lumenlearning.com/course/course.php?cid=6504&amp;#x26;guestaccess=true&amp;#x26;utm_referrer=https%3A%2F%2Flumenlearning.com%2F&quot;&gt;Lumen OHM - Introduction to Statistics - Lumen Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ohm.lumenlearning.com/course/course.php?cid=5783&amp;#x26;guestaccess=true&amp;#x26;utm_referrer=https%3A%2F%2Flumenlearning.com%2F&quot;&gt;Lumen OHM - Statistics Using Technology - Kozak&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ohm.lumenlearning.com/course/course.php?cid=12328&amp;#x26;guestaccess=true&amp;#x26;utm_referrer=https%3A%2F%2Flumenlearning.com%2F&quot;&gt;Lumen OHM - Beginning Algebra - Lumen Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ohm.lumenlearning.com/course/course.php?cid=558&amp;#x26;guestaccess=true&amp;#x26;utm_referrer=https%3A%2F%2Flumenlearning.com%2F&quot;&gt;Lumen OHM - Beginning and Intermediate Algebra (Sections) - Wallace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://courses.lumenlearning.com/boundless-physics/&quot;&gt;Boundless Physics | Simple Book Publishing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ebook-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ebook-1&quot; aria-label=&quot;ebook 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Ebook&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.coconino.edu/open-source-textbooks&quot;&gt;Coconino Community College - Open Source Textbooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.opentextbookstore.com/catalog.php&quot;&gt;OpenTextBookStore Catalog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pages.cs.wisc.edu/~remzi/OSTEP/&quot;&gt;Operating Systems: Three Easy Pieces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://phys.libretexts.org&quot;&gt;Physics LibreTexts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eng.libretexts.org/&quot;&gt;Engineering LibreTexts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://math.libretexts.org/&quot;&gt;Mathematics LibreTexts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://openstax.org/&quot;&gt;OpenStax Homepage - OpenStax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://scidiv.bellevuecollege.edu/dh/Calculus_all/Calculus_all.html&quot;&gt;Calculus, Contemporary Calculus, Hoffman&lt;/a&gt; License: CC-BY&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://hyperphysics.phy-astr.gsu.edu/hbase/index.html&quot;&gt;HyperPhysics Concepts&lt;/a&gt;: free book on Physics, Electricity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;userscripts&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#userscripts&quot; aria-label=&quot;userscripts permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Userscripts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://userscripts-mirror.org/&quot;&gt;Userscripts.org: Power-ups for your browser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://openuserjs.org/&quot;&gt;OpenUserJS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;tunneling&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tunneling&quot; aria-label=&quot;tunneling permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tunneling&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/anderspitman/awesome-tunneling&quot;&gt;anderspitman/awesome-tunneling: List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://robotmoon.com/ssh-tunnels/&quot;&gt;Visual guide to SSH tunnels&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;selfhosted&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#selfhosted&quot; aria-label=&quot;selfhosted permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Selfhosted&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://yunohost.org/#/&quot;&gt;With YunoHost, you can easily manage a server for your friends, association or enterprise. Learn more • YunoHost&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://freedombox.org/&quot;&gt;FreedomBox - Personal Server at Home&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;video&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#video&quot; aria-label=&quot;video permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Video&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.unscreen.com/&quot;&gt;Remove Video Background – Unscreen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning-visualization&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-visualization&quot; aria-label=&quot;machine learning visualization permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning Visualization&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://tensorspace.org/&quot;&gt;TensorSpace.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;sound-ambient&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#sound-ambient&quot; aria-label=&quot;sound ambient permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sound: Ambient&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://sounds4sleep.com/#0&quot;&gt;Sounds For Sleep&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pluvior.com/&quot;&gt;Ambient rain simulator for pluviophiles. Relaxing sound of rain.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://defonic.com/&quot;&gt;Defonic | A fabulous ambient noise generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://noises.online/&quot;&gt;Online Background Noises • Relaxing Sounds • Noise Masking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://asoftmurmur.com/&quot;&gt;A Soft Murmur&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tabletopaudio.com/custom_sp.html&quot;&gt;Custom SoundPad - Tabletop Audio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;unicode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#unicode&quot; aria-label=&quot;unicode permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Unicode&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://unicode.emnudge.dev/&quot;&gt;Unicode Lookup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning-action-recogntion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-action-recogntion&quot; aria-label=&quot;machine learning action recogntion permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning: Action Recogntion&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/TwentyBN/sense&quot;&gt;TwentyBN/sense: Enhance your application with the ability to see and interact with humans using any RGB camera.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;svg-generator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#svg-generator&quot; aria-label=&quot;svg generator permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;SVG Generator&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.visiwig.com/patterns/&quot;&gt;Vector Pattern Generator | VISIWIG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://yqnn.github.io/svg-path-editor/&quot;&gt;SvgPathEditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;svg-images&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#svg-images&quot; aria-label=&quot;svg images permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;SVG Images&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.manypixels.co/gallery&quot;&gt;Free to use Illustrations by ManyPixels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://undraw.co/illustrations&quot;&gt;Illustrations | unDraw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://logosear.ch/search.html?q=indonesia&amp;#x26;max=48&quot;&gt;LogoSear.ch: Instant logo search for SVG logos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;music-generation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#music-generation&quot; aria-label=&quot;music generation permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Music Generation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://deepjazz.io/&quot;&gt;deepjazz: deep learning for jazz&lt;/a&gt; &lt;a href=&quot;https://github.com/jisungk/deepjazz&quot;&gt;jisungk/deepjazz: Deep learning driven jazz generation using Keras &amp;#x26; Theano!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/KarthikNayak/DeepRock&quot;&gt;KarthikNayak/DeepRock: Rock Music using Deep Learning&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://nayak.io/posts/deeprock/&quot;&gt;Deeprock: LSTM based Rock Guitar Generator · Karthik Nayak&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Skuldur/Classical-Piano-Composer&quot;&gt;Skuldur/Classical-Piano-Composer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/salu133445/musegan&quot;&gt;salu133445/musegan: An AI for Music Generation&lt;/a&gt; &lt;a href=&quot;https://www.reddit.com/r/deeplearning/comments/b29578/deep_learning_music_music_generation_using_gan/&quot;&gt;reddit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://magenta.tensorflow.org/music-transformer&quot;&gt;Music Transformer: Generating Music with Long-Term Structure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/MachineLearning/comments/kqoxo3/generative_deep_learning_for_virtuosic_classical/&quot;&gt;Generative Deep Learning for Virtuosic Classical Music: Generative Adversarial Networks as Renowned Composers : MachineLearning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://magenta.tensorflow.org/performance-rnn-browser&quot;&gt;Real-time Performance RNN in the Browser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://sites.google.com/site/anayebihomepage/cs224dfinalproject&quot;&gt;GRUV: Algorithmic Music Generation using Recurrent Neural Networks - Aran Nayebi&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/MattVitelli/GRUV&quot;&gt;MattVitelli/GRUV: GRUV is a Python project for algorithmic music generation.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;wikimedia&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#wikimedia&quot; aria-label=&quot;wikimedia permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Wikimedia&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pageviews.toolforge.org/?project=en.wikipedia.org&amp;#x26;platform=all-access&amp;#x26;agent=user&amp;#x26;redirects=0&amp;#x26;range=latest-20&amp;#x26;pages=Cat%7CDog&quot;&gt;Wikipedia Pageviews Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;python-tutorials&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#python-tutorials&quot; aria-label=&quot;python tutorials permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Python Tutorials&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://learnbyexample.github.io/100_page_python_intro/preface.html&quot;&gt;Preface - 100 Page Python Intro&lt;/a&gt; License: CC-BY-NC&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://learnbyexample.github.io/py_resources/&quot;&gt;Preface - Python resources for everybody&lt;/a&gt; License: CC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;python-by-projects&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#python-by-projects&quot; aria-label=&quot;python by projects permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Python by Projects&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/norvig/pytudes&quot;&gt;norvig/pytudes: Python programs, usually short, of considerable difficulty, to perfect particular skills.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/karan/Projects-Solutions&quot;&gt;karan/Projects-Solutions: Links to others&apos; solutions to Projects (https://github.com/karan/Projects/)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tuvtran/project-based-learning#python&quot;&gt;tuvtran/project-based-learning: Curated list of project-based tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.codewithrepl.it/&quot;&gt;Code with Repl.it | Python projects for beginners&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;robot-farming&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#robot-farming&quot; aria-label=&quot;robot farming permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Robot: Farming&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://farm.bot/&quot;&gt;FarmBot | Open-Source CNC Farming&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Photography]]></title><description><![CDATA[Photography Digital Camera Digital Camera Know Hows from Lumix Photography Photography Tips for Beginner Photography Tutorial Essetial Tips…]]></description><link>https://irosyadi.netlify.app/note/photography/</link><guid isPermaLink="false">https://irosyadi.netlify.app/note/photography/</guid><pubDate>Fri, 29 Jan 2021 00:00:52 GMT</pubDate><content:encoded>&lt;h1 id=&quot;photography&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#photography&quot; aria-label=&quot;photography permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Photography&lt;/h1&gt;
 &lt;h2 id=&quot;digital-camera&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#digital-camera&quot; aria-label=&quot;digital camera permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Digital Camera&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://av.jpn.support.panasonic.com/support/global/cs/dsc/knowhow/index.html&quot;&gt;Digital Camera Know Hows from Lumix&lt;/a&gt;&lt;/li&gt;
@@ -3599,6 +4164,56 @@ Progress bars can help by visualizing their advancements. You can even add a bit
 &lt;blockquote&gt;
 &lt;p&gt;Brandolini&apos;s law: &quot;The amount of energy needed to refute bullshit is an order of magnitude larger than to produce it.&quot;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h2 id=&quot;interactive-web&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#interactive-web&quot; aria-label=&quot;interactive web permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Interactive Web&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://nn.labml.ai/&quot;&gt;LabML Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://siliconpr0n.org/&quot;&gt;Siliconpr0n&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://etherlearn.cryptizens.io/#/home&quot;&gt;Etherlearn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.logicalfallacies.org/&quot;&gt;Logical Fallacies - List of Logical Fallacies with Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://setosa.io/#/&quot;&gt;Setosa data visualization and visual explanations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ncase.me/trust/&quot;&gt;The Evolution of Trust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/russellgoldenberg/scrollama&quot;&gt;russellgoldenberg/scrollama: Scrollytelling with IntersectionObserver.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sci-map.org/&quot;&gt;Sci-Map.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.jwilber.me/permutationtest/&quot;&gt;Permutation Test: Visual Explanation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://p.migdal.pl/interactive-machine-learning-list/&quot;&gt;Interactive Machine Learning List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://explorabl.es/&quot;&gt;Explorable Explanations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://betterexplained.com/&quot;&gt;BetterExplained – Math lessons that click&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.tungsteno.io/&quot;&gt;Tungsteno | Online Mathematics for Everybody&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;control-theory-interactive&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#control-theory-interactive&quot; aria-label=&quot;control theory interactive permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Control Theory Interactive&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://icct.cafre.unipi.it/&quot;&gt;ICCT&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Control Systems Academy - &lt;a href=&quot;http://www.controlsystemsacademy.com/&quot;&gt;http://www.controlsystemsacademy.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CBE30338: &lt;a href=&quot;https://jckantor.github.io/CBE30338/&quot;&gt;https://jckantor.github.io/CBE30338/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linear Physica l Systems Analysis: &lt;a href=&quot;https://lpsa.swarthmore.edu/&quot;&gt;https://lpsa.swarthmore.edu/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python in Education (Institute of Control Theory): &lt;a href=&quot;https://tu-dresden.de/ing/elektrotechnik/rst/studium/python-in-der-lehre?set_language=en&quot;&gt;https://tu-dresden.de/ing/elektrotechnik/rst/studium/python-in-der-lehre?set_language=en&lt;/a&gt;
+&lt;a href=&quot;http://www.ima.umn.edu/2015-2016/W3.14-18.16#schedule&quot;&gt;Computational Methods for Control of Infinite-dimensional Systems | Institute for Mathematics and its Applications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;cnn-sliced-inference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cnn-sliced-inference&quot; aria-label=&quot;cnn sliced inference permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CNN Sliced Inference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/obss/sahi&quot;&gt;obss/sahi: A vision library for performing sliced inference on large images/small objects&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;deep-learning-for-forecasgint&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#deep-learning-for-forecasgint&quot; aria-label=&quot;deep learning for forecasgint permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Deep Learning for Forecasgint&lt;/h2&gt;
+&lt;p&gt;top open source deep learning for time series forecasting frameworks. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/awslabs/gluon-ts&quot;&gt;Gluon&lt;/a&gt; This framework by Amazon remains one of the top DL based time series forecasting frameworks on GitHub. However, there are some down sides including lock-in to MXNet (a rather obscure architecture). The repository also doesn’t seem to be quick at adding new research.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/AIStream-Peelout/flow-forecast&quot;&gt;Flow Forecast&lt;/a&gt; This is an upcoming PyTorch based deep learning for time series forecasting framework. The repository features a lot of recent models out of research conferences along with an easy to use deployment API. The repository is one of the few repos to have new models, coverage tests, and interpretability metrics.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sktime/sktime-dl&quot;&gt;sktime dl&lt;/a&gt; This is another time series forecasting repository. Unfortunately it looks like particularly recent activity has diminished on it.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/zalandoresearch/pytorch-ts&quot;&gt;PyTorch-TS&lt;/a&gt; Another framework, written in PyTorch, this repository focuses more on probabilistic models. The repository isn’t that active (last commit was in November).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;deep-learning-noise-cancellation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#deep-learning-noise-cancellation&quot; aria-label=&quot;deep learning noise cancellation permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Deep Learning Noise Cancellation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/werman/noise-suppression-for-voice&quot;&gt;werman/noise-suppression-for-voice: Noise suppression plugin based on Xiph&apos;s RNNoise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;math-visualization&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#math-visualization&quot; aria-label=&quot;math visualization permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Math Visualization&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mathinspector.com/&quot;&gt;Math Inspector - A visual programming environment for scientific computing with numpy and scipy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;windows-app&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#windows-app&quot; aria-label=&quot;windows app permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Windows App&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jordansissel/keynav&quot;&gt;jordansissel/keynav: retire your mouse.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lora&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lora&quot; aria-label=&quot;lora permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LORA&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://meshtastic.letstalkthis.com/&quot;&gt;Meshtastic&lt;/a&gt; An open source, off-grid, hiking, climbing, skiing,  GPS mesh communicator.
+Similar to disaster.radio&lt;/p&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
@@ -8602,6 +9217,7 @@ Progress bars can help by visualizing their advancements. You can even add a bit
 &lt;li&gt;&lt;a href=&quot;https://transformer.huggingface.co/&quot;&gt;transformer&lt;/a&gt; : text generation using transformer GPT2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/explosion/spaCy/&quot;&gt;Spacy: 💫 Industrial-strength Natural Language Processing (NLP) in Python&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -12255,6 +12871,9 @@ Inline equation with two dollar sign: &lt;span class=&quot;katex&quot;&gt;&lt;sp
 &lt;iframe src=&quot;https://wttr.in&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 &lt;h2 id=&quot;image-hosting-in-github&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#image-hosting-in-github&quot; aria-label=&quot;image hosting in github permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Image Hosting in Github&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/irosyadi/vnote.image/master/1608464780_20201220183102525_18817.png&quot; alt=&quot;QR Code Image-small&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;svg&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#svg&quot; aria-label=&quot;svg permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;SVG&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://snapsvg.io/assets/images/crocodile.svg&quot; alt=&quot;crocodile&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/indonesia.svg&quot; alt=&quot;Garuda Pancasila&quot;&gt;&lt;/p&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
@@ -14212,6 +14831,7 @@ Inline equation with two dollar sign: &lt;span class=&quot;katex&quot;&gt;&lt;sp
 &lt;li&gt;&lt;a href=&quot;https://showhn-dashboard.netlify.app/&quot;&gt;Show HN projects — Browse the best projects posted on Show HN&lt;/a&gt; : Hacker News Show HN post list&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://hnrankings.info/&quot;&gt;Hacker News Rankings&lt;/a&gt; : Hacker News post ranking&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://hackernewsbooks.com/top-books-on-hacker-news&quot;&gt;Top Hacker News Books of All Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://yahnd.com/books/&quot;&gt;HN Books | The Best Books of Hacker News&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;hacker-news-aggregator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hacker-news-aggregator&quot; aria-label=&quot;hacker news aggregator permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hacker News Aggregator&lt;/h2&gt;
 &lt;ul&gt;
@@ -16034,6 +16654,21 @@ Jason Brownlee, proprietary, used&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://makepath.com/history-of-open-source-gis/&quot;&gt;History of Open Source GIS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&quot;sasplanet&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#sasplanet&quot; aria-label=&quot;sasplanet permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;SASPlanet&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sasgis.org/sasplaneta/&quot;&gt;SASPlanet at SASGIS&lt;/a&gt;
+&lt;a href=&quot;http://www.sasgis.org/forum/viewtopic.php?f=2&amp;#x26;t=986&quot;&gt;SASPlanet FAQ&lt;/a&gt;
+&lt;a href=&quot;https://www.tedieka.com/sasplanet-error-unable-to-load-map/&quot;&gt;SASPlanet unable to lad map&lt;/a&gt; or &lt;a href=&quot;https://gisenglish.geojamal.com/2018/06/download-sas-planet-nightly-all.html&quot;&gt;here&lt;/a&gt;
+&lt;strong&gt;The most needed links:&lt;/strong&gt;  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Program (latest official release, test builds and archive of previous versions):&lt;a href=&quot;http://sasgis.org/download/&quot;&gt; http://sasgis.org/download/&lt;/a&gt;&lt;br&gt;
+&lt;em&gt;Attention! Servers with maps can be updated after the release, so the maps are strongly recommended to update anyway!&lt;/em&gt;  &lt;/li&gt;
+&lt;li&gt;Nightly build, separate from archive versions:&lt;a href=&quot;http://sasgis.org/programs/sasplanet/nightly.php&quot;&gt; http://sasgis.org/programs/sasplanet/nightly.php&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;Program - all releases, beta versions and nightly builds (mirror):&lt;a href=&quot;https://bitbucket.org/sas_team/sas.planet.bin/downloads&quot;&gt; https://bitbucket.org/ sas_team / sas.planet.bin / downloads&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;NEW merged map set:&lt;a href=&quot;https://github.com/sasgis/sas.maps/archive/master.zip&quot;&gt; https://github.com/sasgis/sas.maps/archive/master.zip&lt;/a&gt;
+&lt;strong&gt;Very short instruction:&lt;/strong&gt;  &lt;/li&gt;
+&lt;li&gt;unpack the program somewhere, for example, c: \ SASPlanet, but not in c: \ Program Files and not in c: \ Program Files (x86)  &lt;/li&gt;
+&lt;li&gt;unpack the maps into the Maps directory (since they are newer than in the archive with the program). You should get SASPlanet \ Maps \ sas.maps \ and SASPlanet \ Maps \ plus.maps \.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
@@ -18830,6 +19465,239 @@ When someone is unhappy, that an excellent opportunity for me to learn, so I wan
     opacity: 0.7;
   }
   
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Matematika Teknik]]></title><description><![CDATA[MK Matematika Teknik Kode: TKE191113 SKS: 3 Jadwal: TKE191113 Matematika Teknik  A KAMIS 07:00 - 09:30 GEDUNG TEKNIK C 101 - 65 mhs TKE…]]></description><link>https://irosyadi.netlify.app/course/mk-matematika-teknik/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-matematika-teknik/</guid><pubDate>Mon, 31 Aug 2020 13:58:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-matematika-teknik&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-matematika-teknik&quot; aria-label=&quot;mk matematika teknik permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Matematika Teknik&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Kode: TKE191113&lt;/li&gt;
+&lt;li&gt;SKS: 3&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jadwal:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TKE191113 Matematika Teknik  A KAMIS 07:00 - 09:30 GEDUNG TEKNIK C 101 - 65 mhs&lt;/li&gt;
+&lt;li&gt;TKE191113 Matematika Teknik  B KAMIS 09:30 - 12:00 GEDUNG TEKNIK C 101 - 44 mhs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;capaian-pembelajaran-lulusan-cpl-program-studi&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#capaian-pembelajaran-lulusan-cpl-program-studi&quot; aria-label=&quot;capaian pembelajaran lulusan cpl program studi permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Capaian Pembelajaran Lulusan (CPL) Program Studi&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pengetahuan-PU01 : menguasai pengetahuan matematika lanjut meliputi kalkulus integral­diferensial, persamaan diferensial, aljabar linier, variable kompleks, probabilitas dan statistik, dan matematika diskret serta penerapan mereka di bidang teknik elektro;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;capaian-pembelajaran-mata-kuliah&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#capaian-pembelajaran-mata-kuliah&quot; aria-label=&quot;capaian pembelajaran mata kuliah permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Capaian Pembelajaran Mata Kuliah&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Menguasai metode penyelesaian persamaan linear secara analitis dan numeris&lt;/li&gt;
+&lt;li&gt;Menguasai operasi terhadap matriks dan penerapannya&lt;/li&gt;
+&lt;li&gt;Menguasai konsep eigenvalue dan eigenvektor dan penerapannya&lt;/li&gt;
+&lt;li&gt;Menguasai konsep vektor dan ruang vektor serta penerapannya&lt;/li&gt;
+&lt;li&gt;Menguasai konsep transformasi linear dan penerapannya&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;bahan-kajian&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bahan-kajian&quot; aria-label=&quot;bahan kajian permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bahan Kajian&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sistem Persamaan Linear&lt;/li&gt;
+&lt;li&gt;Matriks dan Operasi Matriks&lt;/li&gt;
+&lt;li&gt;Eigenvalue dan Eigenvektor&lt;/li&gt;
+&lt;li&gt;Dekomposisi LU&lt;/li&gt;
+&lt;li&gt;Diagonalisasi dan Bentuk Kuadrat (tambahan)&lt;/li&gt;
+&lt;li&gt;Ruang Vektor Euklid&lt;/li&gt;
+&lt;li&gt;Ruang Vektor Umum&lt;/li&gt;
+&lt;li&gt;Transformasi Linear&lt;/li&gt;
+&lt;li&gt;Aplikasi Aljabar Linear di bidang Teknik Elektro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;referensi&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi&quot; aria-label=&quot;referensi permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi&lt;/h2&gt;
+&lt;h3 id=&quot;referensi-berbayar&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi-berbayar&quot; aria-label=&quot;referensi berbayar permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi Berbayar&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://books.google.co.id/books?id=loRbAgAAQBAJ&amp;#x26;redir_esc=y&quot;&gt;Elementary Linear Algebra: Application Version by Howard Anton&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://books.google.co.id/books?id=apXfrQEACAAJ&amp;#x26;redir_esc=y&quot;&gt;Linear Algebra and Its Applications by David C. Lay&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;referensi-bebas-terbuka&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi-bebas-terbuka&quot; aria-label=&quot;referensi bebas terbuka permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi Bebas Terbuka&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/index.html&quot;&gt;Interactive Linear Algebras by Dan Margalit&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/ila.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/frontmatter-1.html&quot;&gt;Discover Linear Algebra by Jeremy Sylvestre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://hefferon.net/linearalgebra/&quot;&gt;Linear Algebra by Jim Hefferon&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://joshua.smcvt.edu/linearalgebra/book.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://open.umn.edu/opentextbooks/textbooks/linear-algebra-theory-and-applications&quot;&gt;Linear Algebra, Theory And Applications by Kenneth Kuttler&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://lila1.lyryx.com/textbooks/KUTTLER_1/marketing/Kuttler-LinearAlgebra-AFirstCourse-2017A.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://linear.ups.edu/&quot;&gt;A First Course in Linear Algebra by Robert A. Beezer&lt;/a&gt; or its public beta version of &lt;a href=&quot;https://linear.ups.edu/fcla/index.html&quot;&gt;A First Course in Linear Algebra&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://linear.ups.edu/download/fcla-3.50-print.pdf&quot;&gt;PDF File&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://linearalgebra.math.umanitoba.ca/math1220/&quot;&gt;MATH 1220 Linear Algebra 1 by Michael Doob&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;kuliah-online&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kuliah-online&quot; aria-label=&quot;kuliah online permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuliah Online&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/linear-algebra-foundations-to-frontiers&quot;&gt;edX - Linear Algebra - Foundations to Frontiers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/&quot;&gt;MIT OCW - Linear Algebra by Gilbert Strang&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=YrHlHbtiSM0&quot;&gt;Youtube&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.khanacademy.org/math/algebra&quot;&gt;Algebra 1 - Khan Academy&lt;/a&gt; and &lt;a href=&quot;https://www.khanacademy.org/math/algebra2&quot;&gt;Algebra 2 - Khan Academy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;youtube&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#youtube&quot; aria-label=&quot;youtube permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Youtube&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;#x26;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&quot;&gt;3Blue1Brown Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/c/MathTheBeautiful/playlists?view=50&amp;#x26;sort=dd&amp;#x26;shelf_id=2&quot;&gt;MathTheBeautiful Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&quot;&gt;Grant Sanderson Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#software&quot; aria-label=&quot;software permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Software&lt;/h2&gt;
+&lt;h3 id=&quot;pc&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pc&quot; aria-label=&quot;pc permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PC&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://speedcrunch.org/&quot;&gt;SpeedCrunch&lt;/a&gt; – open source software, fast, simple&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/octave/index&quot;&gt;GNU Octave&lt;/a&gt; – open source software&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://octave-online.net/&quot;&gt;Online Octave&lt;/a&gt; - online GNU Octave&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.mathworks.com/products/matlab.html&quot;&gt;Matlab&lt;/a&gt; – proprietary&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.anaconda.com/products/individual&quot;&gt;Anaconda for Python Data Science Programming&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;android&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#android&quot; aria-label=&quot;android permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Android&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.krazeapps.octaveprogrammingcompiler&quot;&gt;Madona&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=verbosus.anoclite&quot;&gt;Anoc Octave Editor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;kuliah&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kuliah&quot; aria-label=&quot;kuliah permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuliah&lt;/h2&gt;
+&lt;h3 id=&quot;pekan-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-1&quot; aria-label=&quot;pekan 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Topik:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pendahuluan&lt;/li&gt;
+&lt;li&gt;Sistem Persamaan Linear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Buku Pendukung:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://linearalgebra.math.umanitoba.ca/math1220/chapter-2.html&quot;&gt;LAM - Chapter 2 Systems of Linear Equations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://merganser.math.gvsu.edu/david/linear.algebra/ula/ula/chap1.html&quot;&gt;ULA - Chapter 1 Systems of equations &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/chap-algebra.html&quot;&gt;ILA - Chapter 1 Systems of Linear Equations: Algebra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-systems.html&quot;&gt;DLA - Chapter 1 Systems of linear equations &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-row-red.html&quot;&gt;DLA -  Chapter 2 Solving systems using matrices &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-applications.html&quot;&gt;DLA -  Chapter 3 Using systems of equations &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://linear.ups.edu/html/chapter-SLE.html&quot;&gt;FCLA - Chapter 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;pekan-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-2&quot; aria-label=&quot;pekan 2 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-2&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Topik:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Matriks : Operasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;pekan-3&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-3&quot; aria-label=&quot;pekan 3 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-3&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Topik:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Matriks : Invers dan Dekomposisi LU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Catatan :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mengapa ada dekomposisi LU? Karena dekomposisi LU lebih cepat dipakai untuk menyelesaikan linear persamaan dengan beragam vektor &lt;strong&gt;b&lt;/strong&gt;, dibandingkan eliminasi Gauss yang harus mengulang langkah untuk setiap vektor &lt;strong&gt;b&lt;/strong&gt; (&lt;a href=&quot;https://www.cl.cam.ac.uk/teaching/1314/NumMethods/supporting/mcmaster-kiruba-ludecomp.pdf&quot;&gt;Ref-1&lt;/a&gt;, &lt;a href=&quot;https://math.stackexchange.com/questions/266355/necessity-advantage-of-lu-decomposition-over-gaussian-elimination&quot;&gt;Ref-2&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
 &lt;/style&gt;</content:encoded></item><item><title><![CDATA[Linear Algebra]]></title><description><![CDATA[Linear Algebra Software PC SpeedCrunch – open source software, fast, simple GNU  Octave – open source software Online Octave - online GNU…]]></description><link>https://irosyadi.netlify.app/course/linear-algebra/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/linear-algebra/</guid><pubDate>Mon, 31 Aug 2020 13:58:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;linear-algebra&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#linear-algebra&quot; aria-label=&quot;linear algebra permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Linear Algebra&lt;/h1&gt;
 &lt;h2 id=&quot;software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#software&quot; aria-label=&quot;software permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Software&lt;/h2&gt;
 &lt;h3 id=&quot;pc&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pc&quot; aria-label=&quot;pc permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PC&lt;/h3&gt;
@@ -19070,239 +19938,6 @@ When someone is unhappy, that an excellent opportunity for me to learn, so I wan
 &lt;li&gt;Eigenvalues and eigenvectors&lt;/li&gt;
 &lt;li&gt;Linear transformations&lt;/li&gt;
 &lt;/ol&gt;
-&lt;style class=&quot;grvsc-styles&quot;&gt;
-  .grvsc-container {
-    overflow: auto;
-    position: relative;
-    -webkit-overflow-scrolling: touch;
-    padding-top: 1rem;
-    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
-    padding-bottom: 1rem;
-    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
-    border-radius: 8px;
-    border-radius: var(--grvsc-border-radius, 8px);
-    font-feature-settings: normal;
-    line-height: 1.4;
-  }
-  
-  .grvsc-code {
-    display: table;
-  }
-  
-  .grvsc-line {
-    display: table-row;
-    box-sizing: border-box;
-    width: 100%;
-    position: relative;
-  }
-  
-  .grvsc-line &gt; * {
-    position: relative;
-  }
-  
-  .grvsc-gutter-pad {
-    display: table-cell;
-    padding-left: 0.75rem;
-    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
-  }
-  
-  .grvsc-gutter {
-    display: table-cell;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  
-  .grvsc-gutter::before {
-    content: attr(data-content);
-  }
-  
-  .grvsc-source {
-    display: table-cell;
-    padding-left: 1.5rem;
-    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
-    padding-right: 1.5rem;
-    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
-  }
-  
-  .grvsc-source:empty::after {
-    content: &apos; &apos;;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  
-  .grvsc-gutter + .grvsc-source {
-    padding-left: 0.75rem;
-    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
-  }
-  
-  /* Line transformer styles */
-  
-  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
-    content: &apos; &apos;;
-    position: absolute;
-    width: 100%;
-  }
-  
-  .grvsc-line-diff-add::before {
-    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
-  }
-  
-  .grvsc-line-diff-del::before {
-    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
-  }
-  
-  .grvsc-line-number {
-    padding: 0 2px;
-    text-align: right;
-    opacity: 0.7;
-  }
-  
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Matematika Teknik]]></title><description><![CDATA[MK Matematika Teknik Kode: TKE191113 SKS: 3 Jadwal: TKE191113 Matematika Teknik  A KAMIS 07:00 - 09:30 GEDUNG TEKNIK C 101 - 65 mhs TKE…]]></description><link>https://irosyadi.netlify.app/course/mk-matematika-teknik/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-matematika-teknik/</guid><pubDate>Mon, 31 Aug 2020 13:58:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-matematika-teknik&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-matematika-teknik&quot; aria-label=&quot;mk matematika teknik permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Matematika Teknik&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Kode: TKE191113&lt;/li&gt;
-&lt;li&gt;SKS: 3&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Jadwal:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;TKE191113 Matematika Teknik  A KAMIS 07:00 - 09:30 GEDUNG TEKNIK C 101 - 65 mhs&lt;/li&gt;
-&lt;li&gt;TKE191113 Matematika Teknik  B KAMIS 09:30 - 12:00 GEDUNG TEKNIK C 101 - 44 mhs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;capaian-pembelajaran-lulusan-cpl-program-studi&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#capaian-pembelajaran-lulusan-cpl-program-studi&quot; aria-label=&quot;capaian pembelajaran lulusan cpl program studi permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Capaian Pembelajaran Lulusan (CPL) Program Studi&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Pengetahuan-PU01 : menguasai pengetahuan matematika lanjut meliputi kalkulus integral­diferensial, persamaan diferensial, aljabar linier, variable kompleks, probabilitas dan statistik, dan matematika diskret serta penerapan mereka di bidang teknik elektro;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;capaian-pembelajaran-mata-kuliah&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#capaian-pembelajaran-mata-kuliah&quot; aria-label=&quot;capaian pembelajaran mata kuliah permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Capaian Pembelajaran Mata Kuliah&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Menguasai metode penyelesaian persamaan linear secara analitis dan numeris&lt;/li&gt;
-&lt;li&gt;Menguasai operasi terhadap matriks dan penerapannya&lt;/li&gt;
-&lt;li&gt;Menguasai konsep eigenvalue dan eigenvektor dan penerapannya&lt;/li&gt;
-&lt;li&gt;Menguasai konsep vektor dan ruang vektor serta penerapannya&lt;/li&gt;
-&lt;li&gt;Menguasai konsep transformasi linear dan penerapannya&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;bahan-kajian&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bahan-kajian&quot; aria-label=&quot;bahan kajian permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bahan Kajian&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Sistem Persamaan Linear&lt;/li&gt;
-&lt;li&gt;Matriks dan Operasi Matriks&lt;/li&gt;
-&lt;li&gt;Eigenvalue dan Eigenvektor&lt;/li&gt;
-&lt;li&gt;Dekomposisi LU&lt;/li&gt;
-&lt;li&gt;Diagonalisasi dan Bentuk Kuadrat (tambahan)&lt;/li&gt;
-&lt;li&gt;Ruang Vektor Euklid&lt;/li&gt;
-&lt;li&gt;Ruang Vektor Umum&lt;/li&gt;
-&lt;li&gt;Transformasi Linear&lt;/li&gt;
-&lt;li&gt;Aplikasi Aljabar Linear di bidang Teknik Elektro&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;referensi&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi&quot; aria-label=&quot;referensi permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi&lt;/h2&gt;
-&lt;h3 id=&quot;referensi-berbayar&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi-berbayar&quot; aria-label=&quot;referensi berbayar permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi Berbayar&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://books.google.co.id/books?id=loRbAgAAQBAJ&amp;#x26;redir_esc=y&quot;&gt;Elementary Linear Algebra: Application Version by Howard Anton&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://books.google.co.id/books?id=apXfrQEACAAJ&amp;#x26;redir_esc=y&quot;&gt;Linear Algebra and Its Applications by David C. Lay&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;referensi-bebas-terbuka&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi-bebas-terbuka&quot; aria-label=&quot;referensi bebas terbuka permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi Bebas Terbuka&lt;/h2&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/index.html&quot;&gt;Interactive Linear Algebras by Dan Margalit&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/ila.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/frontmatter-1.html&quot;&gt;Discover Linear Algebra by Jeremy Sylvestre&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://hefferon.net/linearalgebra/&quot;&gt;Linear Algebra by Jim Hefferon&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://joshua.smcvt.edu/linearalgebra/book.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://open.umn.edu/opentextbooks/textbooks/linear-algebra-theory-and-applications&quot;&gt;Linear Algebra, Theory And Applications by Kenneth Kuttler&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://lila1.lyryx.com/textbooks/KUTTLER_1/marketing/Kuttler-LinearAlgebra-AFirstCourse-2017A.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://linear.ups.edu/&quot;&gt;A First Course in Linear Algebra by Robert A. Beezer&lt;/a&gt; or its public beta version of &lt;a href=&quot;https://linear.ups.edu/fcla/index.html&quot;&gt;A First Course in Linear Algebra&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://linear.ups.edu/download/fcla-3.50-print.pdf&quot;&gt;PDF File&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://linearalgebra.math.umanitoba.ca/math1220/&quot;&gt;MATH 1220 Linear Algebra 1 by Michael Doob&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;kuliah-online&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kuliah-online&quot; aria-label=&quot;kuliah online permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuliah Online&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/linear-algebra-foundations-to-frontiers&quot;&gt;edX - Linear Algebra - Foundations to Frontiers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/&quot;&gt;MIT OCW - Linear Algebra by Gilbert Strang&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=YrHlHbtiSM0&quot;&gt;Youtube&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.khanacademy.org/math/algebra&quot;&gt;Algebra 1 - Khan Academy&lt;/a&gt; and &lt;a href=&quot;https://www.khanacademy.org/math/algebra2&quot;&gt;Algebra 2 - Khan Academy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;youtube&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#youtube&quot; aria-label=&quot;youtube permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Youtube&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;#x26;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&quot;&gt;3Blue1Brown Youtube&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/c/MathTheBeautiful/playlists?view=50&amp;#x26;sort=dd&amp;#x26;shelf_id=2&quot;&gt;MathTheBeautiful Youtube&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&quot;&gt;Grant Sanderson Youtube&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#software&quot; aria-label=&quot;software permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Software&lt;/h2&gt;
-&lt;h3 id=&quot;pc&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pc&quot; aria-label=&quot;pc permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PC&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://speedcrunch.org/&quot;&gt;SpeedCrunch&lt;/a&gt; – open source software, fast, simple&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/octave/index&quot;&gt;GNU Octave&lt;/a&gt; – open source software&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://octave-online.net/&quot;&gt;Online Octave&lt;/a&gt; - online GNU Octave&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.mathworks.com/products/matlab.html&quot;&gt;Matlab&lt;/a&gt; – proprietary&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.anaconda.com/products/individual&quot;&gt;Anaconda for Python Data Science Programming&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;android&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#android&quot; aria-label=&quot;android permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Android&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.krazeapps.octaveprogrammingcompiler&quot;&gt;Madona&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=verbosus.anoclite&quot;&gt;Anoc Octave Editor&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;kuliah&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kuliah&quot; aria-label=&quot;kuliah permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuliah&lt;/h2&gt;
-&lt;h3 id=&quot;pekan-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-1&quot; aria-label=&quot;pekan 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-1&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Topik:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pendahuluan&lt;/li&gt;
-&lt;li&gt;Sistem Persamaan Linear&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Buku Pendukung:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://linearalgebra.math.umanitoba.ca/math1220/chapter-2.html&quot;&gt;LAM - Chapter 2 Systems of Linear Equations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://merganser.math.gvsu.edu/david/linear.algebra/ula/ula/chap1.html&quot;&gt;ULA - Chapter 1 Systems of equations &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/chap-algebra.html&quot;&gt;ILA - Chapter 1 Systems of Linear Equations: Algebra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-systems.html&quot;&gt;DLA - Chapter 1 Systems of linear equations &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-row-red.html&quot;&gt;DLA -  Chapter 2 Solving systems using matrices &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-applications.html&quot;&gt;DLA -  Chapter 3 Using systems of equations &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://linear.ups.edu/html/chapter-SLE.html&quot;&gt;FCLA - Chapter 1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;pekan-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-2&quot; aria-label=&quot;pekan 2 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-2&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Topik:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Matriks : Operasi&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;pekan-3&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-3&quot; aria-label=&quot;pekan 3 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-3&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Topik:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Matriks : Invers dan Dekomposisi LU&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Catatan :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mengapa ada dekomposisi LU? Karena dekomposisi LU lebih cepat dipakai untuk menyelesaikan linear persamaan dengan beragam vektor &lt;strong&gt;b&lt;/strong&gt;, dibandingkan eliminasi Gauss yang harus mengulang langkah untuk setiap vektor &lt;strong&gt;b&lt;/strong&gt; (&lt;a href=&quot;https://www.cl.cam.ac.uk/teaching/1314/NumMethods/supporting/mcmaster-kiruba-ludecomp.pdf&quot;&gt;Ref-1&lt;/a&gt;, &lt;a href=&quot;https://math.stackexchange.com/questions/266355/necessity-advantage-of-lu-decomposition-over-gaussian-elimination&quot;&gt;Ref-2&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
