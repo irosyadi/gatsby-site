@@ -1,4 +1,407 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 20 Feb 2021 00:44:44 GMT</lastBuildDate><item><title><![CDATA[Awesome Android Apps]]></title><description><![CDATA[Awesome Android Apps Security 1.1.1.1 Islam Adzkar AI & Python AI with Python Tutorial airasia Aksara Jawa Al Ma'tsurat Al Ma'tsurat Al…]]></description><link>https://irosyadi.netlify.app/app/android-app/</link><guid isPermaLink="false">https://irosyadi.netlify.app/app/android-app/</guid><pubDate>Wed, 10 Feb 2021 11:31:04 GMT</pubDate><content:encoded>&lt;h1 id=&quot;awesome-android-apps&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#awesome-android-apps&quot; aria-label=&quot;awesome android apps permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Awesome Android Apps&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 Feb 2021 02:39:46 GMT</lastBuildDate><item><title><![CDATA[MK Internet of Things]]></title><description><![CDATA[MK Internet of Things Kode: TKE194945 Internet of Things SKS: 3 SKS Jadwal Kelas A: Ruang E-205, Kamis 13.00]]></description><link>https://irosyadi.netlify.app/course/mk-internet-of-things/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-internet-of-things/</guid><pubDate>Sun, 21 Feb 2021 19:09:05 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-internet-of-things&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-internet-of-things&quot; aria-label=&quot;mk internet of things permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Internet of Things&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Kode: TKE194945 Internet of Things&lt;/li&gt;
+&lt;li&gt;SKS: 3 SKS&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jadwal&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kelas A: Ruang E-205, Kamis 13.00&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Pengolahan Sinyal Digital]]></title><description><![CDATA[MK Pengolahan Sinyal Digital Kode: TKE192227 Pengolahan Sinyal Digital SKS : 3 SKS Jadwal: Kelas B: Ruang E-101, Rabu 07.00 Kelas A: Ruang E…]]></description><link>https://irosyadi.netlify.app/course/mk-pengolahan-sinyal-digital/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-pengolahan-sinyal-digital/</guid><pubDate>Sun, 21 Feb 2021 19:09:01 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-pengolahan-sinyal-digital&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-pengolahan-sinyal-digital&quot; aria-label=&quot;mk pengolahan sinyal digital permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Pengolahan Sinyal Digital&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Kode: TKE192227 Pengolahan Sinyal Digital&lt;/li&gt;
+&lt;li&gt;SKS : 3 SKS&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jadwal:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kelas B: Ruang E-101, Rabu 07.00&lt;/li&gt;
+&lt;li&gt;Kelas A: Ruang E-101, Rabu 09.45&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Sistem Kendali Cerdas]]></title><description><![CDATA[MK Sistem Kendali Cerdas Kode : TKE194941 Sistem Kendali Cerdas SKS : 3 SKS Jadwal: Kelas A : Ruang E-201, Jum'at 13.55]]></description><link>https://irosyadi.netlify.app/course/mk-sistem-kendali-cerdas/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-sistem-kendali-cerdas/</guid><pubDate>Sun, 21 Feb 2021 19:08:55 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-sistem-kendali-cerdas&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-sistem-kendali-cerdas&quot; aria-label=&quot;mk sistem kendali cerdas permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Sistem Kendali Cerdas&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Kode : TKE194941 Sistem Kendali Cerdas&lt;/li&gt;
+&lt;li&gt;SKS : 3 SKS&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jadwal:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kelas A : Ruang E-201, Jum&apos;at 13.55&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Sistem Kendali]]></title><description><![CDATA[MK Sistem Kendali Kode : TKE192221 Sistem Kendali  SKS : 2 SKS Jadwal : Kelas A : Ruang C-201, Selasa 07.55 Kelas B : Ruang C-201, Selasa 1…]]></description><link>https://irosyadi.netlify.app/course/mk-sistem-kendali/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-sistem-kendali/</guid><pubDate>Sun, 21 Feb 2021 19:08:54 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-sistem-kendali&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-sistem-kendali&quot; aria-label=&quot;mk sistem kendali permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Sistem Kendali&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Kode : TKE192221 Sistem Kendali &lt;/li&gt;
+&lt;li&gt;SKS : 2 SKS&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jadwal :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kelas A : Ruang C-201, Selasa 07.55&lt;/li&gt;
+&lt;li&gt;Kelas B : Ruang C-201, Selasa 10.40&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;referensi&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi&quot; aria-label=&quot;referensi permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi&lt;/h2&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Awesome Android Apps]]></title><description><![CDATA[Awesome Android Apps Security 1.1.1.1 Islam Adzkar AI & Python AI with Python Tutorial airasia Aksara Jawa Al Ma'tsurat Al Ma'tsurat Al…]]></description><link>https://irosyadi.netlify.app/app/android-app/</link><guid isPermaLink="false">https://irosyadi.netlify.app/app/android-app/</guid><pubDate>Wed, 10 Feb 2021 11:31:04 GMT</pubDate><content:encoded>&lt;h1 id=&quot;awesome-android-apps&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#awesome-android-apps&quot; aria-label=&quot;awesome android apps permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Awesome Android Apps&lt;/h1&gt;
 &lt;h2 id=&quot;security&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#security&quot; aria-label=&quot;security permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Security&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone&quot;&gt;1.1.1.1&lt;/a&gt;&lt;/li&gt;
@@ -1288,6 +1691,7 @@ like your children, so what you want to do is to be sure that you have technique
 &lt;h2 id=&quot;ebook-3&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ebook-3&quot; aria-label=&quot;ebook 3 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;eBook&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html&quot;&gt;Python Programming And Numerical Methods: A Guide For Engineers And Scientists — Python Numerical Methods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fall2019.fullstackdeeplearning.com/&quot;&gt;Full Stack Deep Learning - Full Stack Deep Learning&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;youtube&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#youtube&quot; aria-label=&quot;youtube permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Youtube&lt;/h2&gt;
 &lt;ul&gt;
@@ -1310,6 +1714,61 @@ like your children, so what you want to do is to be sure that you have technique
 &lt;h2 id=&quot;ai-for-audio&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ai-for-audio&quot; aria-label=&quot;ai for audio permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AI for Audio&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.audiostellar.xyz/&quot;&gt;AudioStellar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;machine-learning-course&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-course&quot; aria-label=&quot;machine learning course permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning Course&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/StanfordVL/cs131_notes&quot;&gt;StanfordVL/cs131_notes: Class notes for CS 131.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/machine-learning/crash-course&quot;&gt;Machine Learning Crash Course  |  Google Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;visualization&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#visualization&quot; aria-label=&quot;visualization permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Visualization&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://joshdata.me/iceberger.html&quot;&gt;Iceberger&lt;/a&gt; Draw an iceberg and see how it will float.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://iceberger.boomla.net/&quot;&gt;Iceberger&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;adversarial-ai&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#adversarial-ai&quot; aria-label=&quot;adversarial ai permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Adversarial AI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://adversarial.io/&quot;&gt;adversarial.io | – Fighting mass image recognition&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;map&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#map&quot; aria-label=&quot;map permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Map&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://earth.nullschool.net/#current/wind/surface/level/orthographic=-255.00,0.00,259&quot;&gt;earth :: a global map of wind, weather, and ocean conditions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;course-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#course-1&quot; aria-label=&quot;course 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Course&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.lynda.com/allcourses&quot;&gt;All Courses | lynda.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/parrt/msds621&quot;&gt;parrt/msds621: Course notes for MSDS621 at Univ of San Francisco, introduction to machine learning&lt;/a&gt; Introduction to Machine LEarning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ai-blog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ai-blog&quot; aria-label=&quot;ai blog permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AI Blog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.datascienceweekly.org/newsletters&quot;&gt;Data Science Weekly Newsletter Archive | Data Science Weekly&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;gig-economy&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gig-economy&quot; aria-label=&quot;gig economy permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gig Economy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Workers or self-employed?&lt;/li&gt;
+&lt;li&gt;The court made very specific arguments:&lt;/li&gt;
+&lt;li&gt;Uber set the fare which meant that they dictated how much drivers could earn &lt;/li&gt;
+&lt;li&gt;Uber set the contract terms and drivers had no say in them &apos;&lt;/li&gt;
+&lt;li&gt;Request for rides is constrained by Uber who can penalise drivers if they reject too many rides &lt;/li&gt;
+&lt;li&gt;Uber monitors a driver&apos;s service through the star rating and has the capacity to terminate the relationship if after repeated warnings this does not improve&lt;/li&gt;
+&lt;li&gt;The main difference I see is the imbalance of power. A self-employed can decide who to work with and negotiate almost everything with them. He have my business, the company have theirs, and they discuss to try to reach agreements or not. Uber drivers are not in this position. Uber can dictate everything they want, drivers can only decide to stay or leave.&lt;/li&gt;
+&lt;li&gt;The issue here is that Uber pretends the driver is contracted by the passenger. In which case the driver should be free to negotiate with the passenger. That Uber exercises control of the relationship is what is indicating that Uber is an employer here. Uber pretends you&apos;re working for the customer, not them. That is a key element in their attempt to pretend they&apos;re not an employer.&lt;/li&gt;
+&lt;li&gt;Uber acts as an intermediary party between the contractor and the client (the passenger), so you should compare it to platforms for contract work, such as Upwork, or fiverr, or something like that. The point of Uber is that they&apos;re only an intermediate party that puts clients and drivers together. Drivers are not providing a service to Uber. They don&apos;t control your rates, they don&apos;t stop you from getting jobs if you reject a lot, they don&apos;t set any quality minimums for your job, and they don&apos;t remove you if someone doesn&apos;t give you five stars. In other words, you&apos;re not working for these platforms, it&apos;s just a marketplace. With Uber, drivers are working for Uber, not for the passengers. However, Uber is pretending to be a marketplace, and it isn&apos;t. This sentence just proves that.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;blog-with-ai&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#blog-with-ai&quot; aria-label=&quot;blog with ai permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Blog with AI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://fastpages.fast.ai/&quot;&gt;fastpages | An easy to use blogging platform with support for Jupyter Notebooks.&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/fastai/fastpages&quot;&gt;fastai/fastpages: An easy to use blogging platform, with enhanced support for Jupyter Notebooks.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Example: &lt;a href=&quot;https://drscotthawley.github.io/blog/2019/02/08/My-1st-NN-Part-3-Multi-Layer-and-Backprop.html&quot;&gt;My First NN Part 3. Multi-Layer Networks and Backpropagation | Scott H. Hawley&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/deepnote/data-science-notebooks-2020-review-15a3c95cfc09&quot;&gt;Data science notebooks in Review 2020 | by Elizabeth Dlha | Deepnote | Deepnote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.zakjost.com/post/guitarml/&quot;&gt;GuitarML | Zak Jost&lt;/a&gt; Audio Enhancement Machine Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;time-series&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#time-series&quot; aria-label=&quot;time series permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Time Series&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.paperspace.com/time-series-forecasting-regression-and-lstm/?ref=mlnews&quot;&gt;Time Series Forecasting with Regression and LSTM | Paperspace Blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -31795,7 +32254,7 @@ Email: &lt;a href=&quot;mailto:imron.rosyadi@unsoed.ac.id&quot;&gt;imron.rosyadi
 Email (for students): &lt;a href=&quot;mailto:pak.imron@gmail.com&quot;&gt;pak.imron@gmail.com&lt;/a&gt;&lt;br&gt;
 Page:&lt;br&gt;
 [1] &lt;a href=&quot;http://elektro.ft.unsoed.ac.id/imron-rosyadi/&quot;&gt;http://elektro.ft.unsoed.ac.id/imron-rosyadi/&lt;/a&gt;&lt;br&gt;
-[2] &lt;a href=&quot;https://irosyadi.netlify.app/&quot;&gt;https://irosyadi.netlify.app/&lt;/a&gt;&lt;/p&gt;
+[2] &lt;a href=&quot;https://irosyadi-lp.netlify.app/&quot;&gt;https://irosyadi-lp.netlify.app/&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&quot;academic-profiles&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#academic-profiles&quot; aria-label=&quot;academic profiles permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Academic Profiles&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://orcid.org/0000-0002-4367-4166&quot;&gt;ORCID-ID&lt;/a&gt;&lt;/li&gt;
@@ -31812,6 +32271,7 @@ Page:&lt;br&gt;
 &lt;h4 id=&quot;personal-links&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#personal-links&quot; aria-label=&quot;personal links permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Personal Links&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://elektro.ft.unsoed.ac.id/imron-rosyadi/&quot;&gt;Page at University&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://irosyadi-lp.netlify.app/&quot;&gt;Landing Page&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://irosyadi.netlify.app/&quot;&gt;Blog at Netlify&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://irosyadi.gitbook.io/&quot;&gt;Knowledge Base at Gitbook&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://irosyadi.github.io/&quot;&gt;Knowledge Base at Github&lt;/a&gt;&lt;/li&gt;
@@ -31824,21 +32284,23 @@ Page:&lt;br&gt;
 &lt;/ul&gt;
 &lt;h4 id=&quot;kuliah-courses&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kuliah-courses&quot; aria-label=&quot;kuliah courses permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuliah (Courses)&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Machine Learning&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://elektro.ft.unsoed.ac.id/akademik/kurikulum/mata-kuliah/dasar-teknik-elektro/&quot;&gt;Dasar Teknik Elektro (Fundamentals of Electrical Engineering)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://irosyadi.netlify.app/course/mk-machine-learning/&quot;&gt;Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://irosyadi.netlify.app/course/mk-sistem-kendali-lanjut/&quot;&gt;Sistem Kendali Lanjut (Advanced of Control Systems)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://elektro.ft.unsoed.ac.id/akademik/kurikulum/mata-kuliah/dasar-teknik-elektro/&quot;&gt;Dasar Teknik Elektro (Fundamentals of Electrical Engineering) 2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://irosyadi.netlify.app/course/mk-matematika-teknik/&quot;&gt;Matematika Teknik (Engineering Mathematics)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://irosyadi.netlify.app/course/mk-dasar-teknik-elektro/&quot;&gt;Dasar Teknik Elektro (Fundamentals of Electrical Engineering) 2020&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://elektro.ft.unsoed.ac.id/pengolahan-sinyal-digital/&quot;&gt;Pengolahan Sinyal Digital (Digital Signal Processing)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://elektro.ft.unsoed.ac.id/sistem-kendali/&quot;&gt;Sistem Kendali (Control System)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://elektro.ft.unsoed.ac.id/sistem-kendali-cerdas/&quot;&gt;Sistem Kendali Cerdas (Intelligent Control System)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://elektro.ft.unsoed.ac.id/internet-of-things/&quot;&gt;Internet of Things&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Instrumentasi (Instrumentation)&lt;/li&gt;
 &lt;li&gt;Sistem Kendali Digital (Digital Control System)&lt;/li&gt;
-&lt;li&gt;Matematika Teknik (Engineering Mathematics)&lt;/li&gt;
 &lt;li&gt;Proyek Keteknikan (Capstone Design)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&quot;kelompok-riset-research-groups&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kelompok-riset-research-groups&quot; aria-label=&quot;kelompok riset research groups permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kelompok Riset (Research Groups)&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/Soedirman-Machine-Learning&quot;&gt;Machine Learning Research Group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;DevOps for Embedded Systems Research Group&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://soedirman-machine-learning.github.io/&quot;&gt;Soedirman Machine Learning Research Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://soedirman-iot.github.io/&quot;&gt;Soedirman Internet of Things Research Group&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Image and Signal Processing Research Group&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&quot;penelitian-research-projects&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#penelitian-research-projects&quot; aria-label=&quot;penelitian research projects permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Penelitian (Research Projects)&lt;/h4&gt;
