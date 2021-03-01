@@ -1,4 +1,352 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 23 Feb 2021 23:14:17 GMT</lastBuildDate><item><title><![CDATA[Active Learning]]></title><description><![CDATA[Active Learning Active Learning Active learning is "a method of learning in which students are actively or experientially involved in the…]]></description><link>https://irosyadi.netlify.app/note/active-learning/</link><guid isPermaLink="false">https://irosyadi.netlify.app/note/active-learning/</guid><pubDate>Tue, 23 Feb 2021 04:55:09 GMT</pubDate><content:encoded>&lt;h1 id=&quot;active-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#active-learning&quot; aria-label=&quot;active learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Active Learning&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Imron Rosyadi]]></title><description><![CDATA[a desert traveler]]></description><link>https://irosyadi.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 Mar 2021 22:44:23 GMT</lastBuildDate><item><title><![CDATA[Time Series Forecasting]]></title><description><![CDATA[Time Series Forecasting LSTM for Time Series Forecasting Univariate LSTM Models : one observation time-series data, predict the next value…]]></description><link>https://irosyadi.netlify.app/research/time-series-forecasting/</link><guid isPermaLink="false">https://irosyadi.netlify.app/research/time-series-forecasting/</guid><pubDate>Fri, 26 Feb 2021 13:10:49 GMT</pubDate><content:encoded>&lt;h1 id=&quot;time-series-forecasting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#time-series-forecasting&quot; aria-label=&quot;time series forecasting permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Time Series Forecasting&lt;/h1&gt;
+&lt;h2 id=&quot;lstm-for-time-series-forecasting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lstm-for-time-series-forecasting&quot; aria-label=&quot;lstm for time series forecasting permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LSTM for Time Series Forecasting&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Univariate LSTM Models : one observation time-series data, predict the next value in the sequence&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Multivariate LSTM Models : two or more observation time-series data, predict the next value in the sequence&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiple Input Series : two or more parallel input time series and an output time series that is dependent on the input time series&lt;/li&gt;
+&lt;li&gt;Multiple Parallel Series : multiple parallel time series and a value must be predicted for each&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Univariate Multi-Step LSTM Models : one observation time-series data, predict the multi step value in the sequence prediction.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Multivariate Multi-Step LSTM Models :  two or more observation time-series data, predict the multi step value in the sequence prediction.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiple Input Multi-Step Output.&lt;/li&gt;
+&lt;li&gt;Multiple Parallel Input and Multi-Step Output.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;multivariate-input&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#multivariate-input&quot; aria-label=&quot;multivariate input permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Multivariate Input&lt;/h2&gt;
+&lt;p&gt;References for Multivariate Input:
+&lt;a href=&quot;https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/&quot;&gt;How to Develop LSTM Models for Time Series Forecasting&lt;/a&gt;
+&lt;a href=&quot;https://machinelearningmastery.com/how-to-develop-lstm-models-for-multi-step-time-series-forecasting-of-household-power-consumption/&quot;&gt;Multi-Step LSTM Time Series Forecasting Models for Power Usage&lt;/a&gt;, &lt;a href=&quot;https://github.com/dhamvi01/Multivariate-Time-Series-Using-LSTM&quot;&gt;dhamvi01/Multivariate-Time-Series-Using-LSTM&lt;/a&gt;, &lt;a href=&quot;https://github.com/ManishPrajapat/Household-Energy-MultiVariate-LSTM-&quot;&gt;ManishPrajapat/Household-Energy-MultiVariate-LSTM-: Data - Multivariate time series data of a house is provided&lt;/a&gt;
+&lt;a href=&quot;https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/&quot;&gt;Multivariate Time Series Forecasting with LSTMs in Keras&lt;/a&gt;, &lt;a href=&quot;https://github.com/dhairya0904/Multivariate-time-series-prediction&quot;&gt;dhairya0904/Multivariate-time-series-prediction: Multivariate time series prediction using LSTM in keras&lt;/a&gt;, &lt;a href=&quot;https://github.com/rubel007cse/Multivariate-Time-Series-Forecasting&quot;&gt;rubel007cse/Multivariate-Time-Series-Forecasting: Multivariate Time Series Forecasting with LSTMs in Keras&lt;/a&gt;
+&lt;a href=&quot;https://github.com/vb100/multivariate-lstm&quot;&gt;vb100/multivariate-lstm&lt;/a&gt;
+&lt;a href=&quot;https://medium.com/@pierre.beaujuge/multivariate-time-series-forecasting-with-a-bidirectional-lstm-building-a-model-geared-to-4f020a160636&quot;&gt;Multivariate Time Series Forecasting with a Bidirectional LSTM: Building a Model Geared to Multiple Input Series | by Pierre Beaujuge | Medium&lt;/a&gt;
+&lt;a href=&quot;https://github.com/umbertogriffo/Predictive-Maintenance-using-LSTM&quot;&gt;umbertogriffo/Predictive-Maintenance-using-LSTM: Example of Multiple Multivariate Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras.&lt;/a&gt;
+&lt;a href=&quot;https://www.tensorflow.org/tutorials/structured_data/time_series&quot;&gt;Time series forecasting  |  TensorFlow Core&lt;/a&gt; : MPI-MSO
+&lt;a href=&quot;https://github.com/shrey920/MultivariateTimeSeriesForecasting&quot;&gt;shrey920/MultivariateTimeSeriesForecasting: This project is an implementation of the paper Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks. The model LSTNet consists of CNN, LSTM and RNN-skip layers&lt;/a&gt;
+&lt;a href=&quot;https://github.com/Shiv-Kumar-Yadav9/Stock-Price-Prediction-by-Multivariate-Multistep-LSTM&quot;&gt;Shiv-Kumar-Yadav9/Stock-Price-Prediction-by-Multivariate-Multistep-LSTM&lt;/a&gt;
+&lt;a href=&quot;https://machinelearningmastery.com/how-to-develop-machine-learning-models-for-multivariate-multi-step-air-pollution-time-series-forecasting/&quot;&gt;How to Develop Multivariate Multi-Step Time Series Forecasting Models for Air Pollution&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;statistical-method-for-multivariate&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#statistical-method-for-multivariate&quot; aria-label=&quot;statistical method for multivariate permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Statistical Method for Multivariate&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/&quot;&gt;Multivariate Time Series | Vector Auto Regression (VAR)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.machinelearningplus.com/time-series/vector-autoregression-examples-python/&quot;&gt;Vector Autoregression (VAR) - Comprehensive Guide with Examples in Python - ML+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/shraddha-an/time-series-gsr&quot;&gt;shraddha-an/time-series-gsr: Multivariate Time-Series Forecasting of Gas Sensor Array Readings. Accompanying Medium article below.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/AnoML/multivariate-timeseries-forecasting&quot;&gt;AnoML/multivariate-timeseries-forecasting: A set of algorithms using for Multivariate Time-Series Forecasting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ZahraNabilaIzdihar/Backpropagation-Neural-Network-for-Multivariate-Time-Series-Forecasting&quot;&gt;ZahraNabilaIzdihar/Backpropagation-Neural-Network-for-Multivariate-Time-Series-Forecasting: Backpropagation Neural Network for Multivariate Time Series Forecasting (multi input single output: 2 inputs and 1 output)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/vector-autoregressive-for-forecasting-time-series-a60e6f168c70&quot;&gt;TDS-1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/multivariate-time-series-forecasting-456ace675971&quot;&gt;TDS-2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;univariate-input&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#univariate-input&quot; aria-label=&quot;univariate input permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Univariate Input&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://machinelearningmastery.com/time-series-forecasting-long-short-term-memory-network-python/&quot;&gt;Time Series Forecasting with the Long Short-Term Memory Network in Python&lt;/a&gt;
+&lt;a href=&quot;https://medium.com/@cdabakoglu/time-series-forecasting-arima-lstm-prophet-with-python-e73a750a9887&quot;&gt;Time Series Forecasting — ARIMA, LSTM, Prophet with Python | by Caner Dabakoglu | Medium&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;note-on-lstm&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#note-on-lstm&quot; aria-label=&quot;note on lstm permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Note on LSTM&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://machinelearningmastery.com/suitability-long-short-term-memory-networks-time-series-forecasting/&quot;&gt;On the Suitability of Long Short-Term Memory Networks for Time Series Forecasting&lt;/a&gt;
+&lt;a href=&quot;http://article.sapub.org/10.5923.j.ajms.20160605.02.html&quot;&gt;A Comparative Study between Univariate and Multivariate Linear Stationary Time Series Models&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;multivariate-on-debutanizer&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#multivariate-on-debutanizer&quot; aria-label=&quot;multivariate on debutanizer permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Multivariate on Debutanizer&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.vincentgaspersz.com/wp-content/uploads/2018/07/K%20Siddharth%20A%20Pathak%20AK%20Pani%20-%20Real-time%20quality%20monitoring%20in%20debutanizer%20column%20with%20regression%20tree%20and%20ANFIS.pdf&quot;&gt;Comparison for Debutanizer Column&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;forecasting-modelling&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#forecasting-modelling&quot; aria-label=&quot;forecasting modelling permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Forecasting Modelling&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Alro10/deep-learning-time-series&quot;&gt;Alro10/deep-learning-time-series: List of papers, code and experiments using deep learning for time series forecasting&lt;/a&gt; Collection&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/dafrie/lstm-load-forecasting&quot;&gt;dafrie/lstm-load-forecasting: Electricity load forecasting with LSTM (Recurrent Neural Network)&lt;/a&gt;  Dataset : Electricity Load ENTSO, Model : LSTM, Type: Multivariate&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/pyaf/load_forecasting&quot;&gt;pyaf/load_forecasting: Load forcasting on Delhi area electric power load using ARIMA, RNN, LSTM and GRU models&lt;/a&gt; Dataset: Electricity, Model: Feed forward Neural Network FFNN, Simple Moving Average SMA, Weighted Moving Average WMA,
+Simple Exponential Smoothing SES, Holts Winters HW, Autoregressive Integrated Moving Average ARIMA, Recurrent Neural Networks RNN, Long Short Term Memory cells LSTM, Gated Recurrent Unit cells GRU, Type: Univariate&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/AIStream-Peelout/flow-forecast&quot;&gt;AIStream-Peelout/flow-forecast: Deep learning PyTorch library for time series forecasting, classification, and anomaly detection (originally for flood forecasting).&lt;/a&gt;, Dataset: river flow &lt;a href=&quot;https://flow-forecast.atlassian.net/wiki/spaces/FF/pages/33456135/FlowDB+Dataset&quot;&gt;FlowDB Dataset - Flow Forecast - Flow Forecast&lt;/a&gt;, flood severity, Model: LSTM, Transformer, Simple Multi-Head Attention, Transformer with a linear decoder, DA-RNN, Transformer XL, Informer, DeepAR&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jiegzhan/time-series-forecasting-rnn-tensorflow&quot;&gt;jiegzhan/time-series-forecasting-rnn-tensorflow: Time series forecasting&lt;/a&gt; Dataset: Daily Temperature, Model: LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/zhangxu0307/time_series_forecasting_pytorch&quot;&gt;zhangxu0307/time&lt;em&gt;series&lt;/em&gt;forecasting_pytorch: time series forecasting using pytorch，including ANN,RNN,LSTM,GRU and TSR-RNN，experimental code&lt;/a&gt; Dataset: Pollution, Solar Energy, Traffic data etec.
+Model MLP,RNN,LSTM,GRU, ARIMA, SVR, RF and TSR-RNN&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rishikksh20/LSTM-Time-Series-Analysis&quot;&gt;rishikksh20/LSTM-Time-Series-Analysis: Using LSTM network for time series forecasting&lt;/a&gt; Dataset: Sunspot Zurich, Model: LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rakshita95/DeepLearning-time-series&quot;&gt;rakshita95/DeepLearning-time-series: LSTM for time series forecasting&lt;/a&gt; Dataset: ?? Model: ARIMA, VAR, LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sagarmk/Forecasting-on-Air-pollution-with-RNN-LSTM&quot;&gt;sagarmk/Forecasting-on-Air-pollution-with-RNN-LSTM: Time Series Forecasting using LSTM in Keras.&lt;/a&gt; Dataset: Air Pollution, Model: LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/pushpendughosh/Stock-market-forecasting&quot;&gt;pushpendughosh/Stock-market-forecasting: Forecasting directional movements of stock prices for intraday trading using LSTM and random forest&lt;/a&gt; Dataset: Stock Market, Model: LSTM, RF&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/deshpandenu/Time-Series-Forecasting-of-Amazon-Stock-Prices-using-Neural-Networks-LSTM-and-GAN-&quot;&gt;deshpandenu/Time-Series-Forecasting-of-Amazon-Stock-Prices-using-Neural-Networks-LSTM-and-GAN-: Project analyzes Amazon Stock data using Python. Feature Extraction is performed and ARIMA and Fourier series models are made. LSTM is used with multiple features to predict stock prices and then sentimental analysis is performed using news and reddit sentiments. GANs are used to predict stock data too where Amazon data is taken from an API as Generator and CNNs are used as discriminator.&lt;/a&gt; Dataset: Amazon Stock Model: LSTM with addition&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/demmojo/lstm-electric-load-forecast&quot;&gt;demmojo/lstm-electric-load-forecast: Electric load forecast using Long-Short-Term-Memory (LSTM) recurrent neural network&lt;/a&gt; Dataset: Electric Consumption Model: LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mborysiak/Time-Series-Forecasting-with-ARIMA-and-LSTM&quot;&gt;mborysiak/Time-Series-Forecasting-with-ARIMA-and-LSTM&lt;/a&gt; Dataset: Olypic, LeBron, Zika, Model: ARIMA dan LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Yifeng-He/Electric-Power-Hourly-Load-Forecasting-using-Recurrent-Neural-Networks&quot;&gt;Yifeng-He/Electric-Power-Hourly-Load-Forecasting-using-Recurrent-Neural-Networks: This project aims to predict the hourly electricity load in Toronto based on the loads of previous 23 hours using LSTM recurrent neural network.&lt;/a&gt;  Dataset: Electricity Consumption Model: LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Yongyao/enso-forcasting&quot;&gt;Yongyao/enso-forcasting: Improving the forecasting accuracy of ENSO through deep learning&lt;/a&gt; Dataset: ENSO El Nino, Model: LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/EsmeYi/time-series-forcasting&quot;&gt;EsmeYi/time-series-forcasting: Using K-NN, SVM, Bayes, LSTM, and multi-variable LSTM models on time series forecasting&lt;/a&gt; Dataset: Sensor, Model: LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CynthiaKoopman/Forecasting-Solar-Energy&quot;&gt;CynthiaKoopman/Forecasting-Solar-Energy: Forecasting Solar Power: Analysis of using a LSTM Neural Network&lt;/a&gt; Dataset: Solar power, Model: LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/stxupengyu/load-forecasting-algorithms&quot;&gt;stxupengyu/load-forecasting-algorithms: 使用多种算法（线性回归、随机森林、支持向量机、BP神经网络、GRU、LSTM）进行电力系统负荷预测/电力预测。通过一个简单的例子。A variety of algorithms (linear regression, random forest, support vector machine, BP neural network, GRU, LSTM) are used for power system load forecasting / power forecasting.&lt;/a&gt; Dataset: Power usage, Model: linear regression, random forest, support vector machine, BP neural network, GRU, LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Abhishekmamidi123/Time-Series-Forecasting&quot;&gt;Abhishekmamidi123/Time-Series-Forecasting: Rainfall analysis of Maharashtra - Season/Month wise forecasting. Different methods have been used. The main goal of this project is to increase the performance of forecasted results during rainy seasons.&lt;/a&gt; Dataset: precipitation, Model: ARIMA, LSTM, FNN(Feed forward Neural Networks), TLNN(Time lagged Neural Networks), SANN(Seasonal Artificial Neural Networks&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/3springs/attentive-neural-processes&quot;&gt;3springs/attentive-neural-processes: implementing &quot;recurrent attentive neural processes&quot; to forecast power usage (w. LSTM baseline, MCDropout)&lt;/a&gt; Dataset: English power consumption, Model: ANP-RNN &quot;Recurrent Attentive Neural Process for Sequential Data&quot;, ANP: Attentive Neural Processes, NP: Neural Processes, LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Housiadas/forecasting-energy-consumption-LSTM&quot;&gt;Housiadas/forecasting-energy-consumption-LSTM: Development of a machine learning application for IoT platform to predict electric energy consumption in smart building environment in real time.&lt;/a&gt;, Dataset: Kaggle energy consuption, MOdel: LSTM, Seq2Seq&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Soft Sensor]]></title><description><![CDATA[Soft Sensor What is Soft Sensors Soft-sensors: predictive models for sensor characteristic are called soft sensors
+Soft-sensors: software…]]></description><link>https://irosyadi.netlify.app/research/soft-sensor/</link><guid isPermaLink="false">https://irosyadi.netlify.app/research/soft-sensor/</guid><pubDate>Fri, 26 Feb 2021 13:01:49 GMT</pubDate><content:encoded>&lt;h1 id=&quot;soft-sensor&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#soft-sensor&quot; aria-label=&quot;soft sensor permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Soft Sensor&lt;/h1&gt;
+&lt;h2 id=&quot;what-is-soft-sensors&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-is-soft-sensors&quot; aria-label=&quot;what is soft sensors permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is Soft Sensors&lt;/h2&gt;
+&lt;p&gt;Soft-sensors: predictive models for sensor characteristic are called soft sensors
+Soft-sensors: software+sensor&lt;/p&gt;
+&lt;h2 id=&quot;soft-sensor-categories&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#soft-sensor-categories&quot; aria-label=&quot;soft sensor categories permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Soft-sensor Categories&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;model-driven&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First Principle Models (FPM)&lt;/li&gt;
+&lt;li&gt;extended Kalman Filter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;data-driven &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Principle Component Analysis + regression model, Partial Least Squares &lt;/li&gt;
+&lt;li&gt;Artificial Neural Networks &lt;/li&gt;
+&lt;li&gt;Neuro-Fuzzy Systems &lt;/li&gt;
+&lt;li&gt;Support Vector Machines &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soft-sensor-application&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#soft-sensor-application&quot; aria-label=&quot;soft sensor application permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Soft-sensor Application&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;on-line prediction&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;prediction of process variables which can be determined either at low sampling rates &lt;/li&gt;
+&lt;li&gt;prediction of process variables which can be determined through off-line analysis only&lt;/li&gt;
+&lt;li&gt;(statistical or soft computing supervised learning approaches)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;process monitoring &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;detection of the state of the process, usually by human&lt;/li&gt;
+&lt;li&gt;observation and interpretation of the process state (based on univariate statistics) and experience of the operator &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;process fault detection&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;detection of the state of the process&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;fpm&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fpm&quot; aria-label=&quot;fpm permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;FPM&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;First Principle Models describe the physical and chemical background of the process. &lt;/li&gt;
+&lt;li&gt;These models are developed primarily for the planning and design of the processing plants, and therefore usually focus on the description of the ideal steady-states of the processes&lt;/li&gt;
+&lt;li&gt;based on established laws of physics&lt;/li&gt;
+&lt;li&gt;does not make assumptions such as empirical model and fitting parameters&lt;/li&gt;
+&lt;li&gt;using experimental data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Data-driven
+data-driven models are based on the data measured within the processing plants, and thus describe the real process conditions, they are, compared to the model-driven Soft Sensors, more reality related and describe the true conditions of the process in a better way. Nevertheless&lt;/p&gt;
+&lt;p&gt;The most commonly applied multivariate analysis tools are principal component analysis (PCA) for fault detection and projection of latent structures (PLS) for the prediction of key quality parameters at end of batch.&lt;/p&gt;
+&lt;p&gt;First-principle models may be the answer, using experimental data instead of statistical methods to estimate model parameters. They are not as quick and easy to build, but they have many advantages. In terms of simulation, first-principle models provide extrapolation in addition to the interpolation provided by data-driven models. But they also can be used for monitoring, control and optimization.&lt;/p&gt;
+&lt;h2 id=&quot;soft-sensor-modelling&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#soft-sensor-modelling&quot; aria-label=&quot;soft sensor modelling permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Soft-Sensor Modelling&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/vigorfif/Soft-Sensor-Modelling&quot;&gt;vigorfif/Soft-Sensor-Modelling: Soft sensor modelling using multiple machine learning algorithms&lt;/a&gt; Dataset: SRU from Fortuna, Model: NN-BP, LSTM, RNN&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/hkaneko1985/adaptive_soft_sensors&quot;&gt;hkaneko1985/adaptive&lt;em&gt;soft&lt;/em&gt;sensors: Adaptive Soft Sensors&lt;/a&gt; Dataset: Debutanizer from Fortuna, Model: MWPLSm MWSVR, JITPLS, JITSVR and LWPLS&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hkaneko1985/lwpls&quot;&gt;hkaneko1985/lwpls: Locally-Weighted Partial Least Squares (LWPLS)&lt;/a&gt; Dataset: Debutanizer from Fortuna, Model: LWPLS &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;others&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#others&quot; aria-label=&quot;others permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Others&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rogeredc/soft_sensor&quot;&gt;rogeredc/soft&lt;em&gt;sensor: soft&lt;/em&gt;sensor&lt;em&gt;for&lt;/em&gt;chemical_process&lt;/a&gt; LSTM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/alexalex222/Batch-Process-Soft-Sensor&quot;&gt;alexalex222/Batch-Process-Soft-Sensor: Gaussian process regression algorithms for nonlinear system state prediciton&lt;/a&gt; Matlab, Model: GPR, NN, SVR&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yaole0720/VTR-based-Soft-Sensor&quot;&gt;yaole0720/VTR-based-Soft-Sensor: Variable Time Reconstruction based modeling framework for soft sensor development&lt;/a&gt; Matlab, Model: VTR&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/chahat99/Soft-Sensor-with-ANN&quot;&gt;chahat99/Soft-Sensor-with-ANN: Soft sensor using Artificial Neural Networks&lt;/a&gt; Matlab, NN&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/aysunrhn/Adaptive-Soft-Sensor-Design/tree/4a1d72787e3d08ccb93af11ca24cfda76a9d0f96&quot;&gt;aysunrhn/Adaptive-Soft-Sensor-Design at 4a1d72787e3d08ccb93af11ca24cfda76a9d0f96&lt;/a&gt; Matlab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;dataset&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dataset&quot; aria-label=&quot;dataset permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dataset&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://home.isr.uc.pt/~rui/publications/datasets.html&quot;&gt;Rui Araújo – Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://archive.ics.uci.edu/ml/datasets.php&quot;&gt;585 UCI Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.atlantis-press.com/journals/ijcis/125917186/view&quot;&gt;Soft Sensor Modeling Method by Maximizing Output-Related Variable Characteristics Based on a Stacked Autoencoder and Maximal Information Coefficients | Atlantis Press&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1110016816000697&quot;&gt;Soft sensing of product quality in the debutanizer column with principal component analysis and feed-forward artificial neural network - ScienceDirect&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ebook&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ebook&quot; aria-label=&quot;ebook permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Ebook&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/curiousily/Deep-Learning-For-Hackers&quot;&gt;curiousily/Deep-Learning-For-Hackers: Machine Learning tutorials with TensorFlow 2 and Keras in Python (Jupyter notebooks included) - (LSTMs, Hyperameter tuning, Data preprocessing, Bias-variance tradeoff, Anomaly Detection, Autoencoders, Time Series Forecasting, Object Detection, Sentiment Analysis, Intent Recognition with BERT)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Active Learning]]></title><description><![CDATA[Active Learning Active Learning Active learning is "a method of learning in which students are actively or experientially involved in the…]]></description><link>https://irosyadi.netlify.app/note/active-learning/</link><guid isPermaLink="false">https://irosyadi.netlify.app/note/active-learning/</guid><pubDate>Tue, 23 Feb 2021 04:55:09 GMT</pubDate><content:encoded>&lt;h1 id=&quot;active-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#active-learning&quot; aria-label=&quot;active learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Active Learning&lt;/h1&gt;
 &lt;h2 id=&quot;active-learning-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#active-learning-1&quot; aria-label=&quot;active learning 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Active Learning&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Active learning is &quot;a method of learning in which students are actively or experientially involved in the learning process and where there are different levels of active learning, depending on student involvement.&quot;&lt;/li&gt;
@@ -187,14 +535,14 @@
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Internet of Things]]></title><description><![CDATA[MK Internet of Things Kode: TKE194945 Internet of Things SKS: 3 SKS Jadwal Kelas A: Ruang E-205, Kamis 13.00, 4 mhs, 1 mhs MBKM]]></description><link>https://irosyadi.netlify.app/course/mk-internet-of-things/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-internet-of-things/</guid><pubDate>Sun, 21 Feb 2021 19:09:05 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-internet-of-things&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-internet-of-things&quot; aria-label=&quot;mk internet of things permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Internet of Things&lt;/h1&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Internet of Things]]></title><description><![CDATA[MK Internet of Things Kode: TKE194945 Internet of Things SKS: 3 SKS Jadwal Kelas A: Ruang E-205, Kamis 13.00, 12 mhs, 1 mhs MBKM]]></description><link>https://irosyadi.netlify.app/course/mk-internet-of-things/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-internet-of-things/</guid><pubDate>Sun, 21 Feb 2021 19:09:05 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-internet-of-things&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-internet-of-things&quot; aria-label=&quot;mk internet of things permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Internet of Things&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Kode: TKE194945 Internet of Things&lt;/li&gt;
 &lt;li&gt;SKS: 3 SKS&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Jadwal&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Kelas A: Ruang E-205, Kamis 13.00, 4 mhs, 1 mhs MBKM&lt;/li&gt;
+&lt;li&gt;Kelas A: Ruang E-205, Kamis 13.00, 12 mhs, 1 mhs MBKM&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -287,14 +635,14 @@
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Pengolahan Sinyal Digital]]></title><description><![CDATA[MK Pengolahan Sinyal Digital Kode: TKE192227 Pengolahan Sinyal Digital SKS : 3 SKS Jadwal: Kelas B: Ruang E-101, Rabu 07.00, 34 mhs Kelas A…]]></description><link>https://irosyadi.netlify.app/course/mk-pengolahan-sinyal-digital/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-pengolahan-sinyal-digital/</guid><pubDate>Sun, 21 Feb 2021 19:09:01 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-pengolahan-sinyal-digital&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-pengolahan-sinyal-digital&quot; aria-label=&quot;mk pengolahan sinyal digital permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Pengolahan Sinyal Digital&lt;/h1&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Pengolahan Sinyal Digital]]></title><description><![CDATA[MK Pengolahan Sinyal Digital Kode: TKE192227 Pengolahan Sinyal Digital SKS : 3 SKS Jadwal: Kelas B: Ruang E-101, Rabu 07.00, 35 mhs Kelas A…]]></description><link>https://irosyadi.netlify.app/course/mk-pengolahan-sinyal-digital/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-pengolahan-sinyal-digital/</guid><pubDate>Sun, 21 Feb 2021 19:09:01 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-pengolahan-sinyal-digital&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-pengolahan-sinyal-digital&quot; aria-label=&quot;mk pengolahan sinyal digital permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Pengolahan Sinyal Digital&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Kode: TKE192227 Pengolahan Sinyal Digital&lt;/li&gt;
 &lt;li&gt;SKS : 3 SKS&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Jadwal:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Kelas B: Ruang E-101, Rabu 07.00, 34 mhs&lt;/li&gt;
+&lt;li&gt;Kelas B: Ruang E-101, Rabu 07.00, 35 mhs&lt;/li&gt;
 &lt;li&gt;Kelas A: Ruang E-101, Rabu 09.45, 50 mhs&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -414,14 +762,14 @@
     opacity: 0.7;
   }
   
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Sistem Kendali Cerdas]]></title><description><![CDATA[MK Sistem Kendali Cerdas Kode : TKE194941 Sistem Kendali Cerdas SKS : 3 SKS Jadwal: Kelas A : Ruang E-201, Jum'at 13.55, 7 mhs Identitas…]]></description><link>https://irosyadi.netlify.app/course/mk-sistem-kendali-cerdas/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-sistem-kendali-cerdas/</guid><pubDate>Sun, 21 Feb 2021 19:08:55 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-sistem-kendali-cerdas&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-sistem-kendali-cerdas&quot; aria-label=&quot;mk sistem kendali cerdas permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Sistem Kendali Cerdas&lt;/h1&gt;
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Sistem Kendali Cerdas]]></title><description><![CDATA[MK Sistem Kendali Cerdas Kode : TKE194941 Sistem Kendali Cerdas SKS : 3 SKS Jadwal: Kelas A : Ruang E-201, Jum'at 13.55, 3 mhs Identitas…]]></description><link>https://irosyadi.netlify.app/course/mk-sistem-kendali-cerdas/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-sistem-kendali-cerdas/</guid><pubDate>Sun, 21 Feb 2021 19:08:55 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-sistem-kendali-cerdas&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-sistem-kendali-cerdas&quot; aria-label=&quot;mk sistem kendali cerdas permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Sistem Kendali Cerdas&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Kode : TKE194941 Sistem Kendali Cerdas&lt;/li&gt;
 &lt;li&gt;SKS : 3 SKS&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Jadwal:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Kelas A : Ruang E-201, Jum&apos;at 13.55, 7 mhs&lt;/li&gt;
+&lt;li&gt;Kelas A : Ruang E-201, Jum&apos;at 13.55, 3 mhs&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -572,8 +920,8 @@
 &lt;li&gt;
 &lt;p&gt;Jadwal :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Kelas A : Ruang C-201, Selasa 07.55, 47 mhs&lt;/li&gt;
-&lt;li&gt;Kelas B : Ruang C-201, Selasa 10.40, 43 mhs&lt;/li&gt;
+&lt;li&gt;Kelas A : Ruang C-201, Selasa 07.55, 45 mhs&lt;/li&gt;
+&lt;li&gt;Kelas B : Ruang C-201, Selasa 10.40, 47 mhs&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -597,7 +945,7 @@
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd&quot;&gt;MATLAB Control System&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;kuliah&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kuliah&quot; aria-label=&quot;kuliah permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuliah&lt;/h2&gt;
-&lt;h3 id=&quot;pertemuan-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pertemuan-1&quot; aria-label=&quot;pertemuan 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pertemuan 1&lt;/h3&gt;
+&lt;h3 id=&quot;01-pendahuluan-sistem-kendali&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#01-pendahuluan-sistem-kendali&quot; aria-label=&quot;01 pendahuluan sistem kendali permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;01-Pendahuluan Sistem Kendali&lt;/h3&gt;
 &lt;h4 id=&quot;interactive-course-for-control-theory&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#interactive-course-for-control-theory&quot; aria-label=&quot;interactive course for control theory permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Interactive Course for Control Theory&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Akses situs &lt;a href=&quot;https://icct.riteh.hr/hub/login&quot;&gt;Interactive Course for Control Theory&lt;/a&gt;&lt;/li&gt;
@@ -2115,6 +2463,113 @@ like your children, so what you want to do is to be sure that you have technique
 &lt;li&gt;&lt;a href=&quot;https://academy.rapidminer.com/pages/certification&quot;&gt;Online Certification | RapidMiner Academy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;free-stuffs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#free-stuffs&quot; aria-label=&quot;free stuffs permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Free Stuffs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://free-for.dev/#/&quot;&gt;Free for developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;web-scraping-dan-data-mining&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#web-scraping-dan-data-mining&quot; aria-label=&quot;web scraping dan data mining permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Web Scraping dan Data Mining&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://automatio.co/&quot;&gt;Automatio - No-code Web Automation Tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://orangedatamining.com/&quot;&gt;Orange Data Mining - Data Mining&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ai-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ai-learning&quot; aria-label=&quot;ai learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AI Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://cognitiveclass.ai/&quot;&gt;Data Science and Cognitive Computing Courses - Cognitive Class | Free Courses in Data Science, AI, Cloud Computing, Containers, Kubernetes, Blockchain and more.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;nlp-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlp-1&quot; aria-label=&quot;nlp 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLP&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://gephi.org/&quot;&gt;Gephi - The Open Graph Viz Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://orangedatamining.com/&quot;&gt;Orange Data Mining - Data Mining&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;calculator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#calculator&quot; aria-label=&quot;calculator permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Calculator&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkhan45.github.io/CalcuLaTeX-Web/&quot;&gt;CalcuLaTeX&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mkhan45/CalcuLaTeX-Web&quot;&gt;mkhan45/CalcuLaTeX-Web: Basic web frontend for CalcuLaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mkhan45/CalcuLaTeX&quot;&gt;mkhan45/CalcuLaTeX: in progress pretty printing calculator language&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;deep-learning-references&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#deep-learning-references&quot; aria-label=&quot;deep learning references permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Deep Learning References&lt;/h2&gt;
+&lt;h4 id=&quot;books&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#books&quot; aria-label=&quot;books permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Books&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.deeplearningbook.org/&quot;&gt;Deep Learning, Ian Goodfellow and others&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://neuralnetworksanddeeplearning.com/&quot;&gt;Neural Networks and Deep Learning, Michael Nielsen&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;courses&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#courses&quot; aria-label=&quot;courses permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Courses&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cs231n.github.io/&quot;&gt;cs231n.github.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rll.berkeley.edu/deeprlcourse/&quot;&gt;Berkeley deep RL course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://slazebni.cs.illinois.edu/spring17/&quot;&gt;CS 598 LAZ&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;guides-to-deep-learning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#guides-to-deep-learning&quot; aria-label=&quot;guides to deep learning permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Guides to deep learning&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://yerevann.com/a-guide-to-deep-learning/&quot;&gt;A guide to deep learning by YerevaNN research labs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ufldl.stanford.edu/tutorial/&quot;&gt;Unsupervised feature learning and deep learning tutorial&lt;/a&gt;, &lt;a href=&quot;https://github.com/amaas/stanford_dl_ex&quot;&gt;amaas/stanford&lt;em&gt;dl&lt;/em&gt;ex: Programming exercises for the Stanford Unsupervised Feature Learning and Deep Learning Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/terryum/awesome-deep-learning-papers&quot;&gt;Most cited deep learning papers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;tutorials-blogs-demos&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tutorials-blogs-demos&quot; aria-label=&quot;tutorials blogs demos permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tutorials, blogs, demos&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;Convolution arithmetic tutorial: &lt;a href=&quot;http://deeplearning.net/software/theano_versions/dev/tutorial/conv_arithmetic.html&quot;&gt;web&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/1603.07285&quot;&gt;arXiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://playground.tensorflow.org/&quot;&gt;TensorFlow Playground&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://distill.pub/&quot;&gt;http://distill.pub/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://karpathy.github.io/&quot;&gt;http://karpathy.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jsfiddle.net/yces4vn9/43/&quot;&gt;Arun&apos;s dilation demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://arunmallya.github.io/writeups/nn/lstm/index.html#/&quot;&gt;Arun&apos;s explanation of LSTM Forward-Backward passes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.otoro.net/2015/11/24/mixture-density-networks-with-tensorflow/&quot;&gt;Mixture Density Network tensorflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;moodle&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#moodle&quot; aria-label=&quot;moodle permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Moodle&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://moodle.lyceestendhal.it/course/view.php?id=103&amp;#x26;lang=en&quot;&gt;Moodle Activity Reseources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.umass.edu/it/support/moodle/activity-types-moodle&quot;&gt;Activity Types in Moodle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://edwiser.org/blog/create-activity-moodle/&quot;&gt;How to Create an Activity in Moodle the Smart Way!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.moodle.org/310/en/Activities&quot;&gt;Moodle Activities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.flowinsports.com/files/Moodle/47_Interesting_Ways_to_Use_Moodle_to_Support_L%20(1).pdf&quot;&gt;47 Interesting Ways to Use Moodle to Support Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://moodle.weltec.ac.nz/course/view.php?id=9020&quot;&gt;H5P&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://h5p.org/&quot;&gt;H5P – Create and Share Rich HTML5 Content and Applications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://vishub.org/&quot;&gt;Vishub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://edutechwiki.unige.ch/en/Main_Page&quot;&gt;EduTech Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;fpga&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fpga&quot; aria-label=&quot;fpga permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;FPGA&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.fpgatutorial.com/vhdl/&quot;&gt;VHDL - FPGA Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://thedatabus.io/&quot;&gt;theDataBus.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://projectf.io/&quot;&gt;Project F - FPGA Development&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zipcpu.com/tutorial/&quot;&gt;Verilog, Formal Verification and Verilator Beginner&apos;s Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.fpga4fun.com/&quot;&gt;fpga4fun.com - where FPGAs are fun&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ebook-search&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ebook-search&quot; aria-label=&quot;ebook search permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;eBook Search&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://libgen.fun/&quot;&gt;Library Genesis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://libgen.fun/&quot;&gt;Library Genesis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://freeread.org/ipfs/&quot;&gt;IPFS Free Library - freeread.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://collab.ipfscluster.io/&quot;&gt;IPFS Cluster - Collaborative Clusters | IPFS Cluster&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;open-hardware&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#open-hardware&quot; aria-label=&quot;open hardware permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Open Hardware&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.hackster.io/news/thomas-megel-s-openscan-offers-10-micron-3d-scanning-on-a-raspberry-pi-and-hq-camera-module-308a2540c5b8&quot;&gt;Thomas Megel&apos;s OpenScan Offers 10-Micron 3D Scanning on a Raspberry Pi and HQ Camera Module - Hackster.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.iotawatt.com/&quot;&gt;IoTaWatt™ Open WiFi Electric Power Monitor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://guide.openenergymonitor.org/technical/emonpi/&quot;&gt;emonPi - Guide | OpenEnergyMonitor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;3d-reconstruction&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3d-reconstruction&quot; aria-label=&quot;3d reconstruction permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3D Reconstruction&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.myheritage.com/deep-nostalgia/&quot;&gt;MyHeritage Deep Nostalgia™, deep learning technology to animate the faces in still family photos - MyHeritage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/AliaksandrSiarohin/first-order-model&quot;&gt;AliaksandrSiarohin/first-order-model: This repository contains the source code for the paper First Order Motion Model for Image Animation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://aliaksandrsiarohin.github.io/first-order-model-website/&quot;&gt;First order model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;portable-server&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#portable-server&quot; aria-label=&quot;portable server permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Portable Server&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://justine.lol/redbean/index.html&quot;&gt;redbean&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;video-editor-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#video-editor-1&quot; aria-label=&quot;video editor 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Video Editor&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://milk.video/&quot;&gt;Milk Video: turn webinars into video highlights&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -10539,6 +10994,13 @@ Similar to disaster.radio&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/the-best-classification-metric-youve-never-heard-of-the-matthews-correlation-coefficient-3bf50a2f3e9a&quot;&gt;Mathews Correlation COefficent&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/iou-a-better-detection-evaluation-metric-45a511185be1&quot;&gt;IoU better detection&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Multiclass Metrics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/multi-class-metrics-made-simple-part-i-precision-and-recall-9250280bddc2&quot;&gt;Multi-Class Metrics Made Simple, Part I: Precision and Recall | by Boaz Shmueli | Towards Data Science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c&quot;&gt;Beyond Accuracy: Precision and Recall | by Will Koehrsen | Towards Data Science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://machinelearningmastery.com/precision-recall-and-f-measure-for-imbalanced-classification/&quot;&gt;How to Calculate Precision, Recall, and F-Measure for Imbalanced Classification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234&quot;&gt;Metrics to Evaluate your Machine Learning Algorithm | by Aditya Mishra | Towards Data Science&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
@@ -13412,7 +13874,9 @@ Vineeta Ojha et al.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://185.39.10.101/&quot;&gt;http://185.39.10.101/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://gen.lib.rus.ec&quot;&gt;genlib.rus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://libgen.rs/&quot;&gt;libgen.rs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://libgen.rs/&quot;&gt;libgen.rs&lt;/a&gt;*&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://libgen.is/&quot;&gt;libgen.is&lt;/a&gt;*&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://libgen.st/&quot;&gt;libgen.st&lt;/a&gt;*&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://library.lol&quot;&gt;library.lol&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://libgen.lc&quot;&gt;libgen.lc&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://libgen.li/&quot;&gt;libgen.li&lt;/a&gt;&lt;/li&gt;
@@ -13425,12 +13889,14 @@ Vineeta Ojha et al.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/frrad/skyhub&quot;&gt;Skyhub&lt;/a&gt; : Skyhub provides a way of accessing the libgen scimag / sci-hub torrent archive on a one-off basis. It stands up what looks like a local copy of sci-hub.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://cse.google.com/cse?cx=c46414ccb6a943e39&quot;&gt;CSE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&quot;e-book-search-engine-at-ifps&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#e-book-search-engine-at-ifps&quot; aria-label=&quot;e book search engine at ifps permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;E-book search engine at IFPS&lt;/h2&gt;
 &lt;h2 id=&quot;paper-search-engine-scihub&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#paper-search-engine-scihub&quot; aria-label=&quot;paper search engine scihub permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Paper search engine (scihub)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://sci-hub.ee/&quot;&gt;sci-hub.ee&lt;/a&gt; or &lt;a href=&quot;https://sci-hub.st/&quot;&gt;sci-hub.st&lt;/a&gt; or &lt;a href=&quot;https://sci-hub.se/&quot;&gt;sci-hub.se&lt;/a&gt; or &lt;a href=&quot;https://sci-hub.do/&quot;&gt;sci-hub.do&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://sci-hub.hns.hns.to/&quot;&gt;sci-hub at hns&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://gen.lib.rus.ec/scimag/&quot;&gt;scimag&lt;/a&gt; or &lt;a href=&quot;http://libgen.rs/scimag/&quot;&gt;scimag&lt;/a&gt; or &lt;a href=&quot;https://libgen.fun/scimag&quot;&gt;scimag&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://telegram.me/scihubot&quot;&gt;telegram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lovescihub.wordpress.com/&quot;&gt;Love Science,Love Sci-Hub! – The latest Sci-Hub working domain&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;technical-standard-search-engine&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#technical-standard-search-engine&quot; aria-label=&quot;technical standard search engine permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Technical standard search engine&lt;/h2&gt;
 &lt;ul&gt;
@@ -21172,6 +21638,239 @@ When someone is unhappy, that an excellent opportunity for me to learn, so I wan
     opacity: 0.7;
   }
   
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Matematika Teknik]]></title><description><![CDATA[MK Matematika Teknik Kode: TKE191113 SKS: 3 Jadwal: TKE191113 Matematika Teknik  A KAMIS 07:00 - 09:30 GEDUNG TEKNIK C 101 - 65 mhs TKE…]]></description><link>https://irosyadi.netlify.app/course/mk-matematika-teknik/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-matematika-teknik/</guid><pubDate>Mon, 31 Aug 2020 13:58:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-matematika-teknik&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-matematika-teknik&quot; aria-label=&quot;mk matematika teknik permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Matematika Teknik&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Kode: TKE191113&lt;/li&gt;
+&lt;li&gt;SKS: 3&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jadwal:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TKE191113 Matematika Teknik  A KAMIS 07:00 - 09:30 GEDUNG TEKNIK C 101 - 65 mhs&lt;/li&gt;
+&lt;li&gt;TKE191113 Matematika Teknik  B KAMIS 09:30 - 12:00 GEDUNG TEKNIK C 101 - 44 mhs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;capaian-pembelajaran-lulusan-cpl-program-studi&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#capaian-pembelajaran-lulusan-cpl-program-studi&quot; aria-label=&quot;capaian pembelajaran lulusan cpl program studi permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Capaian Pembelajaran Lulusan (CPL) Program Studi&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pengetahuan-PU01 : menguasai pengetahuan matematika lanjut meliputi kalkulus integral­diferensial, persamaan diferensial, aljabar linier, variable kompleks, probabilitas dan statistik, dan matematika diskret serta penerapan mereka di bidang teknik elektro;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;capaian-pembelajaran-mata-kuliah&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#capaian-pembelajaran-mata-kuliah&quot; aria-label=&quot;capaian pembelajaran mata kuliah permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Capaian Pembelajaran Mata Kuliah&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Menguasai metode penyelesaian persamaan linear secara analitis dan numeris&lt;/li&gt;
+&lt;li&gt;Menguasai operasi terhadap matriks dan penerapannya&lt;/li&gt;
+&lt;li&gt;Menguasai konsep eigenvalue dan eigenvektor dan penerapannya&lt;/li&gt;
+&lt;li&gt;Menguasai konsep vektor dan ruang vektor serta penerapannya&lt;/li&gt;
+&lt;li&gt;Menguasai konsep transformasi linear dan penerapannya&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;bahan-kajian&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bahan-kajian&quot; aria-label=&quot;bahan kajian permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bahan Kajian&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sistem Persamaan Linear&lt;/li&gt;
+&lt;li&gt;Matriks dan Operasi Matriks&lt;/li&gt;
+&lt;li&gt;Eigenvalue dan Eigenvektor&lt;/li&gt;
+&lt;li&gt;Dekomposisi LU&lt;/li&gt;
+&lt;li&gt;Diagonalisasi dan Bentuk Kuadrat (tambahan)&lt;/li&gt;
+&lt;li&gt;Ruang Vektor Euklid&lt;/li&gt;
+&lt;li&gt;Ruang Vektor Umum&lt;/li&gt;
+&lt;li&gt;Transformasi Linear&lt;/li&gt;
+&lt;li&gt;Aplikasi Aljabar Linear di bidang Teknik Elektro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;referensi&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi&quot; aria-label=&quot;referensi permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi&lt;/h2&gt;
+&lt;h3 id=&quot;referensi-berbayar&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi-berbayar&quot; aria-label=&quot;referensi berbayar permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi Berbayar&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://books.google.co.id/books?id=loRbAgAAQBAJ&amp;#x26;redir_esc=y&quot;&gt;Elementary Linear Algebra: Application Version by Howard Anton&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://books.google.co.id/books?id=apXfrQEACAAJ&amp;#x26;redir_esc=y&quot;&gt;Linear Algebra and Its Applications by David C. Lay&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;referensi-bebas-terbuka&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi-bebas-terbuka&quot; aria-label=&quot;referensi bebas terbuka permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi Bebas Terbuka&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/index.html&quot;&gt;Interactive Linear Algebras by Dan Margalit&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/ila.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/frontmatter-1.html&quot;&gt;Discover Linear Algebra by Jeremy Sylvestre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://hefferon.net/linearalgebra/&quot;&gt;Linear Algebra by Jim Hefferon&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://joshua.smcvt.edu/linearalgebra/book.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://open.umn.edu/opentextbooks/textbooks/linear-algebra-theory-and-applications&quot;&gt;Linear Algebra, Theory And Applications by Kenneth Kuttler&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://lila1.lyryx.com/textbooks/KUTTLER_1/marketing/Kuttler-LinearAlgebra-AFirstCourse-2017A.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://linear.ups.edu/&quot;&gt;A First Course in Linear Algebra by Robert A. Beezer&lt;/a&gt; or its public beta version of &lt;a href=&quot;https://linear.ups.edu/fcla/index.html&quot;&gt;A First Course in Linear Algebra&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://linear.ups.edu/download/fcla-3.50-print.pdf&quot;&gt;PDF File&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://linearalgebra.math.umanitoba.ca/math1220/&quot;&gt;MATH 1220 Linear Algebra 1 by Michael Doob&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;kuliah-online&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kuliah-online&quot; aria-label=&quot;kuliah online permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuliah Online&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/linear-algebra-foundations-to-frontiers&quot;&gt;edX - Linear Algebra - Foundations to Frontiers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/&quot;&gt;MIT OCW - Linear Algebra by Gilbert Strang&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=YrHlHbtiSM0&quot;&gt;Youtube&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.khanacademy.org/math/algebra&quot;&gt;Algebra 1 - Khan Academy&lt;/a&gt; and &lt;a href=&quot;https://www.khanacademy.org/math/algebra2&quot;&gt;Algebra 2 - Khan Academy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;youtube&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#youtube&quot; aria-label=&quot;youtube permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Youtube&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;#x26;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&quot;&gt;3Blue1Brown Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/c/MathTheBeautiful/playlists?view=50&amp;#x26;sort=dd&amp;#x26;shelf_id=2&quot;&gt;MathTheBeautiful Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&quot;&gt;Grant Sanderson Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#software&quot; aria-label=&quot;software permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Software&lt;/h2&gt;
+&lt;h3 id=&quot;pc&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pc&quot; aria-label=&quot;pc permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PC&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://speedcrunch.org/&quot;&gt;SpeedCrunch&lt;/a&gt; – open source software, fast, simple&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/octave/index&quot;&gt;GNU Octave&lt;/a&gt; – open source software&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://octave-online.net/&quot;&gt;Online Octave&lt;/a&gt; - online GNU Octave&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.mathworks.com/products/matlab.html&quot;&gt;Matlab&lt;/a&gt; – proprietary&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.anaconda.com/products/individual&quot;&gt;Anaconda for Python Data Science Programming&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;android&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#android&quot; aria-label=&quot;android permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Android&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.krazeapps.octaveprogrammingcompiler&quot;&gt;Madona&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=verbosus.anoclite&quot;&gt;Anoc Octave Editor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;kuliah&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kuliah&quot; aria-label=&quot;kuliah permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuliah&lt;/h2&gt;
+&lt;h3 id=&quot;pekan-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-1&quot; aria-label=&quot;pekan 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Topik:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pendahuluan&lt;/li&gt;
+&lt;li&gt;Sistem Persamaan Linear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Buku Pendukung:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://linearalgebra.math.umanitoba.ca/math1220/chapter-2.html&quot;&gt;LAM - Chapter 2 Systems of Linear Equations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://merganser.math.gvsu.edu/david/linear.algebra/ula/ula/chap1.html&quot;&gt;ULA - Chapter 1 Systems of equations &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/chap-algebra.html&quot;&gt;ILA - Chapter 1 Systems of Linear Equations: Algebra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-systems.html&quot;&gt;DLA - Chapter 1 Systems of linear equations &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-row-red.html&quot;&gt;DLA -  Chapter 2 Solving systems using matrices &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-applications.html&quot;&gt;DLA -  Chapter 3 Using systems of equations &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://linear.ups.edu/html/chapter-SLE.html&quot;&gt;FCLA - Chapter 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;pekan-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-2&quot; aria-label=&quot;pekan 2 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-2&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Topik:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Matriks : Operasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;pekan-3&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-3&quot; aria-label=&quot;pekan 3 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-3&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Topik:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Matriks : Invers dan Dekomposisi LU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Catatan :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mengapa ada dekomposisi LU? Karena dekomposisi LU lebih cepat dipakai untuk menyelesaikan linear persamaan dengan beragam vektor &lt;strong&gt;b&lt;/strong&gt;, dibandingkan eliminasi Gauss yang harus mengulang langkah untuk setiap vektor &lt;strong&gt;b&lt;/strong&gt; (&lt;a href=&quot;https://www.cl.cam.ac.uk/teaching/1314/NumMethods/supporting/mcmaster-kiruba-ludecomp.pdf&quot;&gt;Ref-1&lt;/a&gt;, &lt;a href=&quot;https://math.stackexchange.com/questions/266355/necessity-advantage-of-lu-decomposition-over-gaussian-elimination&quot;&gt;Ref-2&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
 &lt;/style&gt;</content:encoded></item><item><title><![CDATA[Linear Algebra]]></title><description><![CDATA[Linear Algebra Software PC SpeedCrunch – open source software, fast, simple GNU  Octave – open source software Online Octave - online GNU…]]></description><link>https://irosyadi.netlify.app/course/linear-algebra/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/linear-algebra/</guid><pubDate>Mon, 31 Aug 2020 13:58:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;linear-algebra&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#linear-algebra&quot; aria-label=&quot;linear algebra permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Linear Algebra&lt;/h1&gt;
 &lt;h2 id=&quot;software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#software&quot; aria-label=&quot;software permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Software&lt;/h2&gt;
 &lt;h3 id=&quot;pc&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pc&quot; aria-label=&quot;pc permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PC&lt;/h3&gt;
@@ -21412,239 +22111,6 @@ When someone is unhappy, that an excellent opportunity for me to learn, so I wan
 &lt;li&gt;Eigenvalues and eigenvectors&lt;/li&gt;
 &lt;li&gt;Linear transformations&lt;/li&gt;
 &lt;/ol&gt;
-&lt;style class=&quot;grvsc-styles&quot;&gt;
-  .grvsc-container {
-    overflow: auto;
-    position: relative;
-    -webkit-overflow-scrolling: touch;
-    padding-top: 1rem;
-    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
-    padding-bottom: 1rem;
-    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
-    border-radius: 8px;
-    border-radius: var(--grvsc-border-radius, 8px);
-    font-feature-settings: normal;
-    line-height: 1.4;
-  }
-  
-  .grvsc-code {
-    display: table;
-  }
-  
-  .grvsc-line {
-    display: table-row;
-    box-sizing: border-box;
-    width: 100%;
-    position: relative;
-  }
-  
-  .grvsc-line &gt; * {
-    position: relative;
-  }
-  
-  .grvsc-gutter-pad {
-    display: table-cell;
-    padding-left: 0.75rem;
-    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
-  }
-  
-  .grvsc-gutter {
-    display: table-cell;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  
-  .grvsc-gutter::before {
-    content: attr(data-content);
-  }
-  
-  .grvsc-source {
-    display: table-cell;
-    padding-left: 1.5rem;
-    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
-    padding-right: 1.5rem;
-    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
-  }
-  
-  .grvsc-source:empty::after {
-    content: &apos; &apos;;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  
-  .grvsc-gutter + .grvsc-source {
-    padding-left: 0.75rem;
-    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
-  }
-  
-  /* Line transformer styles */
-  
-  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
-    content: &apos; &apos;;
-    position: absolute;
-    width: 100%;
-  }
-  
-  .grvsc-line-diff-add::before {
-    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
-  }
-  
-  .grvsc-line-diff-del::before {
-    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
-  }
-  
-  .grvsc-line-number {
-    padding: 0 2px;
-    text-align: right;
-    opacity: 0.7;
-  }
-  
-&lt;/style&gt;</content:encoded></item><item><title><![CDATA[MK Matematika Teknik]]></title><description><![CDATA[MK Matematika Teknik Kode: TKE191113 SKS: 3 Jadwal: TKE191113 Matematika Teknik  A KAMIS 07:00 - 09:30 GEDUNG TEKNIK C 101 - 65 mhs TKE…]]></description><link>https://irosyadi.netlify.app/course/mk-matematika-teknik/</link><guid isPermaLink="false">https://irosyadi.netlify.app/course/mk-matematika-teknik/</guid><pubDate>Mon, 31 Aug 2020 13:58:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;mk-matematika-teknik&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mk-matematika-teknik&quot; aria-label=&quot;mk matematika teknik permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MK Matematika Teknik&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Kode: TKE191113&lt;/li&gt;
-&lt;li&gt;SKS: 3&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Jadwal:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;TKE191113 Matematika Teknik  A KAMIS 07:00 - 09:30 GEDUNG TEKNIK C 101 - 65 mhs&lt;/li&gt;
-&lt;li&gt;TKE191113 Matematika Teknik  B KAMIS 09:30 - 12:00 GEDUNG TEKNIK C 101 - 44 mhs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;capaian-pembelajaran-lulusan-cpl-program-studi&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#capaian-pembelajaran-lulusan-cpl-program-studi&quot; aria-label=&quot;capaian pembelajaran lulusan cpl program studi permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Capaian Pembelajaran Lulusan (CPL) Program Studi&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Pengetahuan-PU01 : menguasai pengetahuan matematika lanjut meliputi kalkulus integral­diferensial, persamaan diferensial, aljabar linier, variable kompleks, probabilitas dan statistik, dan matematika diskret serta penerapan mereka di bidang teknik elektro;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;capaian-pembelajaran-mata-kuliah&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#capaian-pembelajaran-mata-kuliah&quot; aria-label=&quot;capaian pembelajaran mata kuliah permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Capaian Pembelajaran Mata Kuliah&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Menguasai metode penyelesaian persamaan linear secara analitis dan numeris&lt;/li&gt;
-&lt;li&gt;Menguasai operasi terhadap matriks dan penerapannya&lt;/li&gt;
-&lt;li&gt;Menguasai konsep eigenvalue dan eigenvektor dan penerapannya&lt;/li&gt;
-&lt;li&gt;Menguasai konsep vektor dan ruang vektor serta penerapannya&lt;/li&gt;
-&lt;li&gt;Menguasai konsep transformasi linear dan penerapannya&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;bahan-kajian&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bahan-kajian&quot; aria-label=&quot;bahan kajian permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bahan Kajian&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Sistem Persamaan Linear&lt;/li&gt;
-&lt;li&gt;Matriks dan Operasi Matriks&lt;/li&gt;
-&lt;li&gt;Eigenvalue dan Eigenvektor&lt;/li&gt;
-&lt;li&gt;Dekomposisi LU&lt;/li&gt;
-&lt;li&gt;Diagonalisasi dan Bentuk Kuadrat (tambahan)&lt;/li&gt;
-&lt;li&gt;Ruang Vektor Euklid&lt;/li&gt;
-&lt;li&gt;Ruang Vektor Umum&lt;/li&gt;
-&lt;li&gt;Transformasi Linear&lt;/li&gt;
-&lt;li&gt;Aplikasi Aljabar Linear di bidang Teknik Elektro&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;referensi&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi&quot; aria-label=&quot;referensi permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi&lt;/h2&gt;
-&lt;h3 id=&quot;referensi-berbayar&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi-berbayar&quot; aria-label=&quot;referensi berbayar permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi Berbayar&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://books.google.co.id/books?id=loRbAgAAQBAJ&amp;#x26;redir_esc=y&quot;&gt;Elementary Linear Algebra: Application Version by Howard Anton&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://books.google.co.id/books?id=apXfrQEACAAJ&amp;#x26;redir_esc=y&quot;&gt;Linear Algebra and Its Applications by David C. Lay&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;referensi-bebas-terbuka&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#referensi-bebas-terbuka&quot; aria-label=&quot;referensi bebas terbuka permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Referensi Bebas Terbuka&lt;/h2&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/index.html&quot;&gt;Interactive Linear Algebras by Dan Margalit&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/ila.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/frontmatter-1.html&quot;&gt;Discover Linear Algebra by Jeremy Sylvestre&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://hefferon.net/linearalgebra/&quot;&gt;Linear Algebra by Jim Hefferon&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://joshua.smcvt.edu/linearalgebra/book.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://open.umn.edu/opentextbooks/textbooks/linear-algebra-theory-and-applications&quot;&gt;Linear Algebra, Theory And Applications by Kenneth Kuttler&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://lila1.lyryx.com/textbooks/KUTTLER_1/marketing/Kuttler-LinearAlgebra-AFirstCourse-2017A.pdf&quot;&gt;PDF File&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://linear.ups.edu/&quot;&gt;A First Course in Linear Algebra by Robert A. Beezer&lt;/a&gt; or its public beta version of &lt;a href=&quot;https://linear.ups.edu/fcla/index.html&quot;&gt;A First Course in Linear Algebra&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://linear.ups.edu/download/fcla-3.50-print.pdf&quot;&gt;PDF File&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://linearalgebra.math.umanitoba.ca/math1220/&quot;&gt;MATH 1220 Linear Algebra 1 by Michael Doob&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;kuliah-online&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kuliah-online&quot; aria-label=&quot;kuliah online permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuliah Online&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/linear-algebra-foundations-to-frontiers&quot;&gt;edX - Linear Algebra - Foundations to Frontiers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/&quot;&gt;MIT OCW - Linear Algebra by Gilbert Strang&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=YrHlHbtiSM0&quot;&gt;Youtube&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.khanacademy.org/math/algebra&quot;&gt;Algebra 1 - Khan Academy&lt;/a&gt; and &lt;a href=&quot;https://www.khanacademy.org/math/algebra2&quot;&gt;Algebra 2 - Khan Academy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;youtube&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#youtube&quot; aria-label=&quot;youtube permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Youtube&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;#x26;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&quot;&gt;3Blue1Brown Youtube&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/c/MathTheBeautiful/playlists?view=50&amp;#x26;sort=dd&amp;#x26;shelf_id=2&quot;&gt;MathTheBeautiful Youtube&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&quot;&gt;Grant Sanderson Youtube&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#software&quot; aria-label=&quot;software permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Software&lt;/h2&gt;
-&lt;h3 id=&quot;pc&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pc&quot; aria-label=&quot;pc permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PC&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://speedcrunch.org/&quot;&gt;SpeedCrunch&lt;/a&gt; – open source software, fast, simple&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/octave/index&quot;&gt;GNU Octave&lt;/a&gt; – open source software&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://octave-online.net/&quot;&gt;Online Octave&lt;/a&gt; - online GNU Octave&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.mathworks.com/products/matlab.html&quot;&gt;Matlab&lt;/a&gt; – proprietary&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.anaconda.com/products/individual&quot;&gt;Anaconda for Python Data Science Programming&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;android&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#android&quot; aria-label=&quot;android permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Android&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.krazeapps.octaveprogrammingcompiler&quot;&gt;Madona&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=verbosus.anoclite&quot;&gt;Anoc Octave Editor&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;kuliah&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kuliah&quot; aria-label=&quot;kuliah permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuliah&lt;/h2&gt;
-&lt;h3 id=&quot;pekan-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-1&quot; aria-label=&quot;pekan 1 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-1&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Topik:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pendahuluan&lt;/li&gt;
-&lt;li&gt;Sistem Persamaan Linear&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Buku Pendukung:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://linearalgebra.math.umanitoba.ca/math1220/chapter-2.html&quot;&gt;LAM - Chapter 2 Systems of Linear Equations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://merganser.math.gvsu.edu/david/linear.algebra/ula/ula/chap1.html&quot;&gt;ULA - Chapter 1 Systems of equations &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/chap-algebra.html&quot;&gt;ILA - Chapter 1 Systems of Linear Equations: Algebra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-systems.html&quot;&gt;DLA - Chapter 1 Systems of linear equations &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-row-red.html&quot;&gt;DLA -  Chapter 2 Solving systems using matrices &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://sites.ualberta.ca/~jsylvest/books/DLA1/chapter-applications.html&quot;&gt;DLA -  Chapter 3 Using systems of equations &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://linear.ups.edu/html/chapter-SLE.html&quot;&gt;FCLA - Chapter 1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;pekan-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-2&quot; aria-label=&quot;pekan 2 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-2&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Topik:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Matriks : Operasi&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;pekan-3&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pekan-3&quot; aria-label=&quot;pekan 3 permalink&quot; class=&quot;toc-header before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pekan-3&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Topik:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Matriks : Invers dan Dekomposisi LU&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Catatan :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mengapa ada dekomposisi LU? Karena dekomposisi LU lebih cepat dipakai untuk menyelesaikan linear persamaan dengan beragam vektor &lt;strong&gt;b&lt;/strong&gt;, dibandingkan eliminasi Gauss yang harus mengulang langkah untuk setiap vektor &lt;strong&gt;b&lt;/strong&gt; (&lt;a href=&quot;https://www.cl.cam.ac.uk/teaching/1314/NumMethods/supporting/mcmaster-kiruba-ludecomp.pdf&quot;&gt;Ref-1&lt;/a&gt;, &lt;a href=&quot;https://math.stackexchange.com/questions/266355/necessity-advantage-of-lu-decomposition-over-gaussian-elimination&quot;&gt;Ref-2&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
