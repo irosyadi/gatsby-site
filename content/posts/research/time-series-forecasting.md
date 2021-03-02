@@ -22,16 +22,17 @@ draft: false
 
 ## Multivariate Input
 References for Multivariate Input: 
-[How to Develop LSTM Models for Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/)
-[Multi-Step LSTM Time Series Forecasting Models for Power Usage](https://machinelearningmastery.com/how-to-develop-lstm-models-for-multi-step-time-series-forecasting-of-household-power-consumption/), [dhamvi01/Multivariate-Time-Series-Using-LSTM](https://github.com/dhamvi01/Multivariate-Time-Series-Using-LSTM), [ManishPrajapat/Household-Energy-MultiVariate-LSTM-: Data - Multivariate time series data of a house is provided](https://github.com/ManishPrajapat/Household-Energy-MultiVariate-LSTM-)
-[Multivariate Time Series Forecasting with LSTMs in Keras](https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/), [dhairya0904/Multivariate-time-series-prediction: Multivariate time series prediction using LSTM in keras](https://github.com/dhairya0904/Multivariate-time-series-prediction), [rubel007cse/Multivariate-Time-Series-Forecasting: Multivariate Time Series Forecasting with LSTMs in Keras](https://github.com/rubel007cse/Multivariate-Time-Series-Forecasting)
-[vb100/multivariate-lstm](https://github.com/vb100/multivariate-lstm)
-[Multivariate Time Series Forecasting with a Bidirectional LSTM: Building a Model Geared to Multiple Input Series | by Pierre Beaujuge | Medium](https://medium.com/@pierre.beaujuge/multivariate-time-series-forecasting-with-a-bidirectional-lstm-building-a-model-geared-to-4f020a160636)
-[umbertogriffo/Predictive-Maintenance-using-LSTM: Example of Multiple Multivariate Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras.](https://github.com/umbertogriffo/Predictive-Maintenance-using-LSTM)
-[Time series forecasting  |  TensorFlow Core](https://www.tensorflow.org/tutorials/structured_data/time_series) : MPI-MSO
-[shrey920/MultivariateTimeSeriesForecasting: This project is an implementation of the paper Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks. The model LSTNet consists of CNN, LSTM and RNN-skip layers](https://github.com/shrey920/MultivariateTimeSeriesForecasting)
-[Shiv-Kumar-Yadav9/Stock-Price-Prediction-by-Multivariate-Multistep-LSTM](https://github.com/Shiv-Kumar-Yadav9/Stock-Price-Prediction-by-Multivariate-Multistep-LSTM)
-[How to Develop Multivariate Multi-Step Time Series Forecasting Models for Air Pollution](https://machinelearningmastery.com/how-to-develop-machine-learning-models-for-multivariate-multi-step-air-pollution-time-series-forecasting/)
+
+- [How to Develop LSTM Models for Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/)
+- [Multi-Step LSTM Time Series Forecasting Models for Power Usage](https://machinelearningmastery.com/how-to-develop-lstm-models-for-multi-step-time-series-forecasting-of-household-power-consumption/), [dhamvi01/Multivariate-Time-Series-Using-LSTM](https://github.com/dhamvi01/Multivariate-Time-Series-Using-LSTM), [ManishPrajapat/Household-Energy-MultiVariate-LSTM-: Data - Multivariate time series data of a house is provided](https://github.com/ManishPrajapat/Household-Energy-MultiVariate-LSTM-)
+- [Multivariate Time Series Forecasting with LSTMs in Keras](https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/), [dhairya0904/Multivariate-time-series-prediction: Multivariate time series prediction using LSTM in keras](https://github.com/dhairya0904/Multivariate-time-series-prediction), [rubel007cse/Multivariate-Time-Series-Forecasting: Multivariate Time Series Forecasting with LSTMs in Keras](https://github.com/rubel007cse/Multivariate-Time-Series-Forecasting)
+- [vb100/multivariate-lstm](https://github.com/vb100/multivariate-lstm)
+- [Multivariate Time Series Forecasting with a Bidirectional LSTM: Building a Model Geared to Multiple Input Series | by Pierre Beaujuge | Medium](https://medium.com/@pierre.beaujuge/multivariate-time-series-forecasting-with-a-bidirectional-lstm-building-a-model-geared-to-4f020a160636)
+- [umbertogriffo/Predictive-Maintenance-using-LSTM: Example of Multiple Multivariate Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras.](https://github.com/umbertogriffo/Predictive-Maintenance-using-LSTM)
+- [Time series forecasting  |  TensorFlow Core](https://www.tensorflow.org/tutorials/structured_data/time_series) : MPI-MSO
+- [shrey920/MultivariateTimeSeriesForecasting: This project is an implementation of the paper Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks. The model LSTNet consists of CNN, LSTM and RNN-skip layers](https://github.com/shrey920/MultivariateTimeSeriesForecasting)
+- [Shiv-Kumar-Yadav9/Stock-Price-Prediction-by-Multivariate-Multistep-LSTM](https://github.com/Shiv-Kumar-Yadav9/Stock-Price-Prediction-by-Multivariate-Multistep-LSTM)
+- [How to Develop Multivariate Multi-Step Time Series Forecasting Models for Air Pollution](https://machinelearningmastery.com/how-to-develop-machine-learning-models-for-multivariate-multi-step-air-pollution-time-series-forecasting/)
 
 ## Statistical Method for Multivariate
 - [Multivariate Time Series | Vector Auto Regression (VAR)](https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/)
@@ -44,13 +45,13 @@ References for Multivariate Input:
 
 
 ## Univariate Input
-[Time Series Forecasting with the Long Short-Term Memory Network in Python](https://machinelearningmastery.com/time-series-forecasting-long-short-term-memory-network-python/)
-[Time Series Forecasting — ARIMA, LSTM, Prophet with Python | by Caner Dabakoglu | Medium](https://medium.com/@cdabakoglu/time-series-forecasting-arima-lstm-prophet-with-python-e73a750a9887)
+- [Time Series Forecasting with the Long Short-Term Memory Network in Python](https://machinelearningmastery.com/time-series-forecasting-long-short-term-memory-network-python/)
+- [Time Series Forecasting — ARIMA, LSTM, Prophet with Python | by Caner Dabakoglu | Medium](https://medium.com/@cdabakoglu/time-series-forecasting-arima-lstm-prophet-with-python-e73a750a9887)
 
 
 ## Note on LSTM
-[On the Suitability of Long Short-Term Memory Networks for Time Series Forecasting](https://machinelearningmastery.com/suitability-long-short-term-memory-networks-time-series-forecasting/)
-[A Comparative Study between Univariate and Multivariate Linear Stationary Time Series Models](http://article.sapub.org/10.5923.j.ajms.20160605.02.html)
+- [On the Suitability of Long Short-Term Memory Networks for Time Series Forecasting](https://machinelearningmastery.com/suitability-long-short-term-memory-networks-time-series-forecasting/)
+- [A Comparative Study between Univariate and Multivariate Linear Stationary Time Series Models](http://article.sapub.org/10.5923.j.ajms.20160605.02.html)
 
 ## Multivariate on Debutanizer
 - [Comparison for Debutanizer Column](http://www.vincentgaspersz.com/wp-content/uploads/2018/07/K%20Siddharth%20A%20Pathak%20AK%20Pani%20-%20Real-time%20quality%20monitoring%20in%20debutanizer%20column%20with%20regression%20tree%20and%20ANFIS.pdf)
