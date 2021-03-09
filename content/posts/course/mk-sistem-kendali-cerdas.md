@@ -10,31 +10,31 @@ draft: false
 
 # MK Sistem Kendali Cerdas
 
+## Identitas
 - Kode : TKE194941 Sistem Kendali Cerdas
 - SKS : 3 SKS
 - Jadwal:
     - Kelas A : Ruang E-201, Jum'at 13.55, 3 mhs
-
-
-#### Identitas
-
-- Kode Mata Kuliah: TKE194941
-- SKS Mata Kuliah: 3 SKS
+- Metode: Case-based dan Project-based Learning
 - Semester Mata Kuliah: 6
 - Sifat Mata Kuliah: Teknik Elektro Pendalaman (TED)
 
 #### Materi
 
-1. Pendahuluan Sistem Kendali Cerdas
-2. Logika Fuzzy dan Sistem Inferensi Fuzzy
-3. Fuzzy Logic Control
-4. Project 1
-5. Project 2
-6. Neural Network
-7. Neural Network in Control
-8. ANFIS
-9. Model Predictive Control
-10. 
+1. Pendahuluan
+1. Dasar-dasar Logika Fuzzy
+1. Sistem Inferensi Fuzzy
+1. Sistem Inferensi Fuzzy untuk Sistem Kendali
+1. Proyek Sistem Inferensi Fuzzy untuk Sistem Kendali
+1. Proyek Sistem Inferensi Fuzzy untuk Sistem Kendali
+1. Pendahuluan Neural Network
+1. Neural Network dalam Sistem Kendali
+1. Neural Network dalam Sistem Kendali
+1. Neural Network dalam Sistem Kendali
+1. Sistem Neuro-Fuzzy
+1. Sistem Neuro-Fuzzy untuk Sistem Kendali
+1. Proyek Sistem Neuro-Fuzzy untuk Sistem Kendali 
+1. Proyek Sistem Neuro-Fuzzy untuk Sistem Kendali 
 
 #### Referensi Utama
 - Liu Jinkun, Intelligent Control Design and MATLAB Simulation \[[website](https://www.springer.com/gp/book/9789811052620#reviews)\] \[[m-file download](http://shi.buaa.edu.cn/liujinkun/zh_CN/jxzy/8049/content/1217.htm#jxzy)\]
@@ -66,9 +66,8 @@ draft: false
 
 #### Video Links
 - [Neural Network | Online Course | MATLAB Helper - YouTube](https://www.youtube.com/playlist?list=PLmyWlxlLCcz8ct8rKtIO0ESXgEDvh7f5N)
-- [Artificial Intelligence Tutorial [2020] - YouTube](https://www.youtube.com/playlist?list=PLkmvobsnE0GEeD8ICPS5iwz0GCNhyqSre)
+- [Artificial Intelligence Tutorial - YouTube](https://www.youtube.com/playlist?list=PLkmvobsnE0GEeD8ICPS5iwz0GCNhyqSre)
 - [Data-Driven Control with Machine Learning - YouTube](https://www.youtube.com/playlist?list=PLMrJAkhIeNNQkv98vuPjO2X2qJO_UPeWR)
-
 
 #### E-learning Link
 
