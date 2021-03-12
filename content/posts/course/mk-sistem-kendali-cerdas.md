@@ -70,6 +70,25 @@ draft: false
 - [Data-Driven Control with Machine Learning - YouTube](https://www.youtube.com/playlist?list=PLMrJAkhIeNNQkv98vuPjO2X2qJO_UPeWR)
 
 #### E-learning Link
-
 - [E-learning Sistem Kendali Cerdas 201920202 – A](https://eldiru.unsoed.ac.id/course/view.php?id=62)
 - [Github Classroom](https://classroom.github.com/classrooms/61479455-sistem-kendali-cerdas-classroom-1)
+
+## Neuro-fuzzy in Python
+### Libraries
+- numpy `conda install -c conda-forge numpy`, `pip install numpy`
+- scipy `conda install -c conda-forge scipy`, `pip install scipy`
+- scikit fuzzy `conda install -c conda-forge scikit-fuzzy`, `pip install scikit-fuzzy`
+- scikit learn `conda install -c conda-forge scikit-learn`, `pip install scikit-learn`
+- fuzzylite `pip install pyfuzzylite`
+- pandas `conda install -c conda-forge pandas`, `pip install pandas`
+- statsmodels `conda install -c conda-forge statsmodels`,`pip install statsmodels`
+- keras `conda install -c conda-forge keras`, `pip install keras`
+- anfis `pip install anfis`
+- bokeh `conda install -c conda-forge bokeh`, `pip install bokeh`
+- fuzzycmeans `pip install fuzzycmeans`
+
+### Downgrade Python for installing keras and tensorflow
+- `python --version`
+- `conda search python` : check installed version of python
+- `conda install python=3.6.0`: downgrade to your preferred python
+
