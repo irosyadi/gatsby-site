@@ -20,7 +20,7 @@ Email: [imron.rosyadi@unsoed.ac.id](mailto:imron.rosyadi@unsoed.ac.id)
 Email (for students): [pak.imron@gmail.com](mailto:pak.imron@gmail.com)  
 Page:   
 [1] http://elektro.ft.unsoed.ac.id/imron-rosyadi/  
-[2] https://irosyadi-lp.netlify.app/
+[2] https://irosyadi-lp2.netlify.app/
 
 #### Academic Profiles
 
