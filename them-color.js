@@ -12,3 +12,5 @@ module.exports = {
     mainColor3: "#6272a4",
   },
 }
+
+// color setting
