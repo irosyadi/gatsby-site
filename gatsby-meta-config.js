@@ -8,6 +8,7 @@ module.exports = {
     twitter: `irosyadi`, // Your Twitter account
     github: `irosyadi`, // Your GitHub account
     medium: ``, // Your Medium account
+    facebook: ``, 	
     //facebook: `imron.rosyadi`, // Your Facebook account
     linkedin: `irosyadi`, // Your LinkedIn account
   },
