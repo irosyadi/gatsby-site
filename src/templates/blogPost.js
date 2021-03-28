@@ -119,7 +119,7 @@ export default ({ data, pageContext, location }) => {
                       src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg"
                       alt="Buy me tea or coffee ;)"
                     />
-                    <span>Buy tea</span>
+//                    <span>Buy tea</span>
                   </a>
                 </div>
               )}

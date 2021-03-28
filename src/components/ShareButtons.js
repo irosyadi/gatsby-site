@@ -17,11 +17,18 @@ const ShareButton = ({ color, icon, target, onClick }) => {
       `}
       onClick={onClick}
     >
-      {icon}
-      {target}	  
+      {icon}  
     </button>
   )
 }
+
+
+//      {icon}
+//    Share with {target}	  
+//    </button>
+//  )
+//  }
+
 
 const ShareButtons = ({ url, text }) => {
   const { isDarkMode } = useContext(ThemeContext)
