@@ -14,7 +14,8 @@ module.exports = {
   icon: `content/assets/icon.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
-    utterances: "irosyadi/gatsby-site", // Your repository for archive comment
+    utterances: "", // Your repository for archive comment
+//    utterances: "irosyadi/gatsby-site", // Your repository for archive comment	
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
