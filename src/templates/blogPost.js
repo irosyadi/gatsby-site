@@ -119,7 +119,6 @@ export default ({ data, pageContext, location }) => {
                       src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg"
                       alt="Buy me tea or coffee ;)"
                     />
-//                    <span>Buy tea</span>
                   </a>
                 </div>
               )}
@@ -137,6 +136,28 @@ export default ({ data, pageContext, location }) => {
     </>
   )
 }
+
+
+
+//                    <span>Buy tea</span>
+//                  </a>
+//                </div>
+//              )}
+//            </Wrapper>
+//          </div>
+//        </div>
+//        <Wrapper>
+//          <Navigator pageContext={pageContext} />
+//          <Profile />
+//          <div css={tw`mt-5 mx-2`}>
+//            <Utterances repo={metaData.comment.utterances} />
+//          </div>
+//        </Wrapper>
+//      </Layout>
+//    </>
+//  )
+//}
+
 export const pageQuery = graphql`
   query PostQuery($slug: String!) {
     site {
