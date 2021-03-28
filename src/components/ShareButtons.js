@@ -19,7 +19,6 @@ const ShareButton = ({ color, icon, target, onClick }) => {
     >
       {icon}
       {target}	  
-//      Share with {target}
     </button>
   )
 }
