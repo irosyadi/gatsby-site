@@ -8,7 +8,7 @@ module.exports = {
     twitter: `irosyadi`, // Your Twitter account
     github: `irosyadi`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: `imron.rosyadi`, // Your Facebook account
+    //facebook: `imron.rosyadi`, // Your Facebook account
     linkedin: `irosyadi`, // Your LinkedIn account
   },
   icon: `content/assets/icon.png`, // Add your favicon
@@ -23,7 +23,8 @@ module.exports = {
     buyMeACoffeeId: "irosyadi",
   },
   share: {
-    facebookAppId: "401609837854601", // Add facebookAppId for using facebook share feature v3.2
+    facebookAppId: "", // Add facebookAppId for using facebook share feature v3.2	  
+//    facebookAppId: "401609837854601", // Add facebookAppId for using facebook share feature v3.2
   },
   ga: "UA-185820309-1", // Add your google analytics tracking ID
   // jennifer_front_id: "ed243e67", // Add your jennifer front tracking ID
