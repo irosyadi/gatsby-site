@@ -15,10 +15,16 @@ draft: false
 
 ## Electronic Simulator
 - [Everycircuit](https://everycircuit.com/app/)
+- [Online circuit simulator & schematic editor - CircuitLab](https://www.circuitlab.com/)
+- [Circuit Diagram Web Editor](https://www.circuit-diagram.org/editor/)
 - [Partsim](https://www.partsim.com/)
 - [library.io](https://library.io/)
 - [Tejotron](https://www.tejotron.com/)
+- [hneemann/Digital: A digital logic designer and circuit simulator.](https://github.com/hneemann/Digital)
 - [List of Electronic Simulator](https://www.electronics-lab.com/downloads/)
+
+## Electronic Diagram
+- [Circuit Diagram Web Editor](https://www.circuit-diagram.org/editor/)
 
 ## EDA Simulator
 - [EDA Playground](https://www.edaplayground.com/) : Verilog, VHDL
