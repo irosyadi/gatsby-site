@@ -81,6 +81,7 @@
 <li><a href="/blog/202102/#robot-farming">Robot: Farming</a></li>
 <li><a href="/blog/202102/#github">Github</a></li>
 <li><a href="/blog/202102/#in-browser-object-detection">In-browser Object Detection</a></li>
+<li><a href="/blog/202102/#yolo">YOLO</a></li>
 <li><a href="/blog/202102/#in-browser-pose-identification">In-Browser Pose Identification</a></li>
 <li><a href="/blog/202102/#colorization">Colorization</a></li>
 <li><a href="/blog/202102/#segmentation">Segmentation</a></li>
@@ -129,6 +130,12 @@
 <li><a href="/blog/202102/#3d-reconstruction">3D Reconstruction</a></li>
 <li><a href="/blog/202102/#portable-server">Portable Server</a></li>
 <li><a href="/blog/202102/#video-editor-1">Video Editor</a></li>
+<li><a href="/blog/202102/#fpga-1">FPGA</a></li>
+<li><a href="/blog/202102/#twitter-dataset">Twitter Dataset</a></li>
+<li><a href="/blog/202102/#interesting-article">Interesting Article</a></li>
+<li><a href="/blog/202102/#fonts">Fonts</a></li>
+<li><a href="/blog/202102/#web-tools">Web Tools</a></li>
+<li><a href="/blog/202102/#data-visualization">Data Visualization</a></li>
 </ul>
 </li>
 </ul></div></div></div><div class="css-1bdwg0l eyldt480"><div><style data-emotion-css="lkbktv">.css-lkbktv{font-size:1rem;word-break:break-word;}.css-lkbktv h1 > a > svg,.css-lkbktv h2 > a > svg,.css-lkbktv h3 > a > svg,.css-lkbktv h4 > a > svg,.css-lkbktv h5 > a > svg,.css-lkbktv h6 > a > svg{fill:#000;}.css-lkbktv h1,.css-lkbktv h2{font-size:1.25rem;font-weight:600;margin-top:1.5rem;margin-bottom:1.5rem;}.css-lkbktv h3,.css-lkbktv h4,.css-lkbktv h5,.css-lkbktv h6{font-size:1.125rem;margin-top:1.5rem;margin-bottom:1.5rem;font-weight:600;}@media (min-width:640px){.css-lkbktv h1,.css-lkbktv h2{font-size:1.5rem;}.css-lkbktv h3,.css-lkbktv h4,.css-lkbktv h5,.css-lkbktv h6{font-size:1.25rem;}}.css-lkbktv a{color:#3d7e9a;}.css-lkbktv a:hover{-webkit-text-decoration:underline;text-decoration:underline;}.css-lkbktv p{margin:0.3rem;margin-top:0.75rem;margin-bottom:0.75rem;}.css-lkbktv ul,.css-lkbktv ol{margin:0.3rem;margin-left:2rem;}.css-lkbktv li > p,.css-lkbktv li > ul,.css-lkbktv li > ol{margin-bottom:0;}.css-lkbktv ol{list-style-type:decimal;}.css-lkbktv ul{list-style-type:disc;}.css-lkbktv blockquote{padding:0.5rem;background-color:#eee;margin:0.3rem;margin-top:0.5rem;margin-bottom:0.5rem;border-left-width:4px;border-color:#5a809e;}.css-lkbktv blockquote > p{margin:0.5rem;}.css-lkbktv blockquote > h1,.css-lkbktv blockquote > h2,.css-lkbktv blockquote > h3,.css-lkbktv blockquote > h4,.css-lkbktv blockquote > h5{margin-top:0.5rem;margin-bottom:0.5rem;}.css-lkbktv td,.css-lkbktv th{padding-left:0.5rem;padding-right:0.5rem;padding-top:0.25rem;padding-bottom:0.25rem;border-width:1px;border-color:#5a809e;}.css-lkbktv tr:nth-of-type(even){background-color:#eee;}.css-lkbktv th{background-color:#eee;}.css-lkbktv table{margin-bottom:1.5rem;}.css-lkbktv p > code,.css-lkbktv li > code{padding-top:0.1rem;padding-bottom:0.1rem;padding-right:0.25rem;padding-left:0.25rem;border-radius:0.25rem;color:#3d7e9a;background-color:#eee;white-space:pre-line;}.css-lkbktv pre.grvsc-container{margin-top:24px;margin-bottom:24px;}.css-lkbktv hr{margin-top:24px;margin-bottom:24px;height:2px;border:none;background:linear-gradient( 270deg,#3a5f7d,#5a809e,#dae1e3 );}</style><div class="markdown css-lkbktv"><h1 id="2021-february" style="position:relative;"><a href="#2021-february" aria-label="2021 february permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2021 February</h1>
@@ -335,6 +342,35 @@
 </ul>
 </li>
 <li><a href="https://blog.tensorflow.org/2021/01/custom-object-detection-in-browser.html">Custom object detection in the browser using TensorFlow.js — The TensorFlow Blog</a></li>
+</ul>
+<h2 id="yolo" style="position:relative;"><a href="#yolo" aria-label="yolo permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>YOLO</h2>
+<ul>
+<li><a href="https://www.kdnuggets.com/2018/09/object-detection-image-classification-yolo.html">Object Detection and Image Classification with YOLO - KDnuggets</a> : YOLO is based on regression not classification</li>
+<li><a href="https://jonathan-hui.medium.com/real-time-object-detection-with-yolo-yolov2-28b1b93e2088">Real-time Object Detection with YOLO, YOLOv2 and now YOLOv3 | by Jonathan Hui | Medium</a></li>
+<li><a href="https://github.com/WangMian-Maker/Flask">WangMian-Maker/Flask</a></li>
+<li><a href="https://github.com/LeonLok/Multi-Camera-Live-Object-Tracking">LeonLok/Multi-Camera-Live-Object-Tracking: Multi-camera live traffic and object counting with YOLO v4, Deep SORT, and Flask.</a></li>
+<li><a href="https://github.com/burningion/poor-mans-deep-learning-camera">burningion/poor-mans-deep-learning-camera: Build a thin client deep learning camera with the Raspberry Pi, Flask, and YOLO</a></li>
+<li><a href="https://github.com/theAIGuysCode/Object-Detection-API">theAIGuysCode/Object-Detection-API: Yolov3 Object Detection implemented as APIs, using TensorFlow and Flask</a></li>
+<li><a href="https://github.com/v-iashin/WebsiteYOLO">v-iashin/WebsiteYOLO: The back-end for YOLOv3 object detector running online on my website</a></li>
+<li><a href="https://github.com/Zyjacya-In-love/Pedestrian-Detection-on-YOLOv3_Research-and-APP">Zyjacya-In-love/Pedestrian-Detection-on-YOLOv3_Research-and-APP: 2020 Undergraduate Graduation Project in Jiangnan University ALL codes including Data-convert, keras-Train, model-Evaluate and Web-App</a></li>
+<li><a href="https://github.com/yankai364/Object-Detection-Flask-API">yankai364/Object-Detection-Flask-API: A simple YOLOv3 object detection API in Python (using Flask).</a></li>
+<li><a href="https://www.kdnuggets.com/2019/10/easily-deploy-machine-learning-models-using-flask.html">How to Easily Deploy Machine Learning Models Using Flask - KDnuggets</a> : show text results</li>
+<li><a href="https://www.datacamp.com/community/tutorials/machine-learning-models-api-python">Turning Machine Learning Models into APIs - DataCamp</a></li>
+<li><a href="https://www.geeksforgeeks.org/deploy-machine-learning-model-using-flask/">Deploy Machine Learning Model using Flask - GeeksforGeeks</a></li>
+<li><a href="https://www.kdnuggets.com/2019/12/excelr-deployment-machine-learning-flask.html">Deployment of Machine learning models using Flask - KDnuggets</a></li>
+<li><a href="https://blog.cambridgespark.com/deploying-a-machine-learning-model-to-the-web-725688b851c7">Tutorial: Deploying a machine learning model to the web | by Cambridge Spark | Cambridge Spark</a></li>
+<li><a href="https://www.toptal.com/python/python-machine-learning-flask-example">Python Machine Learning and Predicting With Flask | Toptal</a></li>
+</ul>
+<p>There are a few different algorithms for object detection and they can be split into two groups:  </p>
+<ul>
+<li>Algorithms based on classification – they work in two stages. In the first step, we’re selecting from the image interesting regions. Then we’re classifying those regions using convolutional neural networks. This solution could be very slow because we have to run prediction for every selected region. Most known example of this type of algorithms is the Region-based convolutional neural network (RCNN) and their cousins Fast-RCNN and Faster-RCNN.</li>
+<li>Algorithms based on regression – instead of selecting interesting parts of an image, we’re predicting classes and bounding boxes for the whole image in one run of the algorithm. Most known example of this type of algorithms is YOLO (You only look once) commonly used for real-time object detection.</li>
+</ul>
+<p>YOLO metrics:</p>
+<ul>
+<li><a href="https://github.com/whynotw/YOLO_metric">whynotw/YOLO_metric: Calculate mean Average Precision (mAP) and confusion matrix for object detection models. Bounding box information for groundtruth and prediction is YOLO training dataset format.</a></li>
+<li><a href="https://github.com/rafaelpadilla/review_object_detection_metrics">rafaelpadilla/review<em>object</em>detection_metrics: Review on Object Detection Metrics: 14 object detection metrics including COCO's and PASCAL's metrics. Supporting different bounding box formats.</a></li>
+<li><a href="https://manalelaidouni.github.io/Evaluating-Object-Detection-Models-Guide-to-Performance-Metrics.html">Evaluating Object Detection Models: Guide to Performance Metrics | Manal El Aidouni</a></li>
 </ul>
 <h2 id="in-browser-pose-identification" style="position:relative;"><a href="#in-browser-pose-identification" aria-label="in browser pose identification permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>In-Browser Pose Identification</h2>
 <ul>
@@ -623,6 +659,30 @@
 <h2 id="video-editor-1" style="position:relative;"><a href="#video-editor-1" aria-label="video editor 1 permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Video Editor</h2>
 <ul>
 <li><a href="https://milk.video/">Milk Video: turn webinars into video highlights</a></li>
+</ul>
+<h2 id="fpga-1" style="position:relative;"><a href="#fpga-1" aria-label="fpga 1 permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>FPGA</h2>
+<ul>
+<li><a href="https://github.com/os-fpga/open-source-fpga-resource">os-fpga/open-source-fpga-resource: A list of resources related to the open-source FPGA projects</a></li>
+</ul>
+<h2 id="twitter-dataset" style="position:relative;"><a href="#twitter-dataset" aria-label="twitter dataset permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Twitter Dataset</h2>
+<ul>
+<li><a href="https://hedonometer.org/timeseries/en_all/?from=2019-11-02&#x26;to=2021-05-01">Hedonometer</a></li>
+</ul>
+<h2 id="interesting-article" style="position:relative;"><a href="#interesting-article" aria-label="interesting article permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interesting Article</h2>
+<ul>
+<li><a href="https://retool.com/blog/whats-accenture/">What's Accenture?</a></li>
+</ul>
+<h2 id="fonts" style="position:relative;"><a href="#fonts" aria-label="fonts permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fonts</h2>
+<ul>
+<li><a href="https://fonts.google.com/">Google Fonts</a></li>
+</ul>
+<h2 id="web-tools" style="position:relative;"><a href="#web-tools" aria-label="web tools permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web Tools</h2>
+<ul>
+<li><a href="https://www.wordclouds.com/">Wordclouds</a></li>
+</ul>
+<h2 id="data-visualization" style="position:relative;"><a href="#data-visualization" aria-label="data visualization permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data Visualization</h2>
+<ul>
+<li><a href="https://coolinfographics.com/tools-directory">Data Visualization &#x26; Infographics Tools Directory — Cool Infographics</a></li>
 </ul>
 <style class="grvsc-styles">
   .grvsc-container {
