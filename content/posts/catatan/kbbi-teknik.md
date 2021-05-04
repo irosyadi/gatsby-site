@@ -14,12 +14,22 @@ draft: false
 - *plan* : rencana
 
 ## Kata Baku dan Tidak Baku
-- *analisis* : bentuk tidak baku *analisa*
-- *diode* : bentuk tidak baku *dioda*
-- *foto* : bentuk tidak baku *photo*
-- *furniture* : bentuk tidak baku *furnitur*
-- *algoritme* : bentuk tidak baku *algoritma*
+- *analisis* bukan *analisa*
+- *diode*  bukan *dioda*
+- *foto*  bukan *photo*
+- *furnitur* bukan *furniture*
+- *algoritme* bukan*algoritma*
 - *pelat* bukan *plat*
+- *objek* bukan *obyek*
+- *nomor* bukan *nomer*
+- *saraf* bukan *syaraf*
+- *otomatis* bukan *otomatik* atau *automatis*
+- *video* bukan *vidio*
+- *klona* bukan *kloning*
+- *pengklonaan* bukan *pengkloningan*
+
+## Kata sinonom
+- *linear* dan *linier*
 
 ## Terjemah Kata Bahasa Inggris
 - *server* : peladen
