@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://irosyadi.netlify.app/app/wikipedia-app/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/app/free-sound-audio/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/blog/202105/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/howto/google-sheets-howto/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -154,8 +155,8 @@
 <url> <loc>https://irosyadi.netlify.app/course/kuliah/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/course/linear-algebra/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/course/mk-matematika-teknik/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://irosyadi.netlify.app/course/control-design-frequency/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/course/control-systems/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/course/control-design-frequency/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/course/fundamentals-of-electrical-engineering/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/note/unicode/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/book/deep-learning-book-tutorial/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -214,10 +215,10 @@
 <url> <loc>https://irosyadi.netlify.app/app/pdf-editor/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/app/README/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/blog/README/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/book/README/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/catatan/README/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/course/README/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/development/README/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://irosyadi.netlify.app/book/README/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/note/README/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/research/README/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/blog/202006/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
