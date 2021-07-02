@@ -19,6 +19,9 @@ draft: false
     - Jika istilah tersebut tidak ada di KBBI, cari dan gunakan istilah baku berdasarkan dokumen resmi.
     - Jika istilah baku tidak ada di dalam dokumen resmi atau tidak ada pedomannya, buat penyerapan istilahnya yang tepat.
     -  Jika tidak ditemukan pula istilah dalam bahasa Indonesia yang menyatakan istilah tersebut, silakan tuliskan dengan istilah asing dan dituliskan secara miring. Cantumkan definisi atau maksud dari istilah asing tersebut dalam daftar istilah atau dalam paragraf.
+- Setiap gambar atau tabel harus dirujuk di dalam paragraf.
+- Cantumkan setiap sitasi (kutipan, rujukan) yang bersumber dari naskah lain. Cara menuliskan sitasi dengan gaya IEEE adalah seperti contoh berikut.
+    - "Kalimat ini merupakan sitasi dari naskah [12] dan juga bersumber dari rujukan [13].
 
 ## Teknologi untuk Penulisan Naskah dalam Bahasa Indonesia
 - Gunakan pengolah kata (*word processor*) seperti Microsoft Word, Libre Office, atau Google Docs dan maksimalkan semua fitur yang ada. Fitur yang sebaiknya anda kuasai adalah:
@@ -54,6 +57,9 @@ draft: false
 - [ ] Periksa penulisan garis miring (/) tanda kurung ((...)) dan kurung siku ([...]).
 - [ ] Periksa penulisan kosakata dan kesesuaiannya dengan KBBI, istilah baku, dan padanan kata.
 - [ ] Periksa nomor halaman dan penulisan nomor dan judul bab, sub-bab,  serta *caption* gambar, dan tabel.
+- [ ] Periksa apakah tabel dan gambar telah dirujuk di dalam naskah (paragraf).
 - [ ] Periksa penulisan sitasi dan daftar pustaka.
 - [ ] Periksa pembuatan daftar pustaka, daftar gambar, dan daftar tabel.
+
+
 
