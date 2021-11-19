@@ -118,6 +118,7 @@
 <url> <loc>https://irosyadi.netlify.app/development/blog-css/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/note/gadget/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/research/journal-article/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/blog/2020Q4/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/catatan/tips-essay/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/course/free-online-course/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/research/safety-helmet-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -126,8 +127,8 @@
 <url> <loc>https://irosyadi.netlify.app/research/covid-ct-scan-classification/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/book/ebook-search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/book/open-glossary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://irosyadi.netlify.app/development/blog-markdown/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/development/experimental-markdown/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/development/blog-markdown/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/development/my-workflow/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/research/face-expression-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/app/face-pose-animation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
