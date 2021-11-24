@@ -61,6 +61,8 @@
 <li><a href="/research/machine-learning-metric/#matthews-correlation-coefficient-mcc-or-phi-coefficient">Matthews Correlation Coefficient (MCC) or Phi Coefficient</a></li>
 <li><a href="/research/machine-learning-metric/#intersection-over-union-iou">Intersection over Union (IoU)</a></li>
 <li><a href="/research/machine-learning-metric/#reference">Reference</a></li>
+<li><a href="/research/machine-learning-metric/#multiclass-metrics">Multiclass Metrics</a></li>
+<li><a href="/research/machine-learning-metric/#accuracy-precision-error">Accuracy, Precision, Error</a></li>
 </ul>
 </li>
 </ul></div></div></div><div class="css-1bdwg0l eyldt480"><div><style data-emotion-css="lkbktv">.css-lkbktv{font-size:1rem;word-break:break-word;}.css-lkbktv h1 > a > svg,.css-lkbktv h2 > a > svg,.css-lkbktv h3 > a > svg,.css-lkbktv h4 > a > svg,.css-lkbktv h5 > a > svg,.css-lkbktv h6 > a > svg{fill:#000;}.css-lkbktv h1,.css-lkbktv h2{font-size:1.25rem;font-weight:600;margin-top:1.5rem;margin-bottom:1.5rem;}.css-lkbktv h3,.css-lkbktv h4,.css-lkbktv h5,.css-lkbktv h6{font-size:1.125rem;margin-top:1.5rem;margin-bottom:1.5rem;font-weight:600;}@media (min-width:640px){.css-lkbktv h1,.css-lkbktv h2{font-size:1.5rem;}.css-lkbktv h3,.css-lkbktv h4,.css-lkbktv h5,.css-lkbktv h6{font-size:1.25rem;}}.css-lkbktv a{color:#3d7e9a;}.css-lkbktv a:hover{-webkit-text-decoration:underline;text-decoration:underline;}.css-lkbktv p{margin:0.3rem;margin-top:0.75rem;margin-bottom:0.75rem;}.css-lkbktv ul,.css-lkbktv ol{margin:0.3rem;margin-left:2rem;}.css-lkbktv li > p,.css-lkbktv li > ul,.css-lkbktv li > ol{margin-bottom:0;}.css-lkbktv ol{list-style-type:decimal;}.css-lkbktv ul{list-style-type:disc;}.css-lkbktv blockquote{padding:0.5rem;background-color:#eee;margin:0.3rem;margin-top:0.5rem;margin-bottom:0.5rem;border-left-width:4px;border-color:#5a809e;}.css-lkbktv blockquote > p{margin:0.5rem;}.css-lkbktv blockquote > h1,.css-lkbktv blockquote > h2,.css-lkbktv blockquote > h3,.css-lkbktv blockquote > h4,.css-lkbktv blockquote > h5{margin-top:0.5rem;margin-bottom:0.5rem;}.css-lkbktv td,.css-lkbktv th{padding-left:0.5rem;padding-right:0.5rem;padding-top:0.25rem;padding-bottom:0.25rem;border-width:1px;border-color:#5a809e;}.css-lkbktv tr:nth-of-type(even){background-color:#eee;}.css-lkbktv th{background-color:#eee;}.css-lkbktv table{margin-bottom:1.5rem;}.css-lkbktv p > code,.css-lkbktv li > code{padding-top:0.1rem;padding-bottom:0.1rem;padding-right:0.25rem;padding-left:0.25rem;border-radius:0.25rem;color:#3d7e9a;background-color:#eee;white-space:pre-line;}.css-lkbktv pre.grvsc-container{margin-top:24px;margin-bottom:24px;}.css-lkbktv hr{margin-top:24px;margin-bottom:24px;height:2px;border:none;background:linear-gradient( 270deg,#3a5f7d,#5a809e,#dae1e3 );}</style><div class="markdown css-lkbktv"><h1 id="machine-learning-metrics" style="position:relative;"><a href="#machine-learning-metrics" aria-label="machine learning metrics permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Machine Learning Metrics</h1>
@@ -171,13 +173,42 @@ Note:</li>
 <li><a href="https://towardsdatascience.com/should-i-look-at-precision-recall-or-specificity-sensitivity-3946158aace1">Data Science in Medicine — Precision &#x26; Recall or Specificity &#x26; Sensitivity? | by Alon Lekhtman | Towards Data Science</a></li>
 <li><a href="https://builtin.com/data-science/precision-and-recall">When Accuracy Isn’t Enough, Use Precision and Recall to Evaluate Classification Models | Built In</a></li>
 </ul>
-<p>Multiclass Metrics</p>
+<h2 id="multiclass-metrics" style="position:relative;"><a href="#multiclass-metrics" aria-label="multiclass metrics permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multiclass Metrics</h2>
 <ul>
 <li><a href="https://towardsdatascience.com/multi-class-metrics-made-simple-part-i-precision-and-recall-9250280bddc2">Multi-Class Metrics Made Simple, Part I: Precision and Recall | by Boaz Shmueli | Towards Data Science</a></li>
 <li><a href="https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c">Beyond Accuracy: Precision and Recall | by Will Koehrsen | Towards Data Science</a></li>
 <li><a href="https://machinelearningmastery.com/precision-recall-and-f-measure-for-imbalanced-classification/">How to Calculate Precision, Recall, and F-Measure for Imbalanced Classification</a></li>
 <li><a href="https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234">Metrics to Evaluate your Machine Learning Algorithm | by Aditya Mishra | Towards Data Science</a></li>
 </ul>
+<h2 id="accuracy-precision-error" style="position:relative;"><a href="#accuracy-precision-error" aria-label="accuracy precision error permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Accuracy, Precision, Error</h2>
+<ul>
+<li>
+<p>Accuracy is closeness of the measurements to a specific value</p>
+<ul>
+<li>More commonly, it is a description of systematic errors, a measure of statistical bias; low accuracy causes a difference between a result and a "true" value. ISO calls this trueness.</li>
+<li>the accuracy of a measurement system is the degree of closeness of measurements of a quantity to that quantity's true value</li>
+<li>bias is the amount of inaccuracy</li>
+</ul>
+</li>
+<li>
+<p>Precision is the closeness of the measurements to each other</p>
+<ul>
+<li>Precision is a description of random errors, a measure of statistical variability. </li>
+<li>The precision of a measurement system, related to reproducibility and repeatability, is the degree to which repeated measurements under unchanged conditions show the same results.</li>
+<li>variability is the amount of imprecision</li>
+</ul>
+</li>
+</ul>
+<p>Accuracy has two definitions:</p>
+<ul>
+<li>More commonly, it is a description of systematic errors, a measure of statistical bias; low accuracy causes a difference between a result and a "true" value. ISO calls this trueness.</li>
+<li>Alternatively, ISO defines accuracy as describing a combination of both types of observational error above (random and systematic), so high accuracy requires both high precision and high trueness.</li>
+</ul>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Accuracy_and_precision.svg/300px-Accuracy_and_precision.svg.png" alt="Accuracy and Precision"></p>
+<p>Learn more:</p>
+<ol>
+<li><a href="https://blog.pocd.com.au/scientific/understanding-precision-accuracy-and-basic-statistics/">POCD</a></li>
+</ol>
 <style class="grvsc-styles">
   .grvsc-container {
     overflow: auto;
