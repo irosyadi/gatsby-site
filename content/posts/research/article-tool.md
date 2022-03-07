@@ -88,6 +88,13 @@ draft: false
 - [Connected Papers](https://www.connectedpapers.com/) : Explore connected papers in a visual graph
 - [Inciteful](https://inciteful.xyz/) : Inciteful builds a network of academic papers based on a topic of your choice and then analyzes the network to help you find the most relevant literature.
 - [scite: Smart citations for better research](https://scite.ai/)
+- [Paperscape](https://paperscape.org/)
+- [Paperscape Graph](http://my.paperscape.org/)
+- [PubPeer - Search publications and join the conversation.](https://pubpeer.com/)
+- [ResearchHub | Open Science Community](https://www.researchhub.com/)
+- [Stateoftheart AI](https://www.stateoftheart.ai/)
+- [Open Research Knowledge Graph](https://www.orkg.org/orkg/)
+- Publish or Perish (Desktop App)
 
 ## Article/Paper Reading
 - [Ten Simple Rules for Reading a Scientific Paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008032)
