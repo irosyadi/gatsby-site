@@ -186,8 +186,8 @@
 <p>We need a loss function to measure how good or bad our current parameters.</p>
 <ul>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="0"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">Loss </span><span class="mtk9">=</span><span class="mtk1"> L[i] </span><span class="mtk9">=</span><span class="mtk1">(</span><span class="mtk3">f</span><span class="mtk1">(X[i],W),Y[i])</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">Loss_for_all </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk9">/</span><span class="mtk1">N </span><span class="mtk9">*</span><span class="mtk1"> </span><span class="mtk3">Sum</span><span class="mtk1">(</span><span class="mtk3">Li</span><span class="mtk1">(</span><span class="mtk3">f</span><span class="mtk1">(X[i],W),Y[i]))      </span><span class="mtk5 mtki"># Indicates the average</span></span></span></code></pre>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="0"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">Loss </span><span class="mtk8">=</span><span class="mtk1"> L[i] </span><span class="mtk8">=</span><span class="mtk1">(</span><span class="mtk3">f</span><span class="mtk1">(X[i],W),Y[i])</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">Loss_for_all </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk8">/</span><span class="mtk1">N </span><span class="mtk8">*</span><span class="mtk1"> </span><span class="mtk3">Sum</span><span class="mtk1">(</span><span class="mtk3">Li</span><span class="mtk1">(</span><span class="mtk3">f</span><span class="mtk1">(X[i],W),Y[i]))      </span><span class="mtk5 mtki"># Indicates the average</span></span></span></code></pre>
 </li>
 </ul>
 </li>
@@ -212,7 +212,7 @@
 <p>We add <strong>regularization</strong> for the loss function so that the discovered model don't overfit the data.</p>
 <ul>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="1"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">Loss </span><span class="mtk9">=</span><span class="mtk1"> L </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk9">/</span><span class="mtk1">N </span><span class="mtk9">*</span><span class="mtk1"> </span><span class="mtk3">Sum</span><span class="mtk1">(</span><span class="mtk3">Li</span><span class="mtk1">(</span><span class="mtk3">f</span><span class="mtk1">(X[i],W),Y[i])) </span><span class="mtk9">+</span><span class="mtk1"> </span><span class="mtk10">lambda</span><span class="mtk1"> * R(W)</span></span></span></code></pre>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="1"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">Loss </span><span class="mtk8">=</span><span class="mtk1"> L </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk8">/</span><span class="mtk1">N </span><span class="mtk8">*</span><span class="mtk1"> </span><span class="mtk3">Sum</span><span class="mtk1">(</span><span class="mtk3">Li</span><span class="mtk1">(</span><span class="mtk3">f</span><span class="mtk1">(X[i],W),Y[i])) </span><span class="mtk8">+</span><span class="mtk1"> </span><span class="mtk9">lambda</span><span class="mtk1"> * R(W)</span></span></span></code></pre>
 </li>
 <li>Where <code>R</code> is the regularizer, and <code>lambda</code> is the regularization term.</li>
 </ul>
@@ -262,23 +262,23 @@
 <ul>
 <li>Softmax function:</li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="2"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">A[L] </span><span class="mtk9">=</span><span class="mtk1"> e</span><span class="mtk9">^</span><span class="mtk1">(score[L]) </span><span class="mtk9">/</span><span class="mtk1"> </span><span class="mtk9">sum</span><span class="mtk1">(e</span><span class="mtk9">^</span><span class="mtk1">(score[L]), NoOfClasses)</span></span></span></code></pre>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="2"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">A[L] </span><span class="mtk8">=</span><span class="mtk1"> e</span><span class="mtk8">^</span><span class="mtk1">(score[L]) </span><span class="mtk8">/</span><span class="mtk1"> </span><span class="mtk8">sum</span><span class="mtk1">(e</span><span class="mtk8">^</span><span class="mtk1">(score[L]), NoOfClasses)</span></span></span></code></pre>
 </li>
 <li>Sum of the vector should be 1.</li>
 <li>Softmax loss:</li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="3"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">Loss </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk9">-</span><span class="mtk3">logP</span><span class="mtk1">(</span><span class="mtk4 mtki">Y</span><span class="mtk1"> </span><span class="mtk9">=</span><span class="mtk1"> y[i]</span><span class="mtk9">|</span><span class="mtk4 mtki">X</span><span class="mtk1"> </span><span class="mtk9">=</span><span class="mtk1"> x[i])</span></span></span></code></pre>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="3"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">Loss </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk8">-</span><span class="mtk3">logP</span><span class="mtk1">(</span><span class="mtk4 mtki">Y</span><span class="mtk1"> </span><span class="mtk8">=</span><span class="mtk1"> y[i]</span><span class="mtk8">|</span><span class="mtk4 mtki">X</span><span class="mtk1"> </span><span class="mtk8">=</span><span class="mtk1"> x[i])</span></span></span></code></pre>
 </li>
 <li>Log of the probability of the good class. We want it to be near 1 thats why we added a minus.</li>
 <li>Softmax loss is called cross-entropy loss.</li>
 <li>Consider this numerical problem when you are computing Softmax:</li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="4"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">f </span><span class="mtk9">=</span><span class="mtk1"> np.</span><span class="mtk3">array</span><span class="mtk1">([</span><span class="mtk7">123</span><span class="mtk1">, </span><span class="mtk7">456</span><span class="mtk1">, </span><span class="mtk7">789</span><span class="mtk1">]) </span><span class="mtk5 mtki"># example with 3 classes and each having large scores</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">p </span><span class="mtk9">=</span><span class="mtk1"> np.</span><span class="mtk3">exp</span><span class="mtk1">(f) </span><span class="mtk9">/</span><span class="mtk1"> np.</span><span class="mtk3">sum</span><span class="mtk1">(np.</span><span class="mtk3">exp</span><span class="mtk1">(f)) </span><span class="mtk5 mtki"># Bad: Numeric problem, potential blowup</span></span></span>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="4"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">f </span><span class="mtk8">=</span><span class="mtk1"> np.</span><span class="mtk3">array</span><span class="mtk1">([</span><span class="mtk7">123</span><span class="mtk1">, </span><span class="mtk7">456</span><span class="mtk1">, </span><span class="mtk7">789</span><span class="mtk1">]) </span><span class="mtk5 mtki"># example with 3 classes and each having large scores</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">p </span><span class="mtk8">=</span><span class="mtk1"> np.</span><span class="mtk3">exp</span><span class="mtk1">(f) </span><span class="mtk8">/</span><span class="mtk1"> np.</span><span class="mtk3">sum</span><span class="mtk1">(np.</span><span class="mtk3">exp</span><span class="mtk1">(f)) </span><span class="mtk5 mtki"># Bad: Numeric problem, potential blowup</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk5 mtki"># instead: first shift the values of f so that the highest number is 0:</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">f </span><span class="mtk9">-=</span><span class="mtk1"> np.</span><span class="mtk3">max</span><span class="mtk1">(f) </span><span class="mtk5 mtki"># f becomes [-666, -333, 0]</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">p </span><span class="mtk9">=</span><span class="mtk1"> np.</span><span class="mtk3">exp</span><span class="mtk1">(f) </span><span class="mtk9">/</span><span class="mtk1"> np.</span><span class="mtk3">sum</span><span class="mtk1">(np.</span><span class="mtk3">exp</span><span class="mtk1">(f)) </span><span class="mtk5 mtki"># safe to do, gives the correct answer</span></span></span></code></pre>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">f </span><span class="mtk8">-=</span><span class="mtk1"> np.</span><span class="mtk3">max</span><span class="mtk1">(f) </span><span class="mtk5 mtki"># f becomes [-666, -333, 0]</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">p </span><span class="mtk8">=</span><span class="mtk1"> np.</span><span class="mtk3">exp</span><span class="mtk1">(f) </span><span class="mtk8">/</span><span class="mtk1"> np.</span><span class="mtk3">sum</span><span class="mtk1">(np.</span><span class="mtk3">exp</span><span class="mtk1">(f)) </span><span class="mtk5 mtki"># safe to do, gives the correct answer</span></span></span></code></pre>
 </li>
 </ul>
 </li>
@@ -307,7 +307,7 @@
 <p>After we compute the gradient of our parameters, we compute the gradient descent:</p>
 <ul>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="5"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">W </span><span class="mtk9">=</span><span class="mtk1"> W </span><span class="mtk9">-</span><span class="mtk1"> learning_rate </span><span class="mtk9">*</span><span class="mtk1"> W_grad</span></span></span></code></pre>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="5"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">W </span><span class="mtk8">=</span><span class="mtk1"> W </span><span class="mtk8">-</span><span class="mtk1"> learning_rate </span><span class="mtk8">*</span><span class="mtk1"> W_grad</span></span></span></code></pre>
 </li>
 </ul>
 </li>
@@ -347,8 +347,8 @@
 <p>Then we have:</p>
 <ul>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="7"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">q </span><span class="mtk9">=</span><span class="mtk1"> (x</span><span class="mtk9">+</span><span class="mtk1">y)              </span><span class="mtk5 mtki"># dq/dx = 1 , dq/dy = 1</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">f </span><span class="mtk9">=</span><span class="mtk1"> qz                 </span><span class="mtk5 mtki"># df/dq = z , df/dz = q</span></span></span></code></pre>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="7"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">q </span><span class="mtk8">=</span><span class="mtk1"> (x</span><span class="mtk8">+</span><span class="mtk1">y)              </span><span class="mtk5 mtki"># dq/dx = 1 , dq/dy = 1</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">f </span><span class="mtk8">=</span><span class="mtk1"> qz                 </span><span class="mtk5 mtki"># df/dq = z , df/dz = q</span></span></span></code></pre>
 </li>
 </ul>
 </li>
@@ -356,10 +356,10 @@
 <p>Then:</p>
 <ul>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="8"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">df</span><span class="mtk9">/</span><span class="mtk1">dq </span><span class="mtk9">=</span><span class="mtk1"> z</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">df</span><span class="mtk9">/</span><span class="mtk1">dz </span><span class="mtk9">=</span><span class="mtk1"> q</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">df</span><span class="mtk9">/</span><span class="mtk1">dx </span><span class="mtk9">=</span><span class="mtk1"> df</span><span class="mtk9">/</span><span class="mtk1">dq </span><span class="mtk9">*</span><span class="mtk1"> dq</span><span class="mtk9">/</span><span class="mtk1">dx </span><span class="mtk9">=</span><span class="mtk1"> z </span><span class="mtk9">*</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk1"> </span><span class="mtk9">=</span><span class="mtk1"> z       </span><span class="mtk5 mtki"># Chain rule</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">df</span><span class="mtk9">/</span><span class="mtk1">dy </span><span class="mtk9">=</span><span class="mtk1"> df</span><span class="mtk9">/</span><span class="mtk1">dq </span><span class="mtk9">*</span><span class="mtk1"> dq</span><span class="mtk9">/</span><span class="mtk1">dy </span><span class="mtk9">=</span><span class="mtk1"> z </span><span class="mtk9">*</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk1"> </span><span class="mtk9">=</span><span class="mtk1"> z       </span><span class="mtk5 mtki"># Chain rule</span></span></span></code></pre>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="8"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">df</span><span class="mtk8">/</span><span class="mtk1">dq </span><span class="mtk8">=</span><span class="mtk1"> z</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">df</span><span class="mtk8">/</span><span class="mtk1">dz </span><span class="mtk8">=</span><span class="mtk1"> q</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">df</span><span class="mtk8">/</span><span class="mtk1">dx </span><span class="mtk8">=</span><span class="mtk1"> df</span><span class="mtk8">/</span><span class="mtk1">dq </span><span class="mtk8">*</span><span class="mtk1"> dq</span><span class="mtk8">/</span><span class="mtk1">dx </span><span class="mtk8">=</span><span class="mtk1"> z </span><span class="mtk8">*</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk1"> </span><span class="mtk8">=</span><span class="mtk1"> z       </span><span class="mtk5 mtki"># Chain rule</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">df</span><span class="mtk8">/</span><span class="mtk1">dy </span><span class="mtk8">=</span><span class="mtk1"> df</span><span class="mtk8">/</span><span class="mtk1">dq </span><span class="mtk8">*</span><span class="mtk1"> dq</span><span class="mtk8">/</span><span class="mtk1">dy </span><span class="mtk8">=</span><span class="mtk1"> z </span><span class="mtk8">*</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk1"> </span><span class="mtk8">=</span><span class="mtk1"> z       </span><span class="mtk5 mtki"># Chain rule</span></span></span></code></pre>
 </li>
 </ul>
 </li>
@@ -370,20 +370,20 @@
 <li>Hint: the back propagation of two nodes going to one node from the back is by adding the two derivatives.</li>
 <li>Modularized implementation: forward/ backward API (example multiply code):</li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="9"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk10">class</span><span class="mtk1"> </span><span class="mtk8">MultuplyGate</span><span class="mtk1">(</span><span class="mtk9">object</span><span class="mtk1">):</span></span></span>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="9"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk9">class</span><span class="mtk1"> </span><span class="mtk11">MultuplyGate</span><span class="mtk1">(</span><span class="mtk8">object</span><span class="mtk1">):</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk6">&quot;&quot;&quot;</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk6">x,y are scalars</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk6">&quot;&quot;&quot;</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk10">def</span><span class="mtk1"> </span><span class="mtk3">forward</span><span class="mtk1">(</span><span class="mtk7 mtki">x</span><span class="mtk1">,</span><span class="mtk7 mtki">y</span><span class="mtk1">):</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  z </span><span class="mtk9">=</span><span class="mtk1"> x</span><span class="mtk9">*</span><span class="mtk1">y</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  </span><span class="mtk8">self</span><span class="mtk1">.x </span><span class="mtk9">=</span><span class="mtk1"> x  </span><span class="mtk5 mtki"># Cache</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  </span><span class="mtk8">self</span><span class="mtk1">.y </span><span class="mtk9">=</span><span class="mtk1"> y	</span><span class="mtk5 mtki"># Cache</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk9">def</span><span class="mtk1"> </span><span class="mtk3">forward</span><span class="mtk1">(</span><span class="mtk7 mtki">x</span><span class="mtk1">,</span><span class="mtk7 mtki">y</span><span class="mtk1">):</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  z </span><span class="mtk8">=</span><span class="mtk1"> x</span><span class="mtk8">*</span><span class="mtk1">y</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  </span><span class="mtk11">self</span><span class="mtk1">.x </span><span class="mtk8">=</span><span class="mtk1"> x  </span><span class="mtk5 mtki"># Cache</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  </span><span class="mtk11">self</span><span class="mtk1">.y </span><span class="mtk8">=</span><span class="mtk1"> y	</span><span class="mtk5 mtki"># Cache</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  </span><span class="mtk5 mtki"># We cache x and y because we know that the derivatives contains them.</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  </span><span class="mtk10 mtki">return</span><span class="mtk1"> z</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk10">def</span><span class="mtk1"> </span><span class="mtk3">backward</span><span class="mtk1">(</span><span class="mtk7 mtki">dz</span><span class="mtk1">):</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  dx </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk8">self</span><span class="mtk1">.y </span><span class="mtk9">*</span><span class="mtk1"> dz         </span><span class="mtk5 mtki">#self.y is dx</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  dy </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk8">self</span><span class="mtk1">.x </span><span class="mtk9">*</span><span class="mtk1"> dz</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  </span><span class="mtk10 mtki">return</span><span class="mtk1"> [dx, dy]</span></span></span></code></pre>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  </span><span class="mtk9 mtki">return</span><span class="mtk1"> z</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk9">def</span><span class="mtk1"> </span><span class="mtk3">backward</span><span class="mtk1">(</span><span class="mtk7 mtki">dz</span><span class="mtk1">):</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  dx </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk11">self</span><span class="mtk1">.y </span><span class="mtk8">*</span><span class="mtk1"> dz         </span><span class="mtk5 mtki">#self.y is dx</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  dy </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk11">self</span><span class="mtk1">.x </span><span class="mtk8">*</span><span class="mtk1"> dz</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">  </span><span class="mtk9 mtki">return</span><span class="mtk1"> [dx, dy]</span></span></span></code></pre>
 </li>
 <li>If you look at a deep learning framework you will find it follow the Modularized implementation where each class has a definition for forward and backward. For example:</li>
 <li>Multiplication</li>
@@ -652,7 +652,7 @@
 <li>
 <pre class="grvsc-container one-dark-pro" data-language="python" data-index="11"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk5 mtki"># Zero centered data. (Calculate the mean for every input).</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk5 mtki"># On of the reasons we do this is because we need data to be between positive and negative and not all the be negative or positive. </span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">X </span><span class="mtk9">-=</span><span class="mtk1"> np.</span><span class="mtk3">mean</span><span class="mtk1">(X, </span><span class="mtk4 mtki">axis</span><span class="mtk1"> </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk1">)</span></span></span></code></pre>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">X </span><span class="mtk8">-=</span><span class="mtk1"> np.</span><span class="mtk3">mean</span><span class="mtk1">(X, </span><span class="mtk4 mtki">axis</span><span class="mtk1"> </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk1">)</span></span></span></code></pre>
 </li>
 </ul>
 <h1 id="then-apply-the-standard-deviation-hint-in-images-we-dont-do-this" style="position:relative;"><a href="#then-apply-the-standard-deviation-hint-in-images-we-dont-do-this" aria-label="then apply the standard deviation hint in images we dont do this permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Then apply the standard deviation. Hint: in images we don't do this.</h1>
@@ -672,24 +672,24 @@
 <li>So if W's of a specific layer is equal the thing described happened</li>
 <li>First idea is to initialize the w's with small random numbers:</li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="13"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">W </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk7">0.01</span><span class="mtk1"> </span><span class="mtk9">*</span><span class="mtk1"> np.random.</span><span class="mtk3">rand</span><span class="mtk1">(D, H)</span></span></span>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="13"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">W </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk7">0.01</span><span class="mtk1"> </span><span class="mtk8">*</span><span class="mtk1"> np.random.</span><span class="mtk3">rand</span><span class="mtk1">(D, H)</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk5 mtki"># Works OK for small networks but it makes problems with deeper networks!</span></span></span></code></pre>
 </li>
 <li>The standard deviations is going to zero in deeper networks. and the gradient will vanish sooner in deep networks.</li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="14"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">W </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk1"> </span><span class="mtk9">*</span><span class="mtk1"> np.random.</span><span class="mtk3">rand</span><span class="mtk1">(D, H) </span></span></span>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="14"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">W </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk7">1</span><span class="mtk1"> </span><span class="mtk8">*</span><span class="mtk1"> np.random.</span><span class="mtk3">rand</span><span class="mtk1">(D, H) </span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk5 mtki"># Works OK for small networks but it makes problems with deeper networks!</span></span></span></code></pre>
 </li>
 <li>The network will explode with big numbers!</li>
 <li><strong><em>Xavier initialization</em></strong>:</li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="15"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">W </span><span class="mtk9">=</span><span class="mtk1"> np.random.</span><span class="mtk3">rand</span><span class="mtk1">(</span><span class="mtk10 mtki">in</span><span class="mtk1">, out) </span><span class="mtk9">/</span><span class="mtk1"> np.</span><span class="mtk3">sqrt</span><span class="mtk1">(</span><span class="mtk10 mtki">in</span><span class="mtk1">)</span></span></span></code></pre>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="15"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">W </span><span class="mtk8">=</span><span class="mtk1"> np.random.</span><span class="mtk3">rand</span><span class="mtk1">(</span><span class="mtk9 mtki">in</span><span class="mtk1">, out) </span><span class="mtk8">/</span><span class="mtk1"> np.</span><span class="mtk3">sqrt</span><span class="mtk1">(</span><span class="mtk9 mtki">in</span><span class="mtk1">)</span></span></span></code></pre>
 </li>
 <li>It works because we want the variance of the input to be as the variance of the output.</li>
 <li>But it has an issue, It breaks when you are using RELU.</li>
 <li><strong><em>He initialization</em></strong> (Solution for the RELU issue):</li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="16"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">W </span><span class="mtk9">=</span><span class="mtk1"> np.random.</span><span class="mtk3">rand</span><span class="mtk1">(</span><span class="mtk10 mtki">in</span><span class="mtk1">, out) </span><span class="mtk9">/</span><span class="mtk1"> np.</span><span class="mtk3">sqrt</span><span class="mtk1">(</span><span class="mtk10 mtki">in</span><span class="mtk9">/</span><span class="mtk7">2</span><span class="mtk1">)</span></span></span></code></pre>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="16"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">W </span><span class="mtk8">=</span><span class="mtk1"> np.random.</span><span class="mtk3">rand</span><span class="mtk1">(</span><span class="mtk9 mtki">in</span><span class="mtk1">, out) </span><span class="mtk8">/</span><span class="mtk1"> np.</span><span class="mtk3">sqrt</span><span class="mtk1">(</span><span class="mtk9 mtki">in</span><span class="mtk8">/</span><span class="mtk7">2</span><span class="mtk1">)</span></span></span></code></pre>
 </li>
 <li>Solves the issue with RELU. Its recommended when you are using RELU</li>
 <li>Proper initialization is an active area of research.</li>
@@ -789,41 +789,41 @@
 <li>Build up velocity as a running mean of gradients:</li>
 <li>
 <pre class="grvsc-container one-dark-pro" data-language="python" data-index="17"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk5 mtki"># Computing weighted average. rho best is in range [0.9 - 0.99]</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">V[t</span><span class="mtk9">+</span><span class="mtk7">1</span><span class="mtk1">] </span><span class="mtk9">=</span><span class="mtk1"> rho </span><span class="mtk9">*</span><span class="mtk1"> v[t] </span><span class="mtk9">+</span><span class="mtk1"> dx</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">x[t</span><span class="mtk9">+</span><span class="mtk7">1</span><span class="mtk1">] </span><span class="mtk9">=</span><span class="mtk1"> x[t] </span><span class="mtk9">-</span><span class="mtk1"> learningRate </span><span class="mtk9">*</span><span class="mtk1"> V[t</span><span class="mtk9">+</span><span class="mtk7">1</span><span class="mtk1">]</span></span></span></code></pre>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">V[t</span><span class="mtk8">+</span><span class="mtk7">1</span><span class="mtk1">] </span><span class="mtk8">=</span><span class="mtk1"> rho </span><span class="mtk8">*</span><span class="mtk1"> v[t] </span><span class="mtk8">+</span><span class="mtk1"> dx</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">x[t</span><span class="mtk8">+</span><span class="mtk7">1</span><span class="mtk1">] </span><span class="mtk8">=</span><span class="mtk1"> x[t] </span><span class="mtk8">-</span><span class="mtk1"> learningRate </span><span class="mtk8">*</span><span class="mtk1"> V[t</span><span class="mtk8">+</span><span class="mtk7">1</span><span class="mtk1">]</span></span></span></code></pre>
 </li>
 <li><code>V[0]</code> is zero.</li>
 <li>Solves the saddle point and local minimum problems.</li>
 <li>It overshoots the problem and returns to it back.</li>
 <li><strong>Nestrov momentum</strong>:</li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="18"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">dx </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk3">compute_gradient</span><span class="mtk1">(x)</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">old_v </span><span class="mtk9">=</span><span class="mtk1"> v</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">v </span><span class="mtk9">=</span><span class="mtk1"> rho </span><span class="mtk9">*</span><span class="mtk1"> v </span><span class="mtk9">-</span><span class="mtk1"> learning_rate </span><span class="mtk9">*</span><span class="mtk1"> dx</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">x</span><span class="mtk9">+=</span><span class="mtk1"> </span><span class="mtk9">-</span><span class="mtk1">rho </span><span class="mtk9">*</span><span class="mtk1"> old_v </span><span class="mtk9">+</span><span class="mtk1"> (</span><span class="mtk7">1</span><span class="mtk9">+</span><span class="mtk1">rho) </span><span class="mtk9">*</span><span class="mtk1"> v</span></span></span></code></pre>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="18"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">dx </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk3">compute_gradient</span><span class="mtk1">(x)</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">old_v </span><span class="mtk8">=</span><span class="mtk1"> v</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">v </span><span class="mtk8">=</span><span class="mtk1"> rho </span><span class="mtk8">*</span><span class="mtk1"> v </span><span class="mtk8">-</span><span class="mtk1"> learning_rate </span><span class="mtk8">*</span><span class="mtk1"> dx</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">x</span><span class="mtk8">+=</span><span class="mtk1"> </span><span class="mtk8">-</span><span class="mtk1">rho </span><span class="mtk8">*</span><span class="mtk1"> old_v </span><span class="mtk8">+</span><span class="mtk1"> (</span><span class="mtk7">1</span><span class="mtk8">+</span><span class="mtk1">rho) </span><span class="mtk8">*</span><span class="mtk1"> v</span></span></span></code></pre>
 </li>
 <li>Doesn't overshoot the problem but slower than SGD + momentum</li>
 <li><strong>AdaGrad</strong></li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="19"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">grad_squared </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk7">0</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk10 mtki">while</span><span class="mtk1">(</span><span class="mtk7">True</span><span class="mtk1">):</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">dx </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk3">compute_gradient</span><span class="mtk1">(x)</span></span></span>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="19"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">grad_squared </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk7">0</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk9 mtki">while</span><span class="mtk1">(</span><span class="mtk7">True</span><span class="mtk1">):</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">dx </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk3">compute_gradient</span><span class="mtk1">(x)</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk5 mtki"># here is a problem, the grad_squared isn&#39;t decayed (gets so large)</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">grad_squared </span><span class="mtk9">+=</span><span class="mtk1"> dx </span><span class="mtk9">*</span><span class="mtk1"> dx			</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">grad_squared </span><span class="mtk8">+=</span><span class="mtk1"> dx </span><span class="mtk8">*</span><span class="mtk1"> dx			</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">x </span><span class="mtk9">-=</span><span class="mtk1"> (learning_rate</span><span class="mtk9">*</span><span class="mtk1">dx) </span><span class="mtk9">/</span><span class="mtk1"> (np.</span><span class="mtk3">sqrt</span><span class="mtk1">(grad_squared) </span><span class="mtk9">+</span><span class="mtk1"> </span><span class="mtk7">1e-7</span><span class="mtk1">)</span></span></span></code></pre>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">x </span><span class="mtk8">-=</span><span class="mtk1"> (learning_rate</span><span class="mtk8">*</span><span class="mtk1">dx) </span><span class="mtk8">/</span><span class="mtk1"> (np.</span><span class="mtk3">sqrt</span><span class="mtk1">(grad_squared) </span><span class="mtk8">+</span><span class="mtk1"> </span><span class="mtk7">1e-7</span><span class="mtk1">)</span></span></span></code></pre>
 </li>
 <li><strong>RMSProp</strong></li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="20"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">grad_squared </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk7">0</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk10 mtki">while</span><span class="mtk1">(</span><span class="mtk7">True</span><span class="mtk1">):</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">dx </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk3">compute_gradient</span><span class="mtk1">(x)</span></span></span>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="20"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">grad_squared </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk7">0</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk9 mtki">while</span><span class="mtk1">(</span><span class="mtk7">True</span><span class="mtk1">):</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">dx </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk3">compute_gradient</span><span class="mtk1">(x)</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk5 mtki">#Solved ADAgra</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">grad_squared </span><span class="mtk9">=</span><span class="mtk1"> decay_rate </span><span class="mtk9">*</span><span class="mtk1"> grad_squared </span><span class="mtk9">+</span><span class="mtk1"> (</span><span class="mtk7">1</span><span class="mtk9">-</span><span class="mtk1">grad_squared) </span><span class="mtk9">*</span><span class="mtk1"> dx </span><span class="mtk9">*</span><span class="mtk1"> dx  </span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">grad_squared </span><span class="mtk8">=</span><span class="mtk1"> decay_rate </span><span class="mtk8">*</span><span class="mtk1"> grad_squared </span><span class="mtk8">+</span><span class="mtk1"> (</span><span class="mtk7">1</span><span class="mtk8">-</span><span class="mtk1">grad_squared) </span><span class="mtk8">*</span><span class="mtk1"> dx </span><span class="mtk8">*</span><span class="mtk1"> dx  </span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">x </span><span class="mtk9">-=</span><span class="mtk1"> (learning_rate</span><span class="mtk9">*</span><span class="mtk1">dx) </span><span class="mtk9">/</span><span class="mtk1"> (np.</span><span class="mtk3">sqrt</span><span class="mtk1">(grad_squared) </span><span class="mtk9">+</span><span class="mtk1"> </span><span class="mtk7">1e-7</span><span class="mtk1">)</span></span></span></code></pre>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">x </span><span class="mtk8">-=</span><span class="mtk1"> (learning_rate</span><span class="mtk8">*</span><span class="mtk1">dx) </span><span class="mtk8">/</span><span class="mtk1"> (np.</span><span class="mtk3">sqrt</span><span class="mtk1">(grad_squared) </span><span class="mtk8">+</span><span class="mtk1"> </span><span class="mtk7">1e-7</span><span class="mtk1">)</span></span></span></code></pre>
 </li>
 <li>People uses this instead of AdaGrad</li>
 <li><strong>Adam</strong></li>
@@ -1312,7 +1312,7 @@
 </li>
 <li>
 <pre class="grvsc-container one-dark-pro" data-language="python" data-index="21"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk5 mtki"># Instead of us trying To learn a new representation, We learn only Residual</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">Y </span><span class="mtk9">=</span><span class="mtk1"> (W2</span><span class="mtk9">*</span><span class="mtk1"> </span><span class="mtk3">RELU</span><span class="mtk1">(W1x</span><span class="mtk9">+</span><span class="mtk1">b1) </span><span class="mtk9">+</span><span class="mtk1"> b2) </span><span class="mtk9">+</span><span class="mtk1"> X</span></span></span></code></pre>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">Y </span><span class="mtk8">=</span><span class="mtk1"> (W2</span><span class="mtk8">*</span><span class="mtk1"> </span><span class="mtk3">RELU</span><span class="mtk1">(W1x</span><span class="mtk8">+</span><span class="mtk1">b1) </span><span class="mtk8">+</span><span class="mtk1"> b2) </span><span class="mtk8">+</span><span class="mtk1"> X</span></span></span></code></pre>
 </li>
 <li>Say you have a network till a depth of N layers. You only want to add a new layer if you get something extra out of adding that layer.</li>
 <li>One way to ensure this new (N+1)th layer learns something new about your network is to also provide the input(x) without any transformation to the output of the (N+1)th layer. This essentially drives the new layer to learn something different from what the input has already encoded.</li>
@@ -1440,7 +1440,7 @@
 <li>The RNN block should return a vector.</li>
 <li>We can process a sequence of vectors x by applying a recurrence formula at every time step:</li>
 <li>
-<pre class="grvsc-container one-dark-pro" data-language="python" data-index="22"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">h[t] </span><span class="mtk9">=</span><span class="mtk1"> </span><span class="mtk3">fw</span><span class="mtk1"> (h[t</span><span class="mtk9">-</span><span class="mtk7">1</span><span class="mtk1">], x[t])			</span><span class="mtk5 mtki"># Where fw is some function with parameters W</span></span></span></code></pre>
+<pre class="grvsc-container one-dark-pro" data-language="python" data-index="22"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">h[t] </span><span class="mtk8">=</span><span class="mtk1"> </span><span class="mtk3">fw</span><span class="mtk1"> (h[t</span><span class="mtk8">-</span><span class="mtk7">1</span><span class="mtk1">], x[t])			</span><span class="mtk5 mtki"># Where fw is some function with parameters W</span></span></span></code></pre>
 </li>
 <li>The same function and the same set of parameters are used at every time step.</li>
 <li>(Vanilla) Recurrent Neural Network:</li>
@@ -1768,7 +1768,7 @@
 <li>We want to maximize the neuron with the input image. So here instead we are trying to learn the image that maximize the activation:</li>
 <li>
 <pre class="grvsc-container one-dark-pro" data-language="python" data-index="26"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="mtk5 mtki"># R(I) is Natural image regularizer, f(I) is the neuron value.</span></span></span>
-<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">I </span><span class="mtk9">*=</span><span class="mtk1"> </span><span class="mtk3">argmax</span><span class="mtk1">(</span><span class="mtk3">f</span><span class="mtk1">(I)) </span><span class="mtk9">+</span><span class="mtk1"> </span><span class="mtk3">R</span><span class="mtk1">(I)</span></span></span></code></pre>
+<span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">I </span><span class="mtk8">*=</span><span class="mtk1"> </span><span class="mtk3">argmax</span><span class="mtk1">(</span><span class="mtk3">f</span><span class="mtk1">(I)) </span><span class="mtk8">+</span><span class="mtk1"> </span><span class="mtk3">R</span><span class="mtk1">(I)</span></span></span></code></pre>
 </li>
 <li>Steps of gradient ascent</li>
 <li>Initialize image to zeros.</li>
@@ -2736,13 +2736,13 @@ These Notes was made by <a href="mailto:mma18@fayoum.edu.eg">Mahmoud Badry</a> @
   }
   .one-dark-pro .mtki { font-style: italic; }
   .one-dark-pro .mtk1 { color: #ABB2BF; }
-  .one-dark-pro .mtk9 { color: #56B6C2; }
+  .one-dark-pro .mtk8 { color: #56B6C2; }
   .one-dark-pro .mtk3 { color: #61AFEF; }
   .one-dark-pro .mtk7 { color: #D19A66; }
   .one-dark-pro .mtk5 { color: #7F848E; }
-  .one-dark-pro .mtk10 { color: #C678DD; }
+  .one-dark-pro .mtk9 { color: #C678DD; }
   .one-dark-pro .mtk4 { color: #E06C75; }
-  .one-dark-pro .mtk8 { color: #E5C07B; }
+  .one-dark-pro .mtk11 { color: #E5C07B; }
   .one-dark-pro .mtk6 { color: #98C379; }
   .one-dark-pro .grvsc-line-highlighted::before {
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
