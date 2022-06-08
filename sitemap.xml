@@ -144,8 +144,8 @@
 <url> <loc>https://irosyadi.netlify.app/research/covid-ct-scan-classification/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/book/ebook-search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/book/open-glossary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://irosyadi.netlify.app/development/blog-markdown/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/development/experimental-markdown/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/development/blog-markdown/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/development/my-workflow/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/research/object-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/research/face-expression-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
