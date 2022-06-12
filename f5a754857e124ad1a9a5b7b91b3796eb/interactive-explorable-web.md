@@ -34,6 +34,10 @@ draft: false
     - [Mathigon – Textbook of the Future](https://mathigon.org/)
 - [Setosa data visualization and visual explanations](https://setosa.io/#/)
     - [Explained Visually](https://setosa.io/ev/)
+- [Hackery, Math & Design — Acko.net](https://acko.net/)
+- [If the Moon Were Only 1 Pixel - A tediously accurate map of the solar system](https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html)
+- [Hexagonal Grids](https://www.redblobgames.com/grids/hexagons/)
+- [Gnod - The Global Network Of Discovery](https://www.gnod.com/)
 
 
 ## Interactive Web
