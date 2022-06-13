@@ -1,14 +1,20 @@
 ---
 layout: default
 author: irosyadi
-title:  Awesome List of Interactive and Explorable Websites
+title:  Awesome List of Interactive and Explorable Webs
 date: 2020-06-29 19:58:21
 category: app
-tags: ["interactive"]
+tags: ["visualization", "interactive"]
 draft: false
 ---
 
-# Awesome List of Interactive and Explorable Websites
+# Awesome List of Interactive and Explorable Webs
+
+Related links:  
+🔗 [Awesome List of Data Visualization](/note/data-visualization)  
+🔗 [Awesome List of Machine Learning Visualization](/research/ml-visualization)  
+🔗 [Awesome List of Interactive and Explorable Webs](/app/interactive-explorable-web)  
+🔗 [Interactive Books](/book/interactive-book)  
 
 ## Interactive Website
 - [NCase](https://ncase.me/)
@@ -79,12 +85,6 @@ draft: false
 - [It's Nicky Case!](https://ncase.me/) License: CC0
     - [explorableexplanations/explorableexplanations.github.io: The Explorable Explanations Website](https://github.com/explorableexplanations/explorableexplanations.github.io#explorable-explanations)
 - [Explorables](https://www.reddit.com/r/explorables/)
-
-## Look Also
-- [Interactive and Explorable Sites](../app/interactive-explorable-web.md)
-- [Machine Learning Interactive Visualization](../research/ml-visualization.md)
-- [Interactive Books](../book/interactive-book.md)
-- [Data Visualization](../note/data-visualization.md)
 
 ## Interactive Tools
 - [Moos.app - Design tool for interactive content](https://moos.app/)
