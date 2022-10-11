@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "40f165218afdb2a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "107def2a9e4965b5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "app/csv-tool.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "a0bbe037b0bc5198",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "webapp/free-cloud-storage.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6153ae699caf4894",
+    "type": "split",
+    "children": [
+      {
+        "id": "385ebb1726b9fbae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb95e9e398591900",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2f7d3e8464c090b7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "050be20d4e12b584",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "5797fb27b21de5c8",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "728d45d998978f13",
+    "type": "split",
+    "children": [
+      {
+        "id": "13d30f90d98ba513",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df3617e3d8295370",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "webapp/free-cloud-storage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e155b2497940f8a5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "webapp/free-cloud-storage.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "be060381c8680335",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e2fcf0c0935be3ce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "webapp/free-cloud-storage.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "eb95e9e398591900",
+  "lastOpenFiles": [
+    "app/cloud-GPU.md",
+    "note/file-format.md",
+    "research/python-in-browser.md",
+    "readme.md",
+    "app/torrent.md",
+    "app/traffic-simulation.md",
+    "awesome/weather.md",
+    "research/ml-in-embedded.md",
+    "app/data-tool.md",
+    "app/csv-tool.md"
+  ]
+}
