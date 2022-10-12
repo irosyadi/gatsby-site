@@ -12,13 +12,16 @@ draft: false
 
 [host-file](host-file.md)
 
+## List Adblock DNS
+- [1Hosts — World's most advanced DNS filter-/blocklists!](https://o0.pages.dev/)
+
 ## Ublock
 - [Ultimate Ublock Origin Guide](https://www.maketecheasier.com/ultimate-ublock-origin-superusers-guide/)
 - [Available uBlock filter templates :: letsblock.it](https://letsblock.it/filters)
 
 ## Adblock Tester
 - [Adblock-Tester](https://adblock-tester.com/)
-- [Can you block it](https://canyoublockit.com/testing/)
+- [d3ward Ad Blocker Test](https://d3ward.github.io/toolz/adblock.html)
 
 ## Adblock
 * [Connect to public AdGuard DNS server](https://adguard-dns.io/en/public-dns.html)
@@ -32,3 +35,15 @@ draft: false
 ## Adblock
 - [Pricing - NextDNS](https://nextdns.io/pricing)
 - [Get AdGuard VPN subscription](https://adguard-vpn.com/en/license.html)
+- [Known DNS Providers | AdGuard DNS Knowledge Base](https://adguard-dns.io/kb/general/dns-providers/)
+
+
+## Testing Result
+
+|Blocker   |d32ward   |adblocktester   |
+|---|---|---|
+|Slimjet without Adblock   |12%   |40/100   |
+|Adguard DNS 94.140.14.14   |72%   |85/100   |
+| NextDNS Personal Setting | 28% | 44/100|
+| Slimjet Adblock | 43% | 81/100|
+| uBlock | 76% | 100/100 |

@@ -44,3 +44,5 @@
 ## Ebook
 - [2012 Book Archive](https://2012books.lardbucket.org/)
 - [Saylor Academy | Saylor Academy](https://learn.saylor.org/)
+- [The Feynman Lectures on Physics Website](https://www.feynmanlectures.caltech.edu/info/)
+- [A Data-Centric Introduction to Computing](https://dcic-world.org/2022-08-28/index.html)
