@@ -1,3 +1,13 @@
+---
+title: eBook
+date: 2020-11-28 08:37:00
+category: book
+tags: ["book"]
+draft: false
+---
+
+# eBook
+
 ## Interesting Online Books
 - [Data Mining in Social Science](https://legacy.gitbook.com/book/lingfeiwu1/data-mining-in-social-science/details)
 - [The Practice of Reproducible Research](https://www.practicereproducibleresearch.org/)

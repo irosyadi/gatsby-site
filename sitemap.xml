@@ -105,6 +105,7 @@
 <url> <loc>https://irosyadi.netlify.app/awesome/history-tool/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/academia/dataset/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/hacking/adblock-app/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/hacking/adblock-tester/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/app/phone-tools/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/hacking/desktop-automation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/app/desktop-app/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -116,6 +117,7 @@
 <url> <loc>https://irosyadi.netlify.app/course/cs231n-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/hacking/network-tool/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/hacking/ip-tool/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/hacking/ping-latency/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/webapp/wikipedia-app/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/multimedia/free-audio/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/howto/google-sheets-howto/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -196,9 +198,12 @@
 <url> <loc>https://irosyadi.netlify.app/research/face-mask-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/research/covid-ct-scan-classification/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/book/ebook-search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/book/ebook/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/book/libgen/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/book/z-lib/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/book/open-glossary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://irosyadi.netlify.app/webdev/blog-markdown/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/webdev/experimental-markdown/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/webdev/blog-markdown/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/me/my-workflow/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/research/object-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/research/face-expression-detection/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -301,6 +306,7 @@
 <url> <loc>https://irosyadi.netlify.app/book/readme/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/course/readme/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/drawing/readme/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irosyadi.netlify.app/hacking/dns-leak/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/hacking/readme/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/howto/readme/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://irosyadi.netlify.app/learning/readme/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
