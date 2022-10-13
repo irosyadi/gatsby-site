@@ -19,9 +19,7 @@ draft: false
 - [Ultimate Ublock Origin Guide](https://www.maketecheasier.com/ultimate-ublock-origin-superusers-guide/)
 - [Available uBlock filter templates :: letsblock.it](https://letsblock.it/filters)
 
-## Adblock Tester
-- [Adblock-Tester](https://adblock-tester.com/)
-- [d3ward Ad Blocker Test](https://d3ward.github.io/toolz/adblock.html)
+[[adblock-tester]]
 
 ## Adblock
 * [Connect to public AdGuard DNS server](https://adguard-dns.io/en/public-dns.html)
@@ -40,10 +38,8 @@ draft: false
 
 ## Testing Result
 
-|Blocker   |d32ward   |adblocktester   |
-|---|---|---|
-|Slimjet without Adblock   |12%   |40/100   |
-|Adguard DNS 94.140.14.14   |72%   |85/100   |
-| NextDNS Personal Setting | 28% | 44/100|
-| Slimjet Adblock | 43% | 81/100|
-| uBlock | 76% | 100/100 |
+|Browser|DNS Browser|DNS Router|Adblock|d32ward|adblocktester|tb|
+|---|---|---|---|---|---|---|
+|Slimjet Guest|DoH Adguard|-|No|73%|77/100|y-tp|
+|Slimjet Guest|-|-|No|12%|32/100|y-tsel|
+
