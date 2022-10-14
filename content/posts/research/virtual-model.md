@@ -1,6 +1,4 @@
 ---
-layout: default
-author: irosyadi
 title:  Virtual Twin Model
 date: 2022-06-20 12:50:53
 category: research

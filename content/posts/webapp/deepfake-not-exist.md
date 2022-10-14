@@ -36,6 +36,7 @@ draft: false
 - [This Person Does Not Exist](https://thispersondoesnotexist.com/)
 * [Johan Nordberg](https://johan-nordberg.com/)
 * [https://thesecatsdonotexist.com](https://thesecatsdonotexist.com/)
+* https://thiswallpaperdoesnotexist.org/
 
 ## Text to Image Generation
 * [lucidrains/deep-daze: Simple command line tool for text to image generation using OpenAI's CLIP and Siren (Implicit neural representation network)](https://github.com/lucidrains/deep-daze)
