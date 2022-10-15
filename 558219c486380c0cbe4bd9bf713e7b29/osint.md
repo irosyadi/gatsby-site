@@ -1,6 +1,9 @@
 ---
-title: osint
-tags: 
+aliases: [OSINT Tools]
+title: OSINT Tools
+tags: ["tag1", "tag2"]
+date: 2022-10-15 21:05
+category: category
 ---
 
 # OSINT Tools
