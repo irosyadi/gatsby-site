@@ -218,11 +218,19 @@ This text is <strong><em>really important</em></strong>  </p>
 <blockquote>
 <p>This is the first line of paragraph, followed by blank line</p>
 <p>Blockquotes can also be nested...</p>
+</blockquote>
+<blockquote>
 <blockquote>
 <p>...by using additional greater-than signs right next to each other...</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
 <blockquote>
 <p>...or with spaces between arrows.</p>
 </blockquote>
+</blockquote>
+<blockquote>
 </blockquote>
 <h3 id="with-a-heading" style="position:relative;"><a href="#with-a-heading" aria-label="with a heading permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>with a heading</h3>
 <ul>
@@ -298,7 +306,7 @@ Notice that there are two spaces at the end above to make a new text under item.
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk11">1.</span><span class="mtk1"> so it will be 58</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk11">2.</span><span class="mtk1"> this is 59</span></span></span></code></pre>
 <p><strong><em>display</em></strong></p>
-<ol start="57">
+<ol>
 <li>will started with offset 57</li>
 <li>so it will be 58</li>
 <li>this is 59</li>
@@ -406,15 +414,15 @@ Notice that there are two spaces at the end above to make a new text under item.
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">example [without %20](https://www.example.com/my great page)</span></span></span></code></pre>
 <p><strong>display</strong></p>
 <p>This is <a href="https://example.com/">link</a><br>
-This is <a href="https://example.com/" title="title text!">link with title</a>
+This is <a href="https://example.com/" title="title text!">link with title</a><br>
 <a href="https://example.com/">https://example.com/</a><br>
 <a href="https://www.markdownguide.org">https://www.markdownguide.org</a><br>
 I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br>
 This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br>
 See the section on <a href="#code"><code>code</code></a>.<br>
-But  <code>https://www.example.com</code><br>
+But <code>https://www.example.com</code><br>
 but be careful with <a href="https://www.example.com/my%20great%20page">%20 link</a><br>
-example <a href="https://www.example.com/my%20great%20page">without %20</a></p>
+example [without %20](<a href="https://www.example.com/my">https://www.example.com/my</a> great page)</p>
 <h3 id="91-email-linkify" style="position:relative;"><a href="#91-email-linkify" aria-label="91 email linkify permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>9.1. Email Linkify</h3>
 <ul>
 <li>didn't work in Gatsby and Gitbook</li>
@@ -651,10 +659,10 @@ superscript x^2^ and subscript H~2~O</p>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">x</span><span class="mtk4">&amp;sup2;</span><span class="mtk1"> y</span><span class="mtk4">&amp;sup3;</span><span class="mtk1"> </span><span class="mtk4">&amp;frac34;</span><span class="mtk1"> </span><span class="mtk4">&amp;frac14;</span><span class="mtk1">  </span><span class="mtk4">&amp;times;</span><span class="mtk1">  </span><span class="mtk4">&amp;divide;</span><span class="mtk1">   </span><span class="mtk4">&amp;raquo;</span><span class="mtk1"> </span><span class="mtk4">&amp;#124;</span><span class="mtk1">  </span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="mtk1">18</span><span class="mtk4">&amp;ordm;</span><span class="mtk1">C  </span><span class="mtk4">&amp;quot;</span><span class="mtk1">  </span><span class="mtk4">&amp;apos;</span></span></span></code></pre>
 <p><strong>display</strong></p>
-<p>© &#x26;  ¨ ™ ¡ £<br>
+<p>© &#x26; ¨ ™ ¡ £<br>
 &#x26; &#x3C; > ¥ € ® ± ¶ § ¦ ¯ « ·<br>
-x² y³ ¾ ¼  ×  ÷   » |<br>
-18ºC  "  '</p>
+x² y³ ¾ ¼ × ÷ » |<br>
+18ºC " '</p>
 <hr>
 <h2 id="23-latex" style="position:relative;"><a href="#23-latex" aria-label="23 latex permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>23. Latex</h2>
 <h3 id="231-inline-equation" style="position:relative;"><a href="#231-inline-equation" aria-label="231 inline equation permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>23.1. Inline Equation</h3>
@@ -697,9 +705,9 @@ Inline equation with two dollar sign: <span class="katex"><span class="katex-mat
   <summary>Click this List ▶</summary>
   <p>
     <ul>
-      <li>irosyadi: https://irosyadi.netlify.app</li>
-      <li>irosyadi: https://irosyadi.gitbook.io</li>
-      <li>irosyadi: https://irosyadi.github.io</li>
+      <li>irosyadi: <https://irosyadi.netlify.app</li>>
+      <li>irosyadi: <https://irosyadi.gitbook.io</li>>
+      <li>irosyadi: <https://irosyadi.github.io</li>>
     </ul>
   </p>
 </details>

@@ -73,7 +73,7 @@
 </ul>
 <h2 id="tools" style="position:relative;"><a href="#tools" aria-label="tools permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tools</h2>
 <ul>
-<li><a href="https://libredirect.github.io/">LibRedirect</a>  Redirector</li>
+<li><a href="https://libredirect.github.io/">LibRedirect</a> Redirector</li>
 </ul>
 <h2 id="medium" style="position:relative;"><a href="#medium" aria-label="medium permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Medium</h2>
 <ul>
@@ -104,7 +104,7 @@
 <li>Description is optional but I use YouTube to Invidious for understandability of Redirect.</li>
 <li>Example URL can be any youtube URL.</li>
 <li>Include pattern: <a href="https://www.youtube.com/*">https://www.youtube.com/*</a></li>
-<li>Use any Invidious public instances. For now I use invidious.snopyta.org.
+<li>Use any Invidious public instances. For now I use invidious.snopyta.org.<br>
 Redirect to: <a href="https://invidious.snopyta.org/$1">https://invidious.snopyta.org/$1</a></li>
 <li>Pattern type: Wildcard</li>
 <li>Pattern description is also optional.</li>
@@ -134,37 +134,37 @@ Redirect to: <a href="https://invidious.snopyta.org/$1">https://invidious.snopyt
 <li>Include pattern: <a href="https://www.quora.com/*">https://www.quora.com/*</a></li>
 <li>Redirect to: <a href="https://www.quora.com/$1?share=1">https://www.quora.com/$1?share=1</a></li>
 <li>Pattern type: Wildcard</li>
-<li>Pattern description is also optional.
+<li>Pattern description is also optional.<br>
 Here we need to something extra because above rules will cause this issue. Thanks to einaregilsson for helping me to solve that issue.</li>
 <li>Click on Show advanced options.</li>
 <li>Exclude pattern: <a href="https://quora.com/*share=1">https://quora.com/*share=1</a></li>
-<li>Include pattern: ^<a href="https://www.youtube.com/watch%5C?v=(.">https://www.youtube.com/watch\?v=(.</a>)
+<li>Include pattern: ^<a href="https://www.youtube.com/watch%5C?v=(.)">https://www.youtube.com/watch\?v=(.)</a><br>
 Redirect to: <a href="https://www.youtube.com./watch?v=$1">https://www.youtube.com./watch?v=$1</a></li>
-<li>(check "regular expression)
+<li>(check "regular expression)<br>
 you can check it's working by adding, e.g.</li>
 <li>Example URL: <a href="https://www.youtube.com/watch?v=dfdsfasd">https://www.youtube.com/watch?v=dfdsfasd</a></li>
 </ol>
-<p>Redirect: en.wikipedia.org/
-to: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mi>e</mi><mi>n</mi><mi mathvariant="normal">.</mi><mn>0</mn><mi>w</mi><mi>i</mi><mi>k</mi><mi>i</mi><mi>p</mi><mi>e</mi><mi>d</mi><mi>i</mi><mi>a</mi><mi mathvariant="normal">.</mi><mi>o</mi><mi>r</mi><mi>g</mi><mi mathvariant="normal">/</mi></mrow><annotation encoding="application/x-tex">1en.0wikipedia.org/</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord mathdefault">e</span><span class="mord mathdefault">n</span><span class="mord">.</span><span class="mord">0</span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mord mathdefault">i</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault">i</span><span class="mord mathdefault">p</span><span class="mord mathdefault">e</span><span class="mord mathdefault">d</span><span class="mord mathdefault">i</span><span class="mord mathdefault">a</span><span class="mord">.</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">/</span></span></span></span>2
-Pattern type: wildcard
+<p>Redirect: en.wikipedia.org/<br>
+to: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mi>e</mi><mi>n</mi><mi mathvariant="normal">.</mi><mn>0</mn><mi>w</mi><mi>i</mi><mi>k</mi><mi>i</mi><mi>p</mi><mi>e</mi><mi>d</mi><mi>i</mi><mi>a</mi><mi mathvariant="normal">.</mi><mi>o</mi><mi>r</mi><mi>g</mi><mi mathvariant="normal">/</mi></mrow><annotation encoding="application/x-tex">1en.0wikipedia.org/</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord mathdefault">e</span><span class="mord mathdefault">n</span><span class="mord">.</span><span class="mord">0</span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mord mathdefault">i</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault">i</span><span class="mord mathdefault">p</span><span class="mord mathdefault">e</span><span class="mord mathdefault">d</span><span class="mord mathdefault">i</span><span class="mord mathdefault">a</span><span class="mord">.</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">/</span></span></span></span>2<br>
+Pattern type: wildcard<br>
 Example: en.wikipedia.org/* → en.0wikipedia.org/*</p>
-<p>Reddit (2)
-Redirect: <a href="https://(?:www%5C.)?reddit.com/(.*">https://(?:www\.)?reddit.com/(.*</a>)
-to: <a href="https://teddit.net/$1">https://teddit.net/$1</a>
-Example: <a href="https://reddit.com/">https://reddit.com/</a> → <a href="https://teddit.net/">https://teddit.net/</a>
-Applies to: Main window (address bar)
+<p>Reddit (2)<br>
+Redirect: <a href="https://(?:www%5C.)?reddit.com/(.*">https://(?:www\.)?reddit.com/(.*</a>)<br>
+to: <a href="https://teddit.net/$1">https://teddit.net/$1</a><br>
+Example: <a href="https://reddit.com/">https://reddit.com/</a> → <a href="https://teddit.net/">https://teddit.net/</a><br>
+Applies to: Main window (address bar)<br>
 Pattern type: Regex</p>
-<p>Reddit (2)
-Redirect: <a href="https://reddit.com/*">https://reddit.com/*</a>
-to: <a href="https://teddit.net/$1">https://teddit.net/$1</a>
-Example: <a href="https://reddit.com/">https://reddit.com/</a> → <a href="https://teddit.net/">https://teddit.net/</a>
-Applies to: Main window (address bar)
+<p>Reddit (2)<br>
+Redirect: <a href="https://reddit.com/*">https://reddit.com/*</a><br>
+to: <a href="https://teddit.net/$1">https://teddit.net/$1</a><br>
+Example: <a href="https://reddit.com/">https://reddit.com/</a> → <a href="https://teddit.net/">https://teddit.net/</a><br>
+Applies to: Main window (address bar)<br>
 Pattern type: Wildcard</p>
-<p>Reddit
-Redirect: <a href="https://*.reddit.com/*">https://*.reddit.com/*</a>
-to: <a href="https://teddit.net/$2">https://teddit.net/$2</a>
-Example: <a href="https://www.reddit.com/">https://www.reddit.com/</a> → <a href="https://teddit.net/">https://teddit.net/</a>
-Applies to: Main window (address bar)
+<p>Reddit<br>
+Redirect: <a href="https://*.reddit.com/*">https://*.reddit.com/*</a><br>
+to: <a href="https://teddit.net/$2">https://teddit.net/$2</a><br>
+Example: <a href="https://www.reddit.com/">https://www.reddit.com/</a> → <a href="https://teddit.net/">https://teddit.net/</a><br>
+Applies to: Main window (address bar)<br>
 Pattern type: Wildcard</p>
 <h2 id="alternative-frontends" style="position:relative;"><a href="#alternative-frontends" aria-label="alternative frontends permalink" class="toc-header before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Alternative Frontends</h2>
 <ul>
