@@ -160,3 +160,7 @@ We can do both Zoom and Speechtexter/VoiceNote/Dictanote
 
 - [Music-and-Culture-Technology-Lab/omnizart: Omniscient Mozart, being able to transcribe everything in the music, including vocal, drum, chord, beat, instruments, and more.](https://github.com/Music-and-Culture-Technology-Lab/omnizart)
 - [Magical Music Theory Tools to Learn Music Online for Free](https://muted.io/)
+
+## Music Learning
+
+- [Magical Music Theory Tools to Learn Music Online for Free](https://muted.io/)

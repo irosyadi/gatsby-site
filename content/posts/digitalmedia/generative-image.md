@@ -56,9 +56,12 @@ draft: false
 
 * [Stable Diffusion Prompt Book - OpenArt | OpenArt](https://openart.ai/promptbook)
 * [Control your AI images with these must-know parameters | Sagio Dev](https://www.sagiodev.com/blog/stable_diffusion_parameters/)
-* [Nolibox Creator](https://creator.nolibox.com/guest) [carefree0910/carefree-creator: An AI-powered creator for everyone.](https://github.com/carefree0910/carefree-creator)
+* [Nolibox Creator](https://creator.nolibox.com/guest) [carefree0910/carefree-creator: An AI-powered creator for everyone.](https://github.com/carefree0910/carefree-creator) This is great and complete
+* [Drip AI - Personalized AI Portrait](https://drip.art/welcome) generate from photo
 * [SD RESOURCE GOLDMINE](https://rentry.org/sdupdates2)
 * [Stable Diffusion Models](https://rentry.org/sdmodels)
 * [SD RESOURCE GOLDMINE](https://rentry.co/sdupdates)
 * [questianon/sdupdates: A mega collection of all resources and news related to Stable Diffusion. Focused around AUTOMATIC1111's webui (https://github.com/AUTOMATIC1111/stable-diffusion-webui)](https://github.com/questianon/sdupdates)
 * [All images - Phantasmagoria](https://www.phantasmagoria.me/)
+* [Everything you need to create images with AI | getimg.ai](https://getimg.ai/)
+* [Find All You Need For AI Art](https://www.aiartapps.com/)
