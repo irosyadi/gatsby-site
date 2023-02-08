@@ -61,5 +61,8 @@ draft: false
 - [yoursamlan/pubsidian: An Obsidian-Publish alternative but it's FREE](https://github.com/yoursamlan/pubsidian)
 - [secure-77/Perlite: A web-based markdown viewer optimized for Obsidian](https://github.com/secure-77/Perlite) [README - Demo - Perlite](https://perlite.secure77.de/)
 - [binyamin/eleventy-garden: A starter site for building a mind garden with eleventy](https://github.com/binyamin/eleventy-garden)
-- [Obsidian - Setup a Digital Garden with GitHub and Cloudflare Pages — Fiction Becomes Fact](https://fictionbecomesfact.com/obsidian-setup-digitalgarden)
-- 
+- [Obsidian - Setup a Digital Garden with GitHub and Cloudflare Pages—Fiction Becomes Fact](https://fictionbecomesfact.com/obsidian-setup-digitalgarden)
+
+## Obsidian Template
+
+- [bramses/bramses-highly-opinionated-vault-2023: A highly opinionated, fully featured Obsidian vault that can get you from Zero to Zettelkasten lickety split!](https://github.com/bramses/bramses-highly-opinionated-vault-2023)
