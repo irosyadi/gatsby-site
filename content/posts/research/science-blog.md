@@ -1,12 +1,12 @@
 ---
 aliases: [Awesome Science Blogs and Forums]
 title: Awesome Science Blogs and Forums
-tags: ["science", "blog" , "research", "academia"]
+tags: ["science", "blog", "research", "academia"]
 date: 2022-06-02 22:49:42
 draft: false
 ---
 
-# Awesome Science Blogs and Forums
+## Awesome Science Blogs and Forums
 
 Related links:  
 🔗 [Paper and Article Search Tools](../academia/paper-search.md)  
@@ -17,7 +17,7 @@ Related links:
 🔗 [Awesome Conferences Tools](conference-tool.md)  
 🔗 [Awesome Latex Apps](../academia/latex-tool.md)  
 
-## AI-related Blogs
+### AI-related Blogs
 
 - [Stanford](http://ai.stanford.edu/blog/)
 - [CMU](https://blog.ml.cmu.edu/)

@@ -6,9 +6,9 @@ date: 2020-11-28 08:37:00
 draft: false
 ---
 
-# E-book Search Engine Tools
+## E-book Search Engine Tools
 
-## E-book search engine (archive.org, openlibrary)
+### E-book search engine (archive.org, openlibrary)
 
 - [Book Search](https://books-search.typesense.org/)
 - [Archive.org Texts](https://archive.org/details/texts)
@@ -16,11 +16,11 @@ draft: false
 [[libgen]]  
 [[z-lib]]
 
-## Technical standard search engine
+### Technical standard search engine
 
 - [standarts](https://libgen.lc/standarts/index.php)
 
-## Alternative
+### Alternative
 
 - [Write A Book And Publish - PDF Free Download - EPDF.TIPS](https://epdf.tips/en/)
 - [FreeBookSpot - Download e-books for free](http://www.freebookspot.club/default.aspx)

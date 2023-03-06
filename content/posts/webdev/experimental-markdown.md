@@ -6,45 +6,45 @@ date: 2020-11-26 21:10:40
 draft: false
 ---
 
-# Experimental Markdown
+## Experimental Markdown
 
 Experimental markdown to check markdown parser compatibility between Gatsby, Jekyll, Gitbook, and Hugo.
 
-## Internal Link Reference
+### Internal Link Reference
 
-### Type 1
+#### Type 1
 
 - [/book/interactive-book](/book/interactive-book)
 - [/note/emoji](/note/emoji)
 
 Success in Gatsby. Success in Jekyll. Fail in Gitbook. Fail in Hugo.
 
-### Type 2 (Obsidian Internal Link)
+#### Type 2 (Obsidian Internal Link)
 
 - [../book/interactive-book.md](../book/interactive-book.md)
 - [../note/emoji.md](../note/emoji.md)
 
 Fail in Gatsby. Success in Jekyll. Success in Gitbook. Fail in Hugo.
 
-### Type 3
+#### Type 3
 
 - [/book/interactive-book.md](/book/interactive-book.md)
 - [/note/emoji.md](/note/emoji.md)
 
 Fail in Gatsby. Fail in Jekyll. Success in Gitbook. Fail in Hugo.
 
-### Type 4
+#### Type 4
 
 - [../book/interactive-book](../book/interactive-book)
 - [../note/emoji](../note/emoji)
 
 Fail in Gatsby. Success in Jekyll. Success in Gitbook. Fail in Hugo.
 
-### Obsidian Internal Link
+#### Obsidian Internal Link
 
 - [../note/emoji.md](../note/emoji.md)
 
-## Number and Bullet
+### Number and Bullet
 
 1. One
 2. Two
@@ -59,11 +59,11 @@ Fail in Gatsby. Success in Jekyll. Success in Gitbook. Fail in Hugo.
 1. List B
 - List C
 
-## Keyboard
+### Keyboard
 
 <kbd>imron</kbd>
 
-## Comment
+### Comment
 
 `<!-- Write your comments here -->`
 
@@ -71,7 +71,7 @@ Here is the comment:
 
 <!-- Write your comments here -->
 
-## Symbol List
+### Symbol List
 
 💬 speech  
 🌏️ globe  
@@ -98,20 +98,20 @@ Here is the comment:
 ☝️ remember  
 ⚡️ flash
 
-## Image Hosting in Github
+### Image Hosting in Github
 
 ![QR Code Image-small](https://raw.githubusercontent.com/irosyadi/vnote.image/master/1608464780_20201220183102525_18817.png)
 
-## Tittle YAML
+### Tittle YAML
 
 - Cannot use `:` in tittle
 
-## Content
+### Content
 
 - Cannot use `% {` in github.io
 - Cannot use `|` in github.io
 
-## SVG
+### SVG
 
 github.io and gitbook.io cannot render svg
 

@@ -6,7 +6,7 @@ date: 2022-06-02 17:15:49
 draft: false
 ---
 
-# Paper and Article Search Tools
+## Paper and Article Search Tools
 
 Related link:  
 🔗 [Paper and Article Search Tools](paper-search.md)  
@@ -17,11 +17,11 @@ Related link:
 🔗 [Awesome Conferences Tools](conference-tool.md)  
 🔗 [Awesome Latex Apps](latex-tool.md)  
 
-## Article Search Flowchart
+### Article Search Flowchart
 
 [Guide to Finding Articles/Books - Google Docs](https://docs.google.com/document/d/1ZwWs8JOrlkrrqiHwkQSwc4_NM85Zbzc9t9ifQ1rHZgM/edit)
 
-## Article/Paper Search Tools
+### Article/Paper Search Tools
 
 - [Google Scholar](https://scholar.google.com/)
 - [Semantic Scholar](https://www.semanticscholar.org/)
@@ -34,12 +34,12 @@ Related link:
 - [Unpaywall](http://unpaywall.org/articles)
 - [FreeFullPDF](http://www.freefullpdf.com/#gsc.tab=0)
 
-## Specific
+### Specific
 
 - [NASA/ADS Paper Search](https://ui.adsabs.harvard.edu/)
 - [OpenCitations - Home](https://opencitations.net/)
 
-## Repo
+### Repo
 
 - [Zhuanzhi](https://www.zhuanzhi.ai/)
 - [Orvium - Accelerating Scientific Publishing](https://orvium.io/researcher/)
@@ -51,14 +51,14 @@ Related link:
 - [Whiterose](https://eprints.whiterose.ac.uk/)
 - [SHARE](https://share.osf.io/)
 
-## Article
+### Article
 
 - [Distill—Latest articles about machine learning](https://distill.pub/)
 - [Xirva - Browse and Upload Scientific Papers on the Decentralised Web](https://www.xirva.org/)
 - [viXra.org open e-Print archive](https://vixra.org/)
 - [CVF Open Access](https://openaccess.thecvf.com/menu)
 
-## Testing of Generic Paper Search
+### Testing of Generic Paper Search
 
 - [digital twin - Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=digital+twin&btnG=) ⭐⭐ (features: time filter, two-variable sorting)
 - [digital twin - Semantic Scholar](https://www.semanticscholar.org/search?q=digital%20twin&sort=relevance) ⭐⭐⭐ (features: multi-variable filter, multi-variable sorting)

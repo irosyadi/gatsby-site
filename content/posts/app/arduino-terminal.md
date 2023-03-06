@@ -6,9 +6,9 @@ date: 2022-10-27 05:22
 draft: false
 ---
 
-# Terminal in Arduino
+## Terminal in Arduino
 
 - [Realterm Terminal Software](https://realterm.sourceforge.io/)
 - Putty
 
-## Discussion
+### Discussion

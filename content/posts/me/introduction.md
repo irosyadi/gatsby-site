@@ -1,27 +1,26 @@
 ---
-aliases: [Hi 👋🏼]
-title: Hi 👋🏼
+aliases: [Hi]
+title: introduction
 tags: ["imron"]
 date: 2025-01-01 00:00:01
 draft: false
 ---
-<p align="center">
-  <img src="https://source.unsplash.com/100x100/?cat" />
-</p>
+
+## Hi 👋🏼
 
 I'm _Imron Rosyadi_
 
-### About Me
+## About Me
 
 - 🔭 I’m currently working on [Universitas Jenderal Soedirman - Unsoed](http://elektro.ft.unsoed.ac.id/imron-rosyadi/)
 - 🌱 I’m currently learning Artificial Intelligence, Machine Learning, Internet of Things, and Digital Twin
 
-### Landing Page
+## Landing Page
 
 - 🔗 [s.id/irosyadi](https://s.id/irosyadi)
 - 📚 [irosyadi-web.netlify.app](https://irosyadi-web.netlify.app)
 
-### Mail
+## Mail
 
 - 📫 Mail: irosyadi@duck.com
 

@@ -6,7 +6,7 @@ date: 2022-06-02 17:15:49
 draft: false
 ---
 
-# Thesis Search
+## Thesis Search
 
 - [Diva Thesis Search](https://www.diva-portal.org/)
 - [NTNU Open](https://ntnuopen.ntnu.no/ntnu-xmlui/)

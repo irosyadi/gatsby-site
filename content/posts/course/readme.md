@@ -6,9 +6,9 @@ date: 2020-06-01 20:09:34
 draft: false
 ---
 
-# Course
+## Course
 
-## Kuliah Teknik Elektro Unsoed
+### Kuliah Teknik Elektro Unsoed
 
 - [[kuliah|Kuliah]]
 - [[mk-dasar-teknik-elektro|MK Dasar Teknik Elektro]]
@@ -20,7 +20,7 @@ draft: false
 - [[mk-sistem-kendali-cerdas|MK Sistem Kendali Cerdas]]
 - [[mk-sistem-kendali-lanjut|MK Sistem Kendali Lanjut]]
 
-## Online Courses
+### Online Courses
 
 - [cs231n](cs231n.md)
 - [cs231n-summary](cs231n-summary.md)
@@ -28,7 +28,7 @@ draft: false
 - [machine-learning-andrewng](machine-learning-andrewng.md)
 - [machine-learning-andrewng-quiz](machine-learning-andrewng-quiz.md)
 
-## Course Resources
+### Course Resources
 
 - [computer-science](computer-science.md)
 - Control System
