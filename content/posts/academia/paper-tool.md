@@ -11,9 +11,9 @@ draft: false
 Related links:  
 🔗 [Paper and Article Search Tools](paper-search.md)  
 🔗 [Awesome Writing Assistant Tools](/app/writing-assitant-app)  
-🔗 [Awesome Research and Academic Writing Assistant Tools](paper-tool.md)  
-🔗 [Awesome Science Blogs and Forums](/research/science-blog)  
-🔗 [Awesome Scientific Journal Tools](../academia/journal-tool.md)  
+🔗 [Awesome Research and Academic Writing Assistant Tools](.md)  
+🔗 [Awesome Science Blogs and Forums](../research/science-blog.md)  
+🔗 [Awesome Scientific Journal Tools](journal-tool.md)  
 🔗 [Awesome Conferences Tools](conference-tool.md)  
 🔗 [Awesome Latex Apps](latex-tool.md)  
 

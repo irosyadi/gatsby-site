@@ -19,24 +19,24 @@ Related links:
 
 ### Word-level
 
-[[grammar-checker|Grammar Checkers]]  
-[[dictionary|Online Dictionaries]]  
-[[thesaurus|Thesaurus]]  
-[[phrase-bank|Word Phrase Banks]]
+[Grammar Checkers](grammar-checker.md)  
+[Online Dictionaries](dictionary.md)  
+[Thesaurus](thesaurus.md)  
+[Word Phrase Banks](phrase-bank.md)
 
 ### Sentence-level
 
-[[paraphraser|Sentence Paraphraser]]
+[Sentence Paraphraser](paraphraser.md)
 
 ### Content-level
 
-[[plagiarism-checker|Plagiarism Checkers]]
+[Plagiarism Checkers](plagiarism-checker.md)
 
 ### Generator
 
 #### Text Generator
 
-- [[GPT-playground|Free GPT Playground]]
+- [Free GPT Playground](GPT-playground.md)
 - [CoAuthor–Human-AI Collaborative Writing Dataset](https://coauthor.stanford.edu/)
 - [Browse CoAuthor–CoAuthor–Human-AI Collaborative Writing Dataset](https://coauthor.stanford.edu/browse/)
 
@@ -52,7 +52,7 @@ Related links:
 
 #### Book Publication Assistant
 
-[[book-publication]]
+[book-publication](book-publication.md)
 
 #### Publication Assistant
 

@@ -19,7 +19,7 @@ draft: false
 - [Ultimate Ublock Origin Guide](https://www.maketecheasier.com/ultimate-ublock-origin-superusers-guide/)
 - [Available uBlock filter templates :: letsblock.it](https://letsblock.it/filters)
 
-[[adblock-tester]]
+[adblock-tester](adblock-tester.md)
 
 ### Adblock
 

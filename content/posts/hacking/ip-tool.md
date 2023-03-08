@@ -8,7 +8,7 @@ draft: false
 
 ## IP Tools
 
-[[my-IP-address-check]]
+[my-IP-address-check](my-IP-address-check.md)
 
 ### Reverse IP
 

@@ -13,8 +13,8 @@ draft: false
 - [Book Search](https://books-search.typesense.org/)
 - [Archive.org Texts](https://archive.org/details/texts)
 
-[[libgen]]  
-[[z-lib]]
+[libgen](libgen.md)  
+[z-lib](z-lib.md)
 
 ### Technical standard search engine
 

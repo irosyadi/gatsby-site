@@ -9,10 +9,10 @@ draft: false
 ## Awesome List of Machine Learning Visualization
 
 Related links:  
-🔗 [[data-visualization|Awesome List of Data Visualization]]  
+🔗 [Awesome List of Data Visualization](../data-engineering/data-visualization.md)  
 🔗 [Awesome List of Machine Learning Visualization](ml-visualization.md)  
-🔗 [[interactive-explorable-web|Awesome List of Interactive and Explorable Webs]]  
-🔗 [[interactive-book|Interactive Books]]  
+🔗 [Awesome List of Interactive and Explorable Webs](../webapp/interactive-explorable-web.md)  
+🔗 [Interactive Books](../book/interactive-book.md)  
 
 ### Machine Learning Visualization
 

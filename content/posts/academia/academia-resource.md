@@ -29,3 +29,7 @@ draft: false
 - [Using Publication Metrics to Highlight Academic Productivity and Research Impact](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4987709/)
 - [Metrics Toolkit](http://www.metrics-toolkit.org/)
 - [The Business of Extracting Knowledge from Academic Publications](https://markusstrasser.org/extracting-knowledge-from-literature/)
+
+### Criticism
+
+[Academic urban legends - Ole Bjørn Rekdal, 2014](https://journals.sagepub.com/doi/full/10.1177/0306312714535679)

@@ -51,7 +51,7 @@ draft: false
 - [Free Game art](https://www.gameart2d.com/)
 - [Spriteland](https://www.spriteland.com/)
 
-[[free-icon]]
+[free-icon](free-icon.md)
 
 ### Free Image Search
 

@@ -15,4 +15,4 @@ draft: false
 - [EBSCO Open Dissertations Project](https://biblioboard.com/opendissertations/)
 - [Global ETD Search](http://search.ndltd.org/)
 
-_published in Mataroa and Bearblog_
+_curated at Vercel_

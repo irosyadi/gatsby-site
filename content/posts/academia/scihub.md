@@ -1,12 +1,17 @@
 ---
 aliases: [Scihub]
-title: Scihub
+title: Scihub - Paper Search
 tags: ["paper", "search"]
 date: 2022-06-02 17:15:49
 draft: false
 ---
 
-## Scihub
+## Scihub - Paper Search
+
+### Scihub Working Links
+
+- [Sci-Hub 41610](https://sci-hub.41610.org/)
+- [lovescihub](https://lovescihub.wordpress.com/)
 
 ### Scihub Links
 
@@ -22,12 +27,6 @@ draft: false
 - [scihub.mksa](https://sci-hub.mksa.top/)
 - [scihub 3800808](https://sci-hub.3800808.com/)
 
-### Scihub Working Links
-
-- [Sci-Hub 41610](https://sci-hub.41610.org/)
-- [lovescihub](https://lovescihub.wordpress.com/)
-- [Verts-Luisants](https://vertsluisants.fr/index.php?article4/where-scihub-libgen-server-down)
-
 ### Scihub at Libgen
 
 - [scimag genlib.rus](http://gen.lib.rus.ec/scimag/)
@@ -39,4 +38,4 @@ draft: false
 
 - [telegram](https://telegram.me/scihubot)
 
-_published in Mataroa and Bearblog_
+_curated at Vercel_

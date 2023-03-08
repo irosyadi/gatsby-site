@@ -10,15 +10,15 @@ draft: false
 
 ### Kuliah Teknik Elektro Unsoed
 
-- [[kuliah|Kuliah]]
-- [[mk-dasar-teknik-elektro|MK Dasar Teknik Elektro]]
-- [[mk-internet-of-things|MK Internet of Things]]
-- [[mk-machine-learning|MK Machine Learning]]
-- [[mk-matematika-teknik|MK Matematika Teknik]]
-- [[mk-pengolahan-sinyal-digital|MK Pengolahan Sinyal Digital]]
-- [[mk-sistem-kendali|MK Sistem Kendali]]
-- [[mk-sistem-kendali-cerdas|MK Sistem Kendali Cerdas]]
-- [[mk-sistem-kendali-lanjut|MK Sistem Kendali Lanjut]]
+- [Kuliah](kuliah.md)
+- [MK Dasar Teknik Elektro](mk-dasar-teknik-elektro.md)
+- [MK Internet of Things](mk-internet-of-things.md)
+- [MK Machine Learning](mk-machine-learning.md)
+- [MK Matematika Teknik](mk-matematika-teknik.md)
+- [MK Pengolahan Sinyal Digital](mk-pengolahan-sinyal-digital.md)
+- [MK Sistem Kendali](mk-sistem-kendali.md)
+- [MK Sistem Kendali Cerdas](mk-sistem-kendali-cerdas.md)
+- [MK Sistem Kendali Lanjut](mk-sistem-kendali-lanjut.md)
 
 ### Online Courses
 

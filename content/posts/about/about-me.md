@@ -1,8 +1,8 @@
 ---
-aliases: [Hi]
-title: introduction
+aliases: [Imron Rosyadi]
+title: Imron Rosyadi
 tags: ["imron"]
-date: 2025-01-01 00:00:01
+date: 2020-05-01 13:49:51
 draft: false
 ---
 
@@ -10,17 +10,17 @@ draft: false
 
 I'm _Imron Rosyadi_
 
-## About Me
+### About Me
 
 - 🔭 I’m currently working on [Universitas Jenderal Soedirman - Unsoed](http://elektro.ft.unsoed.ac.id/imron-rosyadi/)
 - 🌱 I’m currently learning Artificial Intelligence, Machine Learning, Internet of Things, and Digital Twin
 
-## Landing Page
+### Landing Page
 
 - 🔗 [s.id/irosyadi](https://s.id/irosyadi)
 - 📚 [irosyadi-web.netlify.app](https://irosyadi-web.netlify.app)
 
-## Mail
+### Mail
 
 - 📫 Mail: irosyadi@duck.com
 
@@ -30,8 +30,8 @@ I'm _Imron Rosyadi_
 
 ### Digital Garden
 
-- 📘 [imron.netlify.app](https://imron.netlify.app) : blog dalam bahasa Indonesia
-- 📘 [irosyadi-wiki.netlify.app](https://irosyadi-wiki.netlify.app) : digital twin-related notes
+- 📘 [digital-twin.netlify.app](https://irosyadi-wiki.netlify.app) : blog about digital twin
+- 📘 [imron.netlify.app](https://imron.netlify.app) : blog about academia and research, mainly in Indonesian
 
 ### Knowledge Bases
 

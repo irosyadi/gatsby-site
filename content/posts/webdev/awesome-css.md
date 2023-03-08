@@ -8,7 +8,7 @@ draft: false
 
 ## Awesome CSS
 
-[[classless-css]]
+[classless-css](classless-css.md)
 
 ### Web
 

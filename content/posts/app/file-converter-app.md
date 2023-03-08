@@ -54,4 +54,4 @@ draft: false
 - [Pazeera](https://www.pazera-software.com/)
 - [DocTo & XLSTo | DocTo](https://tobya.github.io/DocTo/)
 
-[[image-format-conversion]]
+[image-format-conversion](image-format-conversion.md)

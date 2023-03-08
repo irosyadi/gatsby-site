@@ -47,7 +47,7 @@ draft: false
 - [Insect](https://insect.sh/)
 - [Math Notepad](http://mathnotepad.com/)
 
-[[symbolic-math-solver]]
+[symbolic-math-solver](../app/symbolic-math-solver.md)
 
 ### Math Equation
 

@@ -16,24 +16,24 @@ tags: []
 	- from DOC, PDF, DOCX, MD, HTML, ODT etc.
 	- to DOC, PDF, etc.
 
-[[document-tool]]
+[document-tool](document-tool.md)
 
-[[spreadsheet-tool]]
+[spreadsheet-tool](../app/spreadsheet-tool.md)
 
-[[presentation-tool]]
+[presentation-tool](../app/presentation-tool.md)
 
-[[pdf-tool]]
+[pdf-tool](../app/pdf-tool.md)
 
-[[diagram-app]]
+[diagram-app](../drawing/diagram-app.md)
 
-[[file-compression-optimization]]
+[file-compression-optimization](../app/file-compression-optimization.md)
 
 ### Image Tools
 
 - [Apps for Image File Formats](https://products.fileformat.app/image/)
 	- filetype JPG, PNG, BMP, TIFF, GIF, PNG
 
-[[3d-tool]]
+[3d-tool](../app/3d-tool.md)
 
 ### Open Source Software List
 

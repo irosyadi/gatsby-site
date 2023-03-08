@@ -17,32 +17,35 @@ Experimental markdown to check markdown parser compatibility between Gatsby, Jek
 - [/book/interactive-book](/book/interactive-book)
 - [/note/emoji](/note/emoji)
 
-Success in Gatsby. Success in Jekyll. Fail in Gitbook. Fail in Hugo.
+Success in Gatsby. Success in Jekyll. Fail in Gitbook. Fail in Hugo. Success in Obsidian.
 
-#### Type 2 (Obsidian Internal Link)
+#### Type 2 (Obsidian relative path to file)
 
 - [../book/interactive-book.md](../book/interactive-book.md)
 - [../note/emoji.md](../note/emoji.md)
 
-Fail in Gatsby. Success in Jekyll. Success in Gitbook. Fail in Hugo.
+Fail in Gatsby. Success in Jekyll. Success in Gitbook. Fail in Hugo. Success in Obsidian.
 
-#### Type 3
+#### Type 3 (Obsidian absolute path in vault)
 
 - [/book/interactive-book.md](/book/interactive-book.md)
 - [/note/emoji.md](/note/emoji.md)
 
-Fail in Gatsby. Fail in Jekyll. Success in Gitbook. Fail in Hugo.
+Fail in Gatsby. Fail in Jekyll. Success in Gitbook. Fail in Hugo. Success in Obsidian.
 
 #### Type 4
 
 - [../book/interactive-book](../book/interactive-book)
 - [../note/emoji](../note/emoji)
 
-Fail in Gatsby. Success in Jekyll. Success in Gitbook. Fail in Hugo.
+Fail in Gatsby. Success in Jekyll. Fail in Gitbook. Fail in Hugo. Success in Obsidian.
 
 #### Obsidian Internal Link
 
-- [../note/emoji.md](../note/emoji.md)
+- [../note/emoji.md](../note/emoji.md) Relative path to file
+- [emoji.md](emoji.md) Shortes path possible
+- [note/emoji.md](note/emoji.md) Absolute path in vault
+- [Emoji](note/emoji.md)
 
 ### Number and Bullet
 

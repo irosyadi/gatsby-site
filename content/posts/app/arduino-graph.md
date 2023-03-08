@@ -1,7 +1,7 @@
 ---
 aliases: [Arduino Graph Plotter Apps]
 title: Arduino Graph Plotter Apps
-tags: ["tag1", "tag2"]
+tags: ["arduino"]
 date: 2022-10-27 04:51
 draft: false
 ---
@@ -36,4 +36,4 @@ draft: false
 - [Serial data plotting programs - Arduino Stack Exchange](https://arduino.stackexchange.com/questions/1180/serial-data-plotting-programs)
 - [Arduino Playground - InterfacingWithSoftware](https://playground.arduino.cc/Main/InterfacingWithSoftware/)
 
-[[arduino-terminal]]
+[arduino-terminal](arduino-terminal.md)

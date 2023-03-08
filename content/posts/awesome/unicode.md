@@ -10,7 +10,7 @@ draft: false
 
 Unicode is an information technology (IT) standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems. Within Unicode encoding, there are subsets called emoji to represent pictorial expression in characters. While Unicode is an important piece of work, it has some kind of messy structure. That's why we have puny code.
 
-[[emoji]]
+[emoji](../note/emoji.md)
 
 ### Unicode List
 

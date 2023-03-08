@@ -10,7 +10,7 @@ draft: false
 
 ### Academia Generic Tools
 
-- [[paper-tool]]
+- [paper-tool](paper-tool.md)
 
 ### Academia Search Tools
 

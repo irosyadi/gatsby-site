@@ -73,7 +73,7 @@ draft: false
 [Using Computer Vision with Drones for Georeferencing](https://blog.roboflow.com/georeferencing-drone-videos/)  
 [roboflow-ai/dji-aerial-georeferencing: Detect objects in drone videos and plot them on a map](https://github.com/roboflow-ai/dji-aerial-georeferencing)
 
-[[machine-learning-course]]
+[machine-learning-course](machine-learning-course.md)
 
 ### Machine Learning
 

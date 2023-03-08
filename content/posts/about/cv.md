@@ -1,6 +1,6 @@
 ---
-aliases: [Imron Rosyadi]
-title: Imron Rosyadi
+aliases: [Imron Rosyadi CV]
+title: Imron Rosyadi CV
 tags: ["imron"]
 date: 2020-05-01 13:49:51
 draft: false
@@ -15,10 +15,9 @@ Universitas Jenderal Soedirman
 Jl. Mayjen Sungkono Km. 5, Blater, Kalimanah, Purbalingga, Jawa Tengah, Indonesia 53371  
 Telp/Fax: 0281-6596700  
 Email: [imron.rosyadi@unsoed.ac.id](mailto:imron.rosyadi@unsoed.ac.id)  
-Email (for students): [pak.imron@gmail.com](mailto:pak.imron@gmail.com)  
 Page:  
 [1] <http://elektro.ft.unsoed.ac.id/imron-rosyadi/>  
-[2] <https://irosyadi-lp.netlify.app/>
+[2] <https://s.id/irosyadi>
 
 ### Academic Profiles
 
