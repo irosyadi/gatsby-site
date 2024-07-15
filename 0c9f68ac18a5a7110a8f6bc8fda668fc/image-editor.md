@@ -36,7 +36,7 @@ draft: false
 - [Segment Anything](https://segment-anything.com/demo)
 - [Cleanup.pictures](https://cleanup.pictures/#)
 
-[background-removal](background-removal.md)
+[background-removal](webapp/background-removal.md)
 
 ### Dithering
 

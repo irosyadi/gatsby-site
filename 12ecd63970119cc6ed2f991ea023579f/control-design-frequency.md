@@ -28,9 +28,3 @@ draft: false
 - Persen overshoot dikurangi dengan meningkatkan *phase margin*
 - Respon dipercepat dengan meningkatkan bandwidth
 - *Steady state error* diperbaiki dengan meningkatkan magnitude respon pada frekuensi rendah
-
-#### Perbaikan Respon Transien dengan Pengaturan Gain (*Gain Adjustment*)
-
-- Damping ratio ($\zeta$) (dan persen overshoot) dan PM (phase margin)
-
-![Diagram Bode untuk Gain Adjusment](_v_images/20201210205131927_26707.png)
