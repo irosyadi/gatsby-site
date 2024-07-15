@@ -15,5 +15,5 @@ draft: false
 
 ### Movie Rating
 
-- IMD6B
+- IMDB
 - Rotten Tomatoes
